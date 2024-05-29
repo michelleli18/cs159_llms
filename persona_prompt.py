@@ -41,7 +41,7 @@ You will replace all the brackets with random names, characters, and hobbies for
 """
 
 
-def unique_persona(genereate_persona_prompt = generate_persona_prompt, num_activities = 10):
+def unique_persona(generate_persona_prompt = generate_persona_prompt, num_activities = 10):
   # Generate and write the persona to a text file
   generated_persona = ChatGPT_request(generate_persona_prompt)
   response_split = generated_persona.split()
@@ -52,19 +52,18 @@ def unique_persona(genereate_persona_prompt = generate_persona_prompt, num_activ
     f.write(generated_persona)
 
   # Generate the first place
-  generate_first_place_prompt = "Now you are this persona that you just generated, meaning you take on their personality and do as this persona does in daily life: \""
-  generate_first_place_prompt += generated_persona
-  generate_first_place_prompt += "\" Please give one and only activity that you as this persona would want to do."
+  generate_first_place_prompt = f"Now you are this persona that you just generated, meaning you take on their personality and do as this persona does in daily life: \"{generated_persona}\" Please give one and only activity that you as this persona would want to do."
   first_place = ChatGPT_request(generate_first_place_prompt)
 
   activities_generated = []
   activities_generated.append(first_place)
 
   # Generate and store all the activities
-  generate_one_more_prompt = "Please give one more activity that you as this persona would want to do, reference their persona from previous prompts. A different one from the previous activities."
+  generate_one_more_prompt = f"Please give one activity that you as this persona would want to do, reference their persona from previous prompts: \"{generated_persona}\". You previously already wanted to do the following activites, please generate something different from these: {', '.join(activities_generated)}."
   for i in range(num_activities-1):
-    activities_generated.append(ChatGPT_request(generate_one_more_prompt))
-  #store activity response in a text file
+    new_activity = ChatGPT_request(generate_one_more_prompt)
+    activities_generated.append(new_activity)
+  # Store activity response in a text file
   with open(f"activity_response_{first_name}_{last_name}.txt", "w") as f: 
     for item in activities_generated:
         f.write(item + '\n')
