@@ -42,6 +42,10 @@ initial_prompt = """
 
 persona_response = ChatGPT_request(initial_prompt)
 
+#store persona_response in a text file
+with open("persona_response.txt", "w") as f: 
+  f.write(persona_response)
+
 follow_up_prompt = """
 Now you are this persona: 
 """
@@ -55,6 +59,9 @@ Give one activity that this persona will do in a daily life.
 
 activity_response = ChatGPT_request(follow_up_prompt)
 
+#store activity response in a text file
+with open("activity_response.txt", "w") as f: 
+  f.write(activity_response)
 
 
 
