@@ -1,0 +1,49 @@
+{
+  "layout": {
+    "name": "Cheese Section",
+    "coordinates": [4.4, -3, 6.8, -1],
+    "children": [
+      {
+        "name": "Cheese Display Case",
+        "coordinates": [4.4, -3, 5, -2.4]
+      },
+      {
+        "name": "Refrigerated Shelves 1",
+        "coordinates": [5, -3, 5.9, -2.5]
+      },
+      {
+        "name": "Refrigerated Shelves 2",
+        "coordinates": [5.9, -3, 6.8, -2.5]
+      },
+      {
+        "name": "Refrigerated Shelves 3",
+        "coordinates": [5, -2.5, 5.9, -2]
+      },
+      {
+        "name": "Refrigerated Shelves 4",
+        "coordinates": [5.9, -2.5, 6.8, -2]
+      },
+      {
+        "name": "Counter Space",
+        "coordinates": [5, -2, 6, -1]
+      },
+      {
+        "name": "Discount Shelf 1",
+        "coordinates": [4.4, -2.4, 4.9, -1.8]
+      },
+      {
+        "name": "Discount Shelf 2",
+        "coordinates": [4.9, -2.4, 5.4, -1.8]
+      },
+      {
+        "name": "Tasting Station 1",
+        "coordinates": [4.4, -1.8, 5.1, -1]
+      },
+      {
+        "name": "Tasting Station 2",
+        "coordinates": [5.1, -1.8, 5.8, -1]
+      }
+    ]
+  },
+  "reasoning": "The Cheese Display Case is placed in the bottom left corner due to its importance and the need for visibility. It is placed flush to the left wall to maximize space. The Refrigerated Shelves are split into four smaller sections to fit the remainder of the bottom and middle sections, providing easy access and storage convenience. They are arranged in a grid pattern to be space-efficient. The Counter Space is placed logically next to the Refrigerated Shelves for ease of use by staff and is aligned to the right wall to minimize unused space. The Discount Shelves are placed to the left of the Counter Space and split into two smaller sections to fit the narrow area vertically. They are close to the Counter Space for easy restocking of discounted items. Finally, the Tasting Stations are positioned at the top of the map, near the center, making them accessible to customers and ensuring they cover the last of the available space efficiently. The subitems cover most of the available space with minimal unused gaps, adhering to the required practical and architectural considerations."
+}
