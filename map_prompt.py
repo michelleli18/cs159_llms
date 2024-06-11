@@ -7,6 +7,7 @@ import os
 from utils import *
 
 openai.api_key = openai_key
+NUM_ACTIVITY = 5
 
 class Map_Generator():
     def __init__(self, persona_name, base_map_json):
@@ -40,10 +41,11 @@ class Map_Generator():
 
         Also, provide an explanation of why different subitems are placed next to each other and why certain items are bigger than others. This reasoning should address all considerations explained above. Return your answer in the following format and only return this: "{"layout": your answer in json object form, "reasoning": reasoning of each item placement all stored in exactly 1 string}". Leave out the ```json ``` when you return your response as well, but always make sure to have the curly brackets wrapping the whole answer, ie {} at the beginning and end of final answer. Do not use special formatting in your answer either, such as double star for bolding. Remember the two keys of layout should always be "name" and "coordinates". 
         """
-        self.get_dimensions_prompt = """
-        Based on the relative size of other locations, what should the dimensions be for {place}? Return the dimensions as a dictionary with 'width' and 'height'.
+        self.fill_base_map_prompt = f"""
+        Fill in the base map with a set number of locations ({NUM_ACTIVITY} activities), with no constraint on boundaries. The map should simulate an infinite (endless) map for {NUM_ACTIVITY} time steps. If an activity doesn’t need another place, it still counts as a number. There are no coordinates of the location inputted. 
+        Return the resulting JSON layout with all locations and activities included.
         """
-    
+
     # ChatGPT_request function taken directly from Generative Agents paper github (Park et al, 2023) without modification
     def ChatGPT_request(self, prompt):
         """
@@ -109,9 +111,13 @@ class Map_Generator():
         map_generator = Map_Generator(persona_name, current_map)
         dimensions = map_generator.get_dimensions(current_map, place)
         """
-        prompt = self.get_dimensions_prompt.format(place=place)
+        prompt = f"""
+        Based on the relative size of other locations in the current map, what should the dimensions be for {place}? 
+        Current map: {json.dumps(current_map, indent=2)}
+        Return the dimensions as a dictionary with 'width' and 'height'.
+        """
         dimensions = self.ChatGPT_request(prompt)
-        return json.loads(dimensions) 
+        return json.loads(dimensions)
     
     def create_map(self):
         if self.check_object() or self.check_item_too_small():
@@ -136,10 +142,40 @@ class Map_Generator():
         print(self.map_json)
         return self.map_json["children"]
 
+    def fill_base_map(self):
+        response = self.ChatGPT_request(self.fill_base_map_prompt)
+        return json.loads(response)
 
-persona_name = "test3"
+
+def experiment_2(persona_name, base_map_json, n_steps):
+    # Initialize base map
+    os.makedirs(persona_name, exist_ok=True)
+    base_map = base_map_json
+    
+    for step in range(n_steps):
+        # Create a map generator instance
+        map_generator = Map_Generator(persona_name, base_map)
+        
+        # Fill in the base map for each time step
+        filled_map = map_generator.create_map()
+        
+        # Print the filled map for this step
+        print(f"Step {step + 1}:\n", json.dumps(filled_map, indent=4))
+        
+        # Save the filled map to a file
+        with open(f"{persona_name}/final_layout_step_{step + 1}.json", 'w') as f:
+            json.dump(base_map, f, indent=4)
+
+        # Update the base map with the filled map for the next step
+        base_map['children'] = filled_map
+
+
+# persona_name = "test3"
+# base_map = {"name": "Dairy Aisle", "coordinates": [2, -3, 8, 0]}
+# # os.makedirs(persona_name)
+# base_map["children"] = Map_Generator(persona_name, base_map).create_map()
+# with open(f"{persona_name}/final_layout", 'w') as f:
+#     f.write(str(base_map))
+persona_name = "bluh"
 base_map = {"name": "Dairy Aisle", "coordinates": [2, -3, 8, 0]}
-# os.makedirs(persona_name)
-base_map["children"] = Map_Generator(persona_name, base_map).create_map()
-with open(f"{persona_name}/final_layout", 'w') as f:
-    f.write(str(base_map))
+experiment_2(persona_name, base_map, NUM_ACTIVITY)
