@@ -40,6 +40,9 @@ class Map_Generator():
 
         Also, provide an explanation of why different subitems are placed next to each other and why certain items are bigger than others. This reasoning should address all considerations explained above. Return your answer in the following format and only return this: "{"layout": your answer in json object form, "reasoning": reasoning of each item placement all stored in exactly 1 string}". Leave out the ```json ``` when you return your response as well, but always make sure to have the curly brackets wrapping the whole answer, ie {} at the beginning and end of final answer. Do not use special formatting in your answer either, such as double star for bolding. Remember the two keys of layout should always be "name" and "coordinates". 
         """
+        self.get_dimensions_prompt = """
+        Based on the relative size of other locations, what should the dimensions be for {place}? Return the dimensions as a dictionary with 'width' and 'height'.
+        """
     
     # ChatGPT_request function taken directly from Generative Agents paper github (Park et al, 2023) without modification
     def ChatGPT_request(self, prompt):
@@ -96,8 +99,20 @@ class Map_Generator():
         # Make sure returned json matches with our base object
         self.architect_response_json = json.loads(architect_response)
         assert self.architect_response_json['layout']['name'] == self.map_json['name']
-        assert self.architect_response_json['layout']['coordinates'] == self.map_json['coordinates']        
+        assert self.architect_response_json['layout']['coordinates'] == self.map_json['coordinates']    
 
+    def get_dimensions(self, current_map, place):
+        """
+        Determines the dimensions of the given place based on the relative size of other locations.
+        Example usage:
+        persona_name = "test_persona"
+        map_generator = Map_Generator(persona_name, current_map)
+        dimensions = map_generator.get_dimensions(current_map, place)
+        """
+        prompt = self.get_dimensions_prompt.format(place=place)
+        dimensions = self.ChatGPT_request(prompt)
+        return json.loads(dimensions) 
+    
     def create_map(self):
         if self.check_object() or self.check_item_too_small():
             return None
