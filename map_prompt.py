@@ -148,25 +148,19 @@ class Map_Generator():
 
 
 def experiment_2(persona_name, base_map_json, n_steps):
-    # Initialize base map
-    os.makedirs(persona_name, exist_ok=True)
+    os.makedirs(persona_name)
     base_map = base_map_json
     
     for step in range(n_steps):
-        # Create a map generator instance
         map_generator = Map_Generator(persona_name, base_map)
         
-        # Fill in the base map for each time step
         filled_map = map_generator.create_map()
         
-        # Print the filled map for this step
         print(f"Step {step + 1}:\n", json.dumps(filled_map, indent=4))
         
-        # Save the filled map to a file
         with open(f"{persona_name}/final_layout_step_{step + 1}.json", 'w') as f:
             json.dump(base_map, f, indent=4)
 
-        # Update the base map with the filled map for the next step
         base_map['children'] = filled_map
 
 
