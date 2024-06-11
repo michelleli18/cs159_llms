@@ -1,8 +1,8 @@
 import openai
 
-openai.api_key = api-key
+openai.api_key = api_key
 
-DISPLAY_OUT = True
+DISPLAY_OUT = False
 
 # ChatGPT_request function taken directly from Generative Agents paper github (Park et al, 2023) without modification
 # Prints prompt and response to out if displayOut
