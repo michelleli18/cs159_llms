@@ -1,49 +1,25 @@
 {
-  "layout": {
-    "name": "Cheese Section",
-    "coordinates": [4.4, -3, 6.8, -1],
-    "children": [
-      {
-        "name": "Cheese Display Case",
-        "coordinates": [4.4, -3, 5, -2.4]
-      },
-      {
-        "name": "Refrigerated Shelves 1",
-        "coordinates": [5, -3, 5.9, -2.5]
-      },
-      {
-        "name": "Refrigerated Shelves 2",
-        "coordinates": [5.9, -3, 6.8, -2.5]
-      },
-      {
-        "name": "Refrigerated Shelves 3",
-        "coordinates": [5, -2.5, 5.9, -2]
-      },
-      {
-        "name": "Refrigerated Shelves 4",
-        "coordinates": [5.9, -2.5, 6.8, -2]
-      },
-      {
-        "name": "Counter Space",
-        "coordinates": [5, -2, 6, -1]
-      },
-      {
-        "name": "Discount Shelf 1",
-        "coordinates": [4.4, -2.4, 4.9, -1.8]
-      },
-      {
-        "name": "Discount Shelf 2",
-        "coordinates": [4.9, -2.4, 5.4, -1.8]
-      },
-      {
-        "name": "Tasting Station 1",
-        "coordinates": [4.4, -1.8, 5.1, -1]
-      },
-      {
-        "name": "Tasting Station 2",
-        "coordinates": [5.1, -1.8, 5.8, -1]
-      }
-    ]
-  },
-  "reasoning": "The Cheese Display Case is placed in the bottom left corner due to its importance and the need for visibility. It is placed flush to the left wall to maximize space. The Refrigerated Shelves are split into four smaller sections to fit the remainder of the bottom and middle sections, providing easy access and storage convenience. They are arranged in a grid pattern to be space-efficient. The Counter Space is placed logically next to the Refrigerated Shelves for ease of use by staff and is aligned to the right wall to minimize unused space. The Discount Shelves are placed to the left of the Counter Space and split into two smaller sections to fit the narrow area vertically. They are close to the Counter Space for easy restocking of discounted items. Finally, the Tasting Stations are positioned at the top of the map, near the center, making them accessible to customers and ensuring they cover the last of the available space efficiently. The subitems cover most of the available space with minimal unused gaps, adhering to the required practical and architectural considerations."
+    "layout": {
+        "name": "Cheese Section",
+        "coordinates": [6, -3, 8, -1],
+        "children": [
+            {
+                "name": "Cheese Display Case",
+                "coordinates": [6, -3, 6.8, -1.5]
+            },
+            {
+                "name": "Deli Counter",
+                "coordinates": [6.8, -3, 8, -1.5]
+            },
+            {
+                "name": "Refrigerated Shelves",
+                "coordinates": [6, -1.5, 7, -1]
+            },
+            {
+                "name": "Cheese Island Display",
+                "coordinates": [7, -1.5, 8, -1]
+            }
+        ]
+    },
+    "reasoning": "To ensure the best use of the available space and keeping in mind architectural logic, I carefully positioned and sized each subitem based on its relative importance and function. The 'Cheese Display Case' is the smallest and is placed in the bottom-left corner [6, -3, 6.8, -1.5] to effectively use the space. The 'Deli Counter', having the most foot traffic, is suitably positioned next [6.8, -3, 8, -1.5], adjacent to the Cheese Display Case, allowing easy access for customers. The 'Refrigerated Shelves' are positioned [6, -1.5, 7, -1] next to the Cheese Display Case because refrigerated items should be close to display items for customer convenience. Lastly, the 'Cheese Island Display' [7, -1.5, 8, -1] is placed in the remaining area adjacent to the Deli Counter for maximum use of the available area and logical flow. This layout ensures all items fit comfortably without overlap and uses up most of the available space efficiently."
 }

@@ -1,0 +1,29 @@
+{
+    "layout": {
+        "name": "Aisle Floor",
+        "coordinates": [2, -4, 6, -3],
+        "children": [
+            {
+                "name": "Shelves",
+                "coordinates": [2, -4, 3.6, -3.75]
+            },
+            {
+                "name": "End Caps",
+                "coordinates": [3.6, -4, 4.8, -3.75]
+            },
+            {
+                "name": "Display Stands",
+                "coordinates": [4.8, -4, 6, -3.75]
+            },
+            {
+                "name": "Freezers",
+                "coordinates": [2, -3.75, 4, -3.5]
+            },
+            {
+                "name": "Checkout Counters",
+                "coordinates": [4, -3.75, 6, -3.5]
+            }
+        ]
+    },
+    "reasoning": "The subitems were placed in a way to maximize space efficiency and logical placement within the coordinates of the 'Aisle Floor'. The 'Shelves' are placed at the bottom left corner since they are used frequently, taking up a larger initial space. Next to the 'Shelves', we placed the 'End Caps', which usually go at the ends of the shelves for promotional items. Then, the 'Display Stands' are placed adjacent to 'End Caps' to ensure a seamless flow of customer movement. The 'Freezers' are located above the 'Shelves' but covering a wider horizontal space to allow for larger accessibility. Finally, 'Checkout Counters' are placed next to the 'Freezers' to facilitate easy exit after purchase of frozen goods. This logical sequence ensures that all subitems stay within the parent coordinates, use available space efficiently, and mimic realistic retail layout practices."
+}

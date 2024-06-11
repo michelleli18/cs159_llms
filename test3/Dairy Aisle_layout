@@ -1,41 +1,29 @@
 {
-  "layout": {
-    "name": "Dairy Aisle",
-    "coordinates": [2, -3, 8, 0],
-    "children": [
-      {
-        "name": "Milk Section",
-        "coordinates": [2, -3, 4.4, -1]
-      },
-      {
-        "name": "Cheese Section",
-        "coordinates": [4.4, -3, 6.8, -1]
-      },
-      {
-        "name": "Yogurt Section",
-        "coordinates": [6.8, -3, 8, -1.75]
-      },
-      {
-        "name": "Butter Section",
-        "coordinates": [6.8, -1.75, 8, 0]
-      },
-      {
-        "name": "Egg Section",
-        "coordinates": [2, -1, 4, 0]
-      },
-      {
-        "name": "Cream Section",
-        "coordinates": [4, -1, 6, 0]
-      },
-      {
-        "name": "Non-Dairy Alternatives",
-        "coordinates": [6, -1, 7, 0]
-      },
-      {
-        "name": "Refrigeration Units",
-        "coordinates": [7, -1, 8, 0]
-      }
-    ]
-  },
-  "reasoning": "To ensure efficient and realistic placement, the Milk Section was placed first due to being one of the most frequented and thus requiring more space (2, -3, 4.4, -1). The Cheese Section was placed next to Milk with coordinates (4.4, -3, 6.8, -1) maintaining accessibility. Yogurt, slightly smaller, was placed alongside with coordinates (6.8, -3, 8, -1.75) since it's a common adjacent product to Cheese and Milk. Butter was placed vertically above Yogurt (6.8, -1.75, 8, 0) to efficiently use vertical space. The Egg Section was placed next to Milk but utilizing upper space since eggs tend to be placed near other frequently purchased items for quick access (2, -1, 4, 0). Cream Section follows Eggs using the next available vertical space (4, -1, 6, 0). Non-Dairy Alternatives were placed next to Cream (6, -1, 7, 0) to maintain a logical flow for shoppers looking for substitutes. Finally, Refrigeration Units occupy the remaining vertical space next to Non-Dairy Alternatives (7, -1, 8, 0). The varied sizes and logical placements ensure minimal empty space and efficient utilization of the Dairy Aisle's overall area."
+    "layout": {
+        "name": "Dairy Aisle",
+        "coordinates": [2, -3, 8, 0],
+        "children": [
+            {
+                "name": "Milk Section",
+                "coordinates": [2, -3, 6, 0]
+            },
+            {
+                "name": "Cheese Section",
+                "coordinates": [6, -3, 8, -1]
+            },
+            {
+                "name": "Yogurt Section",
+                "coordinates": [6, -1, 7, 0]
+            },
+            {
+                "name": "Butter Section",
+                "coordinates": [7, -1, 8, -0.5]
+            },
+            {
+                "name": "Eggs Section",
+                "coordinates": [7, -0.5, 8, 0]
+            }
+        ]
+    },
+    "reasoning": "The Milk Section is the largest subitem, so it occupies the leftmost part of the aisle from the bottom to the top, ensuring that the larger areas are efficiently used. It spans from the left side to the middle section of the aisle. The Cheese Section, being smaller than the Milk Section but still significant, is placed adjacent to the Milk Section on the right side, occupying the lower part, ensuring easy access since cheese is frequently brought with milk. Yogurt Section is placed next to the Cheese Section, taking up the remaining space above the lower Cheese Section to optimize space use while keeping similar dairy products next to each other. The Butter Section is placed above the Yogurt Section in the remaining smaller section of space, leaving space for Eggs Section that fits perfectly next to it on the top right. This arrangement makes sure that the space is maximized without any overlap and maintains logical adjacency for user convenience."
 }

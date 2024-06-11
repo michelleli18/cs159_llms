@@ -1,25 +1,25 @@
 {
-    "layout": {
-        "name": "Milk Section",
-        "coordinates": [2, -3, 4.4, -1],
-        "children": [
-            {
-                "name": "Refrigerators",
-                "coordinates": [2, -3, 3, -2] 
-            },
-            {
-                "name": "Milk Shelves",
-                "coordinates": [3, -3, 3.7, -2] 
-            },
-            {
-                "name": "Display Cases",
-                "coordinates": [2, -2, 2.8, -1] 
-            },
-            {
-                "name": "Almond Milk Section",
-                "coordinates": [2.8, -2, 3.6, -1]
-            }
-        ]
-    },
-    "reasoning": "The 'Refrigerators' are placed along the left bottom side [2, -3, 3, -2] because this is a larger and more critical area typically found at the start or end of milk sections. They need to be easily accessible and usually take up considerable space. The 'Milk Shelves' [3, -3, 3.7, -2] are placed adjacent to the 'Refrigerators' along the bottom wall, making use of the same length but distinguished enough to appear as a separate area. The 'Display Cases' [2, -2, 2.8, -1] are placed above the 'Refrigerators' and touch the left boundary, making the display visible immediately upon entrance when checking the refrigerators or shelves. Lastly, the 'Almond Milk Section' [2.8, -2, 3.6, -1] is placed to the right of the 'Display Cases' along the remaining space ensuring all coordinates fit within the parent layout while successfully separating the almond milk area from regular milk to maintain differentiation. The layout leaves minimal gaps ensuring all space is efficiently used and logically partitioned according to function and customer convenience."
+  "layout": {
+    "name": "Milk Section",
+    "coordinates": [2, -3, 6, 0],
+    "children": [
+      {
+        "name": "Refrigerator Doors",
+        "coordinates": [2, -3, 4, 0]
+      },
+      {
+        "name": "Dairy Shelves",
+        "coordinates": [4, -3, 5, 0]
+      },
+      {
+        "name": "Milk Display",
+        "coordinates": [5, -3, 6, 0]
+      },
+      {
+        "name": "Aisle Floor",
+        "coordinates": [2, -4, 6, -3]
+      }
+    ]
+  },
+  "reasoning": "The 'Refrigerator Doors' are placed adjacent to the bottom of the left wall, occupying significant length along the y-axis since they are important for customer access to refrigerated items. 'Dairy Shelves' were placed next to the 'Refrigerator Doors' on their right side, securing easy access for refilling and picking items directly from the refrigerator to the shelves. The 'Milk Display' is placed next to the 'Dairy Shelves', as customers usually see the milk items prominently displayed next to other dairy products, making it easier for them to find what they need. The 'Aisle Floor' stretches across the bottom part from the x-coordinates 2 to 6 because it would provide ample walking space for customers to navigate through the section while browsing the available items. 'Signage Board' was excluded due to spatial constraints as adding it would lead to an overlapping or awkward placement contrary to our primary guideline."
 }

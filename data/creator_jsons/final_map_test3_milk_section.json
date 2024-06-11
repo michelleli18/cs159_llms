@@ -1,0 +1,1 @@
+{"name": "Milk Section", "coordinates": [2, -3, 3.6, 0], "children": [{"name": "Milk Display Case", "coordinates": [2, -3, 2.7, -1]}, {"name": "Refrigerator Units", "coordinates": [2.7, -3, 3.6, -1]}, {"name": "Dairy Shelves", "coordinates": [2, -1, 2.8, 0]}, {"name": "Carton Stacks", "coordinates": [2.8, -1, 3.3, 0]}, {"name": "Price Signage", "coordinates": [3.3, -1, 3.6, 0]}]}
