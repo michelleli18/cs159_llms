@@ -6,7 +6,11 @@ import os
 
 from utils import *
 
-openai.api_key = openai_api_key
+openai.api_key = openai_key
+personas_dir = "data/persona_responses"
+os.makedirs(personas_dir, exist_ok=True)
+activities_dir = f"data/persona_activities"
+os.makedirs(activities_dir, exist_ok=True)
 
 # Prompt to create believable human personas with unique hobbies and backgrounds
 generate_persona_prompt = """
@@ -49,31 +53,49 @@ def unique_persona(generate_persona_prompt=generate_persona_prompt, num_activiti
     response_split = generated_persona.split()
     first_name = response_split[0].lower()
     last_name = response_split[1].lower()
-    # store generated persona in a text file
-    personas_dir = "data/persona_responses"
-    os.makedirs(personas_dir, exist_ok=True)
     with open(
         f"{personas_dir}/persona_response_{first_name}_{last_name}.txt", "w"
     ) as f:
         f.write(generated_persona)
 
+    # Generate and store all the activities
+    format_prompt_answer = """
+    Your answer should adhere to the following:
+    1. Do not repeat activities from any previously mentioned ones.
+    2. Return your answer in the following format and only return this: "{"activities": list in the following format: ["item1", "item2", ...], "reasoning": reasoning of each item placement all stored in exactly 1 string}". Leave out the ```json ``` when you return your response as well, but always make sure to have the curly brackets wrapping the whole answer, ie {} at the beginning and end of final answer. Do not use special formatting in your answer either, such as double star for bolding. Remember the two keys of layout should always be "name" and "coordinates". 
+    3. Do not include any beginning paragraph about yourself, just give me the answer in the specified format. 
+    """
+
     # Generate the first place
     generate_first_place_prompt = f'Now you are this persona that you just generated, meaning you take on their personality and do as this persona does in daily life: "{generated_persona}" Please give one and only activity that you as this persona would want to do.'
-    first_place = ChatGPT_request(generate_first_place_prompt)
+    first_place = ChatGPT_request(generate_first_place_prompt + format_prompt_answer)
 
+    # GENERATE N ACTIVITIES WITH REASONINGS (results look like Elena Mahajan)
     activities_generated = []
     activities_generated.append(first_place)
-
-    # Generate and store all the activities
-    generate_one_more_prompt = f"Please give one activity that you as this persona would want to do, reference their persona from previous prompts: \"{generated_persona}\". You previously already wanted to do the following activites, please generate something different from these: {', '.join(activities_generated)}."
     for i in range(num_activities - 1):
-        new_activity = ChatGPT_request(generate_one_more_prompt)
+        generate_one_more_prompt = f"""
+        Please give one activity that you as this persona would want to do, reference their persona from previous prompts: "{generated_persona}". You previously already wanted to do the following activites, please generate something different from these: {', '.join(activities_generated)}. """
+        new_activity = ChatGPT_request(generate_one_more_prompt + format_prompt_answer)
         activities_generated.append(new_activity)
-    # Store activity response in a text file
-    activities_dir = f"data/persona_activities"
-    os.makedirs(activities_dir, exist_ok=True)
+    print(first_name)
     with open(
         f"{activities_dir}/activity_response_{first_name}_{last_name}.txt", "w"
     ) as f:
         for item in activities_generated:
             f.write(item + "\n")
+
+
+    ## CODE TO GENERATE N ACTIVITIES AT A TIME (results look like Eleanor Vasquez)
+    # generate_n_activities = f"""
+    # Please give {num_activities} unique activities that you as this persona would want to do, reference their persona from previous prompts: "{generated_persona}". Each of the activiites should be unique and different from each other, all the while specific to this given persona. 
+    # """
+    # format_prompt_answer = """
+    # Return your answer in the following format and only return this: "{"activities": list in the following format: ["item1", "item2", ...], "reasoning": reasoning of each item placement all stored in exactly 1 string}". Leave out the ```json ``` when you return your response as well, but always make sure to have the curly brackets wrapping the whole answer, ie {} at the beginning and end of final answer. Do not use special formatting in your answer either, such as double star for bolding. Remember the two keys of layout should always be "name" and "coordinates". 
+    # """
+    # activities_dir = f"data/persona_activities"
+    # activities_list = ChatGPT_request(generate_n_activities + format_prompt_answer)
+    # with open(f"{activities_dir}/activity_response_{first_name}_{last_name}.txt", "w") as f:
+    #     f.write(activities_list)
+
+unique_persona()
