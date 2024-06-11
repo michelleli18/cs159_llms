@@ -148,7 +148,7 @@ class Map_Generator():
 
 
 def experiment_2(persona_name, base_map_json, n_steps):
-    os.makedirs(persona_name)
+    os.makedirs(persona_name, exist_ok=True)
     base_map = base_map_json
     
     for step in range(n_steps):
