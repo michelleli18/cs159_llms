@@ -1,0 +1,736 @@
+{
+    "name": "Park",
+    "coordinates": [
+        -39,
+        -5,
+        -24,
+        3
+    ],
+    "children": [
+        {
+            "name": "Parking Lot",
+            "coordinates": [
+                -39,
+                -5,
+                -35,
+                3
+            ],
+            "children": [
+                {
+                    "name": "Parking Spaces 1",
+                    "coordinates": [
+                        -39,
+                        -5,
+                        -38,
+                        -4
+                    ]
+                },
+                {
+                    "name": "Parking Spaces 2",
+                    "coordinates": [
+                        -38,
+                        -5,
+                        -37,
+                        -4
+                    ]
+                },
+                {
+                    "name": "Parking Spaces 3",
+                    "coordinates": [
+                        -37,
+                        -5,
+                        -36,
+                        -4
+                    ]
+                },
+                {
+                    "name": "Parking Spaces 4",
+                    "coordinates": [
+                        -36,
+                        -5,
+                        -35,
+                        -4
+                    ]
+                },
+                {
+                    "name": "Parking Spaces 5",
+                    "coordinates": [
+                        -39,
+                        -4,
+                        -38,
+                        -3
+                    ]
+                },
+                {
+                    "name": "Parking Spaces 6",
+                    "coordinates": [
+                        -38,
+                        -4,
+                        -37,
+                        -3
+                    ]
+                },
+                {
+                    "name": "Parking Spaces 7",
+                    "coordinates": [
+                        -37,
+                        -4,
+                        -36,
+                        -3
+                    ]
+                },
+                {
+                    "name": "Parking Spaces 8",
+                    "coordinates": [
+                        -36,
+                        -4,
+                        -35,
+                        -3
+                    ]
+                },
+                {
+                    "name": "Parking Spaces 9",
+                    "coordinates": [
+                        -39,
+                        -3,
+                        -38,
+                        -2
+                    ]
+                },
+                {
+                    "name": "Handicap Spaces 1",
+                    "coordinates": [
+                        -38,
+                        -3,
+                        -37,
+                        -2
+                    ]
+                },
+                {
+                    "name": "Handicap Spaces 2",
+                    "coordinates": [
+                        -37,
+                        -3,
+                        -36,
+                        -2
+                    ]
+                },
+                {
+                    "name": "Compact Spaces 1",
+                    "coordinates": [
+                        -36,
+                        -3,
+                        -35,
+                        -2
+                    ]
+                },
+                {
+                    "name": "Compact Spaces 2",
+                    "coordinates": [
+                        -39,
+                        -2,
+                        -38,
+                        -1
+                    ]
+                },
+                {
+                    "name": "Compact Spaces 3",
+                    "coordinates": [
+                        -38,
+                        -2,
+                        -37,
+                        -1
+                    ]
+                },
+                {
+                    "name": "Ev Charging Stations",
+                    "coordinates": [
+                        -37,
+                        -2,
+                        -36,
+                        -1
+                    ]
+                },
+                {
+                    "name": "Garbage Bins",
+                    "coordinates": [
+                        -36,
+                        -2,
+                        -35,
+                        -1
+                    ]
+                },
+                {
+                    "name": "Ticket Booth",
+                    "coordinates": [
+                        -39,
+                        -1,
+                        -38,
+                        0
+                    ]
+                },
+                {
+                    "name": "Entry/Exit Gate",
+                    "coordinates": [
+                        -38,
+                        -1,
+                        -37,
+                        0
+                    ]
+                },
+                {
+                    "name": "Security Booth",
+                    "coordinates": [
+                        -37,
+                        -1,
+                        -36,
+                        0
+                    ]
+                },
+                {
+                    "name": "Bike Rack",
+                    "coordinates": [
+                        -36,
+                        -1,
+                        -35,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Playground",
+            "coordinates": [
+                -35,
+                -1,
+                -28,
+                3
+            ],
+            "children": [
+                {
+                    "name": "Climbing Structure",
+                    "coordinates": [
+                        -35,
+                        -1,
+                        -32,
+                        3
+                    ]
+                },
+                {
+                    "name": "Swing Set",
+                    "coordinates": [
+                        -32,
+                        -1,
+                        -29,
+                        1
+                    ]
+                },
+                {
+                    "name": "Monkey Bars",
+                    "coordinates": [
+                        -32,
+                        1,
+                        -29,
+                        3
+                    ]
+                },
+                {
+                    "name": "Slide",
+                    "coordinates": [
+                        -29,
+                        -1,
+                        -28,
+                        1
+                    ]
+                },
+                {
+                    "name": "Sandbox",
+                    "coordinates": [
+                        -29,
+                        1,
+                        -28,
+                        2
+                    ]
+                },
+                {
+                    "name": "Picnic Table",
+                    "coordinates": [
+                        -31,
+                        -1,
+                        -29,
+                        0
+                    ]
+                },
+                {
+                    "name": "Bench",
+                    "coordinates": [
+                        -30,
+                        2,
+                        -29,
+                        3
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Picnic Area",
+            "coordinates": [
+                -35,
+                -5,
+                -28,
+                -1
+            ],
+            "children": [
+                {
+                    "name": "Parking Lot 1",
+                    "coordinates": [
+                        -35,
+                        -5,
+                        -32,
+                        -2
+                    ],
+                    "children": [
+                        {
+                            "name": "Parking Spaces 1",
+                            "coordinates": [
+                                -35,
+                                -5,
+                                -34,
+                                -4
+                            ]
+                        },
+                        {
+                            "name": "Parking Spaces 2",
+                            "coordinates": [
+                                -34,
+                                -5,
+                                -33,
+                                -4
+                            ]
+                        },
+                        {
+                            "name": "Parking Spaces 3",
+                            "coordinates": [
+                                -33,
+                                -5,
+                                -32,
+                                -4
+                            ]
+                        },
+                        {
+                            "name": "Parking Spaces 4",
+                            "coordinates": [
+                                -35,
+                                -4,
+                                -34,
+                                -3
+                            ]
+                        },
+                        {
+                            "name": "Parking Spaces 5",
+                            "coordinates": [
+                                -34,
+                                -4,
+                                -33,
+                                -3
+                            ]
+                        },
+                        {
+                            "name": "Parking Spaces 6",
+                            "coordinates": [
+                                -33,
+                                -4,
+                                -32,
+                                -3
+                            ]
+                        },
+                        {
+                            "name": "Parking Spaces 7",
+                            "coordinates": [
+                                -35,
+                                -3,
+                                -34,
+                                -2
+                            ]
+                        },
+                        {
+                            "name": "Parking Spaces 8",
+                            "coordinates": [
+                                -34,
+                                -3,
+                                -33,
+                                -2
+                            ]
+                        },
+                        {
+                            "name": "Handicap Spaces 1",
+                            "coordinates": [
+                                -33,
+                                -3,
+                                -32,
+                                -2
+                            ]
+                        },
+                        {
+                            "name": "Handicap Spaces 2",
+                            "coordinates": [
+                                -34,
+                                -5,
+                                -33,
+                                -5
+                            ]
+                        },
+                        {
+                            "name": "Electrical Charging Stations",
+                            "coordinates": [
+                                -34,
+                                -3,
+                                -34,
+                                -3
+                            ]
+                        },
+                        {
+                            "name": "Security Booth",
+                            "coordinates": [
+                                -35,
+                                -3,
+                                -35,
+                                -2
+                            ]
+                        },
+                        {
+                            "name": "Light Poles",
+                            "coordinates": [
+                                -35,
+                                -5,
+                                -35,
+                                -5
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Parking Lot 2",
+                    "coordinates": [
+                        -35,
+                        -2,
+                        -32,
+                        -1
+                    ]
+                },
+                {
+                    "name": "Playground",
+                    "coordinates": [
+                        -32,
+                        -5,
+                        -28,
+                        -2
+                    ],
+                    "children": [
+                        {
+                            "name": "Basketball Court",
+                            "coordinates": [
+                                -32,
+                                -5,
+                                -28,
+                                -2
+                            ],
+                            "children": [
+                                {
+                                    "name": "Sidelines 1",
+                                    "coordinates": [
+                                        -32,
+                                        -5,
+                                        -30,
+                                        -3
+                                    ]
+                                },
+                                {
+                                    "name": "Sidelines 2",
+                                    "coordinates": [
+                                        -32,
+                                        -3,
+                                        -30,
+                                        -2
+                                    ]
+                                },
+                                {
+                                    "name": "Sidelines 3",
+                                    "coordinates": [
+                                        -30,
+                                        -5,
+                                        -28,
+                                        -3
+                                    ]
+                                },
+                                {
+                                    "name": "Sidelines 4",
+                                    "coordinates": [
+                                        -30,
+                                        -3,
+                                        -28,
+                                        -2
+                                    ]
+                                },
+                                {
+                                    "name": "Team Benches 1",
+                                    "coordinates": [
+                                        -32,
+                                        -5,
+                                        -31,
+                                        -4
+                                    ]
+                                },
+                                {
+                                    "name": "Team Benches 2",
+                                    "coordinates": [
+                                        -32,
+                                        -4,
+                                        -31,
+                                        -3
+                                    ]
+                                },
+                                {
+                                    "name": "Team Benches 3",
+                                    "coordinates": [
+                                        -31,
+                                        -5,
+                                        -30,
+                                        -3
+                                    ]
+                                },
+                                {
+                                    "name": "Scorer's Table 1",
+                                    "coordinates": [
+                                        -28,
+                                        -5,
+                                        -28,
+                                        -4
+                                    ]
+                                },
+                                {
+                                    "name": "Scorer's Table 2",
+                                    "coordinates": [
+                                        -28,
+                                        -4,
+                                        -28,
+                                        -3
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Climbing Frame",
+                            "coordinates": [
+                                -32,
+                                -5,
+                                -30,
+                                -3
+                            ]
+                        },
+                        {
+                            "name": "Swing Set",
+                            "coordinates": [
+                                -30,
+                                -5,
+                                -29,
+                                -3
+                            ]
+                        },
+                        {
+                            "name": "Merry-Go-Round",
+                            "coordinates": [
+                                -29,
+                                -5,
+                                -28,
+                                -3
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Restroom Area",
+                    "coordinates": [
+                        -32,
+                        -2,
+                        -30,
+                        -1
+                    ]
+                },
+                {
+                    "name": "Shelter Pavilion",
+                    "coordinates": [
+                        -30,
+                        -2,
+                        -28,
+                        -1
+                    ]
+                },
+                {
+                    "name": "Barbecue Grills 1",
+                    "coordinates": [
+                        -31,
+                        -5,
+                        -30,
+                        -4
+                    ]
+                },
+                {
+                    "name": "Barbecue Grills 2",
+                    "coordinates": [
+                        -30,
+                        -5,
+                        -29,
+                        -4
+                    ]
+                },
+                {
+                    "name": "Picnic Tables 1",
+                    "coordinates": [
+                        -29,
+                        -5,
+                        -28,
+                        -4
+                    ]
+                },
+                {
+                    "name": "Picnic Tables 2",
+                    "coordinates": [
+                        -29,
+                        -4,
+                        -28,
+                        -3
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Pond",
+            "coordinates": [
+                -28,
+                -5,
+                -24,
+                -1
+            ],
+            "children": [
+                {
+                    "name": "Pond Water",
+                    "coordinates": [
+                        -28,
+                        -5,
+                        -24,
+                        -2
+                    ]
+                },
+                {
+                    "name": "Dock",
+                    "coordinates": [
+                        -26,
+                        -2,
+                        -24,
+                        -1
+                    ]
+                },
+                {
+                    "name": "Picnic Area 1",
+                    "coordinates": [
+                        -28,
+                        -2,
+                        -26,
+                        -1
+                    ]
+                },
+                {
+                    "name": "Picnic Area 2",
+                    "coordinates": [
+                        -28,
+                        -3,
+                        -26,
+                        -2
+                    ]
+                },
+                {
+                    "name": "Picnic Area 3",
+                    "coordinates": [
+                        -28,
+                        -4,
+                        -26,
+                        -3
+                    ]
+                },
+                {
+                    "name": "Trees 1",
+                    "coordinates": [
+                        -26,
+                        -4,
+                        -25,
+                        -3
+                    ]
+                },
+                {
+                    "name": "Trees 2",
+                    "coordinates": [
+                        -25,
+                        -4,
+                        -24,
+                        -3
+                    ]
+                },
+                {
+                    "name": "Trees 3",
+                    "coordinates": [
+                        -26,
+                        -3,
+                        -25,
+                        -2
+                    ]
+                },
+                {
+                    "name": "Trees 4",
+                    "coordinates": [
+                        -25,
+                        -3,
+                        -24,
+                        -2
+                    ]
+                },
+                {
+                    "name": "Trees 5",
+                    "coordinates": [
+                        -26,
+                        -5,
+                        -25,
+                        -4
+                    ]
+                },
+                {
+                    "name": "Trees 6",
+                    "coordinates": [
+                        -25,
+                        -5,
+                        -24,
+                        -4
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Gazebo",
+            "coordinates": [
+                -28,
+                -1,
+                -25,
+                1
+            ]
+        },
+        {
+            "name": "Restrooms",
+            "coordinates": [
+                -25,
+                1,
+                -24,
+                3
+            ]
+        }
+    ]
+}

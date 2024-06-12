@@ -1,0 +1,910 @@
+{
+    "name": "Grocery and Pharmacy",
+    "coordinates": [
+        2,
+        -9,
+        18,
+        1
+    ],
+    "children": [
+        {
+            "name": "Entrance",
+            "coordinates": [
+                2,
+                -9,
+                4,
+                -5
+            ],
+            "children": [
+                {
+                    "name": "Front Door",
+                    "coordinates": [
+                        2,
+                        -9,
+                        3,
+                        -7
+                    ]
+                },
+                {
+                    "name": "Welcome Mat",
+                    "coordinates": [
+                        2,
+                        -7,
+                        3,
+                        -6
+                    ]
+                },
+                {
+                    "name": "Coat Rack",
+                    "coordinates": [
+                        3,
+                        -9,
+                        4,
+                        -6
+                    ]
+                },
+                {
+                    "name": "Shoe Rack",
+                    "coordinates": [
+                        2,
+                        -6,
+                        3,
+                        -5
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Produce Section",
+            "coordinates": [
+                4,
+                -9,
+                12,
+                -2
+            ],
+            "children": [
+                {
+                    "name": "Fruit Display 1",
+                    "coordinates": [
+                        4,
+                        -9,
+                        6,
+                        -6
+                    ]
+                },
+                {
+                    "name": "Fruit Display 2",
+                    "coordinates": [
+                        6,
+                        -9,
+                        8,
+                        -6
+                    ]
+                },
+                {
+                    "name": "Fruit Display 3",
+                    "coordinates": [
+                        8,
+                        -9,
+                        10,
+                        -6
+                    ]
+                },
+                {
+                    "name": "Vegetable Section 1",
+                    "coordinates": [
+                        10,
+                        -9,
+                        12,
+                        -6
+                    ]
+                },
+                {
+                    "name": "Vegetable Section 2",
+                    "coordinates": [
+                        4,
+                        -6,
+                        6,
+                        -3
+                    ]
+                },
+                {
+                    "name": "Refrigerated Shelves",
+                    "coordinates": [
+                        6,
+                        -6,
+                        9,
+                        -3
+                    ]
+                },
+                {
+                    "name": "Organic Produce",
+                    "coordinates": [
+                        9,
+                        -6,
+                        12,
+                        -3
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Dairy Aisle",
+            "coordinates": [
+                12,
+                -9,
+                18,
+                -3
+            ],
+            "children": [
+                {
+                    "name": "Milk Section",
+                    "coordinates": [
+                        12,
+                        -9,
+                        14,
+                        -5
+                    ],
+                    "children": [
+                        {
+                            "name": "Refrigerator Units",
+                            "coordinates": [
+                                12,
+                                -5,
+                                14,
+                                -9
+                            ]
+                        },
+                        {
+                            "name": "Aisle Shelves",
+                            "coordinates": [
+                                12,
+                                -7,
+                                13,
+                                -5
+                            ]
+                        },
+                        {
+                            "name": "Aisle Shelves 2",
+                            "coordinates": [
+                                13,
+                                -7,
+                                14,
+                                -5
+                            ]
+                        },
+                        {
+                            "name": "Cart Return Area",
+                            "coordinates": [
+                                12,
+                                -9,
+                                13,
+                                -8
+                            ]
+                        },
+                        {
+                            "name": "Cart Return Area 2",
+                            "coordinates": [
+                                13,
+                                -9,
+                                14,
+                                -8
+                            ]
+                        },
+                        {
+                            "name": "Milk Crates",
+                            "coordinates": [
+                                12,
+                                -8,
+                                13,
+                                -7
+                            ]
+                        },
+                        {
+                            "name": "Milk Crates 2",
+                            "coordinates": [
+                                13,
+                                -8,
+                                14,
+                                -7
+                            ]
+                        },
+                        {
+                            "name": "Signage Boards",
+                            "coordinates": [
+                                13,
+                                -8,
+                                14,
+                                -9
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Cheese Section",
+                    "coordinates": [
+                        14,
+                        -9,
+                        16,
+                        -6
+                    ],
+                    "children": [
+                        {
+                            "name": "Cheese Counter",
+                            "coordinates": [
+                                14,
+                                -9,
+                                15,
+                                -6
+                            ]
+                        },
+                        {
+                            "name": "Display Case",
+                            "coordinates": [
+                                15,
+                                -9,
+                                16,
+                                -7
+                            ]
+                        },
+                        {
+                            "name": "Refrigerated Shelves",
+                            "coordinates": [
+                                15,
+                                -7,
+                                16,
+                                -6
+                            ]
+                        },
+                        {
+                            "name": "Sampling Station",
+                            "coordinates": [
+                                14,
+                                -6,
+                                14,
+                                -6
+                            ]
+                        },
+                        {
+                            "name": "Cheese Cutting Area",
+                            "coordinates": [
+                                14,
+                                -7,
+                                15,
+                                -7
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Yogurt Section",
+                    "coordinates": [
+                        16,
+                        -9,
+                        18,
+                        -6
+                    ],
+                    "children": [
+                        {
+                            "name": "Refrigerators 1",
+                            "coordinates": [
+                                16,
+                                -9,
+                                17,
+                                -7
+                            ]
+                        },
+                        {
+                            "name": "Refrigerators 2",
+                            "coordinates": [
+                                17,
+                                -9,
+                                18,
+                                -7
+                            ]
+                        },
+                        {
+                            "name": "Shelves 1",
+                            "coordinates": [
+                                16,
+                                -7,
+                                17,
+                                -6
+                            ]
+                        },
+                        {
+                            "name": "Shelves 2",
+                            "coordinates": [
+                                17,
+                                -7,
+                                18,
+                                -6
+                            ]
+                        },
+                        {
+                            "name": "Yogurt Containers 1",
+                            "coordinates": [
+                                16,
+                                -8,
+                                17,
+                                -7
+                            ]
+                        },
+                        {
+                            "name": "Yogurt Containers 2",
+                            "coordinates": [
+                                17,
+                                -8,
+                                18,
+                                -7
+                            ]
+                        },
+                        {
+                            "name": "Price Labels 1",
+                            "coordinates": [
+                                16,
+                                -9,
+                                17,
+                                -8
+                            ]
+                        },
+                        {
+                            "name": "Promotional Signs 1",
+                            "coordinates": [
+                                16,
+                                -9,
+                                16.5,
+                                -8.5
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Butter Section",
+                    "coordinates": [
+                        12,
+                        -5,
+                        14,
+                        -4
+                    ]
+                },
+                {
+                    "name": "Eggs Section 1",
+                    "coordinates": [
+                        12,
+                        -4,
+                        13,
+                        -3
+                    ]
+                },
+                {
+                    "name": "Eggs Section 2",
+                    "coordinates": [
+                        13,
+                        -4,
+                        14,
+                        -3
+                    ]
+                },
+                {
+                    "name": "Cream Section",
+                    "coordinates": [
+                        14,
+                        -4,
+                        15,
+                        -3
+                    ]
+                },
+                {
+                    "name": "Non-Dairy Alternatives",
+                    "coordinates": [
+                        15,
+                        -6,
+                        18,
+                        -3
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bakery",
+            "coordinates": [
+                12,
+                -3,
+                17,
+                -1
+            ],
+            "children": [
+                {
+                    "name": "Entrance",
+                    "coordinates": [
+                        12,
+                        -3,
+                        14,
+                        -2
+                    ]
+                },
+                {
+                    "name": "Display Case",
+                    "coordinates": [
+                        14,
+                        -3,
+                        16,
+                        -2
+                    ]
+                },
+                {
+                    "name": "Counter",
+                    "coordinates": [
+                        16,
+                        -3,
+                        17,
+                        -2
+                    ]
+                },
+                {
+                    "name": "Seating Area",
+                    "coordinates": [
+                        12,
+                        -2,
+                        15,
+                        -1
+                    ]
+                },
+                {
+                    "name": "Kitchen",
+                    "coordinates": [
+                        15,
+                        -2,
+                        17,
+                        -1
+                    ]
+                },
+                {
+                    "name": "Ovens",
+                    "coordinates": [
+                        15,
+                        -3,
+                        17,
+                        -2
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Meat Counter",
+            "coordinates": [
+                2,
+                -7,
+                6,
+                -4
+            ],
+            "children": [
+                {
+                    "name": "Display Case",
+                    "coordinates": [
+                        2,
+                        -4,
+                        4,
+                        -6
+                    ]
+                },
+                {
+                    "name": "Cutting Table",
+                    "coordinates": [
+                        4,
+                        -4,
+                        6,
+                        -7
+                    ]
+                },
+                {
+                    "name": "Refrigerator",
+                    "coordinates": [
+                        2,
+                        -7,
+                        4,
+                        -5
+                    ]
+                },
+                {
+                    "name": "Freezer",
+                    "coordinates": [
+                        4,
+                        -7,
+                        6,
+                        -6
+                    ]
+                },
+                {
+                    "name": "Cash Register",
+                    "coordinates": [
+                        3,
+                        -6,
+                        5,
+                        -7
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Frozen Foods",
+            "coordinates": [
+                6,
+                -8,
+                10,
+                -4
+            ]
+        },
+        {
+            "name": "Checkout Counters",
+            "coordinates": [
+                10,
+                -7,
+                17,
+                -5
+            ],
+            "children": [
+                {
+                    "name": "Conveyor Belt",
+                    "coordinates": [
+                        10,
+                        -7,
+                        13,
+                        -5
+                    ]
+                },
+                {
+                    "name": "Customer Queue",
+                    "coordinates": [
+                        13,
+                        -7,
+                        17,
+                        -5
+                    ]
+                },
+                {
+                    "name": "Countertop",
+                    "coordinates": [
+                        10,
+                        -7,
+                        12,
+                        -6
+                    ]
+                },
+                {
+                    "name": "Bagging Area",
+                    "coordinates": [
+                        12,
+                        -7,
+                        14,
+                        -6
+                    ]
+                },
+                {
+                    "name": "Shopping Carts 1",
+                    "coordinates": [
+                        14,
+                        -7,
+                        15,
+                        -6
+                    ]
+                },
+                {
+                    "name": "Shopping Carts 2",
+                    "coordinates": [
+                        15,
+                        -7,
+                        16,
+                        -6
+                    ]
+                },
+                {
+                    "name": "Shopping Carts 3",
+                    "coordinates": [
+                        16,
+                        -7,
+                        17,
+                        -6
+                    ]
+                },
+                {
+                    "name": "Cash Register",
+                    "coordinates": [
+                        10,
+                        -6,
+                        11,
+                        -5
+                    ]
+                },
+                {
+                    "name": "Payment Terminal",
+                    "coordinates": [
+                        11,
+                        -6,
+                        12,
+                        -5
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Healthcare Products",
+            "coordinates": [
+                2,
+                -4,
+                6,
+                -1
+            ]
+        },
+        {
+            "name": "Prescription Counter",
+            "coordinates": [
+                6,
+                -4,
+                9,
+                -1
+            ]
+        },
+        {
+            "name": "Household Items",
+            "coordinates": [
+                9,
+                -4,
+                14,
+                -1
+            ]
+        },
+        {
+            "name": "Snacks Aisle",
+            "coordinates": [
+                4,
+                -2,
+                9,
+                1
+            ],
+            "children": [
+                {
+                    "name": "Chips Section 1",
+                    "coordinates": [
+                        4,
+                        -2,
+                        6,
+                        -1
+                    ]
+                },
+                {
+                    "name": "Chips Section 2",
+                    "coordinates": [
+                        4,
+                        -1,
+                        6,
+                        0
+                    ]
+                },
+                {
+                    "name": "Chips Section 3",
+                    "coordinates": [
+                        4,
+                        0,
+                        6,
+                        1
+                    ]
+                },
+                {
+                    "name": "Candy Shelves 1",
+                    "coordinates": [
+                        6,
+                        -2,
+                        7,
+                        -1
+                    ]
+                },
+                {
+                    "name": "Candy Shelves 2",
+                    "coordinates": [
+                        6,
+                        -1,
+                        7,
+                        0
+                    ]
+                },
+                {
+                    "name": "Candy Shelves 3",
+                    "coordinates": [
+                        6,
+                        0,
+                        7,
+                        1
+                    ]
+                },
+                {
+                    "name": "Cookies Display 1",
+                    "coordinates": [
+                        7,
+                        -2,
+                        9,
+                        -1
+                    ]
+                },
+                {
+                    "name": "Cookies Display 2",
+                    "coordinates": [
+                        7,
+                        -1,
+                        9,
+                        0
+                    ]
+                },
+                {
+                    "name": "Cookies Display 3",
+                    "coordinates": [
+                        7,
+                        0,
+                        9,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Beverage Section",
+            "coordinates": [
+                9,
+                -2,
+                17,
+                1
+            ],
+            "children": [
+                {
+                    "name": "Soda Aisle",
+                    "coordinates": [
+                        9,
+                        -2,
+                        13,
+                        -1
+                    ],
+                    "children": [
+                        {
+                            "name": "Aisle Floor",
+                            "coordinates": [
+                                9,
+                                -2,
+                                11,
+                                -1
+                            ]
+                        },
+                        {
+                            "name": "Cooler Section",
+                            "coordinates": [
+                                11,
+                                -2,
+                                12,
+                                -1
+                            ]
+                        },
+                        {
+                            "name": "Soda Shelves",
+                            "coordinates": [
+                                12,
+                                -2,
+                                13,
+                                -1
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Juice Shelf",
+                    "coordinates": [
+                        13,
+                        -2,
+                        16,
+                        -1
+                    ]
+                },
+                {
+                    "name": "Water Display",
+                    "coordinates": [
+                        9,
+                        -1,
+                        11,
+                        1
+                    ]
+                },
+                {
+                    "name": "Energy Drinks Section",
+                    "coordinates": [
+                        11,
+                        -1,
+                        13,
+                        1
+                    ],
+                    "children": [
+                        {
+                            "name": "Coolers 1",
+                            "coordinates": [
+                                11,
+                                -1,
+                                12,
+                                0
+                            ]
+                        },
+                        {
+                            "name": "Coolers 2",
+                            "coordinates": [
+                                12,
+                                -1,
+                                13,
+                                0
+                            ]
+                        },
+                        {
+                            "name": "Drink Displays 1",
+                            "coordinates": [
+                                11,
+                                0,
+                                12,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Drink Displays 2",
+                            "coordinates": [
+                                12,
+                                0,
+                                13,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Shelves 1",
+                            "coordinates": [
+                                11,
+                                0,
+                                11,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Shelves 2",
+                            "coordinates": [
+                                13,
+                                0,
+                                13,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Cash Register",
+                            "coordinates": [
+                                12,
+                                -1,
+                                13,
+                                -1
+                            ]
+                        },
+                        {
+                            "name": "Signage",
+                            "coordinates": [
+                                12,
+                                -1,
+                                13,
+                                -1
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Tea And Coffee",
+                    "coordinates": [
+                        13,
+                        -1,
+                        17,
+                        1
+                    ]
+                }
+            ]
+        }
+    ]
+}

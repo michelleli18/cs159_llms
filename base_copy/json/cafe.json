@@ -1,0 +1,397 @@
+{
+    "name": "Cafe",
+    "coordinates": [
+        5,
+        -23,
+        15,
+        -15
+    ],
+    "children": [
+        {
+            "name": "Seating Area",
+            "coordinates": [
+                5,
+                -23,
+                11,
+                -19
+            ],
+            "children": [
+                {
+                    "name": "Picnic Tables 1",
+                    "coordinates": [
+                        5,
+                        -23,
+                        7,
+                        -21
+                    ]
+                },
+                {
+                    "name": "Picnic Tables 2",
+                    "coordinates": [
+                        7,
+                        -23,
+                        9,
+                        -21
+                    ]
+                },
+                {
+                    "name": "Picnic Tables 3",
+                    "coordinates": [
+                        9,
+                        -23,
+                        11,
+                        -21
+                    ]
+                },
+                {
+                    "name": "Tables 1",
+                    "coordinates": [
+                        5,
+                        -21,
+                        6,
+                        -20
+                    ]
+                },
+                {
+                    "name": "Tables 2",
+                    "coordinates": [
+                        6,
+                        -21,
+                        7,
+                        -20
+                    ]
+                },
+                {
+                    "name": "Tables 3",
+                    "coordinates": [
+                        7,
+                        -21,
+                        8,
+                        -20
+                    ]
+                },
+                {
+                    "name": "Tables 4",
+                    "coordinates": [
+                        8,
+                        -21,
+                        9,
+                        -20
+                    ]
+                },
+                {
+                    "name": "Umbrellas 1",
+                    "coordinates": [
+                        9,
+                        -21,
+                        10,
+                        -20
+                    ]
+                },
+                {
+                    "name": "Umbrellas 2",
+                    "coordinates": [
+                        10,
+                        -21,
+                        11,
+                        -20
+                    ]
+                },
+                {
+                    "name": "Benches 1",
+                    "coordinates": [
+                        5,
+                        -20,
+                        6,
+                        -19
+                    ]
+                },
+                {
+                    "name": "Benches 2",
+                    "coordinates": [
+                        6,
+                        -20,
+                        7,
+                        -19
+                    ]
+                },
+                {
+                    "name": "Benches 3",
+                    "coordinates": [
+                        7,
+                        -20,
+                        8,
+                        -19
+                    ]
+                },
+                {
+                    "name": "Chairs 1",
+                    "coordinates": [
+                        8,
+                        -20,
+                        9,
+                        -19
+                    ]
+                },
+                {
+                    "name": "Chairs 2",
+                    "coordinates": [
+                        9,
+                        -20,
+                        10,
+                        -19
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Outdoor Seating",
+            "coordinates": [
+                11,
+                -23,
+                15,
+                -19
+            ]
+        },
+        {
+            "name": "Coffee Counter",
+            "coordinates": [
+                5,
+                -19,
+                8,
+                -17
+            ]
+        },
+        {
+            "name": "Kitchen",
+            "coordinates": [
+                8,
+                -19,
+                12,
+                -17
+            ],
+            "children": [
+                {
+                    "name": "Refrigerator",
+                    "coordinates": [
+                        8,
+                        -19,
+                        9,
+                        -18
+                    ]
+                },
+                {
+                    "name": "Stove",
+                    "coordinates": [
+                        9,
+                        -19,
+                        10,
+                        -18
+                    ]
+                },
+                {
+                    "name": "Sink",
+                    "coordinates": [
+                        10,
+                        -19,
+                        11,
+                        -18
+                    ]
+                },
+                {
+                    "name": "Countertop",
+                    "coordinates": [
+                        11,
+                        -19,
+                        12,
+                        -18
+                    ]
+                },
+                {
+                    "name": "Cabinets",
+                    "coordinates": [
+                        8,
+                        -18,
+                        9,
+                        -17
+                    ]
+                },
+                {
+                    "name": "Kitchen Table",
+                    "coordinates": [
+                        9,
+                        -18,
+                        10,
+                        -17
+                    ]
+                },
+                {
+                    "name": "Dishwasher",
+                    "coordinates": [
+                        10,
+                        -18,
+                        11,
+                        -17
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Restroom",
+            "coordinates": [
+                12,
+                -19,
+                13,
+                -17
+            ]
+        },
+        {
+            "name": "Storage Room",
+            "coordinates": [
+                13,
+                -19,
+                15,
+                -17
+            ],
+            "children": [
+                {
+                    "name": "Shelving Units 1",
+                    "coordinates": [
+                        13,
+                        -19,
+                        14,
+                        -18
+                    ]
+                },
+                {
+                    "name": "Shelving Units 2",
+                    "coordinates": [
+                        14,
+                        -19,
+                        15,
+                        -18
+                    ]
+                },
+                {
+                    "name": "Shelving Units 3",
+                    "coordinates": [
+                        13,
+                        -18,
+                        14,
+                        -17
+                    ]
+                },
+                {
+                    "name": "Storage Cabinets 1",
+                    "coordinates": [
+                        14,
+                        -18,
+                        15,
+                        -17
+                    ]
+                },
+                {
+                    "name": "Storage Cabinets 2",
+                    "coordinates": [
+                        13,
+                        -19,
+                        14,
+                        -18
+                    ]
+                },
+                {
+                    "name": "Storage Cabinets 3",
+                    "coordinates": [
+                        14,
+                        -18,
+                        15,
+                        -17
+                    ]
+                },
+                {
+                    "name": "Storage Cabinets 4",
+                    "coordinates": [
+                        13,
+                        -18,
+                        14,
+                        -17
+                    ]
+                },
+                {
+                    "name": "Work Table",
+                    "coordinates": [
+                        14,
+                        -19,
+                        15,
+                        -18
+                    ]
+                },
+                {
+                    "name": "Tool Chest",
+                    "coordinates": [
+                        13,
+                        -18,
+                        14,
+                        -17
+                    ]
+                },
+                {
+                    "name": "Boxes And Bins 1",
+                    "coordinates": [
+                        13,
+                        -19,
+                        14,
+                        -18
+                    ]
+                },
+                {
+                    "name": "Boxes And Bins 2",
+                    "coordinates": [
+                        14,
+                        -18,
+                        15,
+                        -17
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Entrance",
+            "coordinates": [
+                5,
+                -17,
+                7,
+                -15
+            ],
+            "children": [
+                {
+                    "name": "Door",
+                    "coordinates": [
+                        5,
+                        -17,
+                        6,
+                        -15
+                    ]
+                },
+                {
+                    "name": "Welcome Mat",
+                    "coordinates": [
+                        6,
+                        -17,
+                        7,
+                        -16
+                    ]
+                },
+                {
+                    "name": "Coat Rack",
+                    "coordinates": [
+                        6,
+                        -16,
+                        7,
+                        -15
+                    ]
+                }
+            ]
+        }
+    ]
+}
