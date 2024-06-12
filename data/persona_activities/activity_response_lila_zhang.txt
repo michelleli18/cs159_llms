@@ -1,0 +1,8 @@
+{
+    "activities": [
+        "Pottery Workshop by the Ocean",
+        "Kayaking in Quiet Coastal Areas",
+        "Hosting a Marine Conservation Webinar"
+    ],
+    "reasoning": "Lila would appreciate a Pottery Workshop by the Ocean because it combines her interest in pottery with a peaceful, scenic environment she loves. Kayaking in Quiet Coastal Areas would allow her to explore marine ecosystems without the overwhelming crowds, blending her love for marine life with a serene activity. Hosting a Marine Conservation Webinar aligns with her long-term goal of starting a marine conservation non-profit and spreading awareness about marine ecosystems without needing to be in crowded spaces."
+}
