@@ -1,0 +1,8 @@
+{
+    "activities": [
+        "volunteering for environmental clean-up projects in remote villages",
+        "participating in a local bonsai gardening workshop",
+        "stargazing and photographing celestial events at a nearby observatory"
+    ],
+    "reasoning": "Volunteering for environmental clean-up projects in remote villages aligns with Oliver's passion for sustainable development and his long-term goal of developing sustainable water purification systems. Participating in a local bonsai gardening workshop allows him to nurture plants, an interest he's thought about expanding into, and provides a tranquil activity away from loud, crowded places. Stargazing and photographing celestial events at a nearby observatory caters to his fascination with the cosmos and offers a quiet, focused environment appropriate for astrophotography."
+}

@@ -88,8 +88,6 @@ class Creator():
         self.new_place_prompt = f"""
         What is a better place that is not on the map where {self.persona_name} can do their activity that also would fit in with the rest of the places on the map? Explain your rationale in detail. Only give your answer and reasoning.
         """
-        self.new_place_response = "Need to call determine_new_place() first"
-        self.new_place_name = self.new_place_response
 
         self.extract_new_place_name_prompt = """
         What is the name of the place being described? Only list the name and limit the name to no more than 4 words. Capitalize the name.
@@ -196,7 +194,7 @@ class Creator():
 
         # Doesn't generate new place if the suitability rating clears the threshold
         if self.suitability_score > SUITABILITY_RATING_THRESHOLD:
-            return False
+            return None
         
         # Generates new place name and stores it in self.new_place_name
         self.generate_new_place_name()
@@ -252,6 +250,7 @@ class Creator():
                 assert "layout" in self.planner_response_json
                 assert "reasoning" in self.planner_response_json
                 assert self.planner_response_json["layout"]['name'] == self.new_place_name
+                print()
                 assert "coordinates" in self.planner_response_json["layout"]
 
                 break
@@ -300,7 +299,7 @@ class Creator():
     def generate_new_place_anywhere_json(self):
         while True:
             planner_response = ChatGPT_request(
-            self.provide_top_level_map_prompt.format(str(self.top_json)) + self.size_estimate_response 
+                self.provide_top_level_map_prompt.format(str(self.top_json)) + self.size_estimate_response 
                 + self.put_new_place_prompt.format(self.new_place_name, self.new_place_name, self.new_place_name, self.new_place_name)
                 + self.specify_put_anywhere_prompt.format(self.new_place_name))
         
