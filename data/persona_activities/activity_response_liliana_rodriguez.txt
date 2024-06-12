@@ -1,0 +1,8 @@
+{
+    "activities": [
+        "Host a community workshop on mixed media art at a local community center",
+        "Start a small urban garden with a focus on growing herbs and plants that can be used in natural dyes for her art",
+        "Collaborate with a local chef to create a pop-up event featuring art and food inspired by each other"
+    ],
+    "reasoning": "Hosting a community workshop on mixed media art aligns with Liliana's passion for both art and community engagement, allowing her to share her expertise and inspire others. Starting a small urban garden focuses on her interest in combining aesthetics with sustainability, as well as providing her with materials for her eco-friendly art supplies. Collaborating with a local chef for a pop-up event merges her interests in culinary arts and creating multi-sensory experiences, while also potentially uncovering new hidden gems in her city."
+}
