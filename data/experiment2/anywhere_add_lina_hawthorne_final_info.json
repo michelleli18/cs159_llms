@@ -1,0 +1,20 @@
+{
+    "experiment": "2",
+    "persona name": "Lina Hawthorne",
+    "description": "Lina Hawthorne is a 32-year-old art therapist from New Zealand who currently resides in Tokyo, Japan. Her pronouns are she/her. She enjoys painting abstract art and practicing tai chi in her free time. However, she has also thought about expanding her interests into pottery and bonsai cultivation as well because she finds working with her hands and nurturing living things to be incredibly therapeutic. She does not like loud, crowded places because they make her feel overwhelmed and anxious. She has also been working hard towards her long-term goals and dreams, which include opening her own holistic therapy center that combines art therapy with other forms of mindfulness practices. Personally, she owns an extensive collection of vintage novels and a rescued Shiba Inu named Momo at her home. Outside of home, she works at a bustling urban art center that offers various forms of therapeutic services. After work, she enjoys planning to go to different places to do all her hobbies, often finding quiet parks or serene temples as her favorite spots to paint and practice tai chi.",
+    "set number of activities": 3,
+    "activities": [
+        {
+            "description": "Exploring ceramics classes at a local pottery studio",
+            "should generate a new place": false
+        },
+        {
+            "description": "Attending a Bonsai cultivation workshop in a serene outdoor setting",
+            "should generate a new place": false
+        },
+        {
+            "description": "Organizing a small, intimate vintage novel reading group",
+            "should generate a new place": false
+        }
+    ]
+}

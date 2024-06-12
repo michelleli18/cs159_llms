@@ -10,7 +10,7 @@ from utils import *
 from gptutils import ChatGPT_request
 
 MINIMUM_ITEM_AREA_PXL = 4
-SUITABILITY_RATING_THRESHOLD = 7
+SUITABILITY_RATING_THRESHOLD = 8 # Inclusive, generates new place score <= THRESHOLD
 DISPLAY_COLOR_DECAY_FACTOR = 0.7
 
 
@@ -71,8 +71,9 @@ class Creator():
 
         
         # FIELDS AND PROMPTS FOR INTEGRATING WITH PERSONA
-        self.no_bounds = False
-        # self.display_bounds also defined in 
+         
+        self.no_bounds = False # self.display_bounds also defined in __
+        self.new_place_name = None
 
         self.top_json = ""
         self.persona_activity_response = ""        
@@ -84,7 +85,10 @@ class Creator():
         """
     
         self.suitability_score_prompt = f"""
-        On a scale of 1 to 10 (1 being impossible, 10 being the ideal place to accomplish the activity), how likely is it that {self.persona_name} can successfully complete the activity at the best place previously given (the suitability rating)? Output only a single digit for your response (no explanation).
+        Think about how well the activity fits in with the best place. On a scale of 1 to 10 (1 being impossible, 10 being the ideal place to do the activity), how well can {self.persona_name} successfully complete the activity there (the suitability rating)? Just being able to complete the activity doesn't translate to a higher score. You should instead consider how much {self.persona_name} would enjoy the activity at the place. Explain your answer taking {self.persona_name}'s happiness as the most important consideration.
+        """
+        self.extract_suitability_score_prompt = """
+        Based on the above answer, what is the suitability rating? Output only a single digit between 1 and 10 for your response (no explanation).
         """
 
         self.new_place_prompt = f"""
@@ -109,9 +113,11 @@ class Creator():
         """
 
         self.put_new_place_prompt = '''
-        You are now a *urban planner* with decades of experience. Your job is to masterfully place the {} on the map in a way that is realistic, modern, and space-efficient. I am your boss and your contractor. If your performance is poor, you will not get paid and will be fired immediately. Thus, you must follow what I say to the best of your ability in order to map out the best place possible. 
+        You are now a *urban planner* with decades of experience. Your job is to masterfully place the {} *outside* of the map in a way that is realistic, modern, and space-efficient. I am your boss and your contractor. If your performance is poor, you will not get paid and will be fired immediately. Thus, you must follow what I say to the best of your ability in order to map out the best place possible. 
 
-        Consider the area of the {} and the places it should be close to on the map. Given these considerations, add the {} on the map where it fits best and output the resulting JSON element containing the name and coordinates in the same format as the current JSON map. The JSON element should contain the name {} exactly as is and the rectangle of 4 coordinates representing its location. To be more specific, all coordinates are defined in the following form to define a rectangular space: [bottom_left_corner_x, bottom_left_corner_y, top_right_corner_x, top_right_corner_y].  *The coordinates of the place CANNOT overlap with existing places. If it does, you\'ll be immediately fired.* Also, provide an explanation of why you chose to place it in the specific location and make it the specific size. This reasoning should address all considerations explained above.
+        Consider the area of the {} and the places it should be close to on the map. Given these considerations, add the {} somewhere on the outskirts of the map (with no overlap) and output the resulting JSON element containing the name and coordinates in the same format as the current JSON map. The outputted JSON element should contain the name {} exactly as is and the rectangle of 4 coordinates representing its location. To be more specific, all coordinates are defined in the following form to define a rectangular space: [bottom_left_corner_x, bottom_left_corner_y, top_right_corner_x, top_right_corner_y].  *THE COORDINATES OF {} MUST NOT OVERLAP WITH ANY OF THE EXISTING PLACES ON THE MAP. PLACE IT OUTSIDE OF THE CURRENT MAP TO ENSURE THERE IS NO OVERLAP* Any overlap will result in your immediate termination. Use code to check that there is no overlap.
+
+        Additionally, provide an explanation of why you chose to place it in that specific location outside of the map and make it the specific size. *In your explanation, calculate and explain how the coordinates of {} do not overlap with all of the places on the map.* This reasoning should address all considerations explained above.
 
         Return your answer in the following format and only return this: "{{"layout": your answer in JSON object form, "reasoning": reasoning of why you placed the item all stored in exactly 1 string}}". Leave out the ```json ``` when you return your response as well, but always make sure to have the curly brackets wrapping the whole answer, ie {{}} at the beginning and end of final answer. Do not use special formatting in your answer either, such as double star for bolding. Remember the two keys of layout should always be "name" and "coordinates".
         \n'''
@@ -155,8 +161,6 @@ class Creator():
         self.top_json["children"] = children_copy
 
         
-
-    
     def choose_best_place(self):
         self.best_place_response = ChatGPT_request(
             self.provide_top_level_map_prompt.format(str(self.top_json))
@@ -166,12 +170,14 @@ class Creator():
 
     def assign_suitability_rating(self):
         while True:
-            suitability_score_response = ChatGPT_request(
+            self.suitability_score_response = ChatGPT_request(
                 self.provide_persona_activity_prompt.format(self.persona_activity_response)
                 + self.best_place_response + self.suitability_score_prompt)
             
             try: 
-                self.suitability_score = int(suitability_score_response)
+                self.extract_suitability_score_response = ChatGPT_request(
+                    self.suitability_score_response + self.extract_suitability_score_prompt)
+                self.suitability_score = int(self.extract_suitability_score_response)
                 break
             except Exception as e:
                 print(e)
@@ -206,6 +212,17 @@ class Creator():
         # Generates new place name and stores it in self.new_place_name
         self.generate_new_place_name()
         return self.new_place_name
+    
+
+    # Provides new place considerations to user for analysis
+    def get_new_place_info(self):
+        info = dict()
+        info["best place explanation"] = self.best_place_response
+        info["possibility at best place explanation"] = self.suitability_score_response
+        info["suitability rating"] = self.suitability_score
+        info["should generate a new place"] = self.new_place_name != None
+        return info
+
         
     
     # Used in both Experiment 1 and 2
@@ -248,7 +265,7 @@ class Creator():
             planner_response = ChatGPT_request(
             self.provide_top_level_map_prompt.format(str(self.top_json)) 
                 + self.size_estimate_response + self.is_there_space_response
-                + self.put_new_place_prompt.format(self.new_place_name, self.new_place_name, self.new_place_name, self.new_place_name)
+                + self.put_new_place_prompt.format(self.new_place_name, self.new_place_name, self.new_place_name, self.new_place_name, self.new_place_name, self.new_place_name,)
                 + self.specify_put_bounded_prompt.format(self.new_place_name))
         
             try: 
@@ -307,7 +324,7 @@ class Creator():
         while True:
             planner_response = ChatGPT_request(
                 self.provide_top_level_map_prompt.format(str(self.top_json)) + self.size_estimate_response 
-                + self.put_new_place_prompt.format(self.new_place_name, self.new_place_name, self.new_place_name, self.new_place_name)
+                + self.put_new_place_prompt.format(self.new_place_name, self.new_place_name, self.new_place_name, self.new_place_name, self.new_place_name, self.new_place_name)
                 + self.specify_put_anywhere_prompt.format(self.new_place_name))
         
             try: 

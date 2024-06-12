@@ -1,0 +1,8 @@
+{
+    "activities": [
+        "Exploring urban parks for inspiration in eco-friendly designs",
+        "Learning digital painting to blend her love for technology and creativity",
+        "Starting a drone photography project to document sustainable urban spaces"
+    ],
+    "reasoning": "Exploring urban parks for inspiration in eco-friendly designs ties directly to her professional goal of designing eco-friendly urban spaces that integrate natural and architectural beauty. Learning digital painting provides an extension to her creative interests while merging technology, which is something she has considered expanding into. Starting a drone photography project allows her to document and share sustainable urban spaces, blending her interest in tech and creativity, thus offering a new hobby that aligns with her professional work and personal interests."
+}

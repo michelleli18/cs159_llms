@@ -1,0 +1,8 @@
+{
+    "activities": [
+        "Curate an outdoor photo exhibition in a local park",
+        "Organize a community mural painting event in a quiet alleyway",
+        "Start an urban gardening project in their neighborhood"
+    ],
+    "reasoning": "Each activity aligns with Hayden's interests, skill set, and preference for intimate settings. Curating an outdoor photo exhibition allows them to showcase their photography and engage the community without the overwhelming nature of crowded spaces. Organizing a mural painting event taps into their desire to bring life to their neighborhood and provides a quiet, collaborative space. Starting an urban gardening project fulfills their growing interest in gardening while creating a more vibrant, colorful environment."
+}

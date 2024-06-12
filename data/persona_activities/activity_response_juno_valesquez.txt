@@ -1,0 +1,8 @@
+{
+    "activities": [
+        "Hiking and orchid collecting in remote rainforests",
+        "Pottery classes focused on crafting traditional indigenous designs",
+        "Visiting indigenous Amazonian communities to document their botanical knowledge"
+    ],
+    "reasoning": "Hiking and orchid collecting in remote rainforests align with her current hobbies of enjoying nature and botanical studies. Pottery classes allow her to explore a new creative medium and blend art with cultural exploration. Visiting indigenous Amazonian communities to document their botanical knowledge supports her professional goals and her interest in indigenous cultures."
+}

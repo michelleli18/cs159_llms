@@ -1,0 +1,8 @@
+{
+    "activities": [
+        "Planning a photography trip to Ng\u0101 Manu Nature Reserve",
+        "Hosting a workshop on botanical illustration at Wellington Botanic Garden",
+        "Creating a native plant section in his envisioned botanical garden sanctuary"
+    ],
+    "reasoning": "Planning a photography trip to Ng\u0101 Manu Nature Reserve would allow Humphrey to combine his interest in landscape photography with his love for rare and endangered plant species, while avoiding crowded places. Hosting a workshop on botanical illustration at Wellington Botanic Garden aligns with his passion for sketching flora and his experience in botany, providing an educational opportunity for others. Creating a native plant section in his envisioned botanical garden sanctuary connects directly to one of his long-term goals, allowing him to share his expertise and foster conservation efforts for New Zealand's native plants."
+}

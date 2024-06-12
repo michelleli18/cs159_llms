@@ -1,0 +1,8 @@
+{
+    "activities": [
+        "Exploring ceramics classes at a local pottery studio",
+        "Attending a Bonsai cultivation workshop in a serene outdoor setting",
+        "Organizing a small, intimate vintage novel reading group"
+    ],
+    "reasoning": "Exploring ceramics classes at a local pottery studio will allow Lina to expand her interest in pottery and engage in a hands-on activity that she already finds therapeutic. Attending a Bonsai cultivation workshop in a serene outdoor setting will help her nurture living things while enjoying the tranquility she craves. Organizing a small, intimate vintage novel reading group will combine her love for vintage novels with a social activity that avoids the overwhelm of large crowds and noisy environments."
+}

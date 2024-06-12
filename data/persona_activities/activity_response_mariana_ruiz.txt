@@ -1,0 +1,8 @@
+{
+    "activities": [
+        "Participating in a mushroom foraging and origami workshop",
+        "Enrolling in a skydiving course with a focus on understanding the science behind the experience",
+        "Joining a digital art collective focused on environmental themes"
+    ],
+    "reasoning": "Participating in a mushroom foraging and origami workshop combines Mariana's existing interests, allowing her to explore a new dimension by linking the two hobbies. Enrolling in a skydiving course with a focus on understanding the science behind the experience satisfies her craving for adrenaline while appealing to her scientific curiosity. Joining a digital art collective focused on environmental themes allows her to merge her meticulous creativity with her passion for eco-friendly solutions, providing a new medium to communicate important scientific messages."
+}

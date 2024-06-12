@@ -1,0 +1,8 @@
+{
+    "activities": [
+        "Attending a local eco-friendly pottery workshop",
+        "Participating in a native plant restoration project at a nearby nature reserve",
+        "Hosting a community workshop on sustainable gardening and beekeeping"
+    ],
+    "reasoning": "Attending a local eco-friendly pottery workshop aligns with Marlena's interest in expanding her hobby into pottery and ceramic crafting while maintaining her connection to natural elements. Participating in a native plant restoration project allows her to continue her passion for hiking and preserving the environment in a hands-on way. Hosting a community workshop on sustainable gardening and beekeeping combines her love for gardening, her expertise on environmental issues, and her beehive hobby, while also fostering community engagement and education on sustainable practices."
+}

@@ -1,0 +1,8 @@
+{
+    "activities": [
+        "Urban Beekeeping Workshops",
+        "Weekend Retreats for Writers",
+        "Cultural Exchange Events Focusing on Japanese Art"
+    ],
+    "reasoning": "Urban beekeeping workshops would align with Joaqu\u00edn's interest in urban gardening and their environmental passion. Weekend retreats for writers would provide a peaceful, creative environment to work on their novel. Cultural exchange events focusing on Japanese art would help them learn Japanese calligraphy and connect with a culture they admire."
+}

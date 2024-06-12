@@ -1,0 +1,8 @@
+{
+    "activities": [
+        "Botanical illustration workshop",
+        "Underwater photography expedition",
+        "Private rock climbing excursion"
+    ],
+    "reasoning": "The botanical illustration workshop aligns with Lillian's interest in expanding her artistic skills and her fascination with flora, offering her a tranquil and relaxing environment away from crowds. The underwater photography expedition allows her to delve into marine life photography, merging her love for art and the underwater world, providing a unique challenge and fulfilling her desire to try new things. The private rock climbing excursion caters to her love for rock climbing while ensuring she avoids crowded places, offering a personalized and peaceful experience."
+}

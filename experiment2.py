@@ -52,10 +52,9 @@ def main():
             print(str(activity_desc))
             
             new_place = creator.determine_new_place()
-            should_generate_new_place = new_place != None
-            activity_info["should generate a new place"] = should_generate_new_place
+            activity_info["new place considerations"] = creator.get_new_place_info()
 
-            if not should_generate_new_place:
+            if new_place == None:
                 continue
 
             activity_info["new place"] = new_place
