@@ -1,0 +1,24 @@
+{
+    "layout": {
+        "name": "Cafeteria",
+        "coordinates": [-6, 10, -4, 12],
+        "children": [
+            {"name": "Kitchen", "coordinates": [-6, 10, -5, 12]},
+            {"name": "Restrooms", "coordinates": [-5, 10, -4, 12]},
+            {"name": "Serving Counter", "coordinates": [-6, 12, -4, 11]},
+            {"name": "Cash Register", "coordinates": [-5, 11, -4, 10]},
+            {"name": "Drink Station", "coordinates": [-6, 10, -5, 11]},
+            {"name": "Tables 1", "coordinates": [-6, 11, -5, 12]},
+            {"name": "Tables 2", "coordinates": [-5, 11, -4, 12]},
+            {"name": "Tables 3", "coordinates": [-6, 10, -5, 11]},
+            {"name": "Tables 4", "coordinates": [-5, 10, -4, 11]},
+            {"name": "Chairs 1", "coordinates": [-6, 12, -5, 11]},
+            {"name": "Chairs 2", "coordinates": [-5, 12, -4, 11]},
+            {"name": "Trash Bins", "coordinates": [-6, 12, -4, 12]},
+            {"name": "Recycling Bins", "coordinates": [-5, 12, -4, 12]},
+            {"name": "Entrance", "coordinates": [-6, 10, -5, 12]},
+            {"name": "Exit", "coordinates": [-5, 10, -4, 12]}
+        ]
+    },
+    "reasoning": "The Kitchen, being the largest subitem, is placed in the bottom-left corner for easy access to the preparation area. Restrooms are placed adjacent to the Kitchen for easy staff access. The Serving Counter, being critical for service, is placed along the top edge for accessibility from the Kitchen and visibility for customers. The Cash Register is next to the Serving Counter to streamline the payment process. The Drink Station is conveniently located near the Cash Register for efficient beverage service. Tables, which are repeatedly placed as per the plural rule, are distributed throughout the available space, ensuring ample seating. Chairs are placed near the tables to provide seating to diners. Trash and Recycling Bins are placed strategically around the Cafeteria to encourage proper waste disposal. The Entrance and Exit are placed at separate locations to manage the flow of traffic efficiently. Items are placed logically, ensuring no overlap and maximum utilization of space."
+}

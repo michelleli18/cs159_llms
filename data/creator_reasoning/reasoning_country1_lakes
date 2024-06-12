@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Lakes",
+    "coordinates": [-25, 12, -21, 15],
+    "children": [
+      {
+        "name": "Lake",
+        "coordinates": [-25, 12, -21, 15]
+      },
+      {
+        "name": "Dock",
+        "coordinates": [-25, 12, -24, 13]
+      },
+      {
+        "name": "Cabin",
+        "coordinates": [-24, 12, -22, 13]
+      },
+      {
+        "name": "Picnic Area",
+        "coordinates": [-24, 13, -22, 14]
+      },
+      {
+        "name": "Parking Lot",
+        "coordinates": [-22, 13, -21, 14]
+      }
+    ]
+  },
+  "reasoning": "We have placed the subitems within the given space of the Lakes with coordinates [-25, 12, -21, 15] ensuring no overlap and all subitems are within the parent boundaries. The 'Lake' occupies the largest area as it represents the main feature of the parent place. The 'Dock' is placed adjacent to the lake on the left for easy access to the water. The 'Cabin' is positioned next to the 'Dock' for convenient access for occupants. The 'Picnic Area' and 'Parking Lot' are placed in the remaining northern section ensuring logical placement for visitors who would need easy parking and have a picnic area nearby. All subitems are touching the Lake (parent) boundary to maximize space usage efficiently."
+}

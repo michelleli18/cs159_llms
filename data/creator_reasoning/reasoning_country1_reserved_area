@@ -1,0 +1,25 @@
+{
+    "layout": {
+        "name": "Reserved Area",
+        "coordinates": [-20, 15, -18, 17],
+        "children": [
+            {
+                "name": "Visitor Center",
+                "coordinates": [-20, 15, -19, 17]
+            },
+            {
+                "name": "Research Facility",
+                "coordinates": [-19, 15, -18, 16]
+            },
+            {
+                "name": "Animal Enclosure",
+                "coordinates": [-19, 16, -18, 17]
+            },
+            {
+                "name": "Observation Tower",
+                "coordinates": [-19, 17, -18, 17]
+            }
+        ]
+    },
+    "reasoning": "The Visitor Center was placed in the bottom-left corner and made relatively large, using coordinates [-20, 15, -19, 17] to reflect its importance and high visitor traffic. The Research Facility, which is also significant but slightly smaller, was placed adjacent to the Visitor Center in the top-right position [-19, 15, -18, 16]. The Animal Enclosure, another significant attraction but smaller than the Visitor Center and Research Facility, was positioned next to the Research Facility at [-19, 16, -18, 17], allowing visitors to easily move between the two. The Observation Tower, which is the smallest, was placed next to the Animal Enclosure [-19, 17, -18, 17] for a logical flow of space. The Picnic Area and Parking Lot were not included as there was no remaining appropriate space for their placement within the defined coordinates without violating overlap or boundary constraints."
+}

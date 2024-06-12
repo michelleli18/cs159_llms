@@ -1,0 +1,49 @@
+{
+  "layout": {
+    "name": "Capital City",
+    "coordinates": [-20, 10, 10, 20],
+    "children": [
+      {
+        "name": "University Campus",
+        "coordinates": [-20, 15, -12, 20]
+      },
+      {
+        "name": "Central Park",
+        "coordinates": [-12, 15, 2, 20]
+      },
+      {
+        "name": "Sports Stadium",
+        "coordinates": [2, 15, 10, 20]
+      },
+      {
+        "name": "Parliament Building",
+        "coordinates": [-20, 10, -12, 15]
+      },
+      {
+        "name": "Main Hospital",
+        "coordinates": [-12, 10, -4, 15]
+      },
+      {
+        "name": "Shopping Mall",
+        "coordinates": [-4, 10, 4, 15]
+      },
+      {
+        "name": "Grand Hotel",
+        "coordinates": [4, 10, 10, 15]
+      },
+      {
+        "name": "Museum Of Art",
+        "coordinates": [-20, 10, -10, 12]
+      },
+      {
+        "name": "City Library",
+        "coordinates": [-10, 10, 0, 12]
+      },
+      {
+        "name": "Train Station",
+        "coordinates": [0, 10, 10, 12]
+      }
+    ]
+  },
+  "reasoning": "University Campus was placed in the upper-left of the Capital City to represent its size and importance, taking a significant portion of the leftmost area. Central Park was placed in the middle upper section, to ensure it's conveniently accessible to all city residents and providing a buffer between University Campus and Sports Stadium. Sports Stadium was placed on the far right, directly adjacent to Central Park ensuring easy suburban sporting events access. Parliament Building, being crucial, was placed in the lower-left, right under the University Campus for accessibility to educated professionals. Main Hospital was placed centrally to provide efficient emergency access, with the Shopping Mall nearby for accessibility and potential retail-therapy for the visitors. Grand Hotel, directly on the right, ensures tourism and city visitors can easily access other main parts of the city. Museum Of Art and City Library were placed together in the lower sections, representing a cultural hub. The Train Station was placed in the lower-right for easy access into and out of the city ensuring visitor influx."
+}

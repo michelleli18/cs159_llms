@@ -1,0 +1,25 @@
+{
+  "layout": {
+    "name": "Medical Center",
+    "coordinates": [8, 18, 10, 20],
+    "children": [
+      {
+        "name": "Reception Area",
+        "coordinates": [8, 18, 9, 19]
+      },
+      {
+        "name": "Waiting Room",
+        "coordinates": [9, 18, 10, 19]
+      },
+      {
+        "name": "Nurse Station",
+        "coordinates": [8, 19, 9, 20]
+      },
+      {
+        "name": "Pharmacy",
+        "coordinates": [9, 19, 10, 20]
+      }
+    ]
+  },
+  "reasoning": "The Medical Center has been designed to maximize the use of space within the given constraints while ensuring that no subitems overlap and all are within the parent area's coordinates. The Reception Area and Waiting Room are placed adjacent to the entrance for accessibility as they are usually the first areas encountered. The Nurse Station is positioned next to the Reception Area for quick assistance and coordination, while the Pharmacy is also nearby for easy access. The chosen coordinates ensure all subitems fit within the parent space and there's no overlap. More critical subitems like Patient Rooms, Operating Rooms, Laboratories, Radiology Department, Doctor Offices, and Cafeteria could not be included due to space limitations, ensuring that the highest-priority initial contact areas are present."
+}

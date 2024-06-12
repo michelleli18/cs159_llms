@@ -1,0 +1,29 @@
+{
+    "layout": {
+        "name": "Council Chambers",
+        "coordinates": [5, 8, 7, 10],
+        "children": [
+            {
+                "name": "Podium",
+                "coordinates": [5, 8, 6, 8]
+            },
+            {
+                "name": "Clerk Desk",
+                "coordinates": [5, 9, 6, 10]
+            },
+            {
+                "name": "Projector Screen",
+                "coordinates": [6, 9, 7, 10]
+            },
+            {
+                "name": "Council Table",
+                "coordinates": [5, 8, 7, 9]
+            },
+            {
+                "name": "Audience Seating",
+                "coordinates": [6, 8, 7, 9]
+            }
+        ]
+    },
+    "reasoning": "The Podium is placed next to the bottom wall as it's usually in front of the audience. The Clerk Desk is placed directly next to the top wall with the Projector Screen adjacent to it because they need to be easily visible to the public. The Council Table is centralized and the Audience Seating directly in front of it for logical council meeting arrangements. All items are within the boundary of the parent 'Council Chambers' and all spaces have been efficiently used with no overlaps, adhering to the constraints provided."
+}

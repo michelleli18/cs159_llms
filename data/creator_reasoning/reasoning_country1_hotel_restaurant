@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Hotel Restaurant",
+    "coordinates": [4, 12, 7, 14],
+    "children": [
+      {
+        "name": "Dining Area",
+        "coordinates": [4, 13, 6, 14]
+      },
+      {
+        "name": "Outdoor Seating",
+        "coordinates": [6, 13, 7, 14]
+      },
+      {
+        "name": "Kitchen",
+        "coordinates": [4, 12, 6, 13]
+      },
+      {
+        "name": "Bar Area",
+        "coordinates": [6, 12, 7, 13]
+      },
+      {
+        "name": "Restrooms",
+        "coordinates": [4, 12, 5, 13]
+      },
+      {
+        "name": "Reception Desk",
+        "coordinates": [5, 12, 6, 13]
+      },
+      {
+        "name": "Storage Room",
+        "coordinates": [6, 12, 7, 13]
+      }
+    ]
+  },
+  "reasoning": "The Hotel Restaurant is structured to efficiently use the entire rectangular space from coordinates [4, 12, 7, 14]. The Dining Area (8) is the largest and most significant area, hence placed at the top left [4, 13, 6, 14], utilizing a large portion along the upper wall. The Outdoor Seating (5) is adjacent to the Dining Area, allowing patrons to have easy access from inside to outside, filling the remaining upper right space at [6, 13, 7, 14]. The Kitchen (6) is placed directly below the Dining Area at [4, 12, 6, 13] for easy service access. The Bar Area (4) is situated next to the Kitchen at [6, 12, 7, 13], maintaining a functional layout for staff movement. Restrooms (3) are placed to be easily accessible from both the Dining Area and Outdoor Seating at coordinates [4, 12, 5, 13]. The Reception Desk (2) is located near the entrance area, wrapped within [5, 12, 6, 13], to assist guests promptly upon entry. The Storage Room (2), being smaller, is placed near the reception and kitchen, maximizing efficient use of the lower right corner at [6, 12, 7, 13]. Each item is strategically positioned to maintain fluid movement, proximity to relevant areas, and make the best use of available space without any overlapping."
+}

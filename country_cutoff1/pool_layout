@@ -1,0 +1,37 @@
+{
+    "layout": {
+        "name": "pool",
+        "coordinates": [-48, 42, -46.75, 46],
+        "children": [
+            {
+                "name": "swimming pool",
+                "coordinates": [-48, 42, -47.2, 46]
+            },
+            {
+                "name": "pool deck",
+                "coordinates": [-47.2, 42, -46.75, 46]
+            },
+            {
+                "name": "changing rooms",
+                "coordinates": [-48, 42, -47.75, 42.75]
+            },
+            {
+                "name": "lifeguard station",
+                "coordinates": [-47.75, 42, -47.5, 42.75]
+            },
+            {
+                "name": "pool chairs",
+                "coordinates": [-47.5, 42, -47.2, 42.75]
+            },
+            {
+                "name": "concession stand",
+                "coordinates": [-47.75, 42.75, -47.5, 44]
+            },
+            {
+                "name": "restrooms",
+                "coordinates": [-48, 44, -47.75, 46]
+            }
+        ]
+    },
+    "reasoning": "The swimming pool was placed along the left side of the parent pool coordinates to ensure it occupies the largest contiguous area owing to its size importance. The pool deck naturally surrounds the swimming pool on its right to provide immediate accessibility. The changing rooms are placed on the bottom-left corner to ensure proximity to both the pool and deck for convenience. The lifeguard station is positioned near the pool deck for immediate access and visibility to swimmers for safety. Pool chairs are placed adjacent to the pool deck to maximize relaxation space. The concession stand is located near the changing rooms for ease of access after swimmers change, while still being near the pool area. Restrooms are positioned in the upper-left corner for privacy while still being near the changing rooms and throughways. All subitems are placed to cover most of the area efficiently and logically without overlapping, ensuring functional use of space. Any uncovered area is minimal and placed strategically between necessary items."
+}

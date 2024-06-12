@@ -1,0 +1,57 @@
+{
+  "layout": {
+    "name": "Waiting Room",
+    "coordinates": [0, 11, 5, 12],
+    "children": [
+      {
+        "name": "Reception Desk",
+        "coordinates": [0, 11, 4, 12]
+      },
+      {
+        "name": "Waiting Chairs 1",
+        "coordinates": [0, 11, 2, 11]
+      },
+      {
+        "name": "Waiting Chairs 2",
+        "coordinates": [2, 11, 4, 11]
+      },
+      {
+        "name": "Waiting Chairs 3",
+        "coordinates": [4, 11, 5, 11]
+      },
+      {
+        "name": "Coffee Table 1",
+        "coordinates": [0, 11, 1, 11]
+      },
+      {
+        "name": "Coffee Table 2",
+        "coordinates": [1, 11, 2, 11]
+      },
+      {
+        "name": "Coffee Table 3",
+        "coordinates": [2, 11, 3, 11]
+      },
+      {
+        "name": "Magazine Rack 1",
+        "coordinates": [0, 11, 1, 11]
+      },
+      {
+        "name": "Magazine Rack 2",
+        "coordinates": [1, 11, 2, 11]
+      },
+      {
+        "name": "Water Cooler 1",
+        "coordinates": [0, 11, 2, 11]
+      },
+      {
+        "name": "Water Cooler 2",
+        "coordinates": [2, 11, 4, 11]
+      },
+      {
+        "name": "Entrance Door",
+        "coordinates": [0, 11, 4, 12]
+      }
+    ]
+  },
+  "reasoning": "The Reception Desk is the largest item and is placed near the entrance to provide an immediate point of contact. The Waiting Chairs are divided into three separate placements to ensure enough seating while maintaining space efficiency. Coffee Tables are smaller and are placed next to the chairs for convenience. Magazine Racks are even smaller and are distributed near the chairs for easy reach. The Water Cooler, of equal size to the Magazine Rack, is also placed near seating for accessibility. The Entrance Door is large and is placed logically against one wall. The small Side Table and Clock were not included due to space constraints."
+}

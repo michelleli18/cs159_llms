@@ -1,0 +1,29 @@
+{
+    "layout": {
+        "name": "Guest Bedroom",
+        "coordinates": [-5, -6, -4, -2],
+        "children": [
+            {
+                "name": "Bed",
+                "coordinates": [-5, -6, -5, -3]
+            },
+            {
+                "name": "Nightstand",
+                "coordinates": [-5, -3, -5, -2]
+            },
+            {
+                "name": "Dresser",
+                "coordinates": [-5, -2, -4, -2]
+            },
+            {
+                "name": "Closet",
+                "coordinates": [-4, -6, -4, -4]
+            },
+            {
+                "name": "Desk",
+                "coordinates": [-4, -4, -4, -3]
+            }
+        ]
+    },
+    "reasoning": "The layout was carefully planned considering the importance of utilizing the given space efficiently and placing items logically. The Bed, being one of the largest items, is placed against the long wall to make the best use of space. Since many use a Nightstand beside the Bed, it is placed adjacent to the Bed. The Dresser is directly above the Nightstand to maintain furniture accessibility. The Closet, being crucial for storage but requiring significant space, is placed on the opposite side, ensuring it doesn’t overlap other major items. The Desk is positioned next to the Closet since it occupies a relatively smaller space. The attempt was made to fit the Chair but unfortunately, it required more space than available without overlap. As a result, the Bed, Nightstand, Dresser, Closet, and Desk combined cover the area efficiently, aligning with the structural logic of a guest bedroom."
+}

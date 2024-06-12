@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Park",
+    "coordinates": [-50, -50, 0, 0],
+    "children": [
+      {
+        "name": "Sports Field",
+        "coordinates": [-50, -30, -30, 0]
+      },
+      {
+        "name": "Playground",
+        "coordinates": [-30, -30, -10, 0]
+      },
+      {
+        "name": "Picnic Area",
+        "coordinates": [-10, -30, 0, 0]
+      },
+      {
+        "name": "Pond",
+        "coordinates": [-50, -50, -30, -30]
+      },
+      {
+        "name": "Gazebo",
+        "coordinates": [-30, -50, -15, -30]
+      },
+      {
+        "name": "Restroom",
+        "coordinates": [-15, -50, -5, -30]
+      }
+    ]
+  },
+  "reasoning": "The Sports Field is the largest subitem and is positioned at the top-left corner to use the maximum width and height without obstructing other subitems. It's also aligned with city planning principles where sports fields are often placed at the periphery of parks. The Playground, being the next largest, is adjacent to the Sports Field, allowing parents to monitor their kids while engaging in sporting activities. The Picnic Area is placed to the right of the Playground, forming a leisure cluster where families can picnic and then enjoy playground activities. The Pond is placed at the bottom-left corner, utilizing the full width yet half the height to create a scenic edge. The Gazebo and Restroom are smaller items placed near the bottom-right, making them accessible from both the Picnic Area and Playground. The Gazebo is next to the Pond providing a relaxing view, while the Restroom is strategically placed near the Playground and Picnic Area for easy access. All subitems are touching either the boundaries of the parent place or flushing with each other to ensure efficient use of space."
+}

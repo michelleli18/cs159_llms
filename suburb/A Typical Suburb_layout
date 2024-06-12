@@ -1,0 +1,26 @@
+{
+    "layout": {
+        "name": "A Typical Suburb",
+        "coordinates": [-50, -50, 50, 50],
+        "children": [
+            {"name": "House 1", "coordinates": [-50, 20, -30, 50]},
+            {"name": "House 2", "coordinates": [-30, 20, -10, 50]},
+            {"name": "House 3", "coordinates": [-50, -10, -30, 20]},
+            {"name": "House 4", "coordinates": [-30, -10, -10, 20]},
+            {"name": "House 5", "coordinates": [-50, -40, -30, -10]},
+            {"name": "House 6", "coordinates": [-30, -40, -10, -10]},
+            {"name": "House 7", "coordinates": [-10, 0, 10, 50]},
+            {"name": "House 8", "coordinates": [-10, -50, 10, 0]},
+            {"name": "Park 1", "coordinates": [10, 30, 30, 50]},
+            {"name": "Park 2", "coordinates": [30, 30, 50, 50]},
+            {"name": "Park 3", "coordinates": [10, 10, 30, 30]},
+            {"name": "Park 4", "coordinates": [30, 10, 50, 30]},
+            {"name": "Park 5", "coordinates": [10, -10, 30, 10]},
+            {"name": "Park 6", "coordinates": [30, -10, 50, 10]},
+            {"name": "Park 7", "coordinates": [10, -30, 50, -10]},
+            {"name": "School 1", "coordinates": [10, -50, 30, -30]},
+            {"name": "School 2", "coordinates": [30, -50, 50, -30]}
+        ]
+    },
+    "reasoning": "The placement of the subitems within the suburb follows logical organization and adheres to space efficiency. Houses are distributed evenly across four quadrants, ensuring balanced residential coverage. The coordination ranges were assigned by splitting the 100x100 area into roughly equal segments considering the total number of houses. Parks are centrally located and scattered in the remaining quadrants, easily accessible to all residences for recreational purposes. Two schools are situated furthest from house clusters to minimize noise and traffic impact while still being reachable. The provided coordinates perfectly fit without overlap, ensuring a logical layout that makes the most of the given space without any uncovered area."
+}

@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Aerobics Studio",
+    "coordinates": [-50, 48, -48, 50],
+    "children": [
+      {
+        "name": "Aerobics Floor",
+        "coordinates": [-50, 48, -48.5, 50]
+      },
+      {
+        "name": "Reception Area",
+        "coordinates": [-48.5, 48.5, -48, 50]
+      },
+      {
+        "name": "Changing Rooms 1",
+        "coordinates": [-50, 48, -49, 48.5]
+      },
+      {
+        "name": "Changing Rooms 2",
+        "coordinates": [-49, 48, -48.5, 48.5]
+      },
+      {
+        "name": "Storage Closet",
+        "coordinates": [-48.5, 48, -48, 48.5]
+      },
+      {
+        "name": "Instructor Platform",
+        "coordinates": [-50, 49.5, -48.5, 50]
+      }
+    ]
+  },
+  "reasoning": "The Aerobics Floor is the largest and primary area, placed centrally covering a large section of the studio from -50 to -48.5 in X direction and 48 to 50 in Y direction. The Reception Area is placed adjacent at the top right corner from -48.5 to -48 in X direction and 49.5 to 50 in Y direction for easy access as soon as people enter. The Changing Rooms are divided into two smaller sections and placed near the Reception Area (at the bottom right corner), ensuring easy access. Changing Rooms 1 is placed at -50 to -49 in X direction and 48 to 48.5 in Y direction, and Changing Rooms 2 is placed next to it at -49 to -48.5 in X direction and 48 to 48.5 in Y direction. The Storage Closet, being smaller, is placed next to the Changing Rooms from -48.5 to -48 in X direction and 48 to 48.5 in Y direction. The Instructor Platform is positioned at the front center near the Aerobics Floor at -50 to -48.5 in X direction and 49.5 to 50 in Y direction for easy visibility of the entire floor. All items are strategically placed to ensure non-overlapping and optimal usage of available space."
+}

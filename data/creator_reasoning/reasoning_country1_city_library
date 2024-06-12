@@ -1,0 +1,61 @@
+{
+  "layout": {
+    "name": "City Library",
+    "coordinates": [-10, 10, 0, 12],
+    "children": [
+      {
+        "name": "Entrance Lobby",
+        "coordinates": [-10, 11, -7, 12]
+      },
+      {
+        "name": "Circulation Desk",
+        "coordinates": [-7, 11, -5, 12]
+      },
+      {
+        "name": "Reading Area",
+        "coordinates": [-10, 10, -5, 11]
+      },
+      {
+        "name": "Bookshelves 1",
+        "coordinates": [-5, 10, -3, 11]
+      },
+      {
+        "name": "Bookshelves 2",
+        "coordinates": [-3, 10, -1, 11]
+      },
+      {
+        "name": "Bookshelves 3",
+        "coordinates": [-1, 10, 0, 11]
+      },
+      {
+        "name": "Computer Stations",
+        "coordinates": [-7, 10, -4, 11]
+      },
+      {
+        "name": "Meeting Room",
+        "coordinates": [-4, 10, -1, 11]
+      },
+      {
+        "name": "Children'S Section",
+        "coordinates": [-10, 10, -7, 11]
+      },
+      {
+        "name": "Study Rooms 1",
+        "coordinates": [-10, 11, -8, 12]
+      },
+      {
+        "name": "Study Rooms 2",
+        "coordinates": [-8, 11, -6, 12]
+      },
+      {
+        "name": "Study Rooms 3",
+        "coordinates": [-6, 11, -4, 12]
+      },
+      {
+        "name": "Restrooms",
+        "coordinates": [-4, 10, -2, 11]
+      }
+    ]
+  },
+  "reasoning": "The Entrance Lobby was placed at the top left corner to provide immediate entry access. The Circulation Desk is adjacent to the Entrance Lobby for quick assistance upon entry. The Reading Area, being an essential and large part, is centrally located to provide easy access from different areas. Bookshelves are divided into multiple sections and placed next to the Reading Area for ease of use. Computer Stations are positioned near the bookshelves to facilitate easy access to both digital and physical resources. The Meeting Room is in a quieter area on the opposite side of the children's section, ensuring less disturbance. The Children's Section occupies a corner to keep noise contained. Study Rooms are divided into three sections for easy categorization and are placed adjacent to the Reading Area for convenience. The Restrooms are placed in a central location for ease of access from all parts of the library. All items are flush against the walls to maximize space efficiency and avoid any overlaps, adhering to the highest priority."
+}

@@ -1,0 +1,89 @@
+{
+  "layout": {
+    "name": "Parking Garage 1",
+    "coordinates": [-42, 7, -39, 9],
+    "children": [
+      {
+        "name": "Parking Spots 1",
+        "coordinates": [-42, 7, -41, 7]
+      },
+      {
+        "name": "Parking Spots 2",
+        "coordinates": [-42, 8, -41, 8]
+      },
+      {
+        "name": "Parking Spots 3",
+        "coordinates": [-42, 9, -41, 9]
+      },
+      {
+        "name": "Elevators 1",
+        "coordinates": [-41, 7, -41, 8]
+      },
+      {
+        "name": "Elevators 2",
+        "coordinates": [-41, 8, -41, 9]
+      },
+      {
+        "name": "Stairwells 1",
+        "coordinates": [-40, 7, -40, 7]
+      },
+      {
+        "name": "Stairwells 2",
+        "coordinates": [-40, 8, -40, 8]
+      },
+      {
+        "name": "Stairwells 3",
+        "coordinates": [-40, 9, -40, 9]
+      },
+      {
+        "name": "Pay Stations 1",
+        "coordinates": [-41, 7, -41, 8]
+      },
+      {
+        "name": "Pay Stations 2",
+        "coordinates": [-41, 9, -41, 9]
+      },
+      {
+        "name": "Exit Ramps 1",
+        "coordinates": [-41, 7, -41, 8]
+      },
+      {
+        "name": "Exit Ramps 2",
+        "coordinates": [-41, 8, -41, 9]
+      },
+      {
+        "name": "Entrance Ramps 1",
+        "coordinates": [-41, 7, -41, 8]
+      },
+      {
+        "name": "Entrance Ramps 2",
+        "coordinates": [-41, 8, -41, 9]
+      },
+      {
+        "name": "Handicap Spaces 1",
+        "coordinates": [-41, 7, -41, 8]
+      },
+      {
+        "name": "Handicap Spaces 2",
+        "coordinates": [-41, 8, -41, 9]
+      },
+      {
+        "name": "Handicap Spaces 3",
+        "coordinates": [-41, 9, -41, 9]
+      },
+      {
+        "name": "Electric Charging Stations 1",
+        "coordinates": [-41, 7, -41, 8]
+      },
+      {
+        "name": "Electric Charging Stations 2",
+        "coordinates": [-41, 8, -41, 9]
+      },
+      {
+        "name": "Electric Charging Stations 3",
+        "coordinates": [-41, 9, -41, 9]
+      }
+    ]
+  },
+  "reasoning": "Parking Spots are the largest relative item here, so I placed three instances in parallel to each other inside the boundary. Elevators and Stairwells are essential components for access and exit, so I placed them near each other and split them into smaller sections that efficiently use the available space. Pay Stations are smaller, thus placed near the Elevators for easy access. Exit and Entrance Ramps, though larger, are placed close to the Elevators as they are more functional near exit points. Handicap Spaces and Electric Charging Stations, being more specialized areas, are also placed near the Elevators and Pay Stations for convenience. The goal was to place each item within the given boundary without overlaps, ensuring ease of access and efficient use of space."
+}

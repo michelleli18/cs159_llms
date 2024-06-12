@@ -1,0 +1,22 @@
+{
+  "layout": {
+    "name": "Milk Section",
+    "coordinates": [6, 0, 10, 5],
+    "children": [
+        {"name": "Refrigerators 1", "coordinates": [6, 4, 7, 5]},
+        {"name": "Refrigerators 2", "coordinates": [7, 4, 8, 5]},
+        {"name": "Refrigerators 3", "coordinates": [8, 4, 9, 5]},
+        {"name": "Freezer Cases 1", "coordinates": [9, 3, 10, 4]},
+        {"name": "Freezer Cases 2", "coordinates": [9, 2, 10, 3]},
+        {"name": "Freezer Cases 3", "coordinates": [9, 1, 10, 2]},
+        {"name": "Freezer Cases 4", "coordinates": [9, 0, 10, 1]},
+        {"name": "Milk Shelves", "coordinates": [6, 2, 9, 4]},
+        {"name": "Display Banners 1", "coordinates": [8, 0, 9, 1]},
+        {"name": "Display Banners 2", "coordinates": [7, 0, 8, 1]},
+        {"name": "Display Banners 3", "coordinates": [6, 0, 7, 1]},
+        {"name": "Sale Signage 1", "coordinates": [6, 1, 7, 2]},
+        {"name": "Sale Signage 2", "coordinates": [7, 1, 8, 2]}
+    ]
+  },
+  "reasoning": "Refrigerators are placed first and closest to the top boundary, as they are vital for storing milk at cold temperatures. Their size and number are significant; hence, they occupy the topmost sections. Freezer Cases are placed along the right boundary vertically to utilize the corner efficiently. Milk Shelves, which are among the larger subitems in size rating, are placed in the central area, providing easy access from all directions. Display Banners are positioned along the bottom boundary: they need to be visible and are generally smaller. Sale Signage is placed next to Display Banners; being smaller items, they complement each other without overcrowding. All subitems are flushed to the walls to maximize the use of available space while ensuring no overlaps and covering the entire area efficiently."
+}

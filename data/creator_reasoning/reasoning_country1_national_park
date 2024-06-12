@@ -1,0 +1,48 @@
+{
+	"layout": {
+		"name": "National Park",
+		"coordinates": [0, 10, 5, 15],
+		"children": [{
+				"name": "Campground",
+				"coordinates": [0, 10, 3, 13]
+			},
+			{
+				"name": "Lake",
+				"coordinates": [0, 13, 3, 15]
+			},
+			{
+				"name": "Visitor Center",
+				"coordinates": [3, 10, 5, 12]
+			},
+			{
+				"name": "Parking Lot",
+				"coordinates": [3, 12, 5, 14]
+			},
+			{
+				"name": "Picnic Area",
+				"coordinates": [3, 14, 4, 15]
+			},
+			{
+				"name": "Lodge",
+				"coordinates": [4, 14, 5, 15]
+			},
+			{
+				"name": "Ranger Station",
+				"coordinates": [4, 12, 5, 13]
+			},
+			{
+				"name": "Scenic Overlook",
+				"coordinates": [4, 13, 5, 14]
+			},
+			{
+				"name": "Trailhead",
+				"coordinates": [3, 10, 4, 11]
+			},
+			{
+				"name": "Restroom Facility",
+				"coordinates": [4, 11, 5, 12]
+			}
+		]
+	},
+	"reasoning": "The layout places the bigger subitems like 'Campground' and 'Lake' in larger portions of the park to maximize the use of space. The 'Visitor Center' and 'Parking Lot' are placed next to each other to accommodate visitor flow naturally. 'Picnic Area' and 'Lodge' are adjacent for convenient visitor access. 'Ranger Station' and 'Scenic Overlook' are placed closely to monitor activities and offer quick access to scenic views. 'Trailhead' is placed at the edge for easy access to trails, and 'Restroom Facility' is nearby for convenience. This arrangement ensures no overlap while efficiently using the space and keeping related activities together."
+}

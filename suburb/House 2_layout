@@ -1,0 +1,44 @@
+{
+    "layout": {
+        "name": "House 2",
+        "coordinates": [-30, 20, -10, 50],
+        "children": [
+            {
+                "name": "living room",
+                "coordinates": [-30, 30, -22, 50]
+            },
+            {
+                "name": "kitchen",
+                "coordinates": [-22, 30, -18, 40]
+            },
+            {
+                "name": "master bedroom",
+                "coordinates": [-18, 34, -10, 50]
+            },
+            {
+                "name": "bathroom",
+                "coordinates": [-18, 30, -14, 34]
+            },
+            {
+                "name": "garage",
+                "coordinates": [-30, 20, -24, 30]
+            },
+            {
+                "name": "dining room",
+                "coordinates": [-24, 20, -18, 30]
+            },
+            {
+                "name": "guest bedroom",
+                "coordinates": [-18, 20, -14, 28]
+            },
+            {
+                "name": "home office",
+                "coordinates": [-14, 28, -10, 34]
+            },
+            {
+                "name": "basement",
+                "coordinates": [-14, 20, -10, 28]
+            }
+        ]
+    },
+    "reasoning": "Each subitem was placed to align with logical, real-life configurations while maximizing space efficiency and ensuring no overlaps. The largest room, the living room, was positioned at the top left corner to utilize the taller ceiling space and proximity to the entrance. The kitchen being adjacent to the living room allows easy access for dining purposes. The master bedroom is at the top right to provide privacy and comfort, adjacent to the bathroom for convenient access. The garage is placed at the bottom left, typically near the entrance for easy vehicle storage. The dining room is next to the kitchen for service convenience. The guest bedroom is placed near the bottom right to provide separation from the main living areas and privacy to guests. The home office occupies a central location with easy access to both living spaces and the master bedroom. Finally, the basement is situated in the remaining available space below, ensuring all available areas are efficiently utilized."

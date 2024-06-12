@@ -1,0 +1,45 @@
+{
+    "layout": {
+        "name": "Reading Area",
+        "coordinates": [-10, 10, -5, 11],
+        "children": [
+            {
+                "name": "Window Area",
+                "coordinates": [-10, 10, -5, 11]
+            },
+            {
+                "name": "Bookshelves",
+                "coordinates": [-10, 10, -8, 11]
+            },
+            {
+                "name": "Bookshelves 2",
+                "coordinates": [-8, 10, -6, 11]
+            },
+            {
+                "name": "Bookshelves 3",
+                "coordinates": [-6, 10, -5, 11]
+            },
+            {
+                "name": "Reading Table",
+                "coordinates": [-10, 10, -8, 10]
+            },
+            {
+                "name": "Reading Table 2",
+                "coordinates": [-8, 10, -6, 10]
+            },
+            {
+                "name": "Armchairs",
+                "coordinates": [-10, 10, -9, 11]
+            },
+            {
+                "name": "Lamps",
+                "coordinates": [-10, 10, -10, 10]
+            },
+            {
+                "name": "Study Desks",
+                "coordinates": [-9, 10, -8, 11]
+            }
+        ]
+    },
+    "reasoning": "The 'Window Area' is placed along one entire wall of the Reading Area as it is the largest component and a window typically spans a substantial area and it must be in contact with the outer boundary. 'Bookshelves' are placed close to the 'Window Area' and cover the width along the wall to provide easy natural light for the books displayed. Since the name is plural, we used three 'Bookshelves' next to each other to occupy more space effectively. The 'Reading Table' is placed next to the 'Bookshelves' to allow for a comfortable reading space after retrieving books. Again, additional 'Reading Table 2' is positioned next due to the plural naming convention. 'Armchairs' are positioned to create a comfortable reading space next to another seating area. 'Lamps' are placed near 'Reading Table' and 'Armchairs' as they are essential for reading activities and are required to be close to seating areas. Lastly, 'Study Desks' are included near the corner for a concentrated study area. Unfortunately, due to size limitations, not all 'Study Desks' fit within the defined coordinates, hence only one was included. The major aim is to ensure that all items are logically placed, follow spatial constraints, and maximize coverage of the space."  
+}

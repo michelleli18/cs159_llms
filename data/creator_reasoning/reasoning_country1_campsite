@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Campsite",
+    "coordinates": [2, 0, 4, 2],
+    "children": [
+      {
+        "name": "Parking Lot",
+        "coordinates": [2, 0, 4, 2]
+      },
+      {
+        "name": "Cabin",
+        "coordinates": [2, 0, 4, 2]
+      },
+      {
+        "name": "Restroom",
+        "coordinates": [2, 0, 4, 1]
+      },
+      {
+        "name": "Picnic Table",
+        "coordinates": [2, 1, 3, 2]
+      },
+      {
+        "name": "Campfire",
+        "coordinates": [3, 1, 4, 2]
+      },
+      {
+        "name": "Tent",
+        "coordinates": [2, 0, 3, 1]
+      }
+    ]
+  },
+  "reasoning": "To ensure all items are within the bounds of the parent coordinates [2, 0, 4, 2], the Parking Lot, being the largest with a size rating of 9, was placed first to potentially cover the largest area. The Cabin, rated 8, was similarly sized and placed in the same area. To provide necessary facilities, the Restroom (rated 5) was placed next to the Parking Lot in a 1-unit high strip, as facilities are logically placed near parking areas for convenience. The Picnic Table and Campfire, rated 3 and 2, respectively, were placed near each other for practical use in picnic scenarios. Lastly, the Tent, rated 4, was placed in the remaining available space. Items were logically placed considering both their size ratings and how they typically function together in real-world scenarios. Unfortunately, due to the large area required by the Parking Lot and Cabin, there was no room left for other placements within the boundaries without overlapping."
+}

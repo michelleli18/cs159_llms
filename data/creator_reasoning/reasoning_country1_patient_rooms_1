@@ -1,0 +1,41 @@
+{
+    "layout": {
+        "name": "Patient Rooms 1",
+        "coordinates": [-12, 11, -8, 13],
+        "children": [
+            {
+                "name": "Bathroom",
+                "coordinates": [-12, 11, -11, 13]
+            },
+            {
+                "name": "Bed",
+                "coordinates": [-11, 11, -9, 13]
+            },
+            {
+                "name": "Wardrobe",
+                "coordinates": [-9, 11, -8, 12]
+            },
+            {
+                "name": "Tv",
+                "coordinates": [-9, 12, -8, 13]
+            },
+            {
+                "name": "Chair",
+                "coordinates": [-12, 13, -11, 13]
+            },
+            {
+                "name": "Bedside Table",
+                "coordinates": [-12, 12, -11, 13]
+            },
+            {
+                "name": "Medical Equipment",
+                "coordinates": [-9, 12, -8, 11]
+            },
+            {
+                "name": "Curtains",
+                "coordinates": [-12, 13, -8, 13]
+            }
+        ]
+    },
+    "reasoning": "The Bathroom is placed in the corner, as it provides privacy and is usually located away from the main living area. The Bed is placed next to the Bathroom for the convenience of the patient. The Wardrobe and Tv are placed next to the Bed to keep the patient's essentials close. The Chair and Bedside Table are placed in the upper left corner to provide a comfortable seating area for visitors. The Medical Equipment is placed near the Bed for easy access in case of emergencies. The Curtains cover the window area to provide privacy and block out light. Due to the size constraints, all subitems are fitted within the coordinates of the parent item and do not overlap. All items are arranged logically to maximize space efficiency and provide a comfortable environment for the patient."
+}

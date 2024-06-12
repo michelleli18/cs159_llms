@@ -1,0 +1,37 @@
+{
+    "layout": {
+        "name": "Lecture Halls 1",
+        "coordinates": [-17, 10, -16, 14],
+        "children": [
+            {
+                "name": "Projector Screen",
+                "coordinates": [-17, 13, -16, 14]
+            },
+            {
+                "name": "Podium",
+                "coordinates": [-17, 12, -16, 13]
+            },
+            {
+                "name": "Lectern",
+                "coordinates": [-17, 11, -16, 12]
+            },
+            {
+                "name": "Sound System",
+                "coordinates": [-17, 10, -16, 11]
+            },
+            {
+                "name": "Rows Of Chairs 1",
+                "coordinates": [-17, 10, -16, 11]
+            },
+            {
+                "name": "Rows Of Chairs 2",
+                "coordinates": [-17, 11, -16, 12]
+            },
+            {
+                "name": "Rows Of Chairs 3",
+                "coordinates": [-17, 12, -16, 13]
+            }
+        ]
+    },
+    "reasoning": "The placement of the subitems was determined by ensuring all items fit within the parent coordinates of Lecture Halls 1 and do not overlap. The Projector Screen is placed at the front (top edge) because it needs to be visible to everyone in the lecture hall. The Podium is placed directly below it for the lecturer to use while they're presenting. The Lectern and Sound System are placed next to each other below the Podium for easy access by the lecturer for any notes or sound adjustments. Rows of Chairs are placed at the bottom and along the middle to accommodate seating for attendees. Due to space constraints, only three sets of Rows Of Chairs are included to fully utilize the available space without conflict."
+}

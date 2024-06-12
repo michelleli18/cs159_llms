@@ -1,0 +1,45 @@
+{
+    "layout": {
+        "name": "Mayor's Office",
+        "coordinates": [-50, 35, -45, 40],
+        "children": [
+            {
+                "name": "Mayor's Desk",
+                "coordinates": [-50, 35, -48, 38]
+            },
+            {
+                "name": "Assistant's Desk",
+                "coordinates": [-48, 35, -46, 38]
+            },
+            {
+                "name": "Bookshelves",
+                "coordinates": [-46, 35, -45, 38]
+            },
+            {
+                "name": "Conference Table",
+                "coordinates": [-50, 38, -46, 40]
+            },
+            {
+                "name": "Reception Area",
+                "coordinates": [-48, 36, -45, 38]
+            },
+            {
+                "name": "Filing Cabinets",
+                "coordinates": [-48, 35, -45, 36]
+            },
+            {
+                "name": "Visitor Chairs",
+                "coordinates": [-50, 35, -49, 36]
+            },
+            {
+                "name": "Office Chair",
+                "coordinates": [-49, 35, -47, 36]
+            },
+            {
+                "name": "Window View",
+                "coordinates": [-50, 34, -45, 35]
+            }
+        ]
+    },
+    "reasoning": "The Mayor's Desk and Assistant's Desk are placed together on the left side of the room because it allows the assistant to be close to the Mayor for easy communication, and it keeps the larger desks next to one another for an efficient use of space. The Bookshelves are logically placed next to the Assistant's Desk, as the assistant might frequently need to access files or books whilst assisting the mayor. The Conference Table, being the largest item, is strategically placed at the top of the room to take advantage of the broad width and provide ample space for meetings. The Reception Area is right next to the Filings Cabinets, anchoring the middle of the room, ensuring that visitors have a formal area to be greeted. The Filing Cabinets are placed near the Reception Area for easy access to documents. Visitor Chairs are placed to the bottom left of the room, ensuring visitors have a comfortable place to sit upon arriving. The Office Chair is logically placed near the Mayor's Desk for the Mayor's use. The Window View spans the full width at the bottom around the entrance of the room, so the Mayor and Assistant can enjoy it as they work. The resulting layout maximizes the used space efficiently while adhering to the given constraints and relative item sizes."
+}

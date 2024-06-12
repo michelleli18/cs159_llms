@@ -1,0 +1,53 @@
+{
+  "layout": {
+    "name": "Library",
+    "coordinates": [-20, 10, -14, 12],
+    "children": [
+      {
+        "name": "Entrance Hall",
+        "coordinates": [-20, 10, -18, 12]
+      },
+      {
+        "name": "Bookshelves 1",
+        "coordinates": [-18, 10, -16, 11]
+      },
+      {
+        "name": "Bookshelves 2",
+        "coordinates": [-18, 11, -16, 12]
+      },
+      {
+        "name": "Bookshelves 3",
+        "coordinates": [-16, 10, -14, 11]
+      },
+      {
+        "name": "Reading Tables 1",
+        "coordinates": [-16, 11, -15, 12]
+      },
+      {
+        "name": "Reading Tables 2",
+        "coordinates": [-15, 11, -14, 12]
+      },
+      {
+        "name": "Computer Stations 1",
+        "coordinates": [-20, 11, -19, 12]
+      },
+      {
+        "name": "Computer Stations 2",
+        "coordinates": [-19, 11, -18, 12]
+      },
+      {
+        "name": "Children'S Area",
+        "coordinates": [-20, 10, -19, 11]
+      },
+      {
+        "name": "Checkout Counter",
+        "coordinates": [-19, 10, -18, 11]
+      },
+      {
+        "name": "Librarian Desk",
+        "coordinates": [-18, 10, -16, 10]
+      }
+    ]
+  },
+  "reasoning": "The Entrance Hall is placed at the entrance of the library for easy access and occupies a large space as it serves as the main point of entry. Bookshelves 1, 2, and 3 are strategically positioned near the entrance to immediately offer books, as they need to be accessible and are relatively large. The Reading Tables are adjacent to the Bookshelves, as people usually pick books from the shelves and sit down to read; they also occupy significant space. Computer Stations 1 and 2 are placed on the opposite side for variety in access and quietude, offering a more secluded area for computer use. The Children'S Area is placed near the entrance hall to attract families and for ease of access with kids. The Checkout Counter is near the entrance for convenience in borrowing books. Finally, the Librarian Desk is centrally located for easy visibility and access to help visitors. Some items like Meeting Room and Study Rooms could not be included due to space constraints given their larger sizes."
+}

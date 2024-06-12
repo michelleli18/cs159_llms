@@ -1,0 +1,25 @@
+{
+    "layout": {
+        "name": "Grazing Area",
+        "coordinates": [-26, 9, -24, 11],
+        "children": [
+            {
+                "name": "Open Field",
+                "coordinates": [-26, 9, -25, 11]
+            },
+            {
+                "name": "Animal Pen",
+                "coordinates": [-25, 9, -24, 11]
+            },
+            {
+                "name": "Shelter Hut",
+                "coordinates": [-26, 10, -25, 11]
+            },
+            {
+                "name": "Feeding Station",
+                "coordinates": [-25, 10, -24, 11]
+            }
+        ]
+    },
+    "reasoning": "The 'Open Field' is the largest item so it was placed first, covering as much area as possible. It was positioned in the bottom left corner to efficiently use the space along the boundary. The 'Animal Pen' is the next largest, so it was placed adjacent to the 'Open Field' along the right side as animals typically move between open fields and pens. The 'Shelter Hut' and 'Feeding Station' were then placed above the 'Open Field' and 'Animal Pen', respectively, since shelters and feeding areas are often placed near but separate from open areas and pens. Note that the 'Water Trough' was not included as there was insufficient space to place it within the given coordinates without causing an overlap."
+}

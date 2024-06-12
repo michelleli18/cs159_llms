@@ -1,0 +1,33 @@
+{
+    "layout": {
+        "name": "Entrance Lobby",
+        "coordinates": [-19, 12, -17, 14],
+        "children": [
+            {
+                "name": "Reception Desk",
+                "coordinates": [-19, 12, -18, 13]
+            },
+            {
+                "name": "Waiting Area",
+                "coordinates": [-19, 13, -17, 14]
+            },
+            {
+                "name": "Entrance Doors 1",
+                "coordinates": [-19, 12, -18, 12]
+            },
+            {
+                "name": "Entrance Doors 2",
+                "coordinates": [-18, 12, -17, 12]
+            },
+            {
+                "name": "Elevator",
+                "coordinates": [-19, 12, -18, 12]
+            },
+            {
+                "name": "Restroom",
+                "coordinates": [-18, 12, -17, 13]
+            }
+        ]
+    },
+    "reasoning": "The layout is designed such that all items fit within the given space of the Entrance Lobby without overlapping. The Reception Desk is placed near the bottom-left corner to welcome visitors immediately upon entrance. The Waiting Area occupies the top right, providing adequate space for sitting and waiting with a size reflective of its reported importance. The Entrance Doors are split into multiples to abide by priority requirements and positioned at the bottom near the reception area for logical entry points. The Elevator is adjacent to the reception to ensure ease of access and completion of vertical transport. Lastly, the Restroom is located close to the entrance and elevator, allowing convenience to visitors, and it fits snugly into the remaining space. The sizes reflect the relative importance and functional needs of each subitem to keep the layout efficient."
+}

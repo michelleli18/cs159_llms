@@ -1,0 +1,33 @@
+{
+    "layout": {
+        "name": "Pasture",
+        "coordinates": [-26, 9, -22, 11],
+        "children": [
+            {
+                "name": "Grazing Area",
+                "coordinates": [-26, 9, -24, 11]
+            },
+            {
+                "name": "Barn",
+                "coordinates": [-24, 9, -22, 11]
+            },
+            {
+                "name": "Pond",
+                "coordinates": [-26, 9, -24, 10]
+            },
+            {
+                "name": "Shelter",
+                "coordinates": [-26, 10, -25, 11]
+            },
+            {
+                "name": "Feed Storage",
+                "coordinates": [-25, 10, -24, 11]
+            },
+            {
+                "name": "Water Trough Area",
+                "coordinates": [-25, 9, -24, 10]
+            }
+        ]
+    },
+    "reasoning": "The Grazing Area is placed on the left side of the pasture as it needs a large, open area and should be easily accessible. The Barn, being the second largest, is positioned next to the Grazing Area allowing for easy access to the animals. The Pond is adjacent to the Grazing Area, providing a natural source of water for the animals. The Shelter is smaller and strategically placed near the Barn for protection of the animals. Feed Storage is placed near the Shelter for convenient feeding operations. The Water Trough Area is nestled between the Feed Storage and the Grazing Area, ensuring easy access to water. All coordinates are integers and no subitems overlap, fitting comfortably within the 4-coordinate boundary of the Pasture."
+}

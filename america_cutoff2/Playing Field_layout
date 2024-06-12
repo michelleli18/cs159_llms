@@ -1,0 +1,41 @@
+{
+"layout": {
+    "name": "Playing Field",
+    "coordinates": [-49, 41, -21, 49],
+    "children": [
+        {
+            "name": "Soccer Field",
+            "coordinates": [-49, 41, -36, 49]
+        },
+        {
+            "name": "Bleachers",
+            "coordinates": [-36, 41, -33, 47]
+        },
+        {
+            "name": "Tennis Courts",
+            "coordinates": [-33, 41, -26, 49]
+        },
+        {
+            "name": "Basketball Court",
+            "coordinates": [-49, 47, -40, 49]
+        },
+        {
+            "name": "Baseball Diamond",
+            "coordinates": [-40, 45, -34, 49]
+        },
+        {
+            "name": "Restrooms",
+            "coordinates": [-34, 45, -32, 47]
+        },
+        {
+            "name": "Concession Stand",
+            "coordinates": [-32, 45, -30, 47]
+        },
+        {
+            "name": "Parking Lot",
+            "coordinates": [-26, 41, -21, 49]
+        }
+    ]
+},
+"reasoning": "The Soccer Field is placed in the largest available area as it is the largest subitem, also near the Bleachers for easy viewing. The Bleachers are placed close to the Soccer Field and partially inside to allow spectators a good view of both the Soccer Field and other areas. The Tennis Courts are placed next to the Soccer Field and Bleachers to maximize space usage and provide a range of activities close together. The Basketball Court and Baseball Diamond are placed next to each other on one edge, making sure to use the boundaries efficiently. The Restrooms and Concession Stand are placed near the Baseball Diamond to provide convenience for spectators. The Parking Lot is placed adjacent to the Soccer Field, Bleachers and Tennis Court for easy access and parking space for visitors."
+}

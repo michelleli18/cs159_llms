@@ -1,0 +1,29 @@
+{
+    "layout": {
+        "name": "Offices 2",
+        "coordinates": [-18, 12, -16, 14],
+        "children": [
+            {
+                "name": "Cubicle Area",
+                "coordinates": [-18, 12, -17, 13]
+            },
+            {
+                "name": "Executive Office",
+                "coordinates": [-17, 12, -16, 14]
+            },
+            {
+                "name": "Conference Room",
+                "coordinates": [-18, 13, -17, 14]
+            },
+            {
+                "name": "Break Room",
+                "coordinates": [-17, 13, -16, 14]
+            },
+            {
+                "name": "Reception Desk",
+                "coordinates": [-18, 12, -17, 12]
+            }
+        ]
+    },
+    "reasoning": "The layout places the subitems within the coordinates of the parent place 'Offices 2' following all priority rules without overlap. The arrangement maximizes the use of available space while maintaining logical adjacency. The 'Cubicle Area' is placed along the bottom left side, adjacent to the 'Reception Desk' which typically would be placed near the entrance (leftmost side). The 'Executive Office' is placed in a prime position along the right side. 'Conference Room' is positioned on the top left side for easy access from the communal areas, while 'Break Room' is next to the 'Conference Room' for convenience. Every coordinate ensures no overlap and all subitems fit within the boundary."
+}

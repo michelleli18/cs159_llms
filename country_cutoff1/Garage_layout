@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Garage",
+    "coordinates": [-50, 45, -30, 50],
+    "children": [
+      {
+        "name": "Workbench",
+        "coordinates": [-50, 45, -45, 47]
+      },
+      {
+        "name": "Tool Cabinet",
+        "coordinates": [-45, 45, -41, 47]
+      },
+      {
+        "name": "Car",
+        "coordinates": [-50, 47, -35, 50]
+      },
+      {
+        "name": "Shelves",
+        "coordinates": [-41, 45, -35, 47]
+      },
+      {
+        "name": "Bicycle",
+        "coordinates": [-35, 45, -30, 47]
+      },
+      {
+        "name": "Storage Bins",
+        "coordinates": [-50, 47, -45, 50]
+      }
+    ]
+  },
+  "reasoning": "1. 'Workbench' is placed at the bottom left corner of the garage because workbenches are typically placed against a wall to maximize open floor space. The coordinates [-50, 45, -45, 47] fit within the parent coordinates and make efficient use of space. 2. 'Tool Cabinet' is placed next to the 'Workbench' on its right within coordinates [-45, 45, -41, 47] for the convenience of accessing tools while working. 3. 'Car' occupies the next largest space and is placed on the opposite side of the garage from the entrance for ease of parking and maximizing remaining space. The coordinates [-50, 47, -35, 50] ensure it fits within the garage's bounds. 4. 'Shelves' are placed adjacent to 'Tool Cabinet' and 'Workbench' on the left, using coordinates [-41, 45, -35, 47], which efficiently utilizes the space and allows for easy access to tools and materials. 5. 'Bicycle' is next to the 'Shelves,' within coordinates [-35, 45, -30, 47], easily accessible and placed logically for storage. 6. 'Storage Bins' are placed immediately next to the 'Workbench' at the upper left corner of the garage for easy access to stored items, using coordinates [-50, 47, -45, 50]. Since all items fit well within the parent coordinates, none are left unused, and the layout maximizes efficient use of available space."
+}

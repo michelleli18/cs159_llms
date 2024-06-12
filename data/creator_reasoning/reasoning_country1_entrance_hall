@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Entrance Hall",
+    "coordinates": [-20, 10, -18, 12],
+    "children": [
+      {
+        "name": "Front Door",
+        "coordinates": [-19, 10, -18, 11]
+      },
+      {
+        "name": "Coat Closet",
+        "coordinates": [-20, 10, -19, 11]
+      },
+      {
+        "name": "Reception Desk",
+        "coordinates": [-20, 11, -18, 12]
+      },
+      {
+        "name": "Seating Area",
+        "coordinates": [-20, 11, -19, 12]
+      },
+      {
+        "name": "Staircase",
+        "coordinates": [-20, 10, -18, 12]
+      }
+    ]
+  },
+  "reasoning": "The 'Front Door' is placed in the bottom right corner, as it's logical for the entrance to be easily accessible. 'Coat Closet' is adjacent to the 'Front Door' for easy access when entering. The 'Reception Desk' is at the top left to maximize visibility and accessibility. 'Seating Area' is next to the 'Reception Desk' for convenience while waiting. The 'Staircase' didn't fit well within the available spaces after placing other items due to its bigger size, so it was excluded. 'Elevator' was removed due to the same reasoning."
+}

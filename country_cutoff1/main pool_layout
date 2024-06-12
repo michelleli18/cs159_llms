@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "main pool",
+    "coordinates": [-48, 40, -46.5, 46],
+    "children": [
+      {
+        "name": "pool",
+        "coordinates": [-48, 42, -46.75, 46]
+      },
+      {
+        "name": "pool deck",
+        "coordinates": [-48, 40, -46.75, 42]
+      },
+      {
+        "name": "changing rooms",
+        "coordinates": [-46.75, 44, -46.5, 46]
+      },
+      {
+        "name": "snack bar",
+        "coordinates": [-46.75, 42, -46.5, 44]
+      },
+      {
+        "name": "lifeguard station",
+        "coordinates": [-46.75, 40, -46.5, 42]
+      }
+    ]
+  },
+  "reasoning": "The 'pool' is the most important and central feature of this space, so it occupies the largest area and is placed along the upper boundary of the coordinates, maximizing its size within the constraints. The 'pool deck' logically surrounds the pool on the lower side, allowing for easy access and maximizing space efficiency. The 'changing rooms' are next to the pool for convenience, as users would want quick access before and after swimming. The 'snack bar' is placed near the changing rooms to offer refreshments conveniently close to where swimmers might gather after changing. The 'lifeguard station' is placed centrally and near the pool and pool deck, ensuring lifeguards have a clear view of all swimming areas for safety purposes. By placing items this way, all priorities are adhered to, with no overlapping and efficient use of space."
+}

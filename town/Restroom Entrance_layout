@@ -1,0 +1,25 @@
+{
+  "layout": {
+    "name": "Restroom Entrance",
+    "coordinates": [-42, 47, -38, 49],
+    "children": [
+      {
+        "name": "Entrance Door",
+        "coordinates": [-42, 47, -41, 48.5]
+      },
+      {
+        "name": "Mirror",
+        "coordinates": [-40.9, 48, -38, 49]
+      },
+      {
+        "name": "Sink",
+        "coordinates": [-40.9, 47, -38, 47.9]
+      },
+      {
+        "name": "Trash Can",
+        "coordinates": [-41.9, 47.1, -41, 47.8]
+      }
+    ]
+  },
+  "reasoning": "The Entrance Door is placed at the bottom left as it provides immediate access to the restroom entrance area. It's placed in such a way to ensure convenient entry and exit. The Mirror is placed on the right side, adjacent to the entrance door and near the top, to allow individuals to check their appearance upon entry. It is given a large vertical area but narrow horizontal area because mirrors tend to be tall and narrow. The Sink is located below the mirror for practical functionality, allowing users to wash their hands right after checking the mirror. It covers a large area horizontally to accommodate multiple basins, given its importance in a restroom setting. The Trash Can is placed towards the lower left corner but still reachable from the sink area to facilitate easy disposal of paper towels or other waste. Its small size reflects its limited but necessary utility."
+}

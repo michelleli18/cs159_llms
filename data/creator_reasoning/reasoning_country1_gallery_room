@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Gallery Room",
+    "coordinates": [-27, 7, -23, 8],
+    "children": [
+      {
+        "name": "Art Display Walls",
+        "coordinates": [-27, 7, -24, 8]
+      },
+      {
+        "name": "Visitor Benches",
+        "coordinates": [-27, 7, -27, 7]
+      },
+      {
+        "name": "Information Desk",
+        "coordinates": [-25, 7, -24, 8]
+      },
+      {
+        "name": "Sculpture Pedestals",
+        "coordinates": [-26, 7, -25, 8]
+      },
+      {
+        "name": "Lighting Fixtures",
+        "coordinates": [-27, 7, -27, 7]
+      }
+    ]
+  },
+  "reasoning": "The Art Display Walls are the largest subitem and are placed on the longest contiguous wall to maximize accessible wall space for displaying art. The Visitor Benches are small but need to be spread around for convenience, so they are placed along available space after prioritizing larger items. The Information Desk is strategically placed near the entrance for easy access by visitors seeking information and assistance. The Sculpture Pedestals, though smaller, are placed centrally to form a focal point for the room, enhancing visibility and interactions with visitors. The Lighting Fixtures are small but essential; thus, they can be spread throughout the room to provide even lighting, ensuring all displayed items are well lit. While the Visitor Benches and Lighting Fixtures are relatively smaller and have been placed where they fit best without overlapping larger items, ensuring optimal space utilization."
+}

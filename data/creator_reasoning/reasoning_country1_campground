@@ -1,0 +1,21 @@
+{
+  "layout": {
+    "name": "Campground",
+    "coordinates": [0, 10, 3, 13],
+    "children": [
+      {
+        "name": "Lake",
+        "coordinates": [0, 10, 3, 11]
+      },
+      {
+        "name": "Rv Site",
+        "coordinates": [0, 11, 3, 12]
+      },
+      {
+        "name": "Parking Lot",
+        "coordinates": [0, 12, 3, 13]
+      }
+    ]
+  },
+  "reasoning": "Given the constraints of the 3x3 space, we prioritized locating the largest subitems first to fill the space efficiently and logically. The Lake, being the largest ('10'), was placed at the bottom-left corner to cover the lower portion. The RV Site ('7') was placed directly above the Lake to fill the middle. Finally, the Parking Lot ('6') was placed at the top to make sure the entrance area is covered right next to the RV Site. The sizes and placements mirror real-world campground layouts where the lake would naturally be at the bottom, followed by the RV Site and Parking Lot. Since larger elements hold more priority, the smaller items were excluded due to space constraints while ensuring no overlap and keeping all elements within the boundaries."
+}

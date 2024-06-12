@@ -1,0 +1,57 @@
+{
+  "layout": {
+    "name": "Sheep Meadow",
+    "coordinates": [-7, 15, -2, 20],
+    "children": [
+      {
+        "name": "Large Lawn",
+        "coordinates": [-7, 20, -4, 17]
+      },
+      {
+        "name": "Trees Cluster 1",
+        "coordinates": [-7, 16, -6, 15]
+      },
+      {
+        "name": "Trees Cluster 2",
+        "coordinates": [-6, 16, -5, 15]
+      },
+      {
+        "name": "Trees Cluster 3",
+        "coordinates": [-5, 16, -4, 15]
+      },
+      {
+        "name": "Trees Cluster 4",
+        "coordinates": [-4, 16, -3, 15]
+      },
+      {
+        "name": "Rock Formations 1",
+        "coordinates": [-4, 19, -3, 18]
+      },
+      {
+        "name": "Rock Formations 2",
+        "coordinates": [-3, 19, -2, 18]
+      },
+      {
+        "name": "Rock Formations 3",
+        "coordinates": [-5, 19, -4, 18]
+      },
+      {
+        "name": "Benches Section 1",
+        "coordinates": [-7, 20, -6, 19]
+      },
+      {
+        "name": "Benches Section 2",
+        "coordinates": [-6, 20, -5, 19]
+      },
+      {
+        "name": "Picnic Area 1",
+        "coordinates": [-4, 18, -3, 17]
+      },
+      {
+        "name": "Picnic Area 2",
+        "coordinates": [-3, 18, -2, 17]
+      }
+    ]
+  },
+  "reasoning": "Sheep Meadow's dominant feature is the 'Large Lawn' due to its significantly larger size and importance relative to other subitems, occupying much of the central area and stretching to one side for a balanced look. Next, 'Trees Cluster' subitems, due to their moderate size, are logically placed next to each other along one edge. Since they are visually pleasing and provide shade, they line the bottom boundary to create a picturesque boundary for the lawn. The 'Rock Formations' are space-efficient, so they are distributed at the corners for efficient use of space and to provide varied elements throughout the meadow. For ease of access and functionality, 'Benches Section' items and 'Picnic Area' items are placed on opposite edges near each other but not overlapping crucial pathways, maximizing available space and ensuring practical, functional layout. All subitems ensure no overlap, staying within the defined coordinates while covering as much space as possible, fulfilling the most critical placement criteria of non-overlapping boundaries and spatial efficiency."
+}

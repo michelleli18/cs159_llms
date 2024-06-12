@@ -1,0 +1,13 @@
+{
+  "layout": {
+    "name": "Fireplace",
+    "coordinates": [-6, -8, -4, -6],
+    "children": [
+      { "name": "Mantel", "coordinates": [-6, -6, -5, -6] },
+      { "name": "Hearth", "coordinates": [-5, -6, -4, -7] },
+      { "name": "Fireplace Tools", "coordinates": [-5, -7, -5, -8] },
+      { "name": "Firewood Stack", "coordinates": [-6, -7, -5, -8] }
+    ]
+  },
+  "reasoning": "Mantel is placed at the top center of the fireplace as it is often found above the fire to hold decorative objects or photos. Hearth is placed directly below the mantel and spans the bottom center of the fireplace which is logical as it is used to hold the firewood and elements that are on fire. Fireplace Tools are placed to the right of the hearth for easy accessibility when managing the fire. Firewood Stack is placed to the left of the Hearth allowing easy access to firewood. Unfortunately, Armchair, Coffee Table, Bookshelf, and Sofa could not be included due to the lack of space remaining in the parent coordinates."
+}

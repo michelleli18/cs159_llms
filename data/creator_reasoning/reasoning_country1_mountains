@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Mountains",
+    "coordinates": [-20, 5, 0, 20],
+    "children": [
+      {
+        "name": "Mountain Peak",
+        "coordinates": [-20, 17, -8, 20]
+      },
+      {
+        "name": "Lake",
+        "coordinates": [-8, 14, 0, 20]
+      },
+      {
+        "name": "Lodge",
+        "coordinates": [-20, 10, -14, 17]
+      },
+      {
+        "name": "Forest",
+        "coordinates": [-14, 5, -8, 14]
+      },
+      {
+        "name": "Meadow",
+        "coordinates": [-8, 8, 0, 14]
+      },
+      {
+        "name": "Cabin",
+        "coordinates": [-14, 10, -8, 14]
+      }
+    ]
+  },
+  "reasoning": "Mountain Peak is the highest elevation item and is placed in the top-left corner for visibility. The Lake is adjacent to the Mountain Peak to simulate a natural water source from the mountains. The Lodge is placed below the Mountain Peak but above the forest to help visitors maximize their view and be close to the forest for activities. The Forest is placed below the Mountain Peak and Lodge for environmental preservation and separation from the more developed Lodge. The Meadow is next to the Lake to simulate the natural ecosystem and for aesthetic reasons. The Cabin is placed between the Forest and Meadow to give visitors a secluded living area while being close to both the forest and meadows. This arrangement covers the maximum space while keeping all subitems within the parent zone, reflecting both realistic and logical spatial arrangements."
+}

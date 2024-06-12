@@ -1,0 +1,25 @@
+{
+  "layout": {
+    "name": "Family Waiting Area",
+    "coordinates": [-12, 13, -8, 15],
+    "children": [
+      {
+        "name": "Seating Area",
+        "coordinates": [-12, 13, -9, 15]
+      },
+      {
+        "name": "Play Area",
+        "coordinates": [-12, 15, -8, 14]
+      },
+      {
+        "name": "Tv Area",
+        "coordinates": [-9, 13, -8, 15]
+      },
+      {
+        "name": "Snack Bar",
+        "coordinates": [-11, 14, -9, 15]
+      }
+    ]
+  },
+  "reasoning": "Subitems are placed based on their sizes and functions. The 'Seating Area' is the largest and placed on the bottom left to utilize corner space. The 'Play Area' is next largest and placed adjacent to the 'Seating Area' occupying the top half to allow for easy supervision of children from the seating area. 'Tv Area' is located on the right side to be easily viewable from the seating area. 'Snack Bar' is medium-sized and positioned next to 'Seating Area' to provide easy access to snacks while people are seated. 'Reception Desk' and 'Restroom' could not be placed due to space constraints. All coordinates are within the boundaries, and placement is done to cover as much space as possible and maximize functionality."
+}

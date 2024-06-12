@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Kitchen Area",
+    "coordinates": [-8, -10, -6, -6],
+    "children": [
+      {
+        "name": "Cabinets",
+        "coordinates": [-8, -10, -7, -8]
+      },
+      {
+        "name": "Countertop",
+        "coordinates": [-7, -10, -6, -8]
+      },
+      {
+        "name": "Refrigerator",
+        "coordinates": [-8, -8, -7, -7]
+      },
+      {
+        "name": "Sink",
+        "coordinates": [-7, -8, -6, -7]
+      },
+      {
+        "name": "Stove",
+        "coordinates": [-8, -7, -7, -6]
+      },
+      {
+        "name": "Oven",
+        "coordinates": [-7, -7, -6, -6]
+      }
+    ]
+  },
+  "reasoning": "The Cabinets are placed in the lower left corner because they are frequently used and need to be easily accessible. The Countertop, placed adjacent to the Cabinets, covers a larger area so multiple subitems can be efficiently organized next to it. The Refrigerator is positioned near the Cabinets for easy access while cooking. It is followed by the Sink to allow easy cleaning and washing. The Stove is placed next to the Sink for efficient hand-offs during cooking. Finally, the Oven is placed next to the Stove for a practical kitchen workflow. The Kitchen Island, Pantry, Dishwasher, and Microwave were not included due to space constraints within the kitchen area."
+}

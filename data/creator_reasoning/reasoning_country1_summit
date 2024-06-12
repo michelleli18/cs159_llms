@@ -1,0 +1,25 @@
+{
+    "layout": {
+        "name": "Summit",
+        "coordinates": [-20, 18, -16, 20],
+        "children": [
+            {
+                "name": "Summit Shelter",
+                "coordinates": [-20, 18, -19, 20]
+            },
+            {
+                "name": "Observation Deck",
+                "coordinates": [-19, 18, -17, 20]
+            },
+            {
+                "name": "Rest Area",
+                "coordinates": [-17, 18, -16, 19]
+            },
+            {
+                "name": "Signal Tower",
+                "coordinates": [-17, 19, -16, 20]
+            }
+        ]
+    },
+    "reasoning": "The largest subitems, 'Summit Shelter' and 'Observation Deck', were placed first so they could occupy the most significant portions of space and align with the parent coordinates. 'Summit Shelter' is located on the far left corner, touching the left boundary as shelters are often located at strategic positions. Next to it is 'Observation Deck', positioned so it's next to the shelter for easy access. Both these items are touching the parent boundaries, fulfilling the requirement to be space-efficient. 'Rest Area' is placed towards the top right of the map since it's relatively smaller, ensuring that visitors can access it from 'Observation Deck'. It also touches the right boundary. 'Signal Tower' needed to be placed adjacent to 'Rest Area' within the remaining available space as it’s a small structure and logically it can be placed on any flat surface near the rest area for visibility. 'Picnic Spot' could not be included as there wasn't enough space left after placing the other subitems. The placements keep all coordinates within the boundary of the parent item and ensure functionality with no overlapping. This provides a sensible layout representing actual usage and accessibility of each subitem within a summit context."
+}

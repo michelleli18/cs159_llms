@@ -1,0 +1,65 @@
+{
+  "layout": {
+    "name": "Barn",
+    "coordinates": [2, 17, 4, 20],
+    "children": [
+      {
+        "name": "Stalls 1",
+        "coordinates": [2, 17, 3, 18]
+      },
+      {
+        "name": "Stalls 2",
+        "coordinates": [3, 17, 4, 18]
+      },
+      {
+        "name": "Stalls 3",
+        "coordinates": [2, 18, 3, 19]
+      },
+      {
+        "name": "Stalls 4",
+        "coordinates": [3, 18, 4, 19]
+      },
+      {
+        "name": "Stalls 5",
+        "coordinates": [2, 19, 3, 20]
+      },
+      {
+        "name": "Stalls 6",
+        "coordinates": [3, 19, 4, 20]
+      },
+      {
+        "name": "Stalls 7",
+        "coordinates": [2, 17, 2, 18]
+      },
+      {
+        "name": "Stalls 8",
+        "coordinates": [2, 18, 2, 19]
+      },
+      {
+        "name": "Loft",
+        "coordinates": [2, 17, 2, 20]
+      },
+      {
+        "name": "Hay Bales 1",
+        "coordinates": [2, 19, 2, 20]
+      },
+      {
+        "name": "Hay Bales 2",
+        "coordinates": [3, 19, 3, 20]
+      },
+      {
+        "name": "Hay Bales 3",
+        "coordinates": [4, 19, 4, 20]
+      },
+      {
+        "name": "Feed Room",
+        "coordinates": [2, 20, 4, 20]
+      },
+      {
+        "name": "Tool Shed",
+        "coordinates": [2, 17, 2, 18]
+      }
+    ]
+  },
+  "reasoning": "Stalls are the largest subitem and have been divided into smaller sections to fit within the barn space while ensuring no overlap; they are placed along the entire length and breadth of the barn for easy access and logical alignment. The Loft, being the next largest, is placed in a corner to maximize vertical space utilization and is aligned flush against the wall to save space. Hay Bales, smaller than the Loft but more frequent, are placed above the Stalls and also aligned to the wall to save room and group similar items together. The Feed Room, being moderately large, is positioned along a side wall for easy access by workers. Finally, the Tool Shed, smaller in size, is placed in an easily accessible lower corner for convenience. The placement ensures that the barn is efficiently used with no wasted space, and essential items like Stalls and Feed Rooms are prioritized for size and access."
+}

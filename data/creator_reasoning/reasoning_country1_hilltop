@@ -1,0 +1,25 @@
+{
+  "layout": {
+    "name": "Hilltop",
+    "coordinates": [-10, -10, 0, -2],
+    "children": [
+      {
+        "name": "Main Cabin",
+        "coordinates": [-10, -10, -4, -2]
+      },
+      {
+        "name": "Observation Deck",
+        "coordinates": [-4, -10, -1, -6]
+      },
+      {
+        "name": "Storage Shed",
+        "coordinates": [-1, -10, 0, -7]
+      },
+      {
+        "name": "Picnic Area",
+        "coordinates": [-4, -6, -1, -3]
+      }
+    ]
+  },
+  "reasoning": "The 'Main Cabin' was placed in the largest available space and is flush to the bottom-left wall due to its size and importance as the largest item. The 'Observation Deck' is next to the 'Main Cabin' on the right as it needs accessibility and a large space. 'Storage Shed' is placed on the right of the 'Observation Deck' since it's small and the remaining space fits it perfectly. 'Picnic Area' is positioned above the observation deck on the right to maintain accessibility and utilized the available space efficiently. The 'Fire Pit' was not included because there was no remaining space to accommodate it without overlap or extending out of the parent coordinates [bottom_left_corner_x, bottom_left_corner_y, top_right_corner_x, top_right_corner_y]. This placement maximizes the efficient use of the given space and ensures all items are next to each other logically."
+}

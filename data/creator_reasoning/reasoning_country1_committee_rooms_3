@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Committee Rooms 3",
+    "coordinates": [-16, 10, -14, 15],
+    "children": [
+      {
+        "name": "Conference Table",
+        "coordinates": [-16, 10, -15, 12]
+      },
+      {
+        "name": "Chairs1",
+        "coordinates": [-15, 10, -14, 11]
+      },
+      {
+        "name": "Chairs2",
+        "coordinates": [-15, 11, -14, 12]
+      },
+      {
+        "name": "Chairs3",
+        "coordinates": [-15, 12, -14, 13]
+      },
+      {
+        "name": "Podium",
+        "coordinates": [-16, 12,  -15, 13]
+      },
+      {
+        "name": "Projector Screen",
+        "coordinates": [-16, 13, -14, 15]
+      },
+      {
+        "name": "Whiteboard",
+        "coordinates": [-14, 13, -14, 14]
+      }
+   ]
+ },
+ "reasoning": "The Conference Table, being one of the larger items, is placed at the bottom left corner of the room, extending upward to create space for other items. The Chairs are divided into three subitems (Chairs1, Chairs2, and Chairs3) and placed next to each other on the right side of the Conference Table to maintain coherence and use wall space efficiently. The Podium, being medium-sized, is placed directly above the Conference Table to be easily accessible for presentations. The Projector Screen, being relatively larger, is placed on the upper part of the room and is visible to the entire Conference Table area. The Whiteboard, being the smallest, is placed at the remaining top space, keeping the room functional and organized while ensuring that all space is optimally utilized."
+}

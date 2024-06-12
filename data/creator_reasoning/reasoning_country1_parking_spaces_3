@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Parking Spaces 3",
+    "coordinates": [-8, 17, -5, 20],
+    "children": [
+      {
+        "name": "Parking Space 1",
+        "coordinates": [-8, 19, -7, 20]
+      },
+      {
+        "name": "Parking Space 2",
+        "coordinates": [-7, 19, -6, 20]
+      },
+      {
+        "name": "Parking Space 3",
+        "coordinates": [-6, 19, -5, 20]
+      },
+      {
+        "name": "Sidewalk",
+        "coordinates": [-8, 17, -6, 19]
+      },
+      {
+        "name": "Parked Car 1",
+        "coordinates": [-8, 18, -7, 19]
+      },
+      {
+        "name": "Parked Car 2",
+        "coordinates": [-7, 18, -6, 19]
+      },
+      {
+        "name": "Parked Car 3",
+        "coordinates": [-8, 17, -7, 18]
+      }
+    ]
+  },
+  "reasoning": "The placement of subitems within the 'Parking Spaces 3' has been carefully designed to meet all listed priorities. Three parking spaces ('Parking Space 1', 'Parking Space 2', and 'Parking Space 3') are aligned at the top inside the parent boundary, each occupying a 1x1 unit space, allowing sufficient parking area without overlap. The 'Sidewalk' has been placed immediately below these parking spaces to allow pedestrians a safe walking area and it spans 2x2 units to reflect its larger relative size. 'Parked Car 1' and 'Parked Car 2' have been positioned next to each other and below 'Parking Space 3', making efficient use of available space. Lastly, 'Parked Car 3' has been placed beside 'Parked Car 1', filling up the remaining space. All subitems strictly adhere to the given boundaries of the parent coordinates and utilize the available space efficiently."
+}

@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Window View",
+    "coordinates": [-50, 34, -45, 35],
+    "children": [
+      {
+        "name": "window",
+        "coordinates": [-50, 34, -48, 35]
+      },
+      {
+        "name": "buildings",
+        "coordinates": [-48, 34, -46, 35]
+      },
+      {
+        "name": "trees",
+        "coordinates": [-46, 34, -45.5, 34.5]
+      },
+      {
+        "name": "clouds",
+        "coordinates": [-46, 34.5, -45.5, 35]
+      },
+      {
+        "name": "sun",
+        "coordinates": [-48, 35, -46, 35.5]
+      }
+    ]
+  },
+  "reasoning": "I have placed the 'window' at the bottom-left corner of the parent because windows are typically located on the outer boundaries of a view for maximum visibility. Next to the window, the 'buildings' are placed since buildings often occupy significant space and are commonly viewed from windows. The 'trees' are smaller than buildings but larger than clouds; hence, they are placed next to buildings, fitting well in available adjacent space. 'Clouds' are placed above trees, mimicking their natural position in the sky. Finally, the 'sun' is positioned above buildings for a natural layout within the window view, taking advantage of the remaining upper space. These placements ensure no subitems overlap, all subitems are within the parent coordinates, and the overall space is efficiently used without leaving gaps between subitems and the walls of the place."
+}

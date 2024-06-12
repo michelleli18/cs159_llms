@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Auditorium",
+    "coordinates": [-45, 40, -35, 50],
+    "children": [
+      {
+        "name": "Stage",
+        "coordinates": [-42, 48, -38, 50]
+      },
+      {
+        "name": "Seating Area",
+        "coordinates": [-42, 43, -38, 48]
+      },
+      {
+        "name": "Lobby",
+        "coordinates": [-45, 40, -42, 48]
+      },
+      {
+        "name": "Backstage",
+        "coordinates": [-38, 48, -35, 50]
+      },
+      {
+        "name": "Control Booth",
+        "coordinates": [-38, 46, -35, 48]
+      }
+    ]
+  },
+  "reasoning": "The 'Stage' is placed at the top center of the Auditorium to make it the central focus, just below the upper boundary, utilizing the coordinates [-42, 48, -38, 50]. Below and in front of the 'Stage' lies the 'Seating Area' taking up a significant middle section with coordinates [-42, 43, -38, 48], allowing proper viewing for the audience. To the left of the 'Stage' and 'Seating Area' is the 'Lobby' with coordinates [-45, 40, -42, 48], providing an entrance area for the audience. The 'Backstage' is positioned to the right of the 'Stage' at the top right with coordinates [-38, 48, -35, 50] to allow for easy access for performers and equipment. Finally, the 'Control Booth' is placed below the 'Backstage' at coordinates [-38, 46, -35, 48] for efficient management of light and sound during performances. All items are placed adjacent to each other with no overlaps and ensure efficient space utilization, logically mimicking real-life architectural design and covering almost all of the area of the Auditorium."
+}

@@ -1,0 +1,29 @@
+{
+    "layout": {
+        "name": "Water Body",
+        "coordinates": [-3, 11, 0, 14],
+        "children": [
+            {
+                "name": "Lake",
+                "coordinates": [-3, 14, -1, 11]
+            },
+            {
+                "name": "Island",
+                "coordinates": [-1, 14, 0, 12]
+            },
+            {
+                "name": "Swimming Area",
+                "coordinates": [-1, 12, 0, 11]
+            },
+            {
+                "name": "Pier",
+                "coordinates": [-3, 13, -2, 12]
+            },
+            {
+                "name": "Boat House",
+                "coordinates": [-2, 13, -1, 12]
+            }
+        ]
+    },
+    "reasoning": "The 'Lake' occupies the largest area within the 'Water Body' as it has the highest relative size of 10. The 'Island' is positioned adjacent to the 'Lake' at the top right as islands are generally situated within or next to lake areas and has the second highest size score. The 'Swimming Area' is placed below the 'Island' as it's logical to have a close proximity to the lake and the island for recreational activities, with lake access. The 'Pier' and 'Boat House' are smaller and are thus placed side by side next to the 'Lake' and 'Swimming Area' to make efficient use of space. The 'Pier' is adjacent to the lake for easy access, similarly with the 'Boat House' next to the ‘Pier’. All children have been carefully placed within the boundary and there is no overlap. Effective use of the entire space is ensured."
+}

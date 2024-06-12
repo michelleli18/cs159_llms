@@ -1,0 +1,49 @@
+{
+  "layout": {
+    "name": "Green Spaces",
+    "coordinates": [-20, 10, -17, 15],
+    "children": [
+      {
+        "name": "Parking Lot",
+        "coordinates": [-20, 10, -18, 15]
+      },
+      {
+        "name": "Playground",
+        "coordinates": [-18, 10, -17, 13]
+      },
+      {
+        "name": "Basketball Court",
+        "coordinates": [-18, 13, -17, 15]
+      },
+      {
+        "name": "Pond",
+        "coordinates": [-20, 10, -19, 13]
+      },
+      {
+        "name": "Flower Garden",
+        "coordinates": [-19, 10, -18, 12]
+      },
+      {
+        "name": "Picnic Area",
+        "coordinates": [-19, 12, -18, 13]
+      },
+      {
+        "name": "Restrooms",
+        "coordinates": [-19, 13, -18, 15]
+      },
+      {
+        "name": "Community Garden",
+        "coordinates": [-19, 10, -18, 11]
+      },
+      {
+        "name": "Dog Park",
+        "coordinates": [-20, 13, -19, 15]
+      },
+      {
+        "name": "Gazebo",
+        "coordinates": [-20, 13, -19, 14]
+      }
+    ]
+  },
+  "reasoning": "The 'Parking Lot' is placed in the bottom-left corner to provide easy access for visitors. The 'Playground' and 'Basketball Court' are placed next to each other because they are both recreational areas. The 'Pond' is placed centrally to provide scenic value. The 'Flower Garden' is adjacent to the 'Picnic Area' and 'Community Garden', to create a pleasant environment for visitors relaxing and gardening. The 'Restrooms' are located near the 'Picnic Area' and vertical stretching up is sensible for ease of access. The 'Dog Park' is near the entrance but at the edge to separate from other areas, and the 'Gazebo' is next to the 'Dog Park' for visitors to rest while their pets play. All subitems are within the parent coordinates without overlap, covering the available space efficiently."
+}

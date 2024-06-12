@@ -1,0 +1,41 @@
+{
+  "layout": {
+    "name": "Stage",
+    "coordinates": [-42, 48, -38, 50],
+    "children": [
+      {
+        "name": "Stage Floor",
+        "coordinates": [-42, 48, -38, 50]
+      },
+      {
+        "name": "Audience Seating",
+        "coordinates": [-42, 48, -40, 49.5]
+      },
+      {
+        "name": "Backdrop",
+        "coordinates": [-41.8, 49.6, -39.8, 50]
+      },
+      {
+        "name": "Curtains",
+        "coordinates": [-41.8, 48.8, -40.8, 49.6]
+      },
+      {
+        "name": "Lighting Rig",
+        "coordinates": [-40.8, 48, -39.8, 48.8]
+      },
+      {
+        "name": "Control Booth",
+        "coordinates": [-39.8, 48, -38, 48.4]
+      }
+    ]
+  },
+  "reasoning": "To follow the set priorities and ensure efficient and realistic placement:
+  1. Most importantly, all child item coordinates are maintained within the parent coordinates following bottom_left_corner_x <= x <= top_right_corner_x and bottom_left_corner_y <= y <= top_right_corner_y.
+  2. The largest item, 'Stage Floor', covers the most area and is placed centrally to represent the main performance area.
+  3. 'Audience Seating' is adjacent and towards the left, allowing direct view of the stage.
+  4. 'Backdrop' is placed centrally at the rear, behind 'Stage Floor,' contributing to the visual narrative of the performance.
+  5. 'Curtains' are placed logically adjacent to the 'Stage Floor', simulating their real-life positions.
+  6. 'Lighting Rig' is towards the right and slightly above 'Stage Floor' to ensure natural lighting setup.
+  7. 'Control Booth,' being the smallest item, is placed next to the 'Lighting Rig' for operational efficiency and to not obstruct other items.
+  The varied sizes and logical grouping ensure modern, space-efficient usage without overlaps and cover almost all available area, adhering to the priorities set."
+}

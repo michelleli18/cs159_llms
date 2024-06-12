@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Central Park Zoo",
+    "coordinates": [-12, 18, -6, 20],
+    "children": [
+      {
+        "name": "Tropical Zone",
+        "coordinates": [-12, 18, -10, 19]
+      },
+      {
+        "name": "Grizzly Bear Exhibit",
+        "coordinates": [-10, 18, -8, 19]
+      },
+      {
+        "name": "Sea Lion Pool",
+        "coordinates": [-8, 18, -6, 19]
+      },
+      {
+        "name": "Snow Leopard Exhibit",
+        "coordinates": [-12, 19, -10, 20]
+      },
+      {
+        "name": "Penguin Exhibit",
+        "coordinates": [-10, 19, -8, 20]
+      },
+      {
+        "name": "Children'S Zoo",
+        "coordinates": [-8, 19, -6, 20]
+      }
+    ]
+  },
+  "reasoning": "The placement of the subitems was done to ensure that all coordinates are within the parent boundaries and do not overlap. The largest items, Tropical Zone and Sea Lion Pool, were placed first and adjacent to each other to efficiently use the space and mimic real zoo layouts where such exhibits are often placed centrally. The Grizzly Bear Exhibit, similar in size, was placed next to the Tropical Zone to maintain a sense of natural habitat areas being close. The Snow Leopard Exhibit and Penguin Exhibit, which are smaller, were placed adjacent to the larger exhibits ensuring efficient use of space. The Children's Zoo, with its relative smaller size, was placed towards the end ensuring that it fits within the leftover space. All the placements touch the boundaries to make the most efficient use of the available area."
+}

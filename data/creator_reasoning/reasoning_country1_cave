@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Cave",
+    "coordinates": [-14, 12, -12, 14],
+    "children": [
+      {
+        "name": "Main Chamber",
+        "coordinates": [-14, 12, -13, 14]
+      },
+      {
+        "name": "Underground Lake",
+        "coordinates": [-13, 12, -12, 14]
+      },
+      {
+        "name": "Stalactite Room",
+        "coordinates": [-14, 12, -13, 13]
+      },
+      {
+        "name": "Rock Formations",
+        "coordinates": [-13, 12, -12, 13]
+      },
+      {
+        "name": "Entrance",
+        "coordinates": [-14, 12, -14, 14]
+      }
+    ]
+  },
+  "reasoning": "The placement of each subitem was based on their relative sizes and ensuring optimal use of space within the boundaries of the cave. The 'Main Chamber' and 'Underground Lake', being the largest subitems (10 and 7 respectively), were given the biggest available spaces and placed side by side to utilize the length of the cave. The 'Stalactite Room' (size 6) and 'Rock Formations' (size 5) were placed next to each other and adjacent to the 'Main Chamber' and 'Underground Lake' to maintain spatial efficiency and flow. The 'Entrance' (size 2), being the smallest, was placed at the far left corner to ensure all other larger subitems have enough space. All placements ensure no overlapping and they are kept within the boundaries of the cave."
+}

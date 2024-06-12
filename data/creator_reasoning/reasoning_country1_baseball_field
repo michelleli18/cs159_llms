@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Baseball Field",
+    "coordinates": [-12, 15, -9, 20],
+    "children": [
+      {
+        "name": "Outfield Fence",
+        "coordinates": [-12, 15, -9, 18]
+      },
+      {
+        "name": "Diamond",
+        "coordinates": [-11, 18, -10, 19]
+      },
+      {
+        "name": "Infield",
+        "coordinates": [-11, 17, -10, 18]
+      },
+      {
+        "name": "Pitcher's Mound",
+        "coordinates": [-10, 17, -9, 18]
+      },
+      {
+        "name": "Bleachers",
+        "coordinates": [-12, 19, -11, 20]
+      },
+      {
+        "name": "Dugout",
+        "coordinates": [-12, 18, -11, 19]
+      },
+      {
+        "name": "Bullpen",
+        "coordinates": [-12, 17, -11, 18]
+      }
+    ]
+  },
+  "reasoning": "The Outfield Fence is placed along the bottom edge of the Baseball Field as it is the largest subitem, ensuring we use the largest available space. The Diamond is a critical part of the field and is centrally located for easy access to the rest of the field components. It is logically adjacent to the Infield, which is placed directly below it. The Pitcher's Mound is placed within the Infield to mimic real-life baseball field layout. The Bleachers are positioned in the upper left corner for spectators, utilizing vertical space. The Dugout is next to the Bleachers, providing easy access for players. Finally, the Bullpen is positioned beside the Dugout to allow relief pitchers quick access to the field. Each item is carefully placed to respect the boundaries of the parent Baseball Field and avoid overlap while maintaining a realistic and modern layout."
+}

@@ -1,0 +1,29 @@
+{
+ "layout": {
+  "name": "soccer field",
+  "coordinates": [-50, -30, -38, -20],
+  "children": [
+   {
+    "name": "penalty box",
+    "coordinates": [-49, -30, -45, -26]
+   },
+   {
+    "name": "goal area",
+    "coordinates": [-49, -29, -46, -27]
+   },
+   {
+    "name": "center circle",
+    "coordinates": [-45, -25, -43, -23]
+   },
+   {
+    "name": "sidelines",
+    "coordinates": [-50, -30, -38, -30]
+   },
+   {
+    "name": "bench area",
+    "coordinates": [-42, -21, -38, -20]
+   }
+  ]
+ },
+ "reasoning": "The given soccer field has coordinates [-50, -30, -38, -20], which gives us a 12x10 rectangular area to place different subitems. The relative sizes and their logical placement are considered based on real-world soccer field setup. The 'penalty box' (3) is placed near one end of the field, logically near the 'goal area' (2) as in real soccer fields the goal is within the penalty box. Therefore, penalty box is illustrated in coordinates [-49 -30] at the bottom left extending to [-45, -26]. The 'goal area' is placed inside the penalty box from [-49, -29] to [-46, -27], following real-world soccer layout. The 'center circle' (1) is relatively smaller and placed in the center of the field coordinates from [-45, -25] to [-43, -23] as it is usually where the game starts. The 'sidelines' (9) are drawn out along the width of the field which is from [-50, -30] to [-38, -30]. This marks the left end of the soccer field boundary. The 'bench area' is allotted in coordinates at the bottom right just next to the sideline consisting the boundaries of the field which can be from [-42, -21] to [-38, -20]. Other subitems, particularly if they don't fit (both logically and spatially), are omitted to maintain the placement rules and realism."
+}

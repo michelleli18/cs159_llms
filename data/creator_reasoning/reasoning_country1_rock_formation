@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Rock Formation",
+    "coordinates": [-20, 17, -16, 18],
+    "children": [
+      {
+        "name": "Plateaus",
+        "coordinates": [-20, 17, -18, 18]
+      },
+      {
+        "name": "Cliffs",
+        "coordinates": [-18, 17, -16, 18]
+      },
+      {
+        "name": "Caves",
+        "coordinates": [-20, 17, -19, 18]
+      },
+      {
+        "name": "Rock Shelters",
+        "coordinates": [-19, 17, -18, 17]
+      },
+      {
+        "name": "Boulders",
+        "coordinates": [-19, 17, -18, 17]
+      }
+    ]
+  },
+  "reasoning": "The Rock Formation is divided into subitems with consideration of their relative sizes and functional relationships. The Plateaus, being the largest subitem (size 9), is placed first to ensure sufficient space utilization, covering the left section of the formation. Cliffs (size 8) are placed adjacent to the Plateaus as larger formations are often found together. The Caves (size 6) are placed next, ensuring substantial size coverage in the available remaining space. Rock Shelters (size 4) and Boulders (size 3) are smaller and can be fit into the remaining corners, ensuring non-overlapping and optimal space utilization. The coordinates and sizes have been adapted to ensure that all subitems fit within the bounds of the parent rock formation with no overlaps. Exact integer coordinates ensure precise placement. Items such as Cliffs and Plateaus are placed next to each other due to their larger sizes and natural adjacency in real-life geological formations. Rock Shelters and Boulders, being relatively smaller and typically more spread out, are placed in the remaining spaces to fill gaps and maintain naturalistic placement."
+}

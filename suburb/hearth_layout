@@ -1,0 +1,37 @@
+{
+    "layout": {
+        "name": "hearth",
+        "coordinates": [-47, 46, -45, 48],
+        "children": [
+            {
+                "name": "fireplace",
+                "coordinates": [-47, 47, -46, 48]
+            },
+            {
+                "name": "mantel",
+                "coordinates": [-46, 47, -45.5, 48]
+            },
+            {
+                "name": "hearth rug",
+                "coordinates": [-47, 46.5, -46, 47]
+            },
+            {
+                "name": "sofa",
+                "coordinates": [-46, 46.5, -45, 48]
+            },
+            {
+                "name": "coffee table",
+                "coordinates": [-46.5, 46, -46, 46.5]
+            },
+            {
+                "name": "bookshelf",
+                "coordinates": [-45, 46.5, -45.5, 48]
+            },
+            {
+                "name": "armchair",
+                "coordinates": [-45.5, 46, -45, 46.5]
+            }
+        ]
+    },
+    "reasoning": "The 'fireplace' is placed centrally against the wall for a focal point, and is right next to the 'mantel' as they are related items usually found together. The 'sofa' is placed directly opposite the 'fireplace' for an optimal viewing angle. The 'hearth rug' is placed in front of the 'fireplace' for a natural, cozy arrangement. The 'coffee table' lies in front of the sofa for convenience and access. The 'bookshelf' is positioned to the side of the sofa for reading material access. The 'armchair' is near both the 'sofa' and 'bookshelf', creating a comfortable reading nook. The relative sizes of subitems are decided based on typical dimensions and functional requirements, ensuring no overlap while maximizing the usage of available space."
+}

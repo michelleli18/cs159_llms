@@ -1,0 +1,109 @@
+{
+    "layout": { 
+        "name": "Radar Room",
+        "coordinates": [-990, 750, -985, 755],
+        "children": [
+            {
+                "name": "Radar Console 1",
+                "coordinates": [-990, 754, -989, 755]
+            },
+            {
+                "name": "Radar Console 2",
+                "coordinates": [-989, 754, -988, 755]
+            },
+            {
+                "name": "Radar Console 3",
+                "coordinates": [-988, 754, -987, 755]
+            },
+            {
+                "name": "Radar Console 4",
+                "coordinates": [-987, 754, -986, 755]
+            },
+            {
+                "name": "Radar Console 5",
+                "coordinates": [-986, 754, -985, 755]
+            },
+            {
+                "name": "Radar Console 6",
+                "coordinates": [-990, 753, -989, 754]
+            },
+            {
+                "name": "Radar Console 7",
+                "coordinates": [-989, 753, -988, 754]
+            },
+            {
+                "name": "Control Desk 1",
+                "coordinates": [-988, 752, -986, 754]
+            },
+            {
+                "name": "Control Desk 2",
+                "coordinates": [-986, 752, -985, 754]
+            },
+            {
+                "name": "Control Desk 3",
+                "coordinates": [-990, 751, -987, 752]
+            },
+            {
+                "name": "Control Desk 4",
+                "coordinates": [-987, 751, -986, 752]
+            },
+            {
+                "name": "Control Desk 5",
+                "coordinates": [-986, 751, -985, 752]
+            },
+            {
+                "name": "Control Desk 6",
+                "coordinates": [-990, 750, -989, 751]
+            },
+            {
+                "name": "Communication Station 1",
+                "coordinates": [-989, 751, -988, 752]
+            },
+            {
+                "name": "Communication Station 2",
+                "coordinates": [-990, 750.5, -989, 751.5]
+            },
+            {
+                "name": "Communication Station 3",
+                "coordinates": [-989, 750.5, -988, 751.5]
+            },
+            {
+                "name": "Communication Station 4",
+                "coordinates": [-988, 750.5, -987, 751.5]
+            },
+            {
+                "name": "Communication Station 5",
+                "coordinates": [-987, 750.5, -986, 751.5]
+            },
+            {
+                "name": "Power Supply Unit 1",
+                "coordinates": [-990, 755, -989, 756]
+            },
+            {
+                "name": "Power Supply Unit 2",
+                "coordinates": [-989, 755, -988, 756]
+            },
+            {
+                "name": "Power Supply Unit 3",
+                "coordinates": [-988, 755, -987, 756]
+            },
+            {
+                "name": "Data Display Screen 1",
+                "coordinates": [-987, 755, -986, 756]
+            },
+            {
+                "name": "Data Display Screen 2",
+                "coordinates": [-986, 755, -985, 756]
+            },
+            {
+                "name": "Data Display Screen 3",
+                "coordinates": [-990, 752, -989, 753]
+            },
+            {
+                "name": "Data Display Screen 4",
+                "coordinates": [-989, 752, -988, 753]
+            }
+        ]
+    },
+    "reasoning": "Radar consoles are placed in a row to the north to maximize access for multiple operators, taking advantage of the width of the room. Control Desks are centrally located to balance proximity to consoles and communication stations, ensuring efficient workflow. Communication Stations are dispersed but in proximity to Control Desks to ensure seamless communication lines. Power Supply Units, being vital but accessed less often, are placed in the moderate corner ensuring they don’t obstruct workflow. Data Display Screens are placed strategically along accessible paths for easy monitoring by staff. All elements utilize the space efficiently without overlapping or extending beyond parental bounds."
+}

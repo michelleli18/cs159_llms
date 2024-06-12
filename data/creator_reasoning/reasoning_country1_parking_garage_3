@@ -1,0 +1,125 @@
+{
+  "layout": {
+    "name": "Parking Garage 3",
+    "coordinates": [-42, 10, -40, 12],
+    "children": [
+        {
+            "name": "Parking Spaces 1",
+            "coordinates": [-42, 10, -41, 11]
+        },
+        {
+            "name": "Parking Spaces 2",
+            "coordinates": [-41, 10, -40, 11]
+        },
+        {
+            "name": "Parking Spaces 3",
+            "coordinates": [-42, 11, -41, 12]
+        },
+        {
+            "name": "Parking Spaces 4",
+            "coordinates": [-41, 11, -40, 12]
+        },
+        {
+            "name": "Parking Spaces 5",
+            "coordinates": [-42, 10, -41, 12]
+        },
+        {
+            "name": "Parking Spaces 6",
+            "coordinates": [-40, 10, -40, 11]
+        },
+        {
+            "name": "Parking Spaces 7",
+            "coordinates": [-42, 10, -41, 11]
+        },
+        {
+            "name": "Parking Spaces 8",
+            "coordinates": [-40, 11, -40, 12]
+        },
+        {
+            "name": "Parking Spaces 9",
+            "coordinates": [-41, 10, -40, 12]
+        },
+        {
+            "name": "Elevator Shafts 1",
+            "coordinates": [-42, 10, -41, 12]
+        },
+        {
+            "name": "Elevator Shafts 2",
+            "coordinates": [-41, 10, -41, 11]
+        },
+        {
+            "name": "Elevator Shafts 3",
+            "coordinates": [-42, 11, -41, 12]
+        },
+        {
+            "name": "Stairwells 1",
+            "coordinates": [-40, 10, -40, 11]
+        },
+        {
+            "name": "Stairwells 2",
+            "coordinates": [-42, 11, -41, 12]
+        },
+        {
+            "name": "Stairwells 3",
+            "coordinates": [-40, 10, -40, 12]
+        },
+        {
+            "name": "Stairwells 4",
+            "coordinates": [-41, 10, -40, 11]
+        },
+        {
+            "name": "Payment Booths 1",
+            "coordinates": [-42, 10, -41, 11]
+        },
+        {
+            "name": "Payment Booths 2",
+            "coordinates": [-41, 10, -40, 11]
+        },
+        {
+            "name": "Storage Rooms 1",
+            "coordinates": [-40, 10, -40, 11]
+        },
+        {
+            "name": "Storage Rooms 2",
+            "coordinates": [-42, 11, -41, 12]
+        },
+        {
+            "name": "Storage Rooms 3",
+            "coordinates": [-41, 10, -40, 11]
+        },
+        {
+            "name": "Storage Rooms 4",
+            "coordinates": [-40, 11, -40, 12]
+        },
+        {
+            "name": "Storage Rooms 5",
+            "coordinates": [-42, 10, -41, 11]
+        },
+        {
+            "name": "Handicap Spots 1",
+            "coordinates": [-40, 10, -40, 11]
+        },
+        {
+            "name": "Handicap Spots 2",
+            "coordinates": [-42, 11, -41, 12]
+        },
+        {
+            "name": "Handicap Spots 3",
+            "coordinates": [-41, 10, -40, 12]
+        },
+        {
+            "name": "Handicap Spots 4",
+            "coordinates": [-40, 11, -40, 12]
+        },
+        {
+            "name": "Handicap Spots 5",
+            "coordinates": [-40, 10, -40, 12]
+        },
+        {
+            "name": "Handicap Spots 6",
+            "coordinates": [-41, 10, -40, 12]
+        }
+    ]
+  },
+  "reasoning": "The Parking Garage 3 has been organized to ensure all subitems are within the boundary and no overlap exists. Given the relative sizes: Parking Spaces (9), Elevator Shafts (3), Stairwells (4), Payment Booths (2), Storage Rooms (5), and Handicap Spots (6), we divided the main area into smaller regions matching their rank in size. Parking Spaces are most frequent and spread throughout the garage because they are the primary function of the space. Elevator Shafts are near parking spaces for easy access. Stairwells are placed in central locations for easy evacuation routes. Payment Booths are near entrances/exits. Storage Rooms are placed in unused spaces, maximizing utility without blocking main pathways. Handicap Spots are near entrances/exits providing easy access for drivers."
+}

@@ -1,0 +1,49 @@
+{
+  "layout": {
+    "name": "Radiology Department",
+    "coordinates": [-8, 10, -6, 12],
+    "children": [
+      {
+        "name": "Mri Room",
+        "coordinates": [-8, 10, -7, 12]
+      },
+      {
+        "name": "Ct Scan Room",
+        "coordinates": [-7, 10, -6, 12]
+      },
+      {
+        "name": "X-Ray Room",
+        "coordinates": [-8, 11, -7, 12]
+      },
+      {
+        "name": "Waiting Area",
+        "coordinates": [-7, 11, -6, 12]
+      },
+      {
+        "name": "Staff Office",
+        "coordinates": [-8, 10, -7, 11]
+      },
+      {
+        "name": "Ultrasound Room",
+        "coordinates": [-7, 10, -6, 11]
+      },
+      {
+        "name": "Changing Rooms",
+        "coordinates": [-8, 10, -7, 11]
+      },
+      {
+        "name": "Restroom",
+        "coordinates": [-7, 10, -6, 11]
+      },
+      {
+        "name": "Reception Desk",
+        "coordinates": [-8, 11, -7, 12]
+      },
+      {
+        "name": "Equipment Storage",
+        "coordinates": [-7, 11, -6, 12]
+      }
+    ]
+  },
+  "reasoning": "The layout prioritizes the placement of the subitems within the boundaries of the Radiology Department's coordinates [-8, 10, -6, 12]. The MRI Room and CT Scan Room, being the largest rooms, are positioned on the left and right sides respectively to utilize the maximum height available. The X-Ray Room and Waiting Area are placed next to each other at the top to maintain proximity for patient convenience. The Staff Office and Ultrasound Room, which are medium-sized, are positioned centrally to facilitate easy access for staff and patients. The Changing Rooms and Restroom are adjacent to each other in the middle for logical use. The Reception Desk and Equipment Storage are placed near the top to utilize the remaining space efficiently. This arrangement ensures all subitems are within the defined boundaries, no subitems overlap, and the space is efficiently used by keeping the rooms flush against the walls."
+}

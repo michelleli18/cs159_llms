@@ -1,0 +1,41 @@
+{
+  "layout": {
+    "name": "Sports Complex",
+    "coordinates": [-17, 17, -13, 20],
+    "children": [
+      {
+        "name": "Soccer Field",
+        "coordinates": [-17, 17, -15, 19]
+      },
+      {
+        "name": "Parking Lot",
+        "coordinates": [-15, 17, -13, 19]
+      },
+      {
+        "name": "Basketball Court",
+        "coordinates": [-17, 19, -14, 20]
+      },
+      {
+        "name": "Swimming Pool",
+        "coordinates": [-14, 19, -13, 20]
+      },
+      {
+        "name": "Tennis Court",
+        "coordinates": [-17, 18, -15, 19]
+      },
+      {
+        "name": "Gymnasium",
+        "coordinates": [-15, 18, -13, 19]
+      },
+      {
+        "name": "Locker Rooms",
+        "coordinates": [-17, 17, -16, 18]
+      },
+      {
+        "name": "Snack Bar",
+        "coordinates": [-16, 17, -15, 18]
+      }
+    ]
+  },
+  "reasoning": "The 'Soccer Field' and 'Parking Lot' are placed at the outermost edges because they are the largest and need to be easily accessible. The 'Basketball Court' and 'Swimming Pool' are next to each other at the top because they are relatively large and central to a sports complex. The 'Tennis Court' and 'Gymnasium' are placed below the 'Basketball Court' in a side-by-side manner to use the space efficiently and logically. 'Locker Rooms' and 'Snack Bar' are placed next to each other at the bottom center for convenience of access from other areas. All coordinates have been calculated to fit within the parent space and do not overlap while also ensuring the entire given space is utilized efficiently."
+}

@@ -1,0 +1,52 @@
+{
+"layout": {
+    "name": "Parliament Building",
+    "coordinates": [-20, 10, -12, 15],
+    "children": [
+        {
+            "name": "Chamber Hall",
+            "coordinates": [-20, 12, -13, 15]
+        },
+        {
+            "name": "Library",
+            "coordinates": [-20, 10, -14, 12]
+        },
+        {
+            "name": "Committee Rooms 1",
+            "coordinates": [-14, 13, -12, 15]
+        },
+        {
+            "name": "Committee Rooms 2",
+            "coordinates": [-18, 10, -16, 15]
+        },
+        {
+            "name": "Committee Rooms 3",
+            "coordinates": [-16, 10, -14, 15]
+        },
+        {
+            "name": "Offices 1",
+            "coordinates": [-20, 10, -18, 12]
+        },
+        {
+            "name": "Offices 2",
+            "coordinates": [-18, 12, -16, 14]
+        },
+        {
+            "name": "Offices 3",
+            "coordinates": [-14, 10, -12, 11]
+        },
+        {
+            "name": "Lobby",
+            "coordinates": [-18, 12, -16, 13]
+        },
+        {
+            "name": "Cafeteria",
+            "coordinates": [-16, 12, -13, 14]
+        },
+        {
+            "name": "Press Room",
+            "coordinates": [-16, 14, -15, 15]
+        }
+    ]
+},
+"reasoning": "The 'Parliament Building' has its children placed in a logical and space-efficient manner. The 'Chamber Hall' and 'Library', being relatively larger, are placed in the corners for better accessibility and usage of space. Given the importance of the 'Chamber Hall', it is placed at the top-right corner, adjacent to 'Committee Rooms' for quick access during sessions. The 'Library' is also placed near the main entry points but in the lower section to ensure silence. These two occupy more area due to their critical function and larger relative sizes. 'Committee Rooms', being plural, have three instances distributed across the right side of the building, providing ample room for various committee meetings. 'Offices', also plural, have three instances placed strategically to cover available space efficiently while not obstructing movement. 'Lobby' is centrally located for ease of access when entering the building, bridging the gap between various sections. The 'Cafeteria' is near the bottom middle for strategic positioning near the 'Library' and 'Offices' for easy access to refreshments. The 'Press Room', being relatively smaller, is placed in an upper smaller section ensuring all the requirements are met while 'Press Room' does not obstruct larger activities. All rooms touch at least one wall of the Parliament Building ensuring effective use of the boundary space while minimizing unused areas throughout the building."}

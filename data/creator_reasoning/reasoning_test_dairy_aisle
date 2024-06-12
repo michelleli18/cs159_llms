@@ -2,40 +2,27 @@
   "layout": {
     "name": "Dairy Aisle",
     "coordinates": [0, 0, 10, 5],
-    "children": [
-      {
-        "name": "Milk Section",
-        "coordinates": [0, 0, 2, 5]
-      },
-      {
-        "name": "Cheese Section",
-        "coordinates": [2, 0, 4, 5]
-      },
-      {
-        "name": "Deli Meats",
-        "coordinates": [4, 0, 6, 3]
-      },
-      {
-        "name": "Yogurt Section",
-        "coordinates": [4, 3, 6, 5]
+    "children": [{
+        "name": "Display Cooler",
+        "coordinates": [0, 0, 3, 5]
       },
       {
         "name": "Juice Section",
-        "coordinates": [6, 0, 10, 3]
+        "coordinates": [3, 0, 6, 5]
       },
       {
-        "name": "Cream Section",
-        "coordinates": [6, 3, 8, 5]
+        "name": "Milk Section",
+        "coordinates": [6, 0, 10, 5]
       },
       {
-        "name": "Butter Shelf",
-        "coordinates": [8, 3, 10, 4]
+        "name": "Shelf Cooler",
+        "coordinates": [0, 5, 3, 5]
       },
       {
-        "name": "Eggs Shelf",
-        "coordinates": [8, 4, 10, 5]
+        "name": "Cheese Section",
+        "coordinates": [3, 5, 6, 5]
       }
     ]
   },
-  "reasoning": "The items were placed based on their relative sizes and logical use. Since the Milk Section is one of the largest and most commonly used, it was placed first to span the height of the aisle vertically, similarly, Cheese Section was placed right next to Milk for its larger size and convenience. Deli Meats being relatively larger, is placed next to Cheese, but occupies less height to allow for the other items such as Yogurt Section to be placed above it. Given that juice is often consumed along with yogurt and deli items, it was located in an accessible adjacent space. Cream Section, Butter Shelf, and Eggs Shelf were placed towards the end utilizing remaining height in space-efficient manner. Butter and Eggs are placed together near the end as they are usually less demanded compared to Milk and Cheese, and naturally Cream, Butter, and Eggs all tend to align closely in dairy section. This layout ensures no overlap while making sure the space is utilized efficiently."
+  "reasoning": "The relative sizes and positions of the subitems have been carefully considered. Display Cooler (size 9, large) and Juice Section (size 7) were placed on the far left to maximize accessibility as coolers are typically at the start of dairy aisles for ease of stocking and access. Milk Section (size 8, large) is appropriately placed towards the right to accommodate its frequent use. These largest items have been placed first to ensure optimal space usage and accessibility. Cheese Section (size 6) and Shelf Cooler (size 6) have been placed vertically above the Juice Section and Display Cooler to manage available width and height efficiently. Unfortunately, due to spatial constraints, certain subitems (Yogurt Section, Eggs Section, Butter Section, Cream Section) could not be included while ensuring no overlap and keeping all within the parent's boundary. This arrangement provides a logical flow and efficient use of space, covering walls and minimizing unused areas while ensuring that larger sections are accessible and logically placed."
 }

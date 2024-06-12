@@ -1,0 +1,29 @@
+{
+    "layout": {
+        "name": "Visitor Center",
+        "coordinates": [3, 10, 5, 12],
+        "children": [
+            {
+                "name": "Restrooms",
+                "coordinates": [3, 10, 4, 11]
+            },
+            {
+                "name": "Information Desk",
+                "coordinates": [4, 10, 5, 10.5]
+            },
+            {
+                "name": "Interactive Kiosk",
+                "coordinates": [4, 10.5, 5, 11]
+            },
+            {
+                "name": "Gift Shop",
+                "coordinates": [3, 11, 4, 12]
+            },
+            {
+                "name": "Exhibit Room",
+                "coordinates": [4, 11, 5, 12]
+            }
+        ]
+    },
+    "reasoning": "The Visitor Center has limited space (3,10,5,12) which is a 2x2 area. Here, the largest subitem, the Exhibit Room (size 8), is given a substantial portion of the area. The Restrooms (size 3) and Gift Shop (size 4) are given significant contiguous blocks of space, touching each other along the y-coordinate, making use of the entire vertical space. The smaller subitems, Information Desk (size 2) and Interactive Kiosk (size 1), were placed next to each other in the remaining space. This way, all coordinates fit within the parent container, and every item is placed logically next to items that are usually associated with each other in real life (e.g., Information Desk close to the Interactive Kiosk for quick access to information). Items like the Cafe, Meeting Room, and Seating Area were excluded due to insufficient space within the 2x2 dimensions of the Visitor Center."
+}

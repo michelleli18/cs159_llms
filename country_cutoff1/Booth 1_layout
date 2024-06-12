@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Booth 1",
+    "coordinates": [-50, 45, -45, 50],
+    "children": [
+      {
+        "name": "table",
+        "coordinates": [-49.5, 49.5, -48.5, 48.5]
+      },
+      {
+        "name": "bench 1",
+        "coordinates": [-49.5, 48.5, -48.5, 47.5]
+      },
+      {
+        "name": "bench 2",
+        "coordinates": [-49.5, 47.5, -48.5, 46.5]
+      },
+      {
+        "name": "bench 3",
+        "coordinates": [-49.5, 46.5, -48.5, 45.5]
+      },
+      {
+        "name": "menu board",
+        "coordinates": [-48, 49.5, -47, 48.5]
+      },
+      {
+        "name": "register",
+        "coordinates": [-48, 48.5, -47, 47.5]
+      },
+      {
+        "name": "seat cushions",
+        "coordinates": [-48, 47.5, -47, 46.5]
+      }
+    ]
+  },
+  "reasoning": "Starting with Booth 1, the table was placed first because it is centrally important and should be easily accessible. Thus, it was given a central position near the top of the booth to allow for maximum space utilization. The benches were then placed underneath the table in a vertical line, which is typical in a dining layout. The menu board and register were placed together on one side, near the center area, since they are usually positioned closely for easy customer interaction. The menu board was placed first due to its likely larger size compared to the register. The single seat cushion was placed towards the bottom to be easily accessible while still ensuring all items are within the boundary without overlapping. The varying sizes ensure a realistic and logical layout while still maximizing space efficiency; benches take up less space vertically compared to tables and menu boards. Most of the booth area is covered by these items without any empty spaces left along the walls of the booth, thereby ensuring effective space utilization. All subitems are within the defined boundary of Booth 1."
+}

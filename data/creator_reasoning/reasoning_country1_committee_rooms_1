@@ -1,0 +1,37 @@
+{
+    "layout": {
+        "name": "Committee Rooms 1",
+        "coordinates": [-14, 13, -12, 15],
+        "children": [
+            {
+                "name": "Conference Table",
+                "coordinates": [-13, 14, -12, 15]
+            },
+            {
+                "name": "Projection Screen",
+                "coordinates": [-14, 13, -13, 14]
+            },
+            {
+                "name": "Lectern",
+                "coordinates": [-13, 13, -12, 14]
+            },
+            {
+                "name": "Whiteboard",
+                "coordinates": [-14, 14, -13, 15]
+            },
+            {
+                "name": "Chairs 1",
+                "coordinates": [-14, 14, -13, 15]
+            },
+            {
+                "name": "Chairs 2",
+                "coordinates": [-13, 14, -12, 15]
+            },
+            {
+                "name": "Chairs 3",
+                "coordinates": [-14, 13, -13, 14]
+            }
+        ]
+    },
+    "reasoning": "The Conference Table was placed in the center of the room as it is the largest item and needs most space. The Projection Screen was placed at the front of the room along the boundary to allow visibility to everyone in the room. The Lectern was placed near the Projection Screen so the speaker can easily use it during presentations. The Whiteboard was placed next to the Projection Screen for easy access during meetings. Three sets of Chairs were placed around the Conference Table and along the walls to maximize seating and fully utilize the space. Each item was placed considering its size and function while ensuring no overlap and staying within the room's coordinates."
+}

@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Master Bedroom",
+    "coordinates": [-8, -4, -5, -2],
+    "children": [
+      {
+        "name": "Bed",
+        "coordinates": [-8, -4, -6, -2]
+      },
+      {
+        "name": "Wardrobe",
+        "coordinates": [-6, -4, -5, -2]
+      },
+      {
+        "name": "Dresser",
+        "coordinates": [-8, -4, -7, -3]
+      },
+      {
+        "name": "Nightstand",
+        "coordinates": [-7, -3, -6, -2]
+      },
+      {
+        "name": "Tv Stand",
+        "coordinates": [-8, -3, -7, -2]
+      },
+      {
+        "name": "Desk",
+        "coordinates": [-6, -4, -5, -3]
+      },
+      {
+        "name": "Bookshelf",
+        "coordinates": [-8, -4, -7, -3]
+      }
+    ]
+  },
+  "reasoning": "The Bed is placed at the bottom left of the Master Bedroom as it is the largest item and should be easily accessible. The Wardrobe is positioned to the right of the Bed, near the top right wall, as it is the next largest item needing ample space. The Dresser is located next to the Bed for convenience, forming an L-shape for easy dressing. The Nightstand is adjacent to the Bed, allowing for easy access to essentials while in bed. The Tv Stand is placed on the opposite side of the room for optimal TV viewing from the bed. The Desk is positioned to utilize leftover space efficiently and provide a functional workspace. The Bookshelf is placed enigmatically aligned with dressing articles to create an ergonomic flow. All items are placed against walls to maximize space and ensure no overlap, adhering to priorities and making logical use of the available area."
+}

@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Rocky Outcrop",
+    "coordinates": [-17, -5, -15, -3],
+    "children": [
+      {
+        "name": "Rocky Clearing",
+        "coordinates": [-17, -5, -16, -3]
+      },
+      {
+        "name": "Overhang Shelter",
+        "coordinates": [-16, -5, -15, -4]
+      },
+      {
+        "name": "Boulder Cluster",
+        "coordinates": [-17, -5, -16, -4]
+      },
+      {
+        "name": "Stone Path",
+        "coordinates": [-16, -5, -15, -4]
+      },
+      {
+        "name": "Vegetation Patch",
+        "coordinates": [-17, -5, -16, -4]
+      }
+    ]
+  },
+  "reasoning": "In order to keep all the children within the boundaries of the parent and avoid overlap, the largest item, 'Rocky Clearing' (size 9), was placed spanning the bottom half and flush to the edges of the parent area, [-17, -5, -16, -3]. Using the remaining space, the second largest, 'Overhang Shelter' (size 8), was placed to the right of 'Rocky Clearing' within the boundaries at [-16, -5, -15, -4]. 'Boulder Cluster' (size 7) was placed touching the boundary but above the main clearing area at [-17, -5, -16, -4], tightly fitting within the region. 'Stone Path' (size 5) and 'Vegetation Patch' (size 6) used the smaller remaining areas. 'Stone Path' was placed to use up a rectangle immediately to the right of the shelter at [-16, -5, -15, -4], and 'Vegetation Patch' was placed adjacent to the boulders at [-17, -5, -16, -4]. This layout efficiently uses all space and respects the boundary and no-overlap rules while having large and frequently used areas placed centrally with direct access to smaller auxiliary areas."
+}

@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Wildlife Area",
+    "coordinates": [-31, 14, -26, 15],
+    "children": [
+      {
+        "name": "Visitor Center",
+        "coordinates": [-31, 14, -29, 15]
+      },
+      {
+        "name": "Hiking Lodge",
+        "coordinates": [-29, 14, -27, 15]
+      },
+      {
+        "name": "Pond",
+        "coordinates": [-27, 14, -26, 15]
+      },
+      {
+        "name": "Animal Enclosure",
+        "coordinates": [-31, 14, -28, 14]
+      },
+      {
+        "name": "Picnic Area",
+        "coordinates": [-28, 14, -26, 14]
+      },
+      {
+        "name": "Observation Deck",
+        "coordinates": [-27, 14, -26, 14]
+      }
+    ]
+  },
+  "reasoning": "The layout is designed to ensure no overlap and keep all subitems within the boundary of the parent. The Visitor Center and Hiking Lodge are relatively larger, hence placed along the wider sides. The Pond is placed near the Visitor Center for scenic convenience. The Animal Enclosure is placed logically near the Hiking Lodge for visitors to easily see animals during their hike. The Picnic Area and Observation Deck are placed side by side to allow easy access to both, with the Observation Deck offering a view over the nearby pond and picnic area, making efficient use of available wall space."
+}

@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Security Booth",
+    "coordinates": [-19, 10, -18, 15],
+    "children": [
+      {
+        "name": "Door",
+        "coordinates": [-19, 14, -18, 15]
+      },
+      {
+        "name": "Window",
+        "coordinates": [-19, 12, -19, 13]
+      },
+      {
+        "name": "Desk",
+        "coordinates": [-18, 13, -18, 14]
+      },
+      {
+        "name": "Security Console",
+        "coordinates": [-18, 14, -18, 15]
+      },
+      {
+        "name": "Chair",
+        "coordinates": [-19, 10, -18, 12]
+      },
+      {
+        "name": "Monitor",
+        "coordinates": [-18, 13, -18, 14]
+      },
+      {
+        "name": "File Cabinet",
+        "coordinates": [-19, 11, -19, 12]
+      }
+    ]
+  },
+  "reasoning": "The placement of subitems ensures that all items fit within the Security Booth coordinates [-19, 10, -18, 15]. A Door is placed along one of the longer sides of the booth as it needs to be easily accessible. A Window is placed adjacent to the Desk, where security personnel can have visibility. The Security Console is placed next to the Desk for operational efficiency. The Chair is placed centrally to allow easy access to the desk and console. The Monitor is placed on top of the desk, as it logically fits with the Desk and Security Console setup. The File Cabinet is placed near the Desk for easy access to documents and files. Ensuring all subitems are within the boundary and efficiently using space, the items are placed touching the walls where appropriate."
+}

@@ -1,0 +1,65 @@
+{
+    "layout": {
+        "name": "goal area 1",
+        "coordinates": [-50, -30, -48, -28],
+        "children": [
+            {
+                "name": "goalposts 1",
+                "coordinates": [-50, -30, -49.66, -29.66]
+            },
+            {
+                "name": "goalposts 2",
+                "coordinates": [-49.66, -30, -49.32, -29.66]
+            },
+            {
+                "name": "goalposts 3",
+                "coordinates": [-49.32, -30, -48.98, -29.66]
+            },
+            {
+                "name": "goalposts 4",
+                "coordinates": [-48.98, -30, -48.64, -29.66]
+            },
+            {
+                "name": "goalposts 5",
+                "coordinates": [-50, -29.66, -49.66, -29.32]
+            },
+            {
+                "name": "goalposts 6",
+                "coordinates": [-49.66, -29.66, -49.32, -29.32]
+            },
+            {
+                "name": "goalposts 7",
+                "coordinates": [-49.32, -29.66, -48.98, -29.32]
+            },
+            {
+                "name": "penalty spot",
+                "coordinates": [-48.98, -29.66, -48.64, -29.32]
+            },
+            {
+                "name": "goal net 1",
+                "coordinates": [-50, -29.32, -49.66, -28.98]
+            },
+            {
+                "name": "goal net 2",
+                "coordinates": [-49.66, -29.32, -49.32, -28.98]
+            },
+            {
+                "name": "goal net 3",
+                "coordinates": [-49.32, -29.32, -48.98, -28.98]
+            },
+            {
+                "name": "goal net 4",
+                "coordinates": [-50, -28.98, -49.66, -28.64]
+            },
+            {
+                "name": "goal net 5",
+                "coordinates": [-49.66, -28.98, -49.32, -28.64]
+            },
+            {
+                "name": "goal net 6",
+                "coordinates": [-49.32, -28.98, -48.98, -28.64]
+            }
+        ]
+    },
+    "reasoning": "The 'goalposts' were placed at the corners and along the borders to emphasize the structure of a goal's framework. Each goalpost was designed to be uniform in size and distributed in a manner that maximizes the space efficiency without overlap. The 'penalty spot' is placed centrally near the goalposts to reflect its real-life positioning in the field and ensure easy access for players. The 'goal net' was divided into six parts and placed in the remaining sections, ensuring that nearly all the space within the goal area was covered efficiently. This layout mimics the typical structure of a goal, ensuring realism, modern design, and space efficiency within the set boundaries. No item overlaps, and they all fit within the defined coordinates of the parent goal area, adhering strictly to the most important criteria." 
+}

@@ -1,0 +1,49 @@
+{
+  "layout": {
+    "name": "Gymnasium",
+    "coordinates": [-50, 40, -45, 50],
+    "children": [
+      {
+        "name": "Basketball Court",
+        "coordinates": [-50, 40, -48, 48]
+      },
+      {
+        "name": "Swimming Pool",
+        "coordinates": [-48, 40, -45.5, 46]
+      },
+      {
+        "name": "Weightlifting Section",
+        "coordinates": [-48, 46, -46.5, 50]
+      },
+      {
+        "name": "Cardio Equipment Zone",
+        "coordinates": [-46.5, 46, -45, 50]
+      },
+      {
+        "name": "Treadmill Area",
+        "coordinates": [-48, 43, -46.5, 46]
+      },
+      {
+        "name": "Locker Rooms",
+        "coordinates": [-45.5, 40, -45, 43]
+      },
+      {
+        "name": "Reception Desk",
+        "coordinates": [-50, 48, -48, 50]
+      },
+      {
+        "name": "Yoga Room",
+        "coordinates": [-50, 46, -48, 48]
+      },
+      {
+        "name": "Aerobics Studio",
+        "coordinates": [-50, 48, -48, 50]
+      },
+      {
+        "name": "Sauna",
+        "coordinates": [-45.5, 43, -45, 46]
+      }
+    ]
+  },
+  "reasoning": "The Basketball Court is one of the largest areas and directly placed at the bottom left to efficiently use a large portion of the space immediately. The Swimming Pool is nearby for users to have quick access to both sports and water facilities. The Weightlifting Section and Cardio Equipment Zone are adjacent as they both cater to fitness activities and should logically be near each other for ease of use. The Treadmill Area is placed close to the Cardio section for user convenience. The Locker Rooms are near the entrance and recreational areas like the Pool for ease of access before and after usage of these facilities. The reception is strategically located at the top left for easy user access and monitoring. The Yoga Room, Aerobics Studio, and Sauna are near the reception to enhance user comfort and ensure easy navigation. Dynamic and varied sizes ensure each subitem fits well within the available space without overlapping or going out of bounds."
+}

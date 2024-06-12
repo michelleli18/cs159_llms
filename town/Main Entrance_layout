@@ -1,0 +1,25 @@
+{
+    "layout": {
+        "name": "Main Entrance",
+        "coordinates": [-50, 45, -42, 47],
+        "children": [
+            {
+                "name": "Entry Doors",
+                "coordinates": [-50, 46, -48, 47]
+            },
+            {
+                "name": "Reception Desk",
+                "coordinates": [-48, 46, -45, 47]
+            },
+            {
+                "name": "Security Station",
+                "coordinates": [-45, 46, -43, 47]
+            },
+            {
+                "name": "Waiting Area",
+                "coordinates": [-50, 45, -42, 46]
+            }
+        ]
+    },
+    "reasoning": "The coordinates of all children were chosen to ensure no overlap, and that each subitem fits within the parent 'Main Entrance' coordinates without exceeding bounds. The 'Entry Doors' are logically placed at the front near the top right at [-50, 46, -48, 47], ensuring easy and immediate access. Next, the 'Reception Desk' is placed adjacent to 'Entry Doors' at coordinates [-48, 46, -45, 47], as it's the first point of interaction upon entry. The 'Security Station' follows logically next to the 'Reception Desk' at [-45, 46, -43, 47] for both security reasons and ease of access to monitor the entrance. The 'Waiting Area' is placed at the bottom extending across the remaining width at [-50, 45, -42, 46], offering ample waiting space right as one enters and covering the remaining area efficiently between the entry point and the walls. This layout covers most of the parent space while maintaining a modern and functional design, ensuring all items adjoin each other and are flush with walls where possible."
+}

@@ -1,0 +1,21 @@
+{
+  "layout": {
+    "name": "Ranger Station",
+    "coordinates": [-27, 13, -25, 15],
+    "children": [
+      {
+        "name": "Main Office",
+        "coordinates": [-27, 14, -26, 15]
+      },
+      {
+        "name": "Visitor Center",
+        "coordinates": [-26, 14, -25, 15]
+      },
+      {
+        "name": "Parking Area",
+        "coordinates": [-27, 13, -25, 14]
+      }
+    ]
+  },
+  "reasoning": "The 'Main Office' is placed adjacent to the 'Visitor Center' because having the main administrative areas close together improves operational efficiency. These two items occupy the top left corner since these need to be prominent and easily accessible. The 'Parking Area' has been placed at the bottom since it is the largest item and requires significant space. This location also makes sense logically as visitors often need parking spaces near the entrance of the main facilities for convenience."
+}

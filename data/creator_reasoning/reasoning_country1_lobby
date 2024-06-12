@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Lobby",
+    "coordinates": [-2, 14, -1, 20],
+    "children": [
+      {
+        "name": "Reception Area",
+        "coordinates": [-2, 19, -1, 20]
+      },
+      {
+        "name": "Front Desk",
+        "coordinates": [-2, 17, -1, 19]
+      },
+      {
+        "name": "Seating Area",
+        "coordinates": [-2, 14, -1, 17]
+      },
+      {
+        "name": "Entrance Doors",
+        "coordinates": [-2, 20, -1, 20]
+      },
+      {
+        "name": "Elevators",
+        "coordinates": [-2, 18, -1, 19]
+      }
+    ]
+  },
+  "reasoning": "The Lobby's dimensions of [-2, 14, -1, 20] dictate that we place subitems in a vertical stacking manner on the x-axis because x-coordinates can only vary between -2 and -1, while y-coordinates have a range from 14 to 20. The largest item, the Reception Area (size 6), is placed to make best use of the space at the top right between [19 and 20]. The Entrance Doors (size 1) are logically placed at the Lobby's top left to denote easy access into the space. The Front Desk (size 3) is placed below the Reception Area as it is commonly encountered when entering a lobby. The Seating Area (size 4) is logically placed below the Front Desk, allowing guests to wait comfortably upon entry. Finally, the Elevators (size 2) are placed further down going towards the mid-bottom of the lobby, offering easy access without taking up too much space. The most important priority was adhered to by ensuring all subitems are within the boundary of the lobby coordinates and none of the subitems overlap. Each item has been efficiently placed next to each other from top to bottom maximizing usable space and mimicking real life layouts."
+}

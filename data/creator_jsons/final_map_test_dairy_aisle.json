@@ -1,0 +1,296 @@
+{
+    "name": "Dairy Aisle",
+    "coordinates": [
+        0,
+        0,
+        10,
+        5
+    ],
+    "children": [
+        {
+            "name": "Display Cooler",
+            "coordinates": [
+                0,
+                0,
+                3,
+                5
+            ]
+        },
+        {
+            "name": "Juice Section",
+            "coordinates": [
+                3,
+                0,
+                6,
+                5
+            ],
+            "children": [
+                {
+                    "name": "Juice Shelves 1",
+                    "coordinates": [
+                        3,
+                        0,
+                        4,
+                        2
+                    ]
+                },
+                {
+                    "name": "Juice Shelves 2",
+                    "coordinates": [
+                        4,
+                        0,
+                        5,
+                        2
+                    ]
+                },
+                {
+                    "name": "Juice Shelves 3",
+                    "coordinates": [
+                        5,
+                        0,
+                        6,
+                        2
+                    ]
+                },
+                {
+                    "name": "Refrigerated Display 1",
+                    "coordinates": [
+                        3,
+                        2,
+                        4,
+                        4
+                    ]
+                },
+                {
+                    "name": "Refrigerated Display 2",
+                    "coordinates": [
+                        4,
+                        2,
+                        5,
+                        4
+                    ]
+                },
+                {
+                    "name": "Sample Station",
+                    "coordinates": [
+                        5,
+                        2,
+                        6,
+                        4
+                    ]
+                },
+                {
+                    "name": "Aisle Signs",
+                    "coordinates": [
+                        3,
+                        4,
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "name": "Checkout Counter",
+                    "coordinates": [
+                        4,
+                        4,
+                        6,
+                        5
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Milk Section",
+            "coordinates": [
+                6,
+                0,
+                10,
+                5
+            ],
+            "children": [
+                {
+                    "name": "Refrigerators 1",
+                    "coordinates": [
+                        6,
+                        4,
+                        7,
+                        5
+                    ]
+                },
+                {
+                    "name": "Refrigerators 2",
+                    "coordinates": [
+                        7,
+                        4,
+                        8,
+                        5
+                    ]
+                },
+                {
+                    "name": "Refrigerators 3",
+                    "coordinates": [
+                        8,
+                        4,
+                        9,
+                        5
+                    ]
+                },
+                {
+                    "name": "Freezer Cases 1",
+                    "coordinates": [
+                        9,
+                        3,
+                        10,
+                        4
+                    ]
+                },
+                {
+                    "name": "Freezer Cases 2",
+                    "coordinates": [
+                        9,
+                        2,
+                        10,
+                        3
+                    ]
+                },
+                {
+                    "name": "Freezer Cases 3",
+                    "coordinates": [
+                        9,
+                        1,
+                        10,
+                        2
+                    ]
+                },
+                {
+                    "name": "Freezer Cases 4",
+                    "coordinates": [
+                        9,
+                        0,
+                        10,
+                        1
+                    ]
+                },
+                {
+                    "name": "Milk Shelves",
+                    "coordinates": [
+                        6,
+                        2,
+                        9,
+                        4
+                    ],
+                    "children": [
+                        {
+                            "name": "Milk Coolers",
+                            "coordinates": [
+                                6,
+                                2,
+                                7,
+                                3
+                            ]
+                        },
+                        {
+                            "name": "Dairy Products",
+                            "coordinates": [
+                                7,
+                                2,
+                                8,
+                                3
+                            ]
+                        },
+                        {
+                            "name": "Checkout Counters",
+                            "coordinates": [
+                                8,
+                                2,
+                                9,
+                                3
+                            ]
+                        },
+                        {
+                            "name": "Stock Room",
+                            "coordinates": [
+                                6,
+                                3,
+                                8,
+                                4
+                            ]
+                        },
+                        {
+                            "name": "Aisle Signs",
+                            "coordinates": [
+                                8,
+                                3,
+                                9,
+                                4
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Display Banners 1",
+                    "coordinates": [
+                        8,
+                        0,
+                        9,
+                        1
+                    ]
+                },
+                {
+                    "name": "Display Banners 2",
+                    "coordinates": [
+                        7,
+                        0,
+                        8,
+                        1
+                    ]
+                },
+                {
+                    "name": "Display Banners 3",
+                    "coordinates": [
+                        6,
+                        0,
+                        7,
+                        1
+                    ]
+                },
+                {
+                    "name": "Sale Signage 1",
+                    "coordinates": [
+                        6,
+                        1,
+                        7,
+                        2
+                    ]
+                },
+                {
+                    "name": "Sale Signage 2",
+                    "coordinates": [
+                        7,
+                        1,
+                        8,
+                        2
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Shelf Cooler",
+            "coordinates": [
+                0,
+                5,
+                3,
+                5
+            ]
+        },
+        {
+            "name": "Cheese Section",
+            "coordinates": [
+                3,
+                5,
+                6,
+                5
+            ]
+        }
+    ]
+}

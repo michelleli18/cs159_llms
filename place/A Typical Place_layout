@@ -1,0 +1,41 @@
+{
+    "layout": {
+        "name": "A Typical Place",
+        "coordinates": [-50, -50, 50, 50],
+        "children": [
+            {
+                "name": "Living Room",
+                "coordinates": [-50, 0, 20, 50]
+            },
+            {
+                "name": "Backyard",
+                "coordinates": [20, 0, 50, 50]
+            },
+            {
+                "name": "Kitchen",
+                "coordinates": [-50, -20, 0, 0]
+            },
+            {
+                "name": "Dining Room",
+                "coordinates": [0, -20, 20, 0]
+            },
+            {
+                "name": "Bedroom",
+                "coordinates": [-50, -50, 0, -20]
+            },
+            {
+                "name": "Bathroom",
+                "coordinates": [0, -50, 20, -20]
+            },
+            {
+                "name": "Office",
+                "coordinates": [20, -50, 35, -10]
+            },
+            {
+                "name": "Garage",
+                "coordinates": [35, -50, 50, -10]
+            }
+        ]
+    },
+    "reasoning": "The layout was designed to adhere to the principles of non-overlapping, logical placement, relative sizing, and efficient space usage. The Living Room is one of the largest areas because it's a central space typically used for various activities and is placed against a wall to maximize interaction with adjacent rooms like the Kitchen, Dining Room, and Backyard. The Backyard is similarly large and placed adjacent to the Living Room for easy outdoor access, making it a logical connection. The Kitchen is placed next to the Dining Room and Living Room, providing ease of access for serving meals and social interactions. The Bedroom is adjacent to both the Bathroom and Kitchen for practical proximity considerations, catering to everyday needs. The Bathroom is adjacent to both the Bedroom and Living Room for convenient access. The Office and Garage occupy the corners and are placed adjacent to each other and away from the primary living spaces to minimize disturbance and maximize efficient access. The sizes of subitems reflect their functional importance and actual average size as seen in real life: Living Room (8), Kitchen (6), Bedroom (7), Bathroom (4), Garage (5), Office (4), Dining Room (5), and Backyard (10). This layout ensures the effective use of space, logical proximity of related rooms, and compliance with the requirement to stay within the defined parent bounds, maximizing the typical usability and comfort of a modern living space."
+}

@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Bathroom",
+    "coordinates": [-8, -6, -6, -4],
+    "children": [
+      {
+        "name": "Bathtub",
+        "coordinates": [-8, -6, -7, -4]
+      },
+      {
+        "name": "Shower",
+        "coordinates": [-7, -6, -6, -4]
+      },
+      {
+        "name": "Sink",
+        "coordinates": [-8, -4, -7, -5]
+      },
+      {
+        "name": "Toilet",
+        "coordinates": [-7, -5, -6, -4]
+      },
+      {
+        "name": "Bathroom Cabinet",
+        "coordinates": [-7, -6, -6, -5]
+      },
+      {
+        "name": "Mirror",
+        "coordinates": [-8, -5, -7, -4]
+      }
+    ]
+  },
+  "reasoning": "The subitems were placed based on their relative sizes and logical positions within a modern bathroom setup. The Bathtub, being the largest item (6 out of 10), is placed in the corner along the bottom left and middle, spanning from coordinates [-8, -6] to [-7, -4]. This aligns with typical bathroom layouts where the bathtub is often along a wall. The Shower, also large (4 out of 10), is placed on the right side of the Bathtub from coordinates [-7, -6] to [-6, -4]. This is logical as showers and bathtubs are often adjacent. The Sink and the Mirror are positioned next to each other for practical use, with the Sink below the Mirror. The Sink (2 out of 10) is at coordinates [-8, -4] to [-7, -5], making efficient use of the lower left space. The Mirror (1 out of 10) fits above the Sink at coordinates [-7, -5] to [-6, -4]. The Toilet (2 out of 10) is placed in the upper right corner, ensuring privacy, spanning coordinates [-7, -5] to [-6, -4]. Finally, the Bathroom Cabinet (3 out of 10) is placed adjacent to the Sink and Toilet, occupying coordinates [-7, -6] to [-6, -5]. This placement ensures that every item's space is maximized and no overlaps exist, keeping all subitems within the bathroom boundaries as required."  
+}

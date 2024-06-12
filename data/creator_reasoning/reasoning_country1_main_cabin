@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Main Cabin",
+    "coordinates": [-10, -10, -4, -2],
+    "children": [
+      {
+        "name": "Living Room",
+        "coordinates": [-10, -10, -8, -4]
+      },
+      {
+        "name": "Kitchen Area",
+        "coordinates": [-8, -10, -6, -6]
+      },
+      {
+        "name": "Dining Table",
+        "coordinates": [-6, -10, -4, -8]
+      },
+      {
+        "name": "Master Bedroom",
+        "coordinates": [-8, -4, -5, -2]
+      },
+      {
+        "name": "Guest Bedroom",
+        "coordinates": [-5, -6, -4, -2]
+      },
+      {
+        "name": "Bathroom",
+        "coordinates": [-8, -6, -6, -4]
+      },
+      {
+        "name": "Fireplace",
+        "coordinates": [-6, -8, -4, -6]
+      }
+    ]
+  },
+  "reasoning": "The layout was designed to ensure that all child items fit within the main cabin without any overlap. The 'Living Room', the largest subitem, is placed at the bottom left corner to use the most space effectively. The 'Kitchen Area' is placed adjacent to the 'Living Room' to keep them logically connected. The 'Dining Table' is placed next to the 'Kitchen Area' for easy access. The 'Master Bedroom' is positioned at the top left to maintain privacy and to be easily accessible from the common areas. The 'Guest Bedroom' is placed next to the 'Master Bedroom' for logical proximity and to use up available space. The 'Bathroom' is conveniently placed near both bedrooms. Since it is important in the layout, I positioned the 'Fireplace' prominently close to the 'Dining Table' for central heating. The 'Porch' was not included due to unavailable space after allocating the required subitems’ spaces. This ensures that all space is efficiently used, and the design is modern and realistic."
+}

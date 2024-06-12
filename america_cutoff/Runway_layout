@@ -1,0 +1,53 @@
+{
+    "layout": {
+        "name": "Runway",
+        "coordinates": [-1000, 700, -940, 800],
+        "children": [
+            {
+                "name": "Runway 1",
+                "coordinates": [-1000, 745, -970, 800]
+            },
+            {
+                "name": "Runway 2",
+                "coordinates": [-970, 745, -940, 800]
+            },
+            {
+                "name": "Taxiway 1",
+                "coordinates": [-1000, 700, -970, 745]
+            },
+            {
+                "name": "Taxiway 2",
+                "coordinates": [-970, 700, -940, 745]
+            },
+            {
+                "name": "Hangar 1",
+                "coordinates": [-1000, 720, -985, 745]
+            },
+            {
+                "name": "Hangar 2",
+                "coordinates": [-985, 720, -970, 745]
+            },
+            {
+                "name": "Hangar 3",
+                "coordinates": [-1000, 700, -985, 720]
+            },
+            {
+                "name": "Hangar 4",
+                "coordinates": [-985, 700, -970, 720]
+            },
+            {
+                "name": "Control Tower",
+                "coordinates": [-955, 780, -940, 800]
+            },
+            {
+                "name": "Terminal",
+                "coordinates": [-970, 780, -955, 800]
+            },
+            {
+                "name": "Runway Lights",
+                "coordinates": [-955, 700, -940, 720]
+            }
+        ]
+    },
+    "reasoning": "The Runway is divided into two parts, Runway 1 and Runway 2, occupying the uppermost part of the space to leave room for other essential structures. Taxiways are next and are placed just below the runways to provide immediate accessibility for landing and takeoff operations. Hangars, which are crucial for storing airplanes, are strategically placed above and below the taxiways for easy access, with Hangar 3 and 4 directly below Taxiway 1 and 2, and Hangar 1 and 2 above them. The Control Tower, which needs a vantage point, is placed in the top-right corner, ensuring a clear view of both the runways and taxiways. The Terminal is placed near the Control Tower for convenient coordination and passenger movement. Lastly, the Runway Lights are positioned at the bottom-right to ensure illumination along the runway."
+}

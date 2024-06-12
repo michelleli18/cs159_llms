@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Security Office",
+    "coordinates": [-8, 17, -4, 20],
+    "children": [
+      {
+        "name": "Reception Desk",
+        "coordinates": [-8, 17, -7, 18]
+      },
+      {
+        "name": "Surveillance Room",
+        "coordinates": [-7, 17, -5, 19]
+      },
+      {
+        "name": "Lockers",
+        "coordinates": [-5, 17, -4, 18]
+      },
+      {
+        "name": "Control Panel",
+        "coordinates": [-8, 18, -6, 20]
+      },
+      {
+        "name": "Break Area",
+        "coordinates": [-6, 18, -4, 20]
+      }
+    ]
+  },
+  "reasoning": "The layout was designed with several core principles in mind. The 'Reception Desk' is placed at the bottom-left corner of the Security Office for immediate access upon entry. The 'Surveillance Room' is located next to the 'Reception Desk' to allow quick access for monitoring purposes. 'Lockers' are placed adjacent to the 'Surveillance Room' to provide easy access for staff members. The 'Control Panel' is positioned on the upper-left corner of the Security Office to efficiently manage the entire security systems. Finally, the 'Break Area' is placed next to the 'Control Panel' to ensure that employees can quickly relax without leaving the vicinity of essential control mechanisms. The 'Manager's Office' was not included due to a lack of sufficient space without causing an overlap or extending beyond the parent coordinates. The intention was to maximize the use of space while ensuring functional and logical placement of each subitem."
+}

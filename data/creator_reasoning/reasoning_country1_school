@@ -1,0 +1,21 @@
+{
+  "layout": {
+    "name": "School",
+    "coordinates": [7, 6, 10, 8],
+    "children": [
+      {
+        "name": "Auditorium",
+        "coordinates": [8, 7, 10, 8]
+      },
+      {
+        "name": "Gymnasium",
+        "coordinates": [8, 6, 10, 7]
+      },
+      {
+        "name": "Playground",
+        "coordinates": [7, 6, 8, 8]
+      }
+    ]
+  },
+  "reasoning": "To satisfy the requirement of keeping all subitems within the parent and avoiding overlap, the layout has been carefully designed. The Playground covers a large part of the available area in the school due to its relative size of 10. It occupies coordinates from [7,6] to [8,8], effectively covering 2x2 space. This is a logical placement as playgrounds generally need substantial space and are easily accessible from various parts of a school. The Auditorium, being critical for gatherings, is placed at the top right of the school with coordinates [8,7] to [10,8] allowing it easy access and maximal use of available height, this also makes use of the size of 9. The Gymnasium, also with a size of 9, is placed directly below the auditorium from [8,6] to [10,7] to maximize vertical space and ensure easy transitions between spaces often used together. Due to space constraints, smaller items such as the Classroom, Cafeteria, Library, Principal's Office, Parking Lot, Computer Lab, and Science Lab could not be included within the given area of the school. This approach ensured that the most critical and larger spaces were prioritized while maintaining the logical flow within a realistic school layout."
+}

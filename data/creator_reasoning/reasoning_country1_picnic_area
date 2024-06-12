@@ -1,0 +1,49 @@
+{
+    "layout": {
+        "name": "Picnic Area",
+        "coordinates": [-17, -9, -15, -5],
+        "children": [
+            {
+                "name": "Parking Lot",
+                "coordinates": [-17, -9, -16, -7]
+            },
+            {
+                "name": "Playground Area",
+                "coordinates": [-16, -9, -15, -8]
+            },
+            {
+                "name": "Restrooms",
+                "coordinates": [-16, -8, -15, -7]
+            },
+            {
+                "name": "Picnic Tables 1",
+                "coordinates": [-17, -7, -16, -6]
+            },
+            {
+                "name": "Picnic Tables 2",
+                "coordinates": [-17, -6, -16, -5]
+            },
+            {
+                "name": "Picnic Tables 3",
+                "coordinates": [-16, -6, -15, -5]
+            },
+            {
+                "name": "Picnic Tables 4",
+                "coordinates": [-16, -7, -15, -6]
+            },
+            {
+                "name": "Barbecue Grills 1",
+                "coordinates": [-17, -9, -16, -8]
+            },
+            {
+                "name": "Barbecue Grills 2",
+                "coordinates": [-16, -9, -15, -9]
+            },
+            {
+                "name": "Trash Bins",
+                "coordinates": [-16, -7, -15, -6]
+            }
+        ]
+    },
+    "reasoning": "The subitems are placed based on both their relative sizes and logical real-life placement considerations. The largest item, the Parking Lot, is placed in the bottom-left corner to provide easy access for vehicles, and it uses one of the largest subareas. Next, the Playground Area and Restrooms are placed adjacent to each other on the right side to allow easy access from the parking lot and for parents to supervise children. The Picnic Tables are placed in a U-shape around the Barbecue Grills to facilitate social interactions, and to provide opportunities for people to sit nearby while grilling. Each Picnic Table item is of consistent size to cover a significant area within the coordinates flush against the boundaries. Finally, the Trash Bins are placed centrally to be easily accessible to everyone using the area to maintain cleanliness. The placements ensure no subitems overlap and all remain within the coordinates of the parent item."
+}

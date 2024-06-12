@@ -1,0 +1,33 @@
+{
+    "layout": {
+        "name": "Forest Area",
+        "coordinates": [-12, 17, -8, 19],
+        "children": [
+            {
+                "name": "Clearing",
+                "coordinates": [-12, 17, -10, 18]
+            },
+            {
+                "name": "Cabin",
+                "coordinates": [-10, 17, -9, 18]
+            },
+            {
+                "name": "Pond",
+                "coordinates": [-9, 17, -8, 18]
+            },
+            {
+                "name": "Campsite",
+                "coordinates": [-12, 18, -11, 19]
+            },
+            {
+                "name": "Campsite 2",
+                "coordinates": [-11, 18, -10, 19]
+            },
+            {
+                "name": "Rocky Outcrop",
+                "coordinates": [-10, 18, -9, 19]
+            }
+        ]
+    },
+    "reasoning": "The subitems are placed considering both their relative sizes and logical locations, ensuring no overlap and optimizing the use of the available space. The 'Clearing' is the largest subitem, placed on the left side of the area, near the boundaries for efficient space usage. The 'Cabin' is placed next to the clearing, giving it a logical placement near open spaces for habitation. The 'Pond', also sizable, is placed encasing the boundary on the right, allowing a coherent flow of relaxation areas from left to right. Multiple 'Campsite' locations emphasize the functionality of the space, ensuring they are evenly distributed. Finally, the 'Rocky Outcrop' is placed along the boundary, lending a natural touch to the far right of the Forest Area."
+}

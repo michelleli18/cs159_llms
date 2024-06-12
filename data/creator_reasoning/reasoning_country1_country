@@ -1,0 +1,49 @@
+{
+  "layout": {
+    "name": "Country",
+    "coordinates": [0, 0, 10, 15],
+    "children": [
+      {
+        "name": "National Park",
+        "coordinates": [0, 10, 5, 15]
+      },
+      {
+        "name": "Mountain",
+        "coordinates": [5, 10, 10, 15]
+      },
+      {
+        "name": "City",
+        "coordinates": [0, 5, 5, 10]
+      },
+      {
+        "name": "Town",
+        "coordinates": [5, 5, 10, 10]
+      },
+      {
+        "name": "Forest",
+        "coordinates": [0, 0, 4, 5]
+      },
+      {
+        "name": "Desert",
+        "coordinates": [4, 0, 7, 5]
+      },
+      {
+        "name": "River",
+        "coordinates": [7, 0, 10, 3]
+      },
+      {
+        "name": "Lake",
+        "coordinates": [7, 3, 10, 5]
+      },
+      {
+        "name": "Farm",
+        "coordinates": [0, 0, 3, 4]
+      },
+      {
+        "name": "Beach",
+        "coordinates": [3, 0, 4, 3]
+      }
+    ]
+  },
+  "reasoning": "The 'National Park' and 'Mountain' are placed next to each other at the top because they are the largest items and parks are often located near mountains for scenic and recreational purposes. The 'City' and 'Town' are placed in the middle to centralize urban areas, making them accessible to nearby rural areas. The 'Forest' and 'Desert' are placed next to each other because deserts often transition into forested areas. The 'River' and 'Lake' are placed at the bottom right as rivers often flow into lakes. The 'Farm' and 'Beach' are at the bottom left, with the farm covering some coastal areas, which is realistic for some coastal farming practices. Each subitem has been configured to fit within the overall boundary of the 'Country' while avoiding overlap and ensuring efficient use of space along boundaries."
+}

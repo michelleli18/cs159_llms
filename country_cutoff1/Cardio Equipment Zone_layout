@@ -1,0 +1,41 @@
+{
+  "layout": {
+    "name": "Cardio Equipment Zone",
+    "coordinates": [-46.5, 46, -45, 50],
+    "children": [
+      {
+        "name": "Treadmills",
+        "coordinates": [-46.5, 49.5, -45.5, 50]
+      },
+      {
+        "name": "Elliptical Machines",
+        "coordinates": [-46.5, 49, -45.5, 49.5]
+      },
+      {
+        "name": "Stationary Bikes",
+        "coordinates": [-46.5, 48, -45.5, 49]
+      },
+      {
+        "name": "Rowing Machines",
+        "coordinates": [-46.5, 47, -45.5, 48]
+      },
+      {
+        "name": "Stair Climbers",
+        "coordinates": [-46.5, 46.5, -45.5, 47]
+      },
+      {
+        "name": "Weight Benches",
+        "coordinates": [-46, 46, -45.5, 46.5]
+      },
+      {
+        "name": "Water Dispenser",
+        "coordinates": [-46.5, 46, -46, 46.5]
+      },
+      {
+        "name": "Locker Area",
+        "coordinates": [-46.5, 46, -45.5, 47]
+      }
+    ]
+  },
+  "reasoning": "The Treadmills are placed at the top left as they are a staple cardio equipment and need ample space. Following closely below, the Elliptical Machines are added due to their similarity in cardio equipment category necessitating easy access. Stationary Bikes are positioned below the ellipticals to maintain the categorization of similar equipment together. Rowing Machines are placed next to Stationary Bikes as another popular cardio choice. Stair Climbers take up space further below due to their vertical design, requiring stable positioning. Weight Benches are added towards the bottom-right to ensure easy access for users post cardio. The Water Dispenser is positioned near the entrance area for quick hydration access upon entry. Finally, the Locker Area is placed strategically near the entrance and the cardio equipment to offer convenience in accessing personal items before and after usage of the equipment. All items are non-overlapping and fit within the given coordinates."
+}

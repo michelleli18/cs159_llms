@@ -1,0 +1,4 @@
+{
+"activities": ["Pottery Workshop Retreat in a Coastal Village", "Mangrove Reforestation Project Documentation", "Antique Camera Photo Series of Coastal and Mangrove Ecosystems"],
+"reasoning": "A Pottery Workshop Retreat in a Coastal Village combines Azizah's interest in pottery with her love for serene, nature-rich environments away from urban crowds. A Mangrove Reforestation Project Documentation leverages her expertise as an eco-journalist and her passion for mangrove forests, allowing her to contribute to a cause she deeply cares about while using her professional skills. Creating an Antique Camera Photo Series of Coastal and Mangrove Ecosystems enables Azizah to blend her hobby of collecting antique cameras with her environmental focus, producing unique and meaningful artistic work."
+}

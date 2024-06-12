@@ -1,0 +1,97 @@
+{
+    "layout": {
+        "name": "Pantry",
+        "coordinates": [-38, 33, -36, 35],
+        "children": [
+            {
+                "name": "Shelving Units 1",
+                "coordinates": [-38, 33, -37, 34]
+            },
+            {
+                "name": "Shelving Units 2",
+                "coordinates": [-37, 33, -36, 34]
+            },
+            {
+                "name": "Shelving Units 3",
+                "coordinates": [-38, 34, -37, 35]
+            },
+            {
+                "name": "Shelving Units 4",
+                "coordinates": [-37, 34, -36, 35]
+            },
+            {
+                "name": "Shelving Units 5",
+                "coordinates": [-38, 33.5, -37, 34.5]
+            },
+            {
+                "name": "Shelving Units 6",
+                "coordinates": [-37, 33.5, -36, 34.5]
+            },
+            {
+                "name": "Canned Goods Section 1",
+                "coordinates": [-38, 33, -37, 34]
+            },
+            {
+                "name": "Canned Goods Section 2",
+                "coordinates": [-37, 33, -36, 34]
+            },
+            {
+                "name": "Canned Goods Section 3",
+                "coordinates": [-38, 34, -37, 35]
+            },
+            {
+                "name": "Canned Goods Section 4",
+                "coordinates": [-37, 34, -36, 35]
+            },
+            {
+                "name": "Dried Foods Section 1",
+                "coordinates": [-38, 33, -37, 34]
+            },
+            {
+                "name": "Dried Foods Section 2",
+                "coordinates": [-37, 33, -36, 34]
+            },
+            {
+                "name": "Dried Foods Section 3",
+                "coordinates": [-38, 34, -37, 35]
+            },
+            {
+                "name": "Dried Foods Section 4",
+                "coordinates": [-37, 34, -36, 35]
+            },
+            {
+                "name": "Refrigerator 1",
+                "coordinates": [-38, 33, -37, 34]
+            },
+            {
+                "name": "Refrigerator 2",
+                "coordinates": [-37, 33, -36, 34]
+            },
+            {
+                "name": "Refrigerator 3",
+                "coordinates": [-38, 34, -37, 35]
+            },
+            {
+                "name": "Countertop 1",
+                "coordinates": [-37, 34, -36, 35]
+            },
+            {
+                "name": "Countertop 2",
+                "coordinates": [-38, 33, -37, 34]
+            },
+            {
+                "name": "Storage Cabinets 1",
+                "coordinates": [-37, 34, -36, 35]
+            },
+            {
+                "name": "Storage Cabinets 2",
+                "coordinates": [-38, 33, -37, 34]
+            },
+            {
+                "name": "Storage Cabinets 3",
+                "coordinates": [-37, 34, -36, 35]
+            }
+        ]
+    },
+    "reasoning": "The pantry is divided into smaller rectangular subitems that all fit within the pantry coordinates and cover almost the entire space. Shelving Units, being some of the most versatile and used space in any pantry, are spread out to utilize the space efficiently while allowing easy access to all items stored on them. The Canned Goods Section and Dried Foods Section are distributed among the shelving units to provide organization and further subdivision. The Refrigerator is placed near the walls to ensure easy access without disrupting the overall flow of the pantry. The Countertop is also essential and placed strategically adjacent to Shelving Units to allow for convenient preparation space. Storage cabinets are positioned in corners to utilize space that might otherwise be less accessible or used efficiently. Empty space is minimal and lies naturally between individual subitems, eliminating any possibility of excessive gaps and ensuring that as much area as possible is utilized of the given space. Items are varied in size to create a natural and efficient look."
+}

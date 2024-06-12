@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Lake",
+    "coordinates": [7, 3, 10, 5],
+    "children": [
+      {
+        "name": "Dock",
+        "coordinates": [7, 5, 8, 5]
+      },
+      {
+        "name": "Swimming Area",
+        "coordinates": [7, 3, 8, 4]
+      },
+      {
+        "name": "Picnic Area",
+        "coordinates": [8, 4, 9, 5]
+      },
+      {
+        "name": "Boathouse",
+        "coordinates": [8, 3, 9, 4]
+      },
+      {
+        "name": "Parking Lot",
+        "coordinates": [9, 3, 10, 4]
+      }
+    ]
+  },
+  "reasoning": "To fulfill the main priority, all subitems are placed within the coordinates of their parent 'Lake' [7, 3, 10, 5] with no overlap. Next, the subitems were positioned based on their relative sizes and logical placements. The 'Dock' is placed at the top-left corner for easy boat access. The 'Swimming Area' is next to the 'Dock' because typically, the dock and swimming area are adjacent for easy transition. The 'Picnic Area' is placed at the top-right corner next to the 'Swimming Area' to provide visitors a place to relax after swimming. The 'Boathouse' is placed below the 'Picnic Area' due to its medium size and logical placement for storing boats. Finally, the 'Parking Lot' is placed at the bottom-right corner, ensuring it is easily accessible without interrupting other activities. The 'Campground', being the largest subitem, could not be included due to insufficient space after considering the sizes of other items."
+}

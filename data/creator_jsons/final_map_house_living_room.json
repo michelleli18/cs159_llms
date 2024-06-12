@@ -1,0 +1,65 @@
+{
+    "name": "Living Room",
+    "coordinates": [
+        0,
+        3,
+        5,
+        5
+    ],
+    "children": [
+        {
+            "name": "Sofa",
+            "coordinates": [
+                0,
+                3,
+                3,
+                4
+            ]
+        },
+        {
+            "name": "Coffee Table",
+            "coordinates": [
+                0,
+                4,
+                2,
+                5
+            ]
+        },
+        {
+            "name": "Television",
+            "coordinates": [
+                3,
+                3,
+                4,
+                4
+            ]
+        },
+        {
+            "name": "Bookshelf",
+            "coordinates": [
+                4,
+                3,
+                5,
+                4
+            ]
+        },
+        {
+            "name": "Armchair",
+            "coordinates": [
+                3,
+                4,
+                4,
+                5
+            ]
+        },
+        {
+            "name": "Entertainment Center",
+            "coordinates": [
+                4,
+                4,
+                5,
+                5
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+  "layout": {
+    "name": "Temporary Exhibition",
+    "coordinates": [-16, 11, -12, 12],
+    "children": [
+      {"name": "Entrance Area", "coordinates": [-16, 11, -15, 12]},
+      {"name": "Information Desk", "coordinates": [-15, 11, -14, 12]},
+      {"name": "Exit Area", "coordinates": [-14, 11, -13, 12]},
+      {"name": "Gift Shop", "coordinates": [-13, 11, -12, 12]},
+      {"name": "Display Hall", "coordinates": [-16, 12, -12, 11]}
+    ]
+  },
+  "reasoning": "The entrance area is placed at the bottom left corner to naturally flow into the exhibition. The information desk is placed right next to the entrance area to provide assistance and information as soon as visitors enter. The exit area is positioned next to the information desk for a logical exit flow. The gift shop is placed by the exit area for convenient access as visitors are leaving. The display hall is the largest area, so it occupies the majority of the space to display the exhibitions. The resting area couldn't be included due to space constraints as the prioritized items took up the available space."
+}

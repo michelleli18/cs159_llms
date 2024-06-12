@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Conservatory Garden",
+    "coordinates": [-2, 15, 2, 20],
+    "children": [
+      {
+        "name": "North Garden",
+        "coordinates": [-2, 18, 0, 20]
+      },
+      {
+        "name": "Central Garden",
+        "coordinates": [-2, 16, 0, 18]
+      },
+      {
+        "name": "South Garden",
+        "coordinates": [-2, 15, 0, 16]
+      },
+      {
+        "name": "Fountain",
+        "coordinates": [0, 18, 2, 20]
+      },
+      {
+        "name": "Pergola",
+        "coordinates": [0, 16, 2, 18]
+      },
+      {
+        "name": "Greenhouse",
+        "coordinates": [0, 15, 2, 16]
+      },
+      {
+        "name": "Arbor",
+        "coordinates": [-1, 17, 0, 18]
+      }
+    ]
+  },
+  "reasoning": "The subitems within the Conservatory Garden have been placed considering various factors such as realistic layout, relative size, and adherence to the provided coordinates and areas. Since the North Garden, Central Garden, and South Garden have equal size ratings of 10, they take up the majority of the garden and occupy larger regions. These areas do not overlap and cover the space efficiently by using up all the space from left to right and ensuring alignment with the boundaries. The Fountain and Pergola are prioritized to remain close to each other as fountains are often centrally placed and pergolas are nearby for people to relax. The Greenhouse is placed at the southern end as greenhouses tend to be placed where they receive optimal sunlight and are different in function compared to the pergola and fountain. The Arbor is placed between the Central Garden and the North Garden allowing an easy transition point. All items are placed next to each other without overlaps and making efficient use of space. The coordinates ensure adherence to the strict requirement of fitting within the Conservatory Garden boundaries."
+}

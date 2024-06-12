@@ -1,0 +1,37 @@
+{
+    "layout": {
+        "name": "Common Room",
+        "coordinates": [-20, 10, -17, 13],
+        "children": [
+            {
+                "name": "Couches 1",
+                "coordinates": [-20, 12, -19, 13]
+            },
+            {
+                "name": "Couches 2",
+                "coordinates": [-20, 11, -19, 12]
+            },
+            {
+                "name": "Couches 3",
+                "coordinates": [-20, 10, -19, 11]
+            },
+            {
+                "name": "Coffee Table",
+                "coordinates": [-19, 12, -18, 13]
+            },
+            {
+                "name": "Bookshelves",
+                "coordinates": [-19, 10, -18, 12]
+            },
+            {
+                "name": "Television",
+                "coordinates": [-18, 12, -17, 13]
+            },
+            {
+                "name": "Dining Table",
+                "coordinates": [-18, 10, -17, 12]
+            }
+        ]
+    },
+    "reasoning": "The 'Common Room' was arranged to ensure all subitems fit within its boundaries without any overlap and to use the space efficiently. 'Couches' were divided into three sections ('Couches 1', 'Couches 2', 'Couches 3') each occupying a 1x1 space along the bottom of the room for relaxation areas at the same time touching the bottom wall of the common room. The 'Coffee Table' (size 4) was placed adjacent to the 'Couches 1' along the top to save space and make it easily accessible. 'Bookshelves' (size 6) was placed adjacent to 'Coffee Table' along the left to access books easily while sitting on the 'Couches'. 'Television' (size 5), was placed next to 'Coffee Table' opposite to 'Couches' for convenient viewing. The 'Dining Table' (size 6) was placed near the bottom right of the room to allow diners to have some privacy and space for dining activities, also fitting comfortably within the room space. Smaller subitem 'Chairs' could not be included as there wasn't adequate non-overlapping space remaining."
+}

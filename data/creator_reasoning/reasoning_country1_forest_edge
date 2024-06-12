@@ -1,0 +1,25 @@
+{
+  "layout": {
+    "name": "Forest Edge",
+    "coordinates": [-14, 10, -10, 11],
+    "children": [
+      {
+        "name": "Meadow",
+        "coordinates": [-14, 10, -12, 11]
+      },
+      {
+        "name": "Cabin",
+        "coordinates": [-12, 10, -10, 11]
+      },
+      {
+        "name": "Camping Area",
+        "coordinates": [-14, 10, -12, 10]
+      },
+      {
+        "name": "Pond",
+        "coordinates": [-12, 10, -10, 10]
+      }
+    ]
+  },
+  "reasoning": "1. Meadow was placed in the bottom-left corner and given the largest space from [-14, 10, -12, 11] because it is the largest area (size 10) and logically should have more space to replicate a natural, wide-open meadow next to the forest edge. 2. The Cabin, representing a size of 8, was placed next to the Meadow at the bottom-right corner with coordinates [-12, 10, -10, 11]. This makes it accessible for occupants and provides a scenic view of the Meadow. 3. The Camping Area was added to the top-left corner with the coordinates [-14, 10, -12, 10] as it occupies a significant amount of space (size 7). Its position adjacent to the Meadow makes it appealing for campers seeking a natural environment. 4. The Pond was allocated the remaining space in the top-right corner with the coordinates [-12, 10, -10, 10]. The pond is smaller (size 6) and its placement near the Cabin can create an attractive scenery for those staying in the Cabin. Additionally, the logical flow from Meadow to Cabin to Pond mimics natural landscapes where cabins are often near bodies of water. 5. Parking Lot could not be included due to space constraints; there was insufficient area remaining after allocating space for the other, larger subitems."
+}

@@ -1,0 +1,89 @@
+{
+  "layout": {
+    "name": "A Typical Country",
+    "coordinates": [-50, -50, 50, 50],
+    "children": [
+      {
+        "name": "School 1",
+        "coordinates": [-50, 25, -35, 50]
+      },
+      {
+        "name": "School 2",
+        "coordinates": [-35, 25, -20, 50]
+      },
+      {
+        "name": "Hospital 1",
+        "coordinates": [-20, 25, -5, 50]
+      },
+      {
+        "name": "Hospital 2",
+        "coordinates": [-5, 25, 10, 50]
+      },
+      {
+        "name": "Park 1",
+        "coordinates": [10, 25, 30, 50]
+      },
+      {
+        "name": "Park 2",
+        "coordinates": [30, 25, 50, 50]
+      },
+      {
+        "name": "Mall 1",
+        "coordinates": [-50, 0, -20, 25]
+      },
+      {
+        "name": "Mall 2",
+        "coordinates": [-20, 0, 10, 25]
+      },
+      {
+        "name": "Fire Station 1",
+        "coordinates": [10, 0, 25, 15]
+      },
+      {
+        "name": "Fire Station 2",
+        "coordinates": [25, 0, 40, 15]
+      },
+      {
+        "name": "Police Station 1",
+        "coordinates": [40, 0, 50, 15]
+      },
+      {
+        "name": "Police Station 2",
+        "coordinates": [10, 15, 25, 25]
+      },
+      {
+        "name": "Supermarket 1",
+        "coordinates": [25, 15, 40, 25]
+      },
+      {
+        "name": "Supermarket 2",
+        "coordinates": [40, 15, 50, 25]
+      },
+      {
+        "name": "Library 1",
+        "coordinates": [-50, -15, -30, 0]
+      },
+      {
+        "name": "Library 2",
+        "coordinates": [-30, -15, -10, 0]
+      },
+      {
+        "name": "Restaurant 1",
+        "coordinates": [-10, -15, 0, 0]
+      },
+      {
+        "name": "Restaurant 2",
+        "coordinates": [-50, -30, -35, -15]
+      },
+      {
+        "name": "Post Office 1",
+        "coordinates": [-35, -30, -25, -15]
+      },
+      {
+        "name": "Post Office 2",
+        "coordinates": [-25, -30, -15, -15]
+      }
+    ]
+  },
+  "reasoning": "The placement of different subitems was carefully chosen based on the size and functional priorities regarding their real-life placement needs. Schools and Hospitals are essential services and were thus given prominent and spacious areas in the top half of the country. Parks were placed next to each other and close to the Schools and Hospitals to provide recreational spaces. The Malls are located centrally to ensure accessibility from both residential and services areas. The Fire Stations and Police Stations were placed next to each other as emergency services need to be centrally located and easily accessible. Supermarkets and Libraries were distributed in a manner that prioritizes easy access from residential areas while also being spatially efficient. Restaurants were placed near frequently visited areas like the Library and Post Office, which were strategically positioned towards the lower portion of the country. The placement ensures maximum coverage with relevant subitems placed logically next to each other."
+}

@@ -1,0 +1,41 @@
+{
+    "layout": {
+        "name": "Swimming Pool",
+        "coordinates": [20, 0, 30, 15],
+        "children": [
+            {
+                "name": "Pool",
+                "coordinates": [20, 5, 27, 13]
+            },
+            {
+                "name": "Changing Rooms",
+                "coordinates": [27, 10, 30, 13]
+            },
+            {
+                "name": "Restrooms",
+                "coordinates": [27, 6, 30, 10]
+            },
+            {
+                "name": "Lifeguard Stand",
+                "coordinates": [27, 5, 30, 6]
+            },
+            {
+                "name": "Concession Stand",
+                "coordinates": [27, 2, 30, 5]
+            },
+            {
+                "name": "Seating Area",
+                "coordinates": [20, 0, 25, 5]
+            },
+            {
+                "name": "Shower Area",
+                "coordinates": [25, 0, 27, 2]
+            },
+            {
+                "name": "Storage Room",
+                "coordinates": [27, 0, 30, 2]
+            }
+        ]
+    },
+    "reasoning": "The placement of subitems ensures that all coordinates are within the bounds of the parent place and do not overlap. The 'Pool' is the largest feature, centrally located to maximize its importance and accessibility. 'Changing Rooms' are placed next to the 'Pool' to provide easy access to swimmers. 'Restrooms' are adjacent to the 'Changing Rooms' for convenience. 'Lifeguard Stand' is strategically placed near the pool for optimal visibility and quick response, followed by the 'Concession Stand' nearby for ease of access. The 'Seating Area' is placed in the front for spectators, with the 'Shower Area' nearby for swimmers to rinse off. Finally, the 'Storage Room' is placed next to the 'Shower Area' for easy access to supplies. Using this layout, most areas are efficiently covered, and important facilities are logically placed next to each other, ensuring efficient use of the available space and enhancing the overall visitor experience."
+}

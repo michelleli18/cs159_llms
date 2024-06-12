@@ -1,0 +1,41 @@
+{
+"context": {
+    "place": "North Garden",
+    "coordinates": [-2, 18, 0, 20],
+    "subitems": {
+        "Vegetable Plot": 8,
+        "Flower Bed": 6,
+        "Greenhouse": 7,
+        "Tool Shed": 3,
+        "Pond": 5,
+        "Compost Area": 2
+    }
+},
+"layout": {
+    "name": "North Garden",
+    "coordinates": [-2, 18, 0, 20],
+    "children": [
+        {
+            "name": "Greenhouse",
+            "coordinates": [-2, 19, -1, 20]
+        },
+        {
+            "name": "Vegetable Plot",
+            "coordinates": [-1, 19, 0, 20]
+        },
+        {
+            "name": "Flower Bed",
+            "coordinates": [-2, 18, -1, 19]
+        },
+        {
+            "name": "Pond",
+            "coordinates": [-1, 18, 0, 19]
+        },
+        {
+            "name": "Tool Shed",
+            "coordinates": [-2, 18, -2, 19]
+        }
+    ]
+},
+"reasoning": "The subitems were placed to maximize space efficiency and to satisfy the most crucial priority of keeping all children within the parent item with no overlap. The coordinates are aligned to match real-life usage and observable interactions. The 'Greenhouse' and 'Vegetable Plot' are placed next to each other to ensure easy access, as both are related to plant growth. The 'Flower Bed' is placed near the 'Vegetable Plot' for efficient watering strategies. The 'Pond' is close to the 'Flower Bed' for convenient water supply. The 'Tool Shed' is placed at the edge to allow easy access to tools required for maintaining the various garden subitems. 'Compost Area', with the least importance considering space, is omitted due to space constraints."
+}

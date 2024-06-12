@@ -1,0 +1,57 @@
+{
+  "layout": {
+    "name": "Runway",
+    "coordinates": [-38, 9, -34, 12],
+    "children": [
+      {
+        "name": "Runway 1",
+        "coordinates": [-38, 11, -35, 12]
+      },
+      {
+        "name": "Runway 2",
+        "coordinates": [-38, 10, -35, 11]
+      },
+      {
+        "name": "Runway 3",
+        "coordinates": [-38, 9, -35, 10]
+      },
+      {
+        "name": "Hangar 1",
+        "coordinates": [-35, 11, -34, 12]
+      },
+      {
+        "name": "Hangar 2",
+        "coordinates": [-35, 10, -34, 11]
+      },
+      {
+        "name": "Hangar 3",
+        "coordinates": [-35, 9, -34, 10]
+      },
+      {
+        "name": "Control Tower",
+        "coordinates": [-37, 11, -36, 12]
+      },
+      {
+        "name": "Terminal Building 1",
+        "coordinates": [-37, 10, -36, 11]
+      },
+      {
+        "name": "Terminal Building 2",
+        "coordinates": [-37, 9, -36, 10]
+      },
+      {
+        "name": "Taxiway 1",
+        "coordinates": [-36, 11, -35, 12]
+      },
+      {
+        "name": "Taxiway 2",
+        "coordinates": [-36, 10, -35, 11]
+      },
+      {
+        "name": "Taxiway 3",
+        "coordinates": [-36, 9, -35, 10]
+      }
+    ]
+  },
+  "reasoning": "The placement of the subitems was performed with utmost consideration for each size, relation to others, and the given priorities. The Runway, being the primary function, has multiple instances occupying the larger left side with sizes reflecting its greater relative size. Three instances of 'Runway' were chosen to represent cohesiveness and importance. The Hangars are smaller but more frequent, as Hangars are essential yet compact facilities, so they were placed adjacent to accommodate efficient workflow. The Control Tower and Terminal Buildings both have significant roles yet are slightly smaller, thus placed next to each other to reflect real-life architecture. Three Taxiways instances ensure there are ample pathways for movement without redundancy. Overall, the space was used efficiently, all items are within the parent coordinates, and the placement mirrors practical architectural design."
+}

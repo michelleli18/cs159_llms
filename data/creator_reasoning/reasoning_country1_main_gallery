@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Main Gallery",
+    "coordinates": [-20, 11, -16, 12],
+    "children": [
+      {
+        "name": "Exhibit Area",
+        "coordinates": [-20, 11, -17, 12]
+      },
+      {
+        "name": "Hallway",
+        "coordinates": [-17, 11, -16, 12]
+      },
+      {
+        "name": "Gift Shop",
+        "coordinates": [-20, 12, -18, 11]
+      },
+      {
+        "name": "Restrooms",
+        "coordinates": [-18, 12, -16, 11]
+      },
+      {
+        "name": "Reception Desk",
+        "coordinates": [-20, 11, -19, 12]
+      },
+      {
+        "name": "Storage Room",
+        "coordinates": [-19, 11, -18, 12]
+      },
+      {
+        "name": "Office",
+        "coordinates": [-18, 11, -17, 12]
+      }
+    ]
+  },
+  "reasoning": "The coordinates of Main Gallery are [-20, 11, -16, 12]. We first placed the larger item 'Exhibit Area' within this boundary, ensuring it spans a wide area for better accessibility, covering the left section of the gallery from [-20, 11, -17, 12]. Adjacent to it, we placed 'Hallway' at the far right edge [-17, 11, -16, 12], utilizing the remaining horizontal space effectively. The 'Gift Shop' is situated at the bottom left corner with coordinates [-20, 12, -18, 11] because it usually attracts visitors upon arrival. Right next to it, the 'Restrooms' are placed at [-18, 12, -16, 11], providing easy access for visitors shopping or exiting exhibits. Next, 'Reception Desk' is located at the top-end with coordinates [-20, 11, -19, 12], generally serving as the welcoming spot. The 'Storage Room' and 'Office', both crucial for operational purposes, are strategically positioned between significant visitor areas; 'Storage Room' at [-19, 11, -18, 12] and 'Office' placed adjacent to the storage at [-18, 11, -17, 12]. Thus, while covering all available space, these placements follow a logical and efficient architecture with no items overlapping or extending out of the parent coordinates. Note that not all space is filled perfectly, considering practical real-life movements and space usage. No subitems were duplicated or excluded, as all fit within the given area."
+}

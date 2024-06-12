@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "main ice rink",
+    "coordinates": [-49, -28, -47, -26],
+    "children": [
+      {
+        "name": "ice rink",
+        "coordinates": [-49, -28, -48, -27]
+      },
+      {
+        "name": "spectator stands",
+        "coordinates": [-48, -28, -47, -27.5]
+      },
+      {
+        "name": "locker rooms",
+        "coordinates": [-48, -27.5, -47, -27]
+      },
+      {
+        "name": "skate rental",
+        "coordinates": [-48, -27, -47.5, -26.5]
+      },
+      {
+        "name": "concession stands",
+        "coordinates": [-47.5, -27, -47, -26.5]
+      },
+      {
+        "name": "restrooms",
+        "coordinates": [-48, -26.5, -47, -26]
+      }
+    ]
+  },
+  "reasoning": "The ice rink, being the centerpiece and largest item, is positioned at the bottom left corner and occupies the whole left side. Spectator stands, which are the second largest, are adjacent to the ice rink but taking a portion of the upper right side to allow spectators a good view of the rink. Locker rooms are placed next to the spectator stands as they often need close proximity for ease of access post-event. Skate rental, being slightly larger than the concession stands, is placed below the locker rooms. Concession stands are next to the skate rental since this is a place where guests commonly go after renting skates. Finally, restrooms are placed near the entrance for accessibility and adjacent to concession stands for convenience. This layout ensures efficient use of space with all subitems touching the boundaries of the main ice rink area, leaving minimal to no uncovered space between them."
+}

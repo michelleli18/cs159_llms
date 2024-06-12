@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Lecture Hall",
+    "coordinates": [-20, 17, -17, 20],
+    "children": [
+      {
+        "name": "Lecture Stage",
+        "coordinates": [-20, 18, -18, 20]
+      },
+      {
+        "name": "Presentation Screen",
+        "coordinates": [-18, 18, -17, 20]
+      },
+      {
+        "name": "Seating Rows 1",
+        "coordinates": [-20, 17, -19, 18]
+      },
+      {
+        "name": "Seating Rows 2",
+        "coordinates": [-19, 17, -18, 18]
+      },
+      {
+        "name": "Seating Rows 3",
+        "coordinates": [-18, 17, -17, 18]
+      },
+      {
+        "name": "Podium",
+        "coordinates": [-20, 17, -19, 18]
+      },
+      {
+        "name": "Back Wall Doors",
+        "coordinates": [-19, 17, -18, 18]
+      }
+    ]
+  },
+  "reasoning": "In order to ensure that all subitems fit within the Lecture Hall and maintain their relative sizes and logical placements, the configuration was as follows: The 'Lecture Stage' was placed at the front of the hall ([top left]) which is typical in a lecture hall setting, and it occupies a 7/10 size of the hall width. The 'Presentation Screen' is adjacent to the 'Lecture Stage' (on its side) since presentations are delivered from the stage; a proximity placement is thus suitable. Three 'Seating Rows' were added as they are a crucial element in a lecture hall and have to be just in front of the lecture stage and screen for ensuring that students can clearly see the stage and screen. They are split into three parts to ensure coverage across the width of the hall while respecting constraints and maintaining a logical layout. The 'Podium' is situated closer to the 'Lecture Stage' and in front of it, facilitating the lecturer's movements. The 'Back Wall Doors' are placed by the end of the hall toward the exits, ensuring ease of access and egress which is crucial for emergency and routine use. Proportionally, these placements respect the relative size ratings and logical arrangement while maintaining strict boundary conditions and non-overlapping rules."
+}

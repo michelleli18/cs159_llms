@@ -1,0 +1,139 @@
+{
+    "name": "Dairy Aisle",
+    "coordinates": [
+        2,
+        -3,
+        8,
+        0
+    ],
+    "children": [
+        {
+            "name": "Milk Section",
+            "coordinates": [
+                2,
+                -3,
+                4,
+                -0.9
+            ],
+            "children": [
+                {
+                    "name": "Milk Aisle 1",
+                    "coordinates": [
+                        2,
+                        -3,
+                        2.9,
+                        -2.3
+                    ]
+                },
+                {
+                    "name": "Milk Aisle 2",
+                    "coordinates": [
+                        2.9,
+                        -3,
+                        3.8,
+                        -2.3
+                    ]
+                },
+                {
+                    "name": "Refrigerated Shelves",
+                    "coordinates": [
+                        2,
+                        -2.3,
+                        3.2,
+                        -1.4
+                    ]
+                },
+                {
+                    "name": "Product Signage",
+                    "coordinates": [
+                        3.2,
+                        -2.3,
+                        3.5,
+                        -2.1
+                    ]
+                },
+                {
+                    "name": "End Cap Display",
+                    "coordinates": [
+                        3.5,
+                        -2.3,
+                        3.8,
+                        -1.9
+                    ]
+                },
+                {
+                    "name": "Promotional Stand 1",
+                    "coordinates": [
+                        2.5,
+                        -1.4,
+                        3.2,
+                        -0.9
+                    ]
+                },
+                {
+                    "name": "Promotional Stand 2",
+                    "coordinates": [
+                        3.2,
+                        -1.4,
+                        4,
+                        -0.9
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cheese Section",
+            "coordinates": [
+                4,
+                -3,
+                5.8,
+                -0.9
+            ]
+        },
+        {
+            "name": "Yogurt Section",
+            "coordinates": [
+                5.8,
+                -3,
+                7,
+                -0.9
+            ]
+        },
+        {
+            "name": "Eggs Section",
+            "coordinates": [
+                2,
+                -0.9,
+                3.5,
+                0
+            ]
+        },
+        {
+            "name": "Butter and Margarine",
+            "coordinates": [
+                3.5,
+                -0.9,
+                5,
+                0
+            ]
+        },
+        {
+            "name": "Cream and Half-and-Half",
+            "coordinates": [
+                5,
+                -0.9,
+                6.2,
+                0
+            ]
+        },
+        {
+            "name": "Deli Meats",
+            "coordinates": [
+                6.2,
+                -0.9,
+                8,
+                0
+            ]
+        }
+    ]
+}

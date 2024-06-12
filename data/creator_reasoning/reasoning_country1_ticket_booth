@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Ticket Booth",
+    "coordinates": [-20, 10, -19, 15],
+    "children": [
+      {
+        "name": "Counter",
+        "coordinates": [-19, 12, -19, 15]
+      },
+      {
+        "name": "Ticket Window",
+        "coordinates": [-20, 12, -19, 11]
+      },
+      {
+        "name": "Waiting Area",
+        "coordinates": [-20, 10, -19, 11]
+      },
+      {
+        "name": "Queue Barriers 1",
+        "coordinates": [-19, 10, -20, 11]
+      },
+      {
+        "name": "Queue Barriers 2",
+        "coordinates": [-19, 11, -20, 12]
+      },
+      {
+        "name": "Signboard",
+        "coordinates": [-20, 12, -19, 13]
+      },
+      {
+        "name": "Entrance Door",
+        "coordinates": [-19, 10, -19, 12]
+      }
+    ]
+  },
+  "reasoning": "The coordinates of each subitem have been generated such that they are within the boundaries of the Ticket Booth with no overlap. The Counter and Ticket Window are placed at the top to ensure ease of customer interaction and efficient flow. Counter is larger as it is relatively more important for transactions. Ticket Window is next to it for accessibility. The Waiting Area is placed below the Ticket Window to facilitate waiting customers with ample space. Queue Barriers are split into two smaller sections for directing customer flow logically. The Signboard is smaller and positioned near the top where it can be easily seen by people entering the booth. The Entrance Door is the smallest and placed at one end to complement accessibility and flow. Since all items are within bounds, covering all available space logically, there was no need to leave any items out."
+}

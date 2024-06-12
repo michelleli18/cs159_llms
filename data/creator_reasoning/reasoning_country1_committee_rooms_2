@@ -1,0 +1,41 @@
+{
+  "layout": {
+    "name": "Committee Rooms 2",
+    "coordinates": [-18, 10, -16, 15],
+    "children": [
+      {
+        "name": "Conference Table",
+        "coordinates": [-18, 12, -17, 15]
+      },
+      {
+        "name": "Chair 1",
+        "coordinates": [-17, 12, -16, 13]
+      },
+      {
+        "name": "Chair 2",
+        "coordinates": [-17, 11, -16, 12]
+      },
+      {
+        "name": "Chair 3",
+        "coordinates": [-17, 10, -16, 11]
+      },
+      {
+        "name": "Chair 4",
+        "coordinates": [-18, 10, -17, 11]
+      },
+      {
+        "name": "Projector Screen",
+        "coordinates": [-18, 10, -17, 12]
+      },
+      {
+        "name": "Whiteboard",
+        "coordinates": [-18, 13, -17, 15]
+      },
+      {
+        "name": "Cabinet",
+        "coordinates": [-16, 13, -16, 15]
+      }
+    ]
+  },
+  "reasoning": "The 'Conference Table' is placed against the back wall on the upper side to make it the focal point of the room, leaving enough space for chairs around it. The 'Chairs' are placed symmetrically around the 'Conference Table', with multiple chairs titled 'Chair' to meet the requirement of having at least 3 'Chairs'. 'Projector Screen' and 'Whiteboard' are positioned in close proximity on the left side where they can be easily used during discussions and presentations. The 'Cabinet' is placed at the top right corner for storage without obstructing movement around the table. This layout ensures efficient use of space inside the parent perimeter while keeping all items within bounds and adjacent to each other, which matches professional architectural standards."
+}

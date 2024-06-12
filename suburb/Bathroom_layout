@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Bathroom",
+    "coordinates": [-40, 30, -35, 35],
+    "children": [
+      {
+        "name": "Bathtub",
+        "coordinates": [-40, 28, -37, 35]
+      },
+      {
+        "name": "Toilet",
+        "coordinates": [-37, 30, -35, 33]
+      },
+      {
+        "name": "Sink",
+        "coordinates": [-37, 35, -35.5, 33]
+      },
+      {
+        "name": "Shower",
+        "coordinates": [-40, 25, -37, 28]
+      },
+      {
+        "name": "Cabinet",
+        "coordinates": [-37, 25, -35, 28]
+      }
+    ]
+  },
+  "reasoning": "The Bathtub is placed against the left wall and takes up most of the width at the top. This makes logical sense as bathtubs usually take up a significant amount of space. The Toilet and Sink are placed next to each other at the right side of the bathroom, which is a common layout for easy access and efficient use of plumbing. The Shower is placed directly below the Bathtub, utilizing the vertical space efficiently and ensuring it is still within easy reach. Finally, the Cabinet is placed next to the Shower, providing storage in a convenient location."
+}

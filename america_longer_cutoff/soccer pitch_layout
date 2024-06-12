@@ -1,0 +1,41 @@
+{
+  "layout": {
+    "name": "soccer pitch",
+    "coordinates": [-50, -30, -38, -16],
+    "children": [
+      {
+        "name": "soccer field",
+        "coordinates": [-50, -30, -38, -20]
+      },
+      {
+        "name": "goal area 1",
+        "coordinates": [-50, -30, -48, -28]
+      },
+      {
+        "name": "goal area 2",
+        "coordinates": [-40, -30, -38, -28]
+      },
+      {
+        "name": "penalty box 1",
+        "coordinates": [-50, -28, -46, -24]
+      },
+      {
+        "name": "penalty box 2",
+        "coordinates": [-42, -28, -38, -24]
+      },
+      {
+        "name": "center circle",
+        "coordinates": [-45, -25, -43, -23]
+      },
+      {
+        "name": "player benches",
+        "coordinates": [-50, -24, -49, -23]
+      },
+      {
+        "name": "technical area",
+        "coordinates": [-39, -24, -38, -23]
+      }
+    ]
+  },
+  "reasoning": "The 'soccer field' spans the main area of the soccer pitch, utilizing the majority of the space. The 'goal area' is placed at both extremities of the field to mimic real-world soccer fields where goal areas are at each end of the pitch. Each 'goal area' is kept small relative to the 'soccer field' but placed flush against the sides. The 'penalty boxes' are positioned adjacent to the 'goal areas', being larger and extending closer to the center as in a real soccer field to ensure realistic orientation. The 'center circle' is centrally located within the 'soccer field' to align with standard soccer field designs. The 'player benches' and 'technical area' are similarly placed parallel to the field itself on opposite sides towards the edges to ensure accessibility without intruding the field itself. This ensures logical placement and maximizes the use of the available space while maintaining the proper functionality of the soccer pitch."
+}

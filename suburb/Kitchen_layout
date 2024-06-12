@@ -1,0 +1,49 @@
+{
+  "layout": {
+    "name": "Kitchen",
+    "coordinates": [-40, 35, -35, 40],
+    "children": [
+      {
+        "name": "Refrigerator",
+        "coordinates": [-39, 39, -38, 40]
+      },
+      {
+        "name": "Stove",
+        "coordinates": [-38, 39, -36, 40]
+      },
+      {
+        "name": "Oven",
+        "coordinates": [-36, 39, -35, 40]
+      },
+      {
+        "name": "Countertops",
+        "coordinates": [-39, 36, -35, 39]
+      },
+      {
+        "name": "Sink",
+        "coordinates": [-39, 35, -37, 36]
+      },
+      {
+        "name": "Dishwasher",
+        "coordinates": [-37, 35, -35, 36]
+      },
+      {
+        "name": "Microwave",
+        "coordinates": [-39, 33, -38, 35]
+      },
+      {
+        "name": "Pantry",
+        "coordinates": [-38, 33, -36, 35]
+      },
+      {
+        "name": "Cabinets",
+        "coordinates": [-36, 33, -35, 35]
+      },
+      {
+        "name": "Kitchen Table",
+        "coordinates": [-39, 30, -35, 33]
+      }
+    ]
+  },
+  "reasoning": "The Refrigerator, Stove, and Oven are placed in a row at the top-right corner to mark the cooking area, occupying a vertical space nearly flush with the right wall to maintain realism. Countertops, which typically run along the walls, are placed directly below the cooking area extending horizontally to cover much of the middle section. The Sink and Dishwasher, commonly placed together for practical kitchen workflow, are positioned at the bottom-left corner directly beneath the cooking area. The Microwave, Pantry, and Cabinets form a secondary utility area below the Sink and Dishwasher in logically ordered space-efficient positions. Finally, the Kitchen Table is placed centrally occupying the remaining space, anchoring the room cohesively. The placement maximizes use of the defined space while ensuring no overlaps and promoting an intuitive, realistic layout, thereby covering most of the kitchen area efficiently and practically adhering to the set priorities."
+}

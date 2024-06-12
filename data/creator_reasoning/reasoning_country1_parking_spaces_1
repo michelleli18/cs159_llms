@@ -1,0 +1,49 @@
+{
+  "layout": {
+    "name": "Parking Spaces 1",
+    "coordinates": [-8, 14, -5, 17],
+    "children": [
+      {
+        "name": "Parking Spot 1",
+        "coordinates": [-8, 14, -7, 15]
+      },
+      {
+        "name": "Parking Spot 2",
+        "coordinates": [-7, 14, -6, 15]
+      },
+      {
+        "name": "Parking Spot 3",
+        "coordinates": [-6, 14, -5, 15]
+      },
+      {
+        "name": "Parking Spot 4",
+        "coordinates": [-8, 15, -7, 16]
+      },
+      {
+        "name": "Handicap Spot",
+        "coordinates": [-7, 15, -5, 16]
+      },
+      {
+        "name": "Motorcycle Spot 1",
+        "coordinates": [-8, 16, -7.5, 17]
+      },
+      {
+        "name": "Motorcycle Spot 2",
+        "coordinates": [-7.5, 16, -7, 17]
+      },
+      {
+        "name": "Electric Charging Station 1",
+        "coordinates": [-7, 16, -6.5, 17]
+      },
+      {
+        "name": "Electric Charging Station 2",
+        "coordinates": [-6.5, 16, -6, 17]
+      },
+      {
+        "name": "Car",
+        "coordinates": [-6, 16, -5, 17]
+      }
+    ]
+  },
+  "reasoning": "The main layout is designed to ensure that all subitems are within the parent boundaries and do not overlap. I began with the largest items and placed them strategically to use the space efficiently and logically. The 'Parking Spot' subitems were placed on the left side to cover most of the area, each occupying a reasonable 1x1 unit space and starting from the bottom-left corner to the top. Since parking spots are essential and need to be more in number, I've placed four of them. The 'Handicap Spot' is next to the 'Parking Spot' on the top to give it easy access, considering it's typically intended to have extra space. The 'Motorcycle Spot' spots are smaller and are located above, aligned next to each other, which suits their smaller required space efficiently. The 'Electric Charging Station' subitems are placed next to the 'Motorcycle Spot' subitems, near the top right corner, as they are relatively small but still accessible. Lastly, the 'Car' spot is positioned on the far right, utilizing the remaining space effectively."
+}

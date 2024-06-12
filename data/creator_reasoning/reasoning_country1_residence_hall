@@ -1,0 +1,33 @@
+{
+    "layout": {
+        "name": "Residence Hall",
+        "coordinates": [-16, 15, -14, 17],
+        "children": [
+            {
+                "name": "Common Room",
+                "coordinates": [-16, 15, -15, 17]
+            },
+            {
+                "name": "Dorm Room",
+                "coordinates": [-15, 15, -14, 17]
+            },
+            {
+                "name": "Study Lounge",
+                "coordinates": [-16, 15, -14, 17]
+            },
+            {
+                "name": "Laundry Room",
+                "coordinates": [-16, 15, -15, 17]
+            },  
+            {
+                "name": "Restroom",
+                "coordinates": [-15, 15, -14, 17]
+            },
+            {
+                "name": "Kitchen Area",
+                "coordinates": [-16, 15, -15, 17]
+            }
+        ]
+    },
+    "reasoning": "The Common Room and Dorm Room are placed next to each other as they are major components of a residence hall. The Common Room is larger to accommodate more social interaction. The Laundry Room is situated near the Dorm Room for convenience. The Study Lounge is centrally located to provide easy access for all residents. Restrooms are smaller but distributed throughout for easy and quick access. Kitchen Areas are also placed near the Dorm Room and Common Room to allow for easy access to shared cooking facilities. The placement maximizes use of available space and ensures all areas are accessible without overlapping."
+}

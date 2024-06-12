@@ -1,0 +1,37 @@
+{
+    "layout": {
+        "name": "Swimming Pool",
+        "coordinates": [-48, 40, -45.5, 46],
+        "children": [
+            {
+                "name": "main pool",
+                "coordinates": [-48, 40, -46.5, 46]
+            },
+            {
+                "name": "shallow pool",
+                "coordinates": [-46.5, 40, -45.5, 45]
+            },
+            {
+                "name": "diving board area",
+                "coordinates": [-46.5, 45, -45.5, 46]
+            },
+            {
+                "name": "changing rooms",
+                "coordinates": [-45.5, 44, -45, 46]
+            },
+            {
+                "name": "poolside seating",
+                "coordinates": [-45.5, 42, -45, 44]
+            },
+            {
+                "name": "lifeguard station",
+                "coordinates": [-45.5, 40.5, -45, 42]
+            },
+            {
+                "name": "snack bar",
+                "coordinates": [-45.5, 40, -45, 40.5]
+            }
+        ]
+    },
+    "reasoning": "The 'main pool' is the largest feature and serves as the centerpiece of the area, thus it spans most of the space from bottom-left to almost the top-right. The 'shallow pool' is positioned right next to the 'main pool' on the right, as it is commonly adjacent for easy navigation, especially for families. The 'diving board area' is placed at the top end next to the 'shallow pool' for safety, allowing divers direct access without crowding the main swimming area. 'Changing rooms' are situated in the upper right corner, essential for easy access after swimming. 'Poolside seating' is placed directly below the changing rooms along the right wall, providing a resting area close to the action. The 'lifeguard station' is strategically placed between the 'poolside seating' and 'snack bar' to allow visibility and easy access to all pool areas. The 'snack bar' is conveniently located at the bottom right corner, easily accessible but away from water activities to keep the refreshment area dry. All subitems are placed to minimize unused space, utilizing the full area for an efficient layout."
+}

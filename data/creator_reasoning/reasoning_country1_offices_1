@@ -1,0 +1,41 @@
+{
+  "layout": {
+    "name": "Offices 1",
+    "coordinates": [-20, 10, -18, 12],
+    "children": [
+      {
+        "name": "Conference Room",
+        "coordinates": [-20, 10, -19, 12]
+      },
+      {
+        "name": "Cubicles Area",
+        "coordinates": [-19, 10, -18, 12]
+      },
+      {
+        "name": "Manager's Office",
+        "coordinates": [-20, 11, -19, 12]
+      },
+      {
+        "name": "Break Room",
+        "coordinates": [-19, 11, -18, 12]
+      },
+      {
+        "name": "Reception Desk",
+        "coordinates": [-20, 10, -19, 11]
+      },
+      {
+        "name": "Server Room",
+        "coordinates": [-20, 10, -20, 11]
+      },
+      {
+        "name": "Restroom",
+        "coordinates": [-18, 11, -18, 12]
+      },
+      {
+        "name": "Storage Room",
+        "coordinates": [-18, 10, -18, 11]
+      }
+    ]
+  },
+  "reasoning": "The subitems were placed to ensure all coordinates are within the boundaries of the parent location as a top priority. The Conference Room and Cubicles Area were placed on opposite ends to provide enough space for different types of usage and to ensure accessibility for different employees. The Manager's Office and Break Room were placed near each other for convenience and ease of access for break periods. The Reception Desk was strategically placed near the entrance to greet guests upon arrival. The Server Room was placed in a corner to ensure it is securely out of the main traffic flow. The Restroom and Storage Room, being the smallest, were fit in the remaining spaces to maximize the use of available space without congestion."
+}

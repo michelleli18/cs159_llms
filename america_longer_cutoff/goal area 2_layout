@@ -1,0 +1,25 @@
+{
+  "layout": {
+    "name": "goal area 2",
+    "coordinates": [-40, -30, -38, -28],
+    "children": [
+      {
+        "name": "goal line",
+        "coordinates": [-40, -30, -38, -29]
+      },
+      {
+        "name": "goal net",
+        "coordinates": [-40, -29, -38, -28.5]
+      },
+      {
+        "name": "penalty box",
+        "coordinates": [-39, -29.5, -38.5, -28]
+      },
+      {
+        "name": "penalty mark",
+        "coordinates": [-38.8, -28.25, -38.6, -28]
+      }
+    ]
+  },
+  "reasoning": "Starting with the most important item, the goal line, it's placed at the bottom of the goal area, covering the entire width as it's typically positioned at the boundary of the goal area. The goal net is placed directly above the goal line but takes up less height, logically placed where it would catch the ball. The penalty box is given substantial space because it's a larger and significant component, and it's positioned adjacent to the goal net to reflect real-life placement. The penalty mark, being the smallest item, is placed in a remaining small gap above the penalty box, allowing all items to fit within the constraints. Each subitem is arranged to maximize the use of space without overlapping, adhering to natural and logical placements based on their functions and relationships."
+}

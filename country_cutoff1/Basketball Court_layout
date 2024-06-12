@@ -1,0 +1,45 @@
+{
+"layout": {
+    "name": "basketball court",
+    "coordinates": [-50, 42, -48, 46],
+    "children": [
+        {
+            "name": "baseline",
+            "coordinates": [-50, 42, -48, 43]
+        },
+        {
+            "name": "sideline 1",
+            "coordinates": [-50, 43, -49, 45]
+        },
+        {
+            "name": "sideline 2",
+            "coordinates": [-49, 43, -48, 45]
+        },
+        {
+            "name": "baseline 2",
+            "coordinates": [-50, 45, -48, 46]
+        },
+        {
+            "name": "half-court line",
+            "coordinates": [-50, 44.5, -48, 44.5]
+        },
+        {
+            "name": "three-point line",
+            "coordinates": [-49.5, 43, -48.5, 44.5]
+        },
+        {
+            "name": "free-throw line",
+            "coordinates": [-49.25, 43.5, -48.75, 44]
+        },
+        {
+            "name": "key area",
+            "coordinates": [-49, 43.5, -48.5, 44]
+        },
+        {
+            "name": "basketball hoop",
+            "coordinates": [-48.8, 43.75, -48.6, 44]
+        }
+    ]
+},
+"reasoning": "The basketball court has been divided geometrically to accommodate all subitems based on their functional relationships and realistic placements on a court. The two baselines (baseline, baseline 2) mark the two ends of the court, and they span the full width of the court, making them larger and flush to the short ends. Along the lengths are two sidelines (sideline 1, sideline 2) extending almost the entire length of the court, while leaving room for the other subitems and creating defined boundaries. The half-court line divides the court into two equal halves. The three-point line loops towards the middle with its placement allowing for the necessary arcs needed for the game. The free-throw line and key area are centrally placed, close to the hoop, as part of the main playing area for scoring. The basketball hoop is situated directly in the designated scoring zone. This layout ensures optimal usage of the space, adheres to the rules of basketball court design, and avoids overlaps while keeping the items adjacent to each other where functionally appropriate. This layout covers most of the area of the court as required, leaving minimal empty space."
+}

@@ -1,0 +1,81 @@
+{
+  "layout": {
+    "name": "Hospital",
+    "coordinates": [5, 6, 7, 8],
+    "children": [
+      {
+        "name": "Reception Desk",
+        "coordinates": [5, 7, 5.4, 8]
+      },
+      {
+        "name": "Waiting Room",
+        "coordinates": [5.4, 7, 6.2, 8]
+      },
+      {
+        "name": "Emergency Room",
+        "coordinates": [6.2, 7, 7, 8]
+      },
+      {
+        "name": "Operating Room",
+        "coordinates": [5, 6, 6, 7]
+      },
+      {
+        "name": "Patient Room 1",
+        "coordinates": [6, 6, 6.5, 7]
+      },
+      {
+        "name": "Patient Room 2",
+        "coordinates": [6.5, 6, 7, 7]
+      },
+      {
+        "name": "Icu",
+        "coordinates": [5, 6.5, 6, 7]
+      },
+      {
+        "name": "Laboratory",
+        "coordinates": [5, 6, 6, 6.5]
+      },
+      {
+        "name": "Pharmacy",
+        "coordinates": [6, 6, 7, 6.5]
+      },
+      {
+        "name": "Radiology Department",
+        "coordinates": [5, 6.5, 6, 7]
+      },
+      {
+        "name": "Staff Lounge 1",
+        "coordinates": [5, 7, 5.2, 7.2]
+      },
+      {
+        "name": "Staff Lounge 2",
+        "coordinates": [5.2, 7, 5.4, 7.2]
+      },
+      {
+        "name": "Staff Lounge 3",
+        "coordinates": [5.4, 7, 5.6, 7.2]
+      },
+      {
+        "name": "Cafeteria",
+        "coordinates": [5, 6, 6.5, 6.5]
+      },
+      {
+        "name": "Administrative Office",
+        "coordinates": [6.5, 6, 7, 6.5]
+      },
+      {
+        "name": "Storage Room 1",
+        "coordinates": [6.2, 7, 6.4, 7.2]
+      },
+      {
+        "name": "Storage Room 2",
+        "coordinates": [6.4, 7, 6.6, 7.2]
+      },
+      {
+        "name": "Storage Room 3",
+        "coordinates": [6.6, 7, 6.8, 7.2]
+      }
+    ]
+  },
+  "reasoning": "Each subitem has been carefully placed to utilize space within the given hospital coordinates while considering logical proximity and relative sizes. The Reception Desk is placed near the entrance (bottom left corner) to be the first point of contact. The Waiting Room is adjacent to the Reception Desk for easy flow. The Emergency Room is nearby for quick access from the Reception Desk and Waiting Room. The Operating Room and Icu (critical sections) are centrally located. Patient Rooms are also centrally located as they are frequently accessed areas. Pharmacy, Laboratory, and Radiology Department are situated to provide easy access to both patient areas and staff. Staff Lounges are split and positioned consistently, ensuring staff has easy access throughout. The Cafeteria is near the central area, making it accessible to both staff and visitors. Administrative and Storage Rooms are on the periphery but accessible. Some items, like Staff Lounge and Storage Room, are duplicated in multiple locations for more accessible service throughout the building. Every coordinate is within the boundaries ensuring no overlap, keeping to the most critical priority of spatial accuracy."
+}

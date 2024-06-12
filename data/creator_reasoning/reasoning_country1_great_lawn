@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Great Lawn",
+    "coordinates": [-12, 15, -7, 20],
+    "children": [
+      {
+        "name": "Baseball Field",
+        "coordinates": [-12, 15, -9, 20]
+      },
+      {
+        "name": "Playground",
+        "coordinates": [-9, 18, -7, 20]
+      },
+      {
+        "name": "Picnic Area",
+        "coordinates": [-11, 15, -9, 18]
+      },
+      {
+        "name": "Gazebo",
+        "coordinates": [-10, 15, -9, 17]
+      },
+      {
+        "name": "Restrooms",
+        "coordinates": [-10, 17, -9, 18]
+      }
+    ]
+  },
+  "reasoning": "The 'Baseball Field' is the largest subitem with a size rating of 8, thus it has been placed first and made to cover the leftmost part of the 'Great Lawn' as it is oriented logically and uses the larger horizontal space. The 'Playground' is second in size rating with 6 and is situated at the top-right to be more accessible and secure within the space. The 'Picnic Area' with a size rating of 4 is adjacent to the 'Baseball Field' but below the 'Playground' to be more central. The 'Gazebo' rated 3 is placed near the 'Picnic Area' as they often complement each other in such settings. Finally, the 'Restrooms' with a size of 2 are placed near the 'Gazebo' and 'Playground' for both accessibility and convenience. This arrangement ensures all subitems fit within the 'Great Lawn' without overlapping or going out of bounds while respecting their relative sizes and usage logic."
+}

@@ -1,0 +1,37 @@
+{
+    "layout": {
+        "name": "Soccer Field",
+        "coordinates": [-17, 17, -15, 19],
+        "children": [
+            {
+                "name": "Field",
+                "coordinates": [-17, 17, -15, 19]
+            },
+            {
+                "name": "Goalpost 1",
+                "coordinates": [-17, 17, -16, 18]
+            },
+            {
+                "name": "Goalpost 2",
+                "coordinates": [-16, 17, -15, 18]
+            },
+            {
+                "name": "Bleachers 1",
+                "coordinates": [-17, 18, -16, 19]
+            },
+            {
+                "name": "Bleachers 2",
+                "coordinates": [-16, 18, -15, 19]
+            },
+            {
+                "name": "Locker Room",
+                "coordinates": [-17, 17, -16, 18]
+            },
+            {
+                "name": "Concession Stand",
+                "coordinates": [-15, 18, -15, 19]
+            }
+        ]
+    },
+    "reasoning": "The Soccer Field spans the entire parent coordinates, [-17, 17, -15, 19], which occupies the largest area as it is the main element. The two Goalposts, named 'Goalpost 1' and 'Goalpost 2', are placed within the confines of the Soccer Field and split evenly horizontally at the bottom. This ensures that the goalposts can be situated on either end of the field without encroaching on the soccer playing area. Bleachers are required near the field for the spectators' ease. Hence, 'Bleachers 1' and 'Bleachers 2' are placed vertically near the field but just outside where the action occurs, ensuring visibility. The 'Locker Room' for players is placed on one end of the field on the opposite side of the Goalposts to maintain practical access routes for players. The 'Concession Stand' is next to the bleachers but needs a smaller area, hence it's placed strategically to ensure easy access for spectators. Given the constraint of being flush with the boundaries and overlapping items, our placements adhere strictly to ensure functionality and spatial efficiency."
+}

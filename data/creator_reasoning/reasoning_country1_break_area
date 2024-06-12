@@ -1,0 +1,13 @@
+{
+    "layout": {
+        "name": "Break Area",
+        "coordinates": [-6, 18, -4, 20],
+        "children": [
+            {"name": "Table 1", "coordinates": [-6, 20, -5, 19]},
+            {"name": "Table 2", "coordinates": [-5, 20, -4, 19]}, 
+            {"name": "Chairs 1", "coordinates": [-6, 19, -5, 18]}, 
+            {"name": "Chairs 2", "coordinates": [-5, 19, -4, 18]} 
+        ]
+    },
+    "reasoning": "The arrangement of items was centered around keeping the subitems flush against the boundaries of the given break area and preventing any overlaps. We started with the two tables and placed them at the top of the area to allow for proper use of the vertical space. Given that 'Table' has a relative size of 6, they were given higher priority as compared to 'Chairs'. Since multiple chairs can be placed around tables, we placed two smaller units of chairs next to the tables. As these are the two needed to fulfill the imperative of 3 chairs (as per the instructions requiring multiples if plural), they are also flush to the sides and avoid using decimal points for coordination as this complicates the area further. Additional items could not be included due to constraints with strictly integer custom coordinates. Further items were thus not included for the integrity of direct integer constraint fulfillment and exact proportionality."
+}

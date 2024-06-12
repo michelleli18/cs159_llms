@@ -1,0 +1,57 @@
+{
+  "layout": {
+    "name": "Sports Stadium",
+    "coordinates": [2, 15, 10, 20],
+    "children": [
+      {
+        "name": "Field",
+        "coordinates": [2, 15, 5, 20]
+      },
+      {
+        "name": "Bleachers",
+        "coordinates": [5, 15, 10, 18]
+      },
+      {
+        "name": "Parking Lot",
+        "coordinates": [2, 18, 5, 20]
+      },
+      {
+        "name": "Concessions 1",
+        "coordinates": [2, 17, 3, 18]
+      },
+      {
+        "name": "Concessions 2",
+        "coordinates": [2, 16, 3, 17]
+      },
+      {
+        "name": "Locker Rooms",
+        "coordinates": [3, 15, 5, 17]
+      },
+      {
+        "name": "Restrooms 1",
+        "coordinates": [5, 18, 6, 19]
+      },
+      {
+        "name": "Restrooms 2",
+        "coordinates": [6, 18, 7, 19]
+      },
+      {
+        "name": "Vip Boxes",
+        "coordinates": [5, 17, 7, 18]
+      },
+      {
+        "name": "Scoreboard",
+        "coordinates": [7, 18, 8, 19]
+      },
+      {
+        "name": "Press Box",
+        "coordinates": [7, 19, 8, 20]
+      },
+      {
+        "name": "Medical Center",
+        "coordinates": [8, 18, 10, 20]
+      }
+    ]
+  },
+  "reasoning": "The layout prioritizes making sure all subitems are placed within the boundary of the Sports Stadium without overlapping. The Field occupies the biggest area as it needs the most space. Bleachers are placed adjacent to the field for optimal viewing experience. The Parking Lot is next to the field for accessibility and logical flow for visitors entering the stadium. Concessions are split into two for ease of access from different locations within the stadium. Locker Rooms are near the field for player convenience. Restrooms are placed near the bleachers and both are split into two for access from multiple points. VIP Boxes are placed with a view of the field and near concessions. The Scoreboard is strategically placed to be visible from the bleachers and field. The Press Box is near the Scoreboard for game management purposes. Lastly, the Medical Center is placed in the top corner for emergency accessibility while ensuring it doesn't interfere with other facilities."
+}

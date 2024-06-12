@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Bandstand",
+    "coordinates": [-15, 15, -12, 19],
+    "children": [
+      {
+        "name": "Stage",
+        "coordinates": [-15, 15, -13, 17]
+      },
+      {
+        "name": "Seating Area",
+        "coordinates": [-14, 17, -12, 19]
+      },
+      {
+        "name": "Concession Stand",
+        "coordinates": [-14, 15, -13, 16]
+      },
+      {
+        "name": "Restroom Facility",
+        "coordinates": [-13, 15, -12, 16]
+      },
+      {
+        "name": "Information Booth",
+        "coordinates": [-14, 16, -13, 17]
+      }
+    ]
+  },
+  "reasoning": "The Stage is placed on the left side to accommodate its larger size (relative size 8) and to ensure it is easily accessible. The Seating Area, having the largest relative size (9), is placed at the top right corner to allow an unobstructed view of the Stage. The Concession Stand and Restroom Facility, being smaller in size (4 and 3, respectively), are placed near the bottom, close to each other for convenience. The Information Booth, with the smallest size (2), is placed next to the Concession Stand and below the Seating Area, ensuring it is easily accessible from multiple areas. All subitems are placed efficiently to cover most of the available space while maintaining logical and accessible layouts relative to their sizes and typical real-life placements."
+}

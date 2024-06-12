@@ -1,0 +1,29 @@
+{
+    "layout": {
+        "name": "Entrance Booth",
+        "coordinates": [-8, 14, -6, 16],
+        "children": [
+            {
+                "name": "Entrance Gate",
+                "coordinates": [-8, 15, -7, 16]
+            },
+            {
+                "name": "Ticket Counter",
+                "coordinates": [-7, 15, -6, 16]
+            },
+            {
+                "name": "Waiting Area",
+                "coordinates": [-8, 14, -6, 15]
+            },
+            {
+                "name": "Information Board",
+                "coordinates": [-7, 15, -6, 16]
+            },
+            {
+                "name": "Security Desk",
+                "coordinates": [-7, 14, -6, 15]
+            }
+        ]
+    },
+    "reasoning": "The Entrance Gate is placed in the top-left corner of the Entrance Booth as it is usually the first point of access. It occupies significant space to accommodate incoming visitors. Right next to it on the right, the Ticket Counter is positioned for easy access immediately upon entry. This is logical as visitors generally need tickets right after entering. Below these two, the Waiting Area covers a large space as it is the largest in relative size. It is centrally located, ensuring ample space for visitors to wait comfortably. The Information Board is placed adjacent to the Entrance Gate and Ticket Counter, allowing visitors to gather necessary information right after entering or purchasing tickets. Lastly, the Security Desk is next to the Waiting Area to oversee the entrance and waiting area, ensuring visitor safety. This layout ensures all items are within the parent coordinates and maximizes efficient use of space."
+}

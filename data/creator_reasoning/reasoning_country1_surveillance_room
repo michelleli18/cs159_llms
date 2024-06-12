@@ -1,0 +1,25 @@
+{
+  "layout": {
+    "name": "Surveillance Room",
+    "coordinates": [-7, 17, -5, 19],
+    "children": [
+      {
+        "name": "Monitor Wall",
+        "coordinates": [-7, 17, -6, 18]
+      },
+      {
+        "name": "Control Panel",
+        "coordinates": [-7, 18, -6, 19]
+      },
+      {
+        "name": "Workstations 1",
+        "coordinates": [-6, 17, -5, 18]
+      },
+      {
+        "name": "Workstations 2",
+        "coordinates": [-6, 18, -5, 19]
+      }
+    ]
+  },
+  "reasoning": "The Monitor Wall is one of the larger and more important items in the room, often needing a central and easily accessible location. It was placed against the left wall towards the bottom ([ -7, 17, -6, 18 ]). Directly above it, the Control Panel was placed ([ -7, 17, -6, 19 ]) to provide ease of access. For the Workstations, it logically follows to place them near the Monitor Wall and the Control Panel as they need to be close for effective surveillance and operation. Therefore, the Workstations were split into smaller sections and placed adjacent to each other ([ -6, 17, -5, 18 ] and [ -6, 18, -5, 19 ]). The remaining items could not fit within the given space without overlapping, so they were excluded from the layout."
+}

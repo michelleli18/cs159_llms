@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Movie Theater",
+    "coordinates": [-4, 12, -1, 15],
+    "children": [
+      {
+        "name": "Lobby",
+        "coordinates": [-4, 14, -2, 15]
+      },
+      {
+        "name": "Ticket Booth",
+        "coordinates": [-2, 14, -1, 15]
+      },
+      {
+        "name": "Concession Stand",
+        "coordinates": [-4, 13, -3, 14]
+      },
+      {
+        "name": "Restrooms",
+        "coordinates": [-3, 13, -1, 14]
+      },
+      {
+        "name": "Auditorium",
+        "coordinates": [-4, 12, -1, 13]
+      },
+      {
+        "name": "Seating Area",
+        "coordinates": [-4, 13, -1, 14]
+      },
+      {
+        "name": "Projection Room",
+        "coordinates": [-4, 12, -3, 13]
+      }
+    ]
+  },
+  "reasoning": "The 'Lobby' is placed at the entrance for easy access, filling the area on the right side. The 'Ticket Booth' is next to the 'Lobby' ensuring quick access for ticket purchasing. The 'Concession Stand' is placed next to the 'Ticket Booth' for convenience following the lobby, and restrooms are placed next to the 'Concession Stand' for easy access after getting snacks. The 'Auditorium' occupies the main, larger central area, with the 'Seating Area' taking up the same space due to the relatively bigger size and importance. Finally, the 'Projection Room' is scaled-down and placed in the lower left side since it requires minimal space and can coexist with the screen through which the projection is displayed."
+}

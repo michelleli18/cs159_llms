@@ -1,0 +1,45 @@
+{
+    "layout": {
+        "name": "Lodge",
+        "coordinates": [-20, 10, -14, 17],
+        "children": [
+            {
+                "name": "Parking Lot",
+                "coordinates": [-20, 15, -18, 17]
+            },
+            {
+                "name": "Dining Hall",
+                "coordinates": [-18, 12, -14, 17]
+            },
+            {
+                "name": "Common Room",
+                "coordinates": [-20, 10, -17, 13]
+            },
+            {
+                "name": "Reception Area",
+                "coordinates": [-17, 10, -14, 12]
+            },
+            {
+                "name": "Guest Room",
+                "coordinates": [-20, 13, -19, 15]
+            },
+            {
+                "name": "Kitchen",
+                "coordinates": [-19, 14, -17, 15]
+            },
+            {
+                "name": "Restrooms",
+                "coordinates": [-17, 12, -16, 14]
+            },
+            {
+                "name": "Storage Room",
+                "coordinates": [-16, 12, -15, 14]
+            },
+            {
+                "name": "Fireplace",
+                "coordinates": [-15, 12, -14, 13]
+            }
+        ]
+    },
+    "reasoning": "The layout is designed to maximize space efficiency, while ensuring all items are within the parent's bounds and non-overlapping:\n\n1. The 'Parking Lot' is placed in the north-western corner since it's usually the first area encountered in a lodge.\n2. The 'Dining Hall' is one of the largest areas and is placed next to the 'Parking Lot' since guests should have easy access from their vehicles to dining.\n3. The 'Common Room' is centralized to serve as a central gathering area adjacent to various other amenities.\n4. The 'Reception Area' is placed next to the 'Dining Hall' and below the 'Common Room' as it should be easily accessible from the dining and common areas.\n5. The 'Guest Room' is placed near the 'Parking Lot' for convenience and privacy.\n6. The 'Kitchen' is placed close to the 'Dining Hall' for easy food transport and service.\n7. 'Restrooms' and 'Storage Room' are placed centrally to be accessible from various points.\n8. The 'Fireplace' is a smaller feature and placed next to the 'Reception Area', providing warmth and aesthetics upon entering.\n\nOverall, the arrangement ensures easy access to key amenities and optimizes the use of available space without any soft areas left uncovered."
+}

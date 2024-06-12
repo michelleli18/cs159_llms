@@ -1,0 +1,25 @@
+{
+    "layout": {
+        "name": "Beach Area",
+        "coordinates": [-13, 10, -11, 12],
+        "children": [
+            {
+                "name": "Beach Volleyball Courts 1",
+                "coordinates": [-13, 10, -12, 11]
+            },
+            {
+                "name": "Beach Volleyball Courts 2",
+                "coordinates": [-12, 10, -11, 11]
+            },
+            {
+                "name": "Parking Lot",
+                "coordinates": [-13, 11, -11, 12]
+            },
+            {
+                "name": "Picnic Area",
+                "coordinates": [-12, 11, -11, 12]
+            }
+        ]
+    },
+    "reasoning": "The Beach Volleyball Courts are placed at the bottom-left to ensure easy access and visibility. Splitting the courts into two smaller sections allows for compliance with the coordinate constraints. The Parking Lot is placed at the top-left corner for accessibility, mimicking real-life where parking is typically one of the first areas visitors encounter. The Picnic Area is adjacent to both the Beach Volleyball Courts and the Parking Lot for easy access to both relaxing and recreational areas. This arrangement ensures full utilization of space, ensuring all subitems are within the boundaries and touching the walls of the Beach Area."
+}

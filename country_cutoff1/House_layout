@@ -1,0 +1,17 @@
+{
+"layout": {
+   "name": "House",
+   "coordinates": [-50, 30, 10, 50],
+   "children": [
+       {"name": "Garage", "coordinates": [-50, 45, -30, 50]},
+       {"name": "Kitchen", "coordinates": [-30, 45, -10, 50]},
+       {"name": "Living Room", "coordinates": [-50, 35, -10, 45]},
+       {"name": "Dining Room", "coordinates": [-50, 30, -30, 35]},
+       {"name": "Bathroom", "coordinates": [-30, 30, -20, 35]},
+       {"name": "Bedroom", "coordinates": [-20, 30, 0, 35]},
+       {"name": "Basement", "coordinates": [0, 30, 10, 40]},
+       {"name": "Attic", "coordinates": [0, 40, 10, 50]}
+   ]
+},
+"reasoning": "The 'Garage' is placed on the far left as it needs direct access to the exterior for vehicle entry and exit and is a larger space needing more width. The 'Kitchen' is placed next to the 'Garage' to provide easy access for unloading groceries. The 'Living Room', a larger common area, is centered adjacent to both the 'Garage' and 'Kitchen' for ease of access. The 'Dining Room' is placed adjacent to the 'Living Room' and 'Kitchen', allowing for convenient meal serving and transition. The 'Bathroom' is placed next to the 'Dining Room' to ensure proximity for both guests and inhabitants. The 'Bedroom' is placed next to the 'Bathroom' to provide easy nighttime access. The 'Basement' is located at the bottom-right part of the house to utilize the vertical space, and the 'Attic' sits directly above it, utilizing the remaining space efficiently. This placement ensures all spaces are logically connected with minimal empty/unused space."
+}

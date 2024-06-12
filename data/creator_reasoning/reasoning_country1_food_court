@@ -1,0 +1,57 @@
+{
+  "layout": {
+    "name": "Food Court",
+    "coordinates": [-1, 12, 2, 15],
+    "children": [
+      {
+        "name": "Seating Area",
+        "coordinates": [-1, 13, 2, 15]
+      },
+      {
+        "name": "Food Stalls 1",
+        "coordinates": [-1, 12, 0, 13]
+      },
+      {
+        "name": "Food Stalls 2",
+        "coordinates": [0, 12, 1, 13]
+      },
+      {
+        "name": "Food Stalls 3",
+        "coordinates": [1, 12, 2, 13]
+      },
+      {
+        "name": "Restrooms",
+        "coordinates": [-1, 12, -0.5, 13]
+      },
+      {
+        "name": "Restrooms 2",
+        "coordinates": [-0.5, 12, 0, 13]
+      },
+      {
+        "name": "Trash Bins 1",
+        "coordinates": [1, 12, 1.5, 12.5]
+      },
+      {
+        "name": "Trash Bins 2",
+        "coordinates": [1.5, 12, 2, 12.5]
+      },
+      {
+        "name": "Entrance/Exit",
+        "coordinates": [1, 13, 2, 14]
+      },
+      {
+        "name": "Stage Area",
+        "coordinates": [0, 14, 1, 15]
+      },
+      {
+        "name": "Information Kiosk",
+        "coordinates": [1, 14, 1.5, 14.5]
+      },
+      {
+        "name": "Information Kiosk 2",
+        "coordinates": [1.5, 14, 2, 14.5]
+      }
+    ]
+  },
+  "reasoning": "Items are placed strategically based on size and usage logic: The 'Seating Area' is the largest (size 8) and placed centrally against the top boundary for maximum space utilization and ease of access. 'Food Stalls' are moderately large (size 7), so three stalls are created to fit the horizontal space at the bottom. This covers the bottom edge while allowing for easy access by visitors. Three stalls cover a larger area consistent with its usage. 'Restrooms' are smaller (size 4) but essential; two restrooms are placed at the bottom left for convenience and logical placement near the entrance/exit. 'Trash Bins' (size 2) are placed in pairs spread out near the food stalls and seating area to ensure accessibility for cleanliness. 'Entrance/Exit' (size 3) needed to be centrally located to manage foot traffic efficiently. The 'Stage Area' (size 6) is placed on the right upper side close to both the seating area for visibility and interaction. 'Information Kiosk' is placed adjacent to the stage and entrance for easy access to information, with two kiosks for maximum user reach. This strategic placement ensures all subitems fit within the parent coordinates without overlapping and logical adjacency aligned with real-world use."
+}

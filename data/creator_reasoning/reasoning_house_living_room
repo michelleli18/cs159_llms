@@ -1,0 +1,33 @@
+{
+    "layout": {
+        "name": "Living Room",
+        "coordinates": [0, 3, 5, 5],
+        "children": [
+            {
+                "name": "Sofa",
+                "coordinates": [0, 3, 3, 4]
+            },
+            {
+                "name": "Coffee Table",
+                "coordinates": [0, 4, 2, 5]
+            },
+            {
+                "name": "Television",
+                "coordinates": [3, 3, 4, 4]
+            },
+            {
+                "name": "Bookshelf",
+                "coordinates": [4, 3, 5, 4]
+            },
+            {
+                "name": "Armchair",
+                "coordinates": [3, 4, 4, 5]
+            },
+            {
+                "name": "Entertainment Center",
+                "coordinates": [4, 4, 5, 5]
+            }
+        ]
+    },
+    "reasoning": "The layout ensures that all children subitems are within the coordinates of the Living Room [0, 3, 5, 5] and do not overlap. The 'Sofa' is the largest item in terms of relative size and is placed along the bottom left corner for central seating, covering a significant portion. The 'Coffee Table' is positioned next to the 'Sofa' for ease of access. The 'Television' is placed adjacent to the 'Sofa' diagonally so it can be easily viewed. The 'Bookshelf' and 'Entertainment Center' are along the walls, ensuring that they do not take up central space but are easily accessible. The 'Armchair' is placed closer to the 'Television' and 'Entertainment Center' to provide additional seating. Given the space constraints and the importance of avoiding overlap while efficiently using space, the 'Dining Table' and 'Console Table' could not be included without breaking these rules."
+}

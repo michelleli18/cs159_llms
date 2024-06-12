@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Stadium",
+    "coordinates": [-50, 40, -20, 50],
+    "children": [
+      {
+        "name": "Playing Field",
+        "coordinates": [-49, 41, -21, 49]
+      },
+      {
+        "name": "Bleachers",
+        "coordinates": [-49, 49, -21, 50]
+      },
+      {
+        "name": "Concession Stand",
+        "coordinates": [-49, 41, -45, 43]
+      },
+      {
+        "name": "Restrooms 1",
+        "coordinates": [-49, 43, -47, 45]
+      },
+      {
+        "name": "Restrooms 2",
+        "coordinates": [-47, 43, -45, 45]
+      },
+      {
+        "name": "Locker Rooms",
+        "coordinates": [-49, 45, -45, 47]
+      },
+      {
+        "name": "Ticket Booth",
+        "coordinates": [-49, 47, -47, 49]
+      }
+    ]
+  },
+  "reasoning": "The largest and most central feature, the 'Playing Field', is placed almost at the center and occupying most of the area within the stadium coordinates since the playing field requires the largest space. The 'Bleachers' are placed aligned with the top of the field, above it, as they must oversee the playing field closely while adhering to stadium layout norms where the audience seating usually borders the field. The 'Concession Stand' is positioned in the bottom left corner for easy access from the tickets area and restrooms while also not disturbing the visibility to the field. Next to the concessions stand is 'Restrooms', divided into two smaller sections ('Restrooms 1' and 'Restrooms 2') to fit more naturally across the area with the 'Locker Rooms' located above the restrooms for practical access for players during events. The 'Ticket Booth' is placed near the top left side adjacent to the locker rooms, aligning towards the entrance for visitor convenience. This layout effectively uses the given space without overlaps and ensures the functional adjacency based on typical stadium design principles."
+}

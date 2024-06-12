@@ -1,0 +1,93 @@
+{
+  "layout": {
+    "name": "Stalls",
+    "coordinates": [-50, 30, -30, 50],
+    "children": [
+      {
+        "name": "Booth 1",
+        "coordinates": [-50, 45, -45, 50]
+      },
+      {
+        "name": "Booth 2",
+        "coordinates": [-45, 45, -40, 50]
+      },
+      {
+        "name": "Booth 3",
+        "coordinates": [-40, 45, -35, 50]
+      },
+      {
+        "name": "Booth 4",
+        "coordinates": [-35, 45, -30, 50]
+      },
+      {
+        "name": "Table 1",
+        "coordinates": [-50, 40, -40, 45]
+      },
+      {
+        "name": "Table 2",
+        "coordinates": [-40, 40, -30, 45]
+      },
+      {
+        "name": "Table 3",
+        "coordinates": [-50, 35, -40, 40]
+      },
+      {
+        "name": "Aisle 1",
+        "coordinates": [-40, 35, -35, 40]
+      },
+      {
+        "name": "Aisle 2",
+        "coordinates": [-35, 35, -30, 40]
+      },
+      {
+        "name": "Aisle 3",
+        "coordinates": [-50, 30, -45, 35]
+      },
+      {
+        "name": "Aisle 4",
+        "coordinates": [-45, 30, -40, 35]
+      },
+      {
+        "name": "Aisle 5",
+        "coordinates": [-40, 30, -35, 35]
+      },
+      {
+        "name": "Aisle 6",
+        "coordinates": [-35, 30, -30, 35]
+      },
+      {
+        "name": "Aisle 7",
+        "coordinates": [-45, 40, -40, 45]
+      },
+      {
+        "name": "Shelf 1",
+        "coordinates": [-49, 30, -46, 40]
+      },
+      {
+        "name": "Shelf 2",
+        "coordinates": [-46, 30, -43, 40]
+      },
+      {
+        "name": "Shelf 3",
+        "coordinates": [-43, 30, -40, 40]
+      },
+      {
+        "name": "Shelf 4",
+        "coordinates": [-40, 30, -37, 40]
+      },
+      {
+        "name": "Shelf 5",
+        "coordinates": [-37, 30, -34, 40]
+      },
+      {
+        "name": "Counter 1",
+        "coordinates": [-34, 45, -30, 50]
+      },
+      {
+        "name": "Counter 2",
+        "coordinates": [-34, 30, -30, 35]
+      }
+    ]
+  },
+  "reasoning": "Booths are placed together at the top of the place to form a unified section that customers can navigate easily. They are also placed along the top boundary to efficiently use the space. Tables are placed in the middle section near the booths for easy access between booths and tables. Aisles are inserted strategically to break up booths and tables, providing pathways for people to move through. Shelves are positioned vertically to use the left side of the layout and are spaced out to allow easy access between them. Counters are dispersed strategically in the top and bottom regions to balance the space use and ensure they are easily accessible from different areas."
+}

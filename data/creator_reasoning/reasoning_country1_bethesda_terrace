@@ -1,0 +1,25 @@
+{
+  "layout": {
+    "name": "Bethesda Terrace",
+    "coordinates": [-9, 15, -7, 18],
+    "children": [
+      {
+        "name": "Upper Terrace",
+        "coordinates": [-9, 18, -8, 16]
+      },
+      {
+        "name": "Lower Terrace",
+        "coordinates": [-8, 18, -7, 16]
+      },
+      {
+        "name": "Bethesda Fountain",
+        "coordinates": [-9, 16, -8, 15]
+      },
+      {
+        "name": "Terrace Arcade",
+        "coordinates": [-8, 16, -7, 15]
+      }
+    ]
+  },
+  "reasoning": "Given the coordinates of Bethesda Terrace as the parent space, we have a rectangular area spanning from [-9, 15] to [-7, 18]. We need to fit four subitems: Upper Terrace (size 4), Lower Terrace (size 4), Bethesda Fountain (size 2), and Terrace Arcade (size 2). First, reasonable placement and sizing was taken into account. Each terrace has significant space therefore they are made relatively larger and placed next to each other. The 'Upper Terrace' is placed from [-9, 18, -8, 16], taking the left upper part, and the 'Lower Terrace' from [-8, 18, -7, 16] on the right upper part. Both share equal upper parts of the space. The 'Bethesda Fountain' is central and located below the two terraces taking space [-9, 16, -8, 15]. Directly adjacent to the fountain is the 'Terrace Arcade' which completes the bottom part of the layout from [-8, 16, -7, 15]. This avoids overlap, keeps all elements within the parent place effectively, and makes logical arrangements based on the terraced design typically seen in real-world layouts. This design meets the specifications and requirements, ensuring all coordinates are integers with no overlaps."
+}

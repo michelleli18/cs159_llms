@@ -1,0 +1,41 @@
+{
+    "layout": {
+        "name": "Grand Hotel",
+        "coordinates": [4, 10, 10, 15],
+        "children": [
+            {
+                "name": "Front Lobby",
+                "coordinates": [4, 14, 7, 15]
+            },
+            {
+                "name": "Reception Desk",
+                "coordinates": [7, 14, 10, 15]
+            },
+            {
+                "name": "Hotel Restaurant",
+                "coordinates": [4, 12, 7, 14]
+            },
+            {
+                "name": "Conference Room",
+                "coordinates": [7, 12, 10, 14]
+            },
+            {
+                "name": "Guest Room",
+                "coordinates": [4, 11, 6, 12]
+            },
+            {
+                "name": "Swimming Pool",
+                "coordinates": [6, 11, 10, 12]
+            },
+            {
+                "name": "Fitness Center",
+                "coordinates": [4, 10, 6, 11]
+            },
+            {
+                "name": "Parking Lot",
+                "coordinates": [6, 10, 10, 11]
+            }
+        ]
+    },
+    "reasoning": "The Front Lobby and Reception Desk are placed near the entrance to give guests immediate access as they arrive. The Hotel Restaurant is placed next to the Front Lobby because it is a common area for guests to dine. The Conference Room is adjacent to both the Restaurant and Reception Desk for easy access during business meetings. The Guest Room is placed nearby but in a quieter area. The Swimming Pool is next to the Guest Room and Reception Desk, providing easy access for guests. The Fitness Center is near the entrance but separate from the dining and resting areas, giving guests convenience and privacy. Lastly, the Parking Lot is placed at the rear, as it requires a large space but doesn't need to be centrally located. The overlapping issue made it impossible to fit the Ballroom and Gift Shop within the given space."
+}

@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Reception Area",
+    "coordinates": [-17, 10, -14, 12],
+    "children": [
+      {
+        "name": "Reception Desk",
+        "coordinates": [-17, 11, -16, 12]
+      },
+      {
+        "name": "Seating Area",
+        "coordinates": [-16, 10, -14, 12]
+      },
+      {
+        "name": "Coffee Table",
+        "coordinates": [-16, 11, -15, 12]
+      },
+      {
+        "name": "Magazine Rack",
+        "coordinates": [-17, 10, -16, 11]
+      },
+      {
+        "name": "Water Cooler",
+        "coordinates": [-15, 11, -14, 12]
+      },
+      {
+        "name": "Information Board",
+        "coordinates": [-15, 10, -14, 11]
+      }
+    ]
+  },
+  "reasoning": "The Reception Desk is placed at the top left corner to provide a welcoming point as people enter. The Seating Area is placed adjacent to the Reception Desk, maximizing space use. The Coffee Table is placed next to the Seating Area for convenience. The Magazine Rack is placed nearby to serve people sitting in the Seating Area, while the Water Cooler is positioned next to the Coffee Table for easy access. The Information Board is located near the Seating Area and Water Cooler for visibility and accessibility. All items are within the boundaries and there is no overlap, ensuring optimal use of space."
+}

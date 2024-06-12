@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "goal area",
+    "coordinates": [-49, -29, -46, -27],
+    "children": [
+      {
+        "name": "goal box",
+        "coordinates": [-48.5, -29, -46.5, -28]
+      },
+      {
+        "name": "net",
+        "coordinates": [-48.5, -28, -46.5, -27]
+      },
+      {
+        "name": "goalposts",
+        "coordinates": [-49, -28, -49, -27.5]
+      },
+      {
+        "name": "penalty spot",
+        "coordinates": [-47.5, -29, -47, -28.8]
+      },
+      {
+        "name": "corner arc",
+        "coordinates": [-48, -28.8, -47.5, -28]
+      }
+    ]
+  },
+  "reasoning": "The goal box is positioned at the bottom of the goal area, extending almost the entire width of the area while leaving space between it and the side boundaries. This allows for proper coverage while ensuring it fits within the goal area. The net is placed above the goal box, covering the space to act as the area behind the goal where the net would typically be. The goalposts are situated at the very edge of the goal area to mimic their real-life position along the vertical boundary of the goal. The penalty spot is placed centrally in front of the goal, maintaining ample space from the goal box. The corner arc is placed to the side of, and beneath the penalty spot, ensuring logical adherence to the layout within a soccer field. Each item ensures optimal use of space in a manner which maximally fulfills relative sizes and logical placement considerations, and no child items overlap or exceed the bounds of the goal area."
+}

@@ -1,0 +1,33 @@
+{
+    "layout": {
+        "name": "Train Tracks",
+        "coordinates": [7, 10, 9, 12],
+        "children": [
+            {
+                "name": "Train Station",
+                "coordinates": [7, 10, 9, 12]
+            },
+            {
+                "name": "Platform",
+                "coordinates": [7, 11, 9, 12]
+            },
+            {
+                "name": "Tracks",
+                "coordinates": [7, 10, 9, 12]
+            },
+            {
+                "name": "Signal Box",
+                "coordinates": [7, 10, 7, 12]
+            },
+            {
+                "name": "Waiting Room",
+                "coordinates": [7, 10, 8, 11]
+            },
+            {
+                "name": "Storage Shed",
+                "coordinates": [7, 10, 8, 10]
+            }
+        ]
+    },
+    "reasoning": "The Train Station is the largest subitem and covers the same rectangular coordinates as its parent Train Tracks, ensuring it is centrally located. The Platform, also being significantly large, is placed directly above the Train Station, utilizing the same width but extending to the top edge to cover the entire available width. The Tracks, being comparably large, share the same coordinates as the Train Station to reflect their essential integration. The Signal Box, being small and not requiring as much space, is tucked compactly into the far-left edge of the Train Tracks to avoid overlap while ensuring efficient usage of vertical space. The Waiting Room is positioned next to the Train Station along its bottom edge but shifted slightly to the right to not overlap with other subitems. Finally, the Storage Shed, being the smallest item after the Signal Box, fits into the remaining space on the bottom left edge below the Waiting Room. All coordinates are integers, and no subitems overlap or fall outside of the parent’s boundaries. The placements of subitems were intentional to mimic real-life layouts; for instance, Platforms naturally extend above the Train Station for easy access, Tracks lie under the whole setup, and smaller auxiliary structures like Signal Boxes and Storage Sheds are positioned peripherally."
+}

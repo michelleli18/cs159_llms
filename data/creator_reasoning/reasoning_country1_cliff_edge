@@ -1,0 +1,33 @@
+{
+    "layout": {
+        "name": "Cliff Edge",
+        "coordinates": [-16, 18, -12, 20],
+        "children": [
+            {
+                "name": "Parking Area",
+                "coordinates": [-16, 18, -13, 20]
+            },
+            {
+                "name": "Observation Deck",
+                "coordinates": [-13, 18, -12, 19]
+            },
+            {
+                "name": "Cliffside Cabin",
+                "coordinates": [-13, 19, -12, 20]
+            },
+            {
+                "name": "Rest Area",
+                "coordinates": [-16, 18, -15, 19]
+            },
+            {
+                "name": "Rocky Outcrop",
+                "coordinates": [-15, 18, -14, 19]
+            },
+            {
+                "name": "Vegetation Patch",
+                "coordinates": [-14, 18, -13, 19]
+            }
+        ]
+    },
+    "reasoning": "The Parking Area is the largest subitem with a size rating of 7. Therefore, it has been placed along the longest edge of the Cliff Edge to optimize space utilization while providing easy access to vehicles. The Observation Deck has a size rating of 5 and was placed next to the Cliffside Cabin (size rating 4) at the cliff edge for prioritizing scenic views. The Rest Area (size rating 4) and Rocky Outcrop (size rating 3), both crucial for visitor relaxation and enjoyment, are placed adjacently to each other and near the entry for easy access. The Vegetation Patch, being the smallest with a size rating of 2, is positioned near the middle to fill gaps effectively. This placement ensures that all subitems are within the parent item, no overlap occurs, and maximal space is utilized making the layout both functional and aesthetic."
+}

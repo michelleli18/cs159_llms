@@ -1,0 +1,25 @@
+{
+  "layout": {
+    "name": "Living Room",
+    "coordinates": [-10, -10, -8, -4],
+    "children": [
+      {
+        "name": "Sofa",
+        "coordinates": [-10, -8, -8, -4]
+      },
+      {
+        "name": "Coffee Table",
+        "coordinates": [-9, -8, -8, -6]
+      },
+      {
+        "name": "Tv Stand",
+        "coordinates": [-10, -10, -9, -8]
+      },
+      {
+        "name": "Bookshelf",
+        "coordinates": [-9, -10, -8, -9]
+      }
+    ]
+  },
+  "reasoning": "The layout starts with the largest item, the Sofa, placed along the wall using the maximum width while aligning to the bottom right to make efficient use of space. Next, the Coffee Table is positioned adjacent to the Sofa on its top side, forming a natural grouping seen in modern living rooms. The Tv Stand, being appropriately sized as per the relative rankings, is placed opposite the Sofa to mimic screen viewing proximity while also along the bottom wall making use of available vertical space. The Bookshelf is placed in the remaining bottom left corner, providing a logical and accessible arrangement along the walls, ensuring all subitems are within the parent boundaries and do not overlap. The Armchair is omitted as it does not fit with the remaining space without overlapping."
+}

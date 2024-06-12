@@ -1,0 +1,4 @@
+{
+"activities": ["Organize a seaside astrophotography workshop", "Host a marine conservation-themed salsa event", "Create a large mural integrating marine biology and quantum physics themes"], 
+"reasoning": "Organizing a seaside astrophotography workshop combines Camila's love for the ocean and her interest in astrophotography, all while avoiding crowded places. Hosting a marine conservation-themed salsa event merges her passion for salsa dancing and marine conservation, creating a meaningful yet enjoyable experience. Creating a large mural integrating marine biology and quantum physics themes allows her to explore the intersection of her intellectual interests and artistic talents in a unique, creative outlet."
+}

@@ -1,0 +1,149 @@
+{
+  "layout": {
+    "name": "Control Room",
+    "coordinates": [-995, 750, -990, 755],
+    "children": [
+      {
+        "name": "Control Panel 1",
+        "coordinates": [-995, 754, -993, 755]
+      },
+      {
+        "name": "Control Panel 2",
+        "coordinates": [-993, 754, -991, 755]
+      },
+      {
+        "name": "Control Panel 3",
+        "coordinates": [-995, 753, -993, 754]
+      },
+      {
+        "name": "Control Panel 4",
+        "coordinates": [-993, 753, -991, 754]
+      },
+      {
+        "name": "Monitor Wall 1",
+        "coordinates": [-995, 750, -994.5, 752]
+      },
+      {
+        "name": "Monitor Wall 2",
+        "coordinates": [-994.5, 750, -994, 752]
+      },
+      {
+        "name": "Monitor Wall 3",
+        "coordinates": [-994, 750, -993.5, 752]
+      },
+      {
+        "name": "Monitor Wall 4",
+        "coordinates": [-993.5, 750, -993, 752]
+      },
+      {
+        "name": "Monitor Wall 5",
+        "coordinates": [-993, 750, -992.5, 752]
+      },
+      {
+        "name": "Monitor Wall 6",
+        "coordinates": [-992.5, 750, -992, 752]
+      },
+      {
+        "name": "Server Rack 1",
+        "coordinates": [-992, 752.5, -991.5, 753.5]
+      },
+      {
+        "name": "Server Rack 2",
+        "coordinates": [-992, 751.5, -991.5, 752.5]
+      },
+      {
+        "name": "Server Rack 3",
+        "coordinates": [-992, 750.5, -991.5, 751.5]
+      },
+      {
+        "name": "Server Rack 4",
+        "coordinates": [-992.5, 754, -992, 755]
+      },
+      {
+        "name": "Server Rack 5",
+        "coordinates": [-993, 754.5, -992.5, 755]
+      },
+      {
+        "name": "Operator Desk 1",
+        "coordinates": [-995, 752, -994, 753]
+      },
+      {
+        "name": "Operator Desk 2",
+        "coordinates": [-994, 752, -993, 753]
+      },
+      {
+        "name": "Operator Desk 3",
+        "coordinates": [-993, 752, -992, 753]
+      },
+      {
+        "name": "Equipment Cabinet 1",
+        "coordinates": [-992, 753, -991.5, 754]
+      },
+      {
+        "name": "Equipment Cabinet 2",
+        "coordinates": [-991.5, 753, -991, 754]
+      },
+      {
+        "name": "Equipment Cabinet 3",
+        "coordinates": [-992, 752, -991.5, 753]
+      },
+      {
+        "name": "Equipment Cabinet 4",
+        "coordinates": [-991.5, 752, -991, 753]
+      },
+      {
+        "name": "Conference Table 1",
+        "coordinates": [-990.25, 754.5, -990, 755]
+      },
+      {
+        "name": "Conference Table 2",
+        "coordinates": [-990.5, 754, -990, 754.5]
+      },
+      {
+        "name": "Conference Table 3",
+        "coordinates": [-990.75, 753.5, -990, 754]
+      },
+      {
+        "name": "Conference Table 4",
+        "coordinates": [-991, 753, -990, 753.5]
+      },
+      {
+        "name": "Conference Table 5",
+        "coordinates": [-991.25, 752.5, -990, 753]
+      },
+      {
+        "name": "Conference Table 6",
+        "coordinates": [-991.5, 752, -990, 752.5]
+      },
+      {
+        "name": "Storage Closet 1",
+        "coordinates": [-991.5, 751, -991, 752]
+      },
+      {
+        "name": "Storage Closet 2",
+        "coordinates": [-992, 750, -991, 751]
+      },
+      {
+        "name": "Storage Closet 3",
+        "coordinates": [-991, 751.5, -990.5, 752]
+      },
+      {
+        "name": "Storage Closet 4",
+        "coordinates": [-990.5, 750.75, -990, 751.5]
+      },
+      {
+        "name": "Storage Closet 5",
+        "coordinates": [-991, 750, -990.5, 750.75]
+      },
+      {
+        "name": "Emergency Exit 1",
+        "coordinates": [-990, 754.5, -989.75, 755]
+      },
+      {
+        "name": "Emergency Exit 2",
+        "coordinates": [-990, 754, -989.75, 754.5]
+      }
+    ]
+  },
+  "reasoning": "The layout closely follows the coordinate boundaries and prioritizes functional necessity and proximity. The Control Panel units are placed on the upper right corner for easy access and visibility. The Monitor Walls are adjacent to the Control Panels as operators need to look at both frequently. The Server Racks are placed centrally for easy access and are positioned in a compact manner. The Operator Desks are located under the Control Panels for seamless operation and supervision. The Equipment Cabinets are scattered near the server and operator areas. The Conference Table is centrally located for easy accessibility for meetings. The Storage Closets are strategically placed near the various sections to store needed supplies. The Emergency Exits are placed at the periphery for immediate evacuation. This logical arrangement ensures workflow efficiency and space optimization within the Control Room."
+}

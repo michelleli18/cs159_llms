@@ -1,0 +1,49 @@
+{
+  "layout": {
+    "name": "Reception Area",
+    "coordinates": [-48, 36, -45, 38],
+    "children": [
+      {
+        "name": "Reception Desk",
+        "coordinates": [-47.8, 37.8, -46.5, 38]
+      },
+      {
+        "name": "Waiting Chairs 1",
+        "coordinates": [-47.8, 37.5, -47.2, 37.8]
+      },
+      {
+        "name": "Waiting Chairs 2",
+        "coordinates": [-47.2, 37.5, -46.6, 37.8]
+      },
+      {
+        "name": "Waiting Chairs 3",
+        "coordinates": [-47.8, 37.2, -47.2, 37.5]
+      },
+      {
+        "name": "Waiting Chairs 4",
+        "coordinates": [-47.2, 37.2, -46.6, 37.5]
+      },
+      {
+        "name": "Coffee Table",
+        "coordinates": [-47.8, 36.8, -46.6, 37.2]
+      },
+      {
+        "name": "Magazine Rack",
+        "coordinates": [-48, 37.8, -47.8, 38]
+      },
+      {
+        "name": "Information Board",
+        "coordinates": [-46.6, 37.5, -46, 38]
+      },
+      {
+        "name": "Water Cooler 1",
+        "coordinates": [-46.6, 37, -46.2, 37.3]
+      },
+      {
+        "name": "Water Cooler 2",
+        "coordinates": [-46.2, 37, -45.8, 37.3]
+      }
+    ]
+  },
+  "reasoning": "1. Reception Desk is placed near the entrance for accessibility, ensuring that it accommodates the considerable number of interactions with visitors. 2. Waiting Chairs are divided into four groups to efficiently use the space and provide more sitting options. They are placed around the Coffee Table, as people usually want to sit near coffee spots. 3. Coffee Table is centrally located among Waiting Chairs, providing a communal spot for visitors. 4. Magazine Rack is placed near the entrance to allow visitors to pick up reading material when they come in. 5. Information Board is located near the entrance, close to the Reception Desk and Waiting Chairs, giving visitors easy access to information. 6. The two Water Coolers are placed next to each other, towards one side of the room, providing easy access for people seated in the Waiting Chairs, without obstructing the flow of traffic in the reception area. Each subitem fits within the defined coordinates of the parent place, optimizing space and ensuring functionality."
+}

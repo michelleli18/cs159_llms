@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Department Store",
+    "coordinates": [-4, 10, 0, 12],
+    "children": [
+      {
+        "name": "Entrance",
+        "coordinates": [-4, 10, -3, 10]
+      },
+      {
+        "name": "Customer Service",
+        "coordinates": [-3, 10, -1, 11]
+      },
+      {
+        "name": "Check-Out Counters",
+        "coordinates": [-1, 10, 0, 11]
+      },
+      {
+        "name": "Clothing Section",
+        "coordinates": [-4, 11, -1, 12]
+      },
+      {
+        "name": "Electronics Section",
+        "coordinates": [-1, 11, 0, 12]
+      },
+      {
+        "name": "Home Goods",
+        "coordinates": [-4, 10, -2, 11]
+      }
+    ]
+  },
+  "reasoning": "The Entrance is placed near the bottom left corner so customers can easily access the store. The Customer Service is placed next to the Entrance to assist customers as soon as they enter. The Check-Out Counters are placed next to the Customer Service for efficient flow of customer traffic. The Clothing Section, being one of the larger sections, takes up a significant portion of the left side, next to Home Goods. The Electronics Section is placed next to Clothing Section on the right as it is smaller but should still be easily accessible. Home Goods is placed next to the Entrance and Customer Service to make use of the available space without blocking access. The Grocery Section didn't fit inside the given coordinates, so it was left out of the layout."
+}

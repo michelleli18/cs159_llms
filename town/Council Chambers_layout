@@ -1,0 +1,41 @@
+{
+  "layout": {
+    "name": "Council Chambers",
+    "coordinates": [-50, 40, -40, 45],
+    "children": [
+      {
+        "name": "Council Table",
+        "coordinates": [-49, 41, -46.5, 43.5]
+      },
+      {
+        "name": "Chairs 1",
+        "coordinates": [-46, 41, -45.5, 41.7]
+      },
+      {
+        "name": "Chairs 2",
+        "coordinates": [-46, 41.7, -45.5, 42.4]
+      },
+      {
+        "name": "Chairs 3",
+        "coordinates": [-46, 42.4, -45.5, 43.1]
+      },
+      {
+        "name": "Podium",
+        "coordinates": [-45, 41, -44, 42]
+      },
+      {
+        "name": "Projection Screen",
+        "coordinates": [-49, 43.5, -46.5, 44.5]
+      },
+      {
+        "name": "Entry Doors 1",
+        "coordinates": [-50, 40, -49.5, 40.5]
+      },
+      {
+        "name": "Entry Doors 2",
+        "coordinates": [-50, 40.5, -49.5, 41]
+      }
+    ]
+  },
+  "reasoning": "The Council Table is centrally located in the room and slightly larger to reflect its importance. The Chairs are placed adjacently for the members around the table. The Podium is placed nearby but not obstructing the room’s flow, allowing a speaker to face the Council Table. The Projection Screen is placed opposite to the seats to ensure visibility. The Entry Doors are placed at the corner to not disrupt the arrangement. This setup maintains a logical and realistic layout with all items fitting within the Council Chamber's boundaries."
+}

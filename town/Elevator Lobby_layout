@@ -1,0 +1,73 @@
+{
+  "layout": {
+    "name": "Elevator Lobby",
+    "coordinates": [-50, 47, -42, 50],
+    "children": [
+      {
+        "name": "Elevator Doors 1",
+        "coordinates": [-50, 48.5, -49.25, 50]
+      },
+      {
+        "name": "Elevator Doors 2",
+        "coordinates": [-49.25, 48.5, -48.5, 50]
+      },
+      {
+        "name": "Elevator Doors 3",
+        "coordinates": [-48.5, 48.5, -47.75, 50]
+      },
+      {
+        "name": "Elevator Doors 4",
+        "coordinates": [-47.75, 48.5, -47, 50]
+      },
+      {
+        "name": "Control Panel 1",
+        "coordinates": [-47, 48.5, -45.5, 49]
+      },
+      {
+        "name": "Control Panel 2",
+        "coordinates": [-45.5, 48.5, -44, 49]
+      },
+      {
+        "name": "Seating Area 1",
+        "coordinates": [-50, 47, -48, 48.5]
+      },
+      {
+        "name": "Seating Area 2",
+        "coordinates": [-48, 47, -46, 48.5]
+      },
+      {
+        "name": "Seating Area 3",
+        "coordinates": [-46, 47, -44, 48.5]
+      },
+      {
+        "name": "Seating Area 4",
+        "coordinates": [-44, 47, -42, 48.5]
+      },
+      {
+        "name": "Seating Area 5",
+        "coordinates": [-50, 47.75, -48, 49.25]
+      },
+      {
+        "name": "Seating Area 6",
+        "coordinates": [-48, 47.75, -46, 49.25]
+      },
+      {
+        "name": "Information Board 1",
+        "coordinates": [-46, 48.5, -45.5, 49]
+      },
+      {
+        "name": "Information Board 2",
+        "coordinates": [-45.5, 48.5, -45, 49]
+      },
+      {
+        "name": "Information Board 3",
+        "coordinates": [-45, 48.5, -44.5, 49]
+      },
+      {
+        "name": "Trash Can",
+        "coordinates": [-44.5, 48.5, -44, 49]
+      }
+    ]
+  },
+  "reasoning": "Elevator Doors are placed along the upper side near the boundary to make for easy access and visibility, crucial for people entering from multiple points. Control Panels are installed next to Elevator Doors, allowing users to control the elevators conveniently. Seating Areas are placed on the lower portion of the lobby and arranged in a way that they cover more area, providing plenty of seating space for waiting passengers. Information Boards are next to the seating areas for easy reading while seated. The single Trash Can is positioned near the information boards where most people may pass by, ensuring cleanliness."
+}

@@ -1,0 +1,45 @@
+{
+    "layout": {
+        "name": "Museum Of Art",
+        "coordinates": [-20, 10, -10, 12],
+        "children": [
+            {
+                "name": "Main Gallery",
+                "coordinates": [-20, 11, -16, 12]
+            },
+            {
+                "name": "Temporary Exhibition",
+                "coordinates": [-16, 11, -12, 12]
+            },
+            {
+                "name": "Sculpture Garden",
+                "coordinates": [-12, 11, -10, 12]
+            },
+            {
+                "name": "Museum Cafe",
+                "coordinates": [-20, 10, -18, 11]
+            },
+            {
+                "name": "Gift Shop",
+                "coordinates": [-18, 10, -16, 11]
+            },
+            {
+                "name": "Entrance Hall",
+                "coordinates": [-16, 10, -14, 11]
+            },
+            {
+                "name": "Information Desk",
+                "coordinates": [-14, 10, -13, 11]
+            },
+            {
+                "name": "Restrooms",
+                "coordinates": [-13, 10, -11, 11]
+            },
+            {
+                "name": "Auditorium",
+                "coordinates": [-11, 10, -10, 11]
+            }
+        ]
+    }, 
+    "reasoning": "The Main Gallery is placed in the top left corner since it is the largest space where most visitors will spend their time. The Temporary Exhibition is placed next to the Main Gallery leading visitors naturally from the Main Gallery area. The Sculpture Garden is placed next to the Temporary Exhibition to allow ease of flow and sightlines to outdoor art. The Museum Cafe is adjacent to the Main Gallery so that hungry visitors can get food immediately after visiting the Main Gallery. Next to the Museum Cafe is the Gift Shop, allowing visitors to conveniently exit the museum after purchasing souvenirs. The Entrance Hall is directly in the center near the Information Desk, providing immediate visitor access to information upon entry. Restrooms are located centrally for accessibility. The Auditorium is placed adjacent to the Sculpture Garden and near other functional areas to separate the noise of performances from exhibit spaces. All space is efficiently covered and without overlapping. The Storage Room was omitted due to lack of sufficient space remaining such that it would not fit while maintaining valid coordinates and non-overlap constraints."
+}

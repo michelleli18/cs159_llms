@@ -1,0 +1,57 @@
+{
+  "layout": {
+    "name": "Boarding Gates",
+    "coordinates": [-37, 7, -34, 9],
+    "children": [
+      {
+        "name": "Seating Area",
+        "coordinates": [-37, 7, -35, 8]
+      },
+      {
+        "name": "Seating Area 2",
+        "coordinates": [-35, 7, -34, 8]
+      },
+      {
+        "name": "Check-In Counters",
+        "coordinates": [-37, 8, -35, 9]
+      },
+      {
+        "name": "Check-In Counters 2",
+        "coordinates": [-35, 8, -34, 8]
+      },
+      {
+        "name": "Security Check",
+        "coordinates": [-37, 8, -36, 9]
+      },
+      {
+        "name": "Restrooms",
+        "coordinates": [-36, 8, -35, 9]
+      },
+      {
+        "name": "Retail Stores",
+        "coordinates": [-37, 7, -36, 8]
+      },
+      {
+        "name": "Retail Stores 2",
+        "coordinates": [-37, 7, -36, 8]
+      },
+      {
+        "name": "Food Court",
+        "coordinates": [-36, 7, -35, 8]
+      },
+      {
+        "name": "Information Desk",
+        "coordinates": [-35, 9, -34, 9]
+      },
+      {
+        "name": "Boarding Lines",
+        "coordinates": [-35, 8, -34, 8]
+      },
+      {
+        "name": "Boarding Lines 2",
+        "coordinates": [-34, 8, -34, 9]
+      }
+    ]
+  },
+  "reasoning": "The Seating Area is split into two sections to optimize space and allow for comfortable distribution of passengers. The Check-In Counters are close to the entrance for easy passenger access, with two separate sections to manage high traffic. The Security Check is positioned centrally near the Check-In Counters for a logical flow. Restrooms are placed near the Security Check for convenience. Retail Stores are adjacent to the Seating Area for easy access to shops while waiting. The Food Court is near the Seating Area catering for passengers waiting for boarding. The Information Desk is strategically placed toward the center for easy access. Lastly, Boarding Lines are logically placed near the Seating Area for easy and direct access to the gates. This layout ensures all subitems are within the boundary, adequately sized, and logically arranged for efficient space utilization and passenger convenience."
+}

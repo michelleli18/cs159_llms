@@ -1,0 +1,53 @@
+{
+  "layout": {
+    "name": "Control Desk 1",
+    "coordinates": [-988, 752, -986, 754],
+    "children": [
+      {
+        "name": "Control Panel 1",
+        "coordinates": [-988, 752, -987, 753]
+      },
+      {
+        "name": "Control Panel 2",
+        "coordinates": [-987, 752, -986, 753]
+      },
+      {
+        "name": "Workstation 1",
+        "coordinates": [-988, 753, -987, 754]
+      },
+      {
+        "name": "Workstation 2",
+        "coordinates": [-987, 753, -986, 754]
+      },
+      {
+        "name": "Monitor Bank 1",
+        "coordinates": [-988, 754, -987.5, 754.5]
+      },
+      {
+        "name": "Monitor Bank 2",
+        "coordinates": [-987.5, 754, -987, 754.5]
+      },
+      {
+        "name": "Server Rack 1",
+        "coordinates": [-988, 754.5, -987.5, 755]
+      },
+      {
+        "name": "Server Rack 2",
+        "coordinates": [-987.5, 754.5, -987, 755]
+      },
+      {
+        "name": "Command Console 1",
+        "coordinates": [-986.5, 754, -986, 754.5]
+      },
+      {
+        "name": "Command Console 2",
+        "coordinates": [-986.5, 753.5, -986, 754]
+      },
+      {
+        "name": "Equipment Cabinet 1",
+        "coordinates": [-986, 753, -985.5, 754]
+      }
+    ]
+  },
+  "reasoning": "Each item was placed to efficiently use the available space while maintaining logical positioning. Two Control Panels and two Workstations are at the bottom, making them easy to access. Monitor Banks and Server Racks are positioned at the top, a logical place for monitoring equipment. Command Consoles are kept adjacent to the Control Panels for direct hardware interactions. Finally, an Equipment Cabinet is positioned to one side for easy access to tools and spare parts. Items were resized within limits to fit all subitems appropriately. Two Server Racks and two Monitor Banks are placed for redundancy and additional capacity. Other Control Panels, Workstations, and Command Consoles were not included due to spatial limitations."
+}

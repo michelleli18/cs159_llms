@@ -1,0 +1,37 @@
+{
+"layout": {
+    "name": "Orchard",
+    "coordinates": [1, 2, 3, 4],
+    "children": [
+        {
+            "name": "Tree Groves 1",
+            "coordinates": [1, 3, 2, 4]
+        },
+        {
+            "name": "Tree Groves 2",
+            "coordinates": [2, 3, 3, 4]
+        },
+        {
+            "name": "Tree Groves 3",
+            "coordinates": [2, 2.5, 3, 3]
+        },
+        {
+            "name": "Storage Barn",
+            "coordinates": [1, 2.5, 2, 3]
+        },
+        {
+            "name": "Farmhouse",
+            "coordinates": [1, 2, 1.5, 2.5]
+        },
+        {
+            "name": "Packing Shed",
+            "coordinates": [1.5, 2.2, 2, 2.5]
+        },
+        {
+            "name": "Irrigation Pond",
+            "coordinates": [2.5, 2, 3, 2.5]
+        }
+    ]
+},
+"reasoning": "Tree Groves are the largest items and multiple instances were needed to cover the area efficiently. Trees are typically concentrated, so we allocated them larger blocks even mimicking orchard rows. The Storage Barn is essential for any farm operations and it needed significant space near the center to facilitate access. The Farmhouse's placement near the Storage Barn reflects its central importance for daily activities yet relatively smaller size. Packing Shed is located nearby to ease transition between storage and packaging. The Irrigation Pond is placed at the lower corner to maximize land usage while doing efficient watering."
+}

@@ -1,0 +1,25 @@
+{
+    "layout": {
+        "name": "Riverbank",
+        "coordinates": [7, 0, 9, 2],
+        "children": [
+            {
+                "name": "Boat House",
+                "coordinates": [7, 0, 7.8, 2]
+            },
+            {
+                "name": "Fishing Dock",
+                "coordinates": [7.8, 0, 8.6, 2]
+            },
+            {
+                "name": "Picnic Area",
+                "coordinates": [8.6, 0, 9, 1.5]
+            },
+            {
+                "name": "Fishing Store",
+                "coordinates": [8.6, 1.5, 9, 2]
+            }
+        ]
+    }, 
+    "reasoning": "The 'Boat House' was placed at the bottom left corner of the riverbank, as boating activities are typically prioritized near immediate water access. It spans a respectable portion of the width of the riverbank due to its relatively large size. Next, the 'Fishing Dock' is adjacent to the 'Boat House,' neatly fitting next to it along the bottom edge, since docks are typically near boat houses facilitating ease of transition. The 'Picnic Area' is placed in the top right corner with a larger spatial width, as picnic locations usually need more space for families. Finally, the 'Fishing Store' is nestled adjacent to the 'Picnic Area' in the remaining space in the top right corner, emphasizing convenient access for visitors who may need fishing supplies quickly. The restrooms were not included due to insufficient space fitting all the given priorities adequately."
+}

@@ -1,0 +1,37 @@
+{
+    "layout": {
+        "name": "Main Hall",
+        "coordinates": [-50, 45, -30, 50],
+        "children": [
+            {
+                "name": "Main Entrance",
+                "coordinates": [-50, 45, -42, 47]
+            },
+            {
+                "name": "Reception Desk",
+                "coordinates": [-42, 45, -38, 48]
+            },
+            {
+                "name": "Seating Area",
+                "coordinates": [-38, 45, -34, 48]
+            },
+            {
+                "name": "Information Kiosk",
+                "coordinates": [-34, 45, -32, 47]
+            },
+            {
+                "name": "Elevator Lobby",
+                "coordinates": [-50, 47, -42, 50]
+            },
+            {
+                "name": "Restroom Entrance",
+                "coordinates": [-42, 47, -38, 49]
+            },
+            {
+                "name": "Artwork Display",
+                "coordinates": [-38, 47, -32, 50]
+            }
+        ]
+    },
+    "reasoning": "The subitems are placed to ensure efficient use of space and logical access based on their functions. The Main Entrance is placed on the bottom-left corner for easy access from outside. The Reception Desk is placed directly adjacent to the Main Entrance for immediate visitor check-in. The Seating Area is placed next to the Reception Desk, providing a waiting area for visitors. The Information Kiosk, which requires less space, is placed next to the Seating Area for quick access by seated visitors. The Elevator Lobby is placed on the top-left corner to facilitate vertical transportation within the building, followed by the Restroom Entrance for easy access from the main areas. The Artwork Display is placed on the top-right to utilize the remaining space efficiently. This arrangement ensures a logical flow and maximizes the use of available space while adhering to the non-overlapping and boundary constraints."
+}

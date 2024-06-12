@@ -1,0 +1,49 @@
+{
+  "layout": {
+    "name": "City",
+    "coordinates": [0, 5, 5, 10],
+    "children": [
+      {
+        "name": "City Hall",
+        "coordinates": [0, 9, 2, 10]
+      },
+      {
+        "name": "Post Office",
+        "coordinates": [2, 9, 3, 10]
+      },
+      {
+        "name": "Library",
+        "coordinates": [3, 9, 4, 10]
+      },
+      {
+        "name": "Police Station",
+        "coordinates": [4, 9, 5, 10]
+      },
+      {
+        "name": "Fire Station",
+        "coordinates": [3, 8, 4, 9]
+      },
+      {
+        "name": "Bus Terminal",
+        "coordinates": [0, 7, 2, 9]
+      },
+      {
+        "name": "Hospital",
+        "coordinates": [2, 6, 4, 8]
+      },
+      {
+        "name": "Central Park",
+        "coordinates": [4, 6, 5, 9]
+      },
+      {
+        "name": "University Campus",
+        "coordinates": [0, 5, 2, 7]
+      },
+      {
+        "name": "Shopping Mall",
+        "coordinates": [2, 5, 4, 6]
+      }
+    ]
+  },
+  "reasoning": "Items were placed to make efficient use of the space within the city while preventing overlaps. City Hall, being a central administrative building, was placed at the top left corner. Other administrative and essential services like the Post Office, Library, and Police Station were placed next to each other for logical convenience. The Fire Station is placed below the Post Office for easy access to emergencies within the city. The Bus Terminal, Hospital, and Shopping Mall were placed near the middle part to allow easy access. The Central Park, being the largest item, occupies a large part next to the Police Station and not too far from the University Campus, providing a green area. Finally, since the Stadium is too large to fit any remaining space logically, it was not included." 
+}

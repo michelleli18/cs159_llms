@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "House 1",
+    "coordinates": [-50, 20, -30, 50],
+    "children": [
+      {
+        "name": "Living Room",
+        "coordinates": [-50, 35, -40, 50]
+      },
+      {
+        "name": "Kitchen",
+        "coordinates": [-40, 35, -35, 40]
+      },
+      {
+        "name": "Dining Room",
+        "coordinates": [-35, 35, -30, 40]
+      },
+      {
+        "name": "Bedroom",
+        "coordinates": [-50, 20, -40, 35]
+      },
+      {
+        "name": "Bathroom",
+        "coordinates": [-40, 30, -35, 35]
+      },
+      {
+        "name": "Garage",
+        "coordinates": [-35, 20, -30, 30]
+      }
+    ]
+  },
+  "reasoning": "The Living Room, being the largest by count, is placed at the top left corner to maximize the view and space, covering the entire width from the left boundary to the midpoint. Its central placement also makes it accessible from the entrance. The Kitchen is logically placed adjacent to the Living Room and next to the Dining Room, facilitating easy movement between these areas for serving food. The Dining Room is placed next to the Kitchen for immediate access. The Bedroom, a significant but slightly smaller area, is placed adjacent to the Living Room but on the lower tier, with the Bathroom close for convenience – typical in house layouts. The Garage, being an essential but isolated space, is placed at the rightmost section, giving clear access while minimizing space overlap, positioned away from the main living areas to provide accessibility while ensuring privacy and noise reduction."
+}

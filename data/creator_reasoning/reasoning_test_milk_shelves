@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Milk Shelves",
+    "coordinates": [6, 2, 9, 4],
+    "children": [
+      {
+        "name": "Milk Coolers",
+        "coordinates": [6, 2, 7, 3]  
+      },
+      {
+        "name": "Dairy Products",
+        "coordinates": [7, 2, 8, 3]
+      },
+      {
+        "name": "Checkout Counters",
+        "coordinates": [8, 2, 9, 3]
+      },
+      {
+        "name": "Stock Room",
+        "coordinates": [6, 3, 8, 4]
+      },
+      {
+        "name": "Aisle Signs",
+        "coordinates": [8, 3, 9, 4]
+      }
+    ]
+  },
+  "reasoning": "Firstly, the most important priority is to keep all subitems within the parent item's coordinates and to ensure that there is no overlap between them. Milk Coolers, Dairy Products, and Checkout Counters are placed along the bottom part of the Milk Shelves because these are items typically found in the accessible lower section for easy reach. They are appropriately sized relative to their roles, with Dairy Products being slightly larger than Checkout Counters due to the greater variety of goods that would need more space. The Stock Room is placed at the upper part because it needs substantial space (more unit area) and can utilize the upper left portion of the Milk Shelves tray. This placement ensures no overlap and adheres to the logical arrangement where inventory management happens behind the scenes. Aisle Signs, being smaller, are placed on the top-right edge for visibility. They take a minimal area and stay accessible to guide customers. Collectively, these placements efficiently utilize all available space, ensuring the entire parent floor plan is well-occupied and functional."
+}

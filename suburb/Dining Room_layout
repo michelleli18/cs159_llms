@@ -1,0 +1,29 @@
+{
+    "layout": {
+        "name": "Dining Room",
+        "coordinates": [-35, 35, -30, 40],
+        "children": [
+            {
+                "name": "Dining Table",
+                "coordinates": [-34, 39, -31, 38]
+            },
+            {
+                "name": "Chairs",
+                "coordinates": [-33, 38, -31, 36]
+            },
+            {
+                "name": "Sideboard",
+                "coordinates": [-35, 37, -34, 35]
+            },
+            {
+                "name": "China Cabinet",
+                "coordinates": [-35, 36, -34, 35]
+            },
+            {
+                "name": "Buffet Table",
+                "coordinates": [-31, 35, -30, 34]
+            }
+        ]
+    },
+    "reasoning": "The Dining Table is the central piece of the dining room and is placed towards the middle of the place, yet slightly offset to allow for surrounding subitems. The Chairs are adjacent to the Dining Table to reflect typical placement for seating. The Sideboard is positioned along one of the walls for easy access and storage, near the Dining Table for practical utility. The China Cabinet is placed next to the Sideboard, maintaining a logical flow for storage and dining-related activities. Finally, the Buffet Table is situated along the remaining wall, opposite the Dining Table, to utilize the area efficiently and provide a clear path for movement. The coordinates are within the parent place boundaries, and the arrangement follows natural and functional room design principles with varying subitem sizes proportional to their real-life counterparts. The items are placed to cover most of the area efficiently while ensuring logical positioning and accessibility."
+}

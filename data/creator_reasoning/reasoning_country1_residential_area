@@ -1,0 +1,17 @@
+{
+    "layout": {
+        "name": "Residential Area",
+        "coordinates": [-20, 0, 10, 10],
+        "children": [
+            {"name": "House", "coordinates": [-20, 0, -10, 10]},
+            {"name": "Garage", "coordinates": [-10, 0, -5, 5]},
+            {"name": "Lawn", "coordinates": [-10, 5, 0, 10]},
+            {"name": "Driveway", "coordinates": [-5, 0, 0, 5]},
+            {"name": "Pool", "coordinates": [0, 5, 5, 10]},
+            {"name": "Playground", "coordinates": [0, 0, 5, 5]},
+            {"name": "Garden", "coordinates": [5, 5, 10, 10]},
+            {"name": "Shed", "coordinates": [5, 0, 7, 5]}
+        ]
+    },
+    "reasoning": "The 'House' was placed in the largest available area to represent its relative size 9. 'Garage' was placed adjacent and logically close to the 'House' for convenience, ensuring easy access. The 'Lawn' was put next to the 'House' and 'Driveway' since residential lawns are usually adjacent to these areas. 'Driveway' is connected to the 'Garage' and placed accordingly to represent ease of parking. A 'Pool' was placed with ample space to reflect its size 6 near the 'Lawn' and 'Garden' to signify an area for leisure. 'Playground' was placed near the 'Lawn' and 'Garden' to create a cohesive outdoor recreational zone. The 'Garden' was positioned to cover the remaining efficient space, with appropriate borders reflecting realistic garden sizes. Finally, the 'Shed' was placed in the remaining space near the 'Playground,' keeping storage conveniently accessible while using the final available space efficiently."
+}

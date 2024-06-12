@@ -1,0 +1,71 @@
+{
+	"layout": {
+		"name": "Yoga Room",
+		"coordinates": [-50, 46, -48, 48],
+		"children": [{
+			"name": "Instructor Mat",
+			"coordinates": [-50, 46, -49, 47]
+		}, {
+			"name": "Yoga Mats 1",
+			"coordinates": [-49, 46, -48.5, 47]
+		}, {
+			"name": "Yoga Mats 2",
+			"coordinates": [-49, 47, -48.5, 48]
+		}, {
+			"name": "Altar Table 1",
+			"coordinates": [-50, 47, -49, 48]
+		}, {
+			"name": "Altar Table 2",
+			"coordinates": [-50, 46.5, -49, 47]
+		}, {
+			"name": "Altar Table 3",
+			"coordinates": [-50, 46, -49, 46.5]
+		}, {
+			"name": "Storage Cubbies 1",
+			"coordinates": [-48.5, 46, -48, 46.5]
+		}, {
+			"name": "Storage Cubbies 2",
+			"coordinates": [-48.5, 46.5, -48, 47]
+		}, {
+			"name": "Storage Cubbies 3",
+			"coordinates": [-48.5, 47, -48, 47.5]
+		}, {
+			"name": "Storage Cubbies 4",
+			"coordinates": [-48.5, 47.5, -48, 48]
+		}, {
+			"name": "Mirrors 1",
+			"coordinates": [-48.75, 46, -48.5, 46.5]
+		}, {
+			"name": "Mirrors 2",
+			"coordinates": [-48.75, 46.5, -48.5, 47]
+		}, {
+			"name": "Mirrors 3",
+			"coordinates": [-48.75, 47, -48.5, 47.5]
+		}, {
+			"name": "Mirrors 4",
+			"coordinates": [-48.75, 47.5, -48.5, 48]
+		}, {
+			"name": "Mirrors 5",
+			"coordinates": [-48.5, 48, -48.25, 46]
+		}, {
+			"name": "Mirrors 6",
+			"coordinates": [-48.25, 48, -48, 46]
+		}, {
+			"name": "Mirrors 7",
+			"coordinates": [-48.25, 46, -48, 46.5]
+		}, {
+			"name": "Sound System 1",
+			"coordinates": [-50, 45.5, -49.5, 46]
+		}, {
+			"name": "Sound System 2",
+			"coordinates": [-49.5, 45.5, -49, 46]
+		}, {
+			"name": "Wall Hooks 1",
+			"coordinates": [-49, 46, -48.75, 46.5]
+		}, {
+			"name": "Wall Hooks 2",
+			"coordinates": [-49, 46.5, -48.75, 47]
+		}]
+	},
+	"reasoning": "The Instructor Mat is placed directly near the entrance at coordinates [-50, 46, -49, 47] for ease of access. Two Yoga Mats are placed close to the instructor for better visibility. The Altar Tables are situated prominently at the front wall where they are most accessible. Storage Cubbies are arranged near the corners and close to the side walls for efficient use of space while being easily accessible. Mirrors are placed along adjacent walls so participants can check their postures. The sound systems are placed near corners for better acoustic distribution throughout the room. Lastly, the Wall Hooks are placed near the entrance for convenient access to hang belongings right upon entry. All items are carefully arranged to avoid overlapping and to use the available space efficiently."
+}

@@ -1,0 +1,29 @@
+{
+    "layout": {
+        "name": "fireplace",
+        "coordinates": [-48, 46, -44, 50],
+        "children": [
+            {
+                "name": "fireplace mantle",
+                "coordinates": [-47, 49, -45, 50]     
+            },
+            {
+                "name": "hearth",
+                "coordinates": [-47, 46, -45, 48]
+            },
+            {
+                "name": "firewood stack",
+                "coordinates": [-48, 46, -47, 47]
+            },
+            {
+                "name": "chimney breast",
+                "coordinates": [-48, 47, -46.5, 50]
+            },
+            {
+                "name": "fire screen",
+                "coordinates": [-46.5, 46, -45, 47] 
+            }
+        ]
+    },
+    "reasoning": "Starting with the fireplace mantle, it is placed at the top center to make it flush with the top edge of the fireplace. This matches its typical position above the hearth and allows for easy visibility and access. The chimney breast is placed to the left of the fireplace mantle, covering the full horizontal range, because the chimney typically encompasses a large area above the fireplace. The firewood stack is placed at the bottom left corner as it is relatively smaller in size and can be tucked away there while utilizing the space efficiently. The hearth sits directly below the fireplace mantle, leaving a small space in between where the fire screen is placed. The fire screen is placed in front of the hearth to provide protection from sparks and embers, completing the logical arrangement of these items. All items are positioned to use nearly all of the available space while maintaining realistic functionality and positioning." 
+}

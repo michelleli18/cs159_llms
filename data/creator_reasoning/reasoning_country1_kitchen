@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Kitchen",
+    "coordinates": [-10, 12, -8, 14],
+    "children": [
+      {
+        "name": "Refrigerator",
+        "coordinates": [-10, 12, -9, 13]
+      },
+      {
+        "name": "Oven",
+        "coordinates": [-9, 12, -8, 13]
+      },
+      {
+        "name": "Sink",
+        "coordinates": [-10, 13, -9, 14]
+      },
+      {
+        "name": "Countertop",
+        "coordinates": [-9, 13, -8, 14]
+      },
+      {
+        "name": "Dining Table",
+        "coordinates": [-10, 14, -10, 14]
+      }
+    ]
+  },
+  "reasoning": "The most important priority was to keep all children within the parent item and avoid any overlaps. The Kitchen coordinates are [-10, 12, -8, 14], giving us a grid of 2x2 for placing the subitems. I started with the smaller items such as the Refrigerator and Oven, placing them next to each other on the bottom left corner to maintain a logical flow. The Refrigerator and Oven are both essential kitchen components that are commonly placed next to each other. The Sink and Countertop were placed next to each other in the upper row, both being essential in a modern kitchen setup. The large Dining Table could not be accommodated because there was insufficient space to fit it while keeping the coordinates as integers. The reasonings for placements focus on kitchen functionality and the typical kitchen layout where appliances are placed close to each other. Every effort was made to place items efficiently and cover as much space as possible within the given coordinates of the parent item while following the defined priorities."
+}

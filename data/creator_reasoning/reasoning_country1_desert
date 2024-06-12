@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Desert",
+    "coordinates": [4, 0, 7, 5],
+    "children": [
+        {
+            "name": "Dune",
+            "coordinates": [4, 0, 6, 4]
+        },
+        {
+            "name": "Oasis",
+            "coordinates": [6, 0, 7, 2]
+        },
+        {
+            "name": "Rock Formation",
+            "coordinates": [4, 4, 5, 5]
+        },
+        {
+            "name": "Sandstone Cliff",
+            "coordinates": [5, 4, 7, 5]
+        },
+        {
+            "name": "Cactus Patch",
+            "coordinates": [6, 2, 7, 3]
+        }
+    ]
+  },
+  "reasoning": "The placement of subitems considered their relative sizes and logical placements. The 'Dune' is the largest subitem and is placed on the southwest side of the desert to cover the maximum area without exceeding boundaries, realistically representing how dunes occupy expansive areas in deserts. 'Oasis' is placed at the southeast corner, representing a smaller yet essential natural feature found near larger landforms like dunes for logical contrast and utility. 'Rock Formation' is placed at the northwest corner taking less area logically between larger dune and sandstone cliff. 'Sandstone Cliff' is placed at the northeast corner to create a sense of boundary at the far edge. Lastly, 'Cactus Patch' is placed next to the 'Oasis', symbolizing how vegetation grows around water sources in a desert and utilizes the narrow space between other large features. All subitem coordinates are integers, ensuring they are within the boundaries of the parent desert coordinates. There is no overlap, fulfilling the most critical requirement."
+}

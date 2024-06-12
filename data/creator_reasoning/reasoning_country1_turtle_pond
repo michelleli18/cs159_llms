@@ -1,0 +1,33 @@
+{
+    "layout": {
+        "name": "Turtle Pond",
+        "coordinates": [-6, 18, -2, 20],
+        "children": [
+            {
+                "name": "Pond",
+                "coordinates": [-6, 18, -2, 20]
+            },
+            {
+                "name": "Dock",
+                "coordinates": [-6, 18, -5, 20]
+            },
+            {
+                "name": "Visitor Center",
+                "coordinates": [-5, 18, -3, 19]
+            },
+            {
+                "name": "Picnic Area",
+                "coordinates": [-5, 19, -4, 20]
+            },
+            {
+                "name": "Restrooms",
+                "coordinates": [-4, 18, -3, 19]
+            },
+            {
+                "name": "Playground",
+                "coordinates": [-4, 19, -3, 20]
+            }
+        ]
+    },
+    "reasoning": "The 'Pond' is the main attraction and covers the largest area, so it is placed in the entirety of the Turtle Pond coordinates to make efficient use of the space and be the central focus. The 'Dock' is next to the 'Pond' to provide easy access for visitors looking to enjoy the water. 'Visitor Center' and 'Restrooms' are placed next to each other for convenience for visitors who may need facilities or information. Similarly, 'Picnic Area' and 'Playground' are put together as families often like to picnic and have children play nearby. Each subitem is appropriately sized relative to its importance and function within the Turtle Pond. All placements respect the boundaries defined and ensure no overlap, following the key instructions and priorities."
+}

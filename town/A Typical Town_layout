@@ -1,0 +1,69 @@
+{
+"layout": {
+  "name": "A Typical Town",
+  "coordinates": [-50, -50, 50, 50],
+  "children": [
+    {
+      "name": "Town Hall",
+      "coordinates": [-50, 30, -30, 50]
+    },
+    {
+      "name": "Hospital",
+      "coordinates": [-30, 30, -10, 50]
+    },
+    {
+      "name": "School",
+      "coordinates": [-10, 30, 10, 50]
+    },
+    {
+      "name": "Library",
+      "coordinates": [10, 30, 30, 50]
+    },
+    {
+      "name": "Park",
+      "coordinates": [30, 30, 50, 50]
+    },
+    {
+      "name": "Supermarket",
+      "coordinates": [-50, 10, -30, 30]
+    },
+    {
+      "name": "Apartment Building",
+      "coordinates": [-30, 10, -10, 30]
+    },
+    {
+      "name": "Cinema",
+      "coordinates": [-10, 10, 10, 30]
+    },
+    {
+      "name": "Fire Station",
+      "coordinates": [10, 10, 20, 20]
+    },
+    {
+      "name": "Police Station",
+      "coordinates": [20, 10, 30, 20]
+    },
+    {
+      "name": "Post Office",
+      "coordinates": [30, 10, 50, 20]
+    },
+    {
+      "name": "Train Station",
+      "coordinates": [10, 20, 30, 30]
+    },
+    {
+      "name": "Gym",
+      "coordinates": [-50, -10, -30, 10]
+    },
+    {
+      "name": "Restaurant",
+      "coordinates": [-30, -10, -10, 10]
+    },
+    {
+      "name": "Coffee Shop",
+      "coordinates": [-10, -10, 10, 10]
+    }
+  ]
+},
+"reasoning": "Town Hall and important civic buildings like Hospital, School, and Library are placed together in the northern part of the town, considering they are crucial and need prominence and proximity. The Park is placed next to the Library providing a serene place for relaxation. Supermarket, Apartment Building, and Cinema are placed centrally to offer residents easy access to essentials and entertainment. Emergency services like Fire Station and Police Station are centrally located for quick response times along with the Post Office. The Train Station is placed near the business and entertainment area for easy accessibility. Fitness-oriented buildings like the Gym are on the south side, catering to nearby residents and there's also close access to dining options like the Restaurant and Coffee Shop."
+}

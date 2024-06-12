@@ -1,0 +1,25 @@
+{
+    "layout": {
+        "name": "Emergency Room",
+        "coordinates": [-6, 12, -4, 15],
+        "children": [
+            {
+                "name": "Reception Desk",
+                "coordinates": [-6, 12, -5, 13]
+            },
+            {
+                "name": "Waiting Area",
+                "coordinates": [-5, 12, -4, 14]
+            },
+            {
+                "name": "Nurses Station",
+                "coordinates": [-6, 13, -5, 14]
+            },
+            {
+                "name": "Triage Area",
+                "coordinates": [-6, 14, -5, 15]
+            }
+        ]
+    },
+    "reasoning": "The Reception Desk is placed near the entrance for easy access by patients coming in. The Waiting Area is adjacent to the Reception Desk to allow patients to stay nearby while waiting for service. The Nurses Station is situated next to the Reception Desk to assist in quick paperwork and patient handover. The Triage Area is located near the entrance as well to quickly assess patients upon arrival. The Treatment Room, Medication Room, Restrooms, and Administrative Office couldn't be included due to space constraints. All items are flushed to the borders, none overlap, and all coordinates are within the defined parent boundary."
+}

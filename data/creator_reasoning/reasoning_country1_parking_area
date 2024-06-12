@@ -1,0 +1,28 @@
+{
+  "layout": {
+    "name": "Parking Area",
+    "coordinates": [-10, 5, -9, 10],
+    "children": [
+      {"name": "Parking Spots 1", "coordinates": [-10, 5, -10, 6]},
+      {"name": "Parking Spots 2", "coordinates": [-10, 6, -10, 7]},
+      {"name": "Parking Spots 3", "coordinates": [-10, 7, -10, 8]},
+      {"name": "Parking Spots 4", "coordinates": [-10, 8, -10, 9]},
+      {"name": "Parking Spots 5", "coordinates": [-10, 9, -10, 10]},
+      {"name": "Parking Spots 6", "coordinates": [-9, 5, -9, 6]},
+      {"name": "Parking Spots 7", "coordinates": [-9, 6, -9, 7]},
+      {"name": "Parking Spots 8", "coordinates": [-9, 7, -9, 8]},
+      {"name": "Parking Spots 9", "coordinates": [-9, 8, -9, 9]},
+      {"name": "Entrance Gate", "coordinates": [-9, 9, -9, 10]},
+      {"name": "Parking Meters 1", "coordinates": [-10, 5, -9, 6]},
+      {"name": "Parking Meters 2", "coordinates": [-9, 6, -9, 7]},
+      {"name": "Ticket Booth 1", "coordinates": [-9, 7, -9, 8]},
+      {"name": "Ticket Booth 2", "coordinates": [-9, 8, -9, 9]},
+      {"name": "Ticket Booth 3", "coordinates": [-9, 9, -9, 10]},
+      {"name": "Restrooms", "coordinates": [-9, 9, -9, 10]},
+      {"name": "Exit Gate", "coordinates": [-9, 10, -10, 10]},
+      {"name": "Security Office", "coordinates": [-10, 10, -9, 10]},
+      {"name": "Charging Stations", "coordinates": [-9, 10, -10, 10]}
+    ]
+  },
+  "reasoning": "Parking Spots are the most numerous and distributed throughout the Parking Area to ensure efficient use of space and ease of access. The Entrance Gate and Exit Gate are placed strategically to allow vehicles to enter and exit the parking area efficiently. Parking Meters are close to the Parking Spots for convenience. The Ticket Booth is also near the entrance for easy access upon entering. The Restrooms are towards one side and limited in number to conserve space but still meet the necessities. Security Office is positioned centrally for overseeing the entire area. Charging Stations are distributed near the parking spots to cater to electric vehicles."
+}

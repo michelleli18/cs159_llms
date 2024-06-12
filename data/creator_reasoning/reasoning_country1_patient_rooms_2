@@ -1,0 +1,13 @@
+{
+  "layout": {
+    "name": "Patient Rooms 2",
+    "coordinates": [-12, 10, -8, 11],
+    "children": [
+      {"name": "Hospital Bed", "coordinates": [-11, 10, -10, 11]},
+      {"name": "Nightstand", "coordinates": [-10, 10, -9, 11]},
+      {"name": "Wardrobe", "coordinates": [-12, 10, -11, 11]},
+      {"name": "Bedside Chair", "coordinates": [-9, 10, -8, 11]}
+    ]
+  },
+  "reasoning": "Due to space limitations in the given coordinates of Patient Rooms 2, which is a modest 4 units wide (-12 to -8) and 1 unit tall (10 to 11), only a few items could be fit without overlapping. The hospital bed, which is essential and typically found by the wall, is given primary placement at coordinates [-11, 10, -10, 11], ensuring easy access for medical personnel and patients alike. The nightstand is placed adjacent to the hospital bed at [-10, 10, -9, 11], as it is commonly used for personal items and is practical next to the bed for patient convenience. The wardrobe is included at [-12, 10, -11, 11], making use of the remaining space while ensuring it is flush to the wall. Lastly, the bedside chair is placed at [-9, 10, -8, 11], located at the other end for visitors or patients themselves. Due to spatial constraints, items like the bathroom and medical equipment couldn't be included without violating the key priority of no overlapping or going out of boundary."
+}

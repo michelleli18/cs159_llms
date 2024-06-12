@@ -1,0 +1,60 @@
+{
+  "layout": {
+    "name": "Pantry",
+    "coordinates": [-30, 45, -24, 46],
+    "children": [
+      {
+        "name": "Shelving Unit 1",
+        "coordinates": [-30, 45, -28, 45.5]
+      },
+      {
+        "name": "Shelving Unit 2",
+        "coordinates": [-28, 45, -26, 45.5]
+      },
+      {
+        "name": "Shelving Unit 3",
+        "coordinates": [-26, 45, -24.5, 45.5]
+      },
+      {
+        "name": "Shelving Unit 4",
+        "coordinates": [-30, 45.5, -28, 46]
+      },
+      {
+        "name": "Shelving Unit 5",
+        "coordinates": [-28, 45.5, -26, 46]
+      },
+      {
+        "name": "Shelving Unit 6",
+        "coordinates": [-26, 45.5, -24.5, 46]
+      },
+      {
+        "name": "Shelving Unit 7",
+        "coordinates": [-30, 45, -29, 45.5]
+      },
+      {
+        "name": "Shelving Unit 8",
+        "coordinates": [-24.5, 45, -24, 45.5]
+      },
+      {
+        "name": "Storage Bin 1",
+        "coordinates": [-30, 45.5, -29.5, 45.75]
+      },
+      {
+        "name": "Storage Bin 2",
+        "coordinates": [-24.5, 45.5, -24, 45.75]
+      },
+      {
+        "name": "Refrigerator",
+        "coordinates": [-29, 45.75, -28, 46]
+      },
+      {
+        "name": "Freezer",
+        "coordinates": [-29.5, 46, -29, 45.75]
+      },
+      {
+        "name": "Pantry Door",
+        "coordinates": [-28, 45.75, -27, 46]
+      }
+    ]
+  },
+  "reasoning": "To maximize the use of available space while keeping subitems inside the parent coordinates and without overlap, I placed the shelving units, storage bins, refrigerator, freezer, and pantry door logically. Shelving units are placed along the walls because in real life, they are commonly installed along the perimeter for easy accessibility while conserving floor space. Two storage bins are placed in smaller voids near shelving units, which is typical in modern pantries where storage bins are often close to shelving units for organizational purposes. The refrigerator and freezer are placed adjacent to each other for convenience, as it makes practical sense to have them near each other for easy access to different types of stored food. The pantry door is positioned centrally to provide ease of access to the interior items. All items are distributed to avoid empty space between them and the walls, with remaining empty space placed logically between subitems to ensure pathways for accessibility."

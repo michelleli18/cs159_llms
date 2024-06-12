@@ -1,0 +1,41 @@
+{
+    "layout": {
+        "name": "Sports Field",
+        "coordinates": [-50, -30, -30, 0],
+        "children": [
+            {
+                "name": "Soccer Field",
+                "coordinates": [-50, -30, -38, -8]
+            },
+            {
+                "name": "Bleachers",
+                "coordinates": [-38, -30, -30, -26]
+            },
+            {
+                "name": "Locker Rooms",
+                "coordinates": [-38, -26, -34, -18]
+            },
+            {
+                "name": "Concession Stand",
+                "coordinates": [-34, -26, -30, -24]
+            },
+            {
+                "name": "Dugout",
+                "coordinates": [-34, -24, -30, -22]
+            },
+            {
+                "name": "Tennis Court",
+                "coordinates": [-50, -8, -42, 0]
+            },
+            {
+                "name": "Tennis Court 2",
+                "coordinates": [-42, -8, -34, 0]
+            },
+            {
+                "name": "Scoreboard",
+                "coordinates": [-34, -8, -30, -4]
+            }
+        ]
+    },
+    "reasoning": "The 'Soccer Field' is placed on the left side of the sports field because it needs the largest area. 'Bleachers' are positioned adjacent to the soccer field at the bottom right corner so spectators have a clear view and easy access to the field. 'Locker Rooms' are placed next to the bleachers to make them easily accessible to players after games. 'Concession Stand' is placed in proximity to bleachers to provide easy access for spectators wanting to purchase food and drinks. The 'Dugout' is placed next to the concession stand so teams have a place to rest and store equipment conveniently near the field. Two 'Tennis Courts' are placed at the top side of the sports field to efficiently make use of the available space. Finally, the 'Scoreboard' is located near the tennis courts to provide visibility for all spectators and participants. The placement ensures no overlap and efficient use of space within the coordinates of the parent sports field."
+}

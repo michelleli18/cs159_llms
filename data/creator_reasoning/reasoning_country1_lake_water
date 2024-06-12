@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Lake Water",
+    "coordinates": [-25, 12, -22, 15],
+    "children": [
+      {
+        "name": "Water Body",
+        "coordinates": [-25, 12, -22, 15]
+      },
+      {
+        "name": "Swimming Zone",
+        "coordinates": [-24, 14, -23, 15]
+      },
+      {
+        "name": "Dock Area",
+        "coordinates": [-24, 12, -23, 13]
+      },
+      {
+        "name": "Picnic Area",
+        "coordinates": [-25, 13, -24, 14]
+      },
+      {
+        "name": "Boathouse",
+        "coordinates": [-24, 13, -23, 14]
+      }
+    ]
+  },
+  "reasoning": "The 'Water Body' is the largest element (size 10), and it occupies the entire space of the parent 'Lake Water' coordinates, [-25, 12, -22, 15]. This is appropriate as it forms the core feature of the lake. The 'Swimming Zone' is placed near the upper-right boundary to utilize space efficiently and is typically placed away from the dock area for safety reasons, with coordinates [-24, 14, -23, 15]. The 'Dock Area' is placed in the bottom-right of the parent coordinates [-24, 12, -23, 13] for practical access to watercraft. The 'Picnic Area' is placed in the bottom-left corner, utilizing a corner space while allowing visitors to enjoy views of the lake, coordinates [-25, 13, -24, 14]. The 'Boathouse' is placed adjacent to the 'Dock Area', which is logical given the need to store boats and typically being near the point of entry to the water with coordinates [-24, 13, -23, 14]. All items fit within the boundaries and are non-overlapping, ensuring efficient use of the available area."
+}

@@ -1,0 +1,25 @@
+{
+  "layout": {
+    "name": "Forest",
+    "coordinates": [0, 0, 4, 5],
+    "children": [
+      {
+        "name": "Clearing",
+        "coordinates": [0, 3, 4, 5]
+      },
+      {
+        "name": "Pond",
+        "coordinates": [0, 0, 2, 3]
+      },
+      {
+        "name": "Campsite",
+        "coordinates": [2, 0, 4, 2]
+      },
+      {
+        "name": "Rock Formation",
+        "coordinates": [2, 2, 4, 3]
+      }
+    ]
+  },
+  "reasoning": "The largest subitem 'Clearing' is placed at the top of the forest to utilize the full width (4 units) and part of the height (2 units). This also ensures that as much contiguous space is used as possible. 'Pond', the second largest item, is placed at the bottom left, allowing it to occupy an area of 6 square units without overlapping. It is logical for a pond to be towards the edges to allow other activities around it. 'Campsite', which requires a decent amount of space, is placed at the bottom right, spanning 2 units in height and width. This makes sense for a campsite, which usually has a distinct, accessible area for ease of setup and use. 'Rock Formation' is placed above the campsite in a smaller slot (1x2 units), where it fits logically and aesthetically without wasting space. The 'Fallen Log' could not be included due to space constraints as there is no remaining area that can fit its 2 units without overlap or crossing boundaries. Each placemed item ensures efficient use of the area, with no overlaps and following the order by size while considering a natural, logical layout."
+}

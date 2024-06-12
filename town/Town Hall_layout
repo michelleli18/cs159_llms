@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Town Hall",
+    "coordinates": [-50, 30, -30, 50],
+    "children": [
+      {
+        "name": "Main Hall",
+        "coordinates": [-50, 45, -30, 50]
+      },
+      {
+        "name": "Council Chambers",
+        "coordinates": [-50, 40, -40, 45]
+      },
+      {
+        "name": "Reception Area",
+        "coordinates": [-40, 40, -30, 45]
+      },
+      {
+        "name": "Mayor's Office",
+        "coordinates": [-50, 35, -45, 40]
+      },
+      {
+        "name": "Meeting Room",
+        "coordinates": [-45, 35, -40, 40]
+      },
+      {
+        "name": "Records Office",
+        "coordinates": [-40, 35, -30, 40]
+      },
+      {
+        "name": "Public Restrooms",
+        "coordinates": [-50, 30, -45, 35]
+      }
+    ]
+  },
+  "reasoning": "Placement was done to maximize available space and ensure functional adjacency. The Main Hall, being the largest subitem, was placed centrally at the top to symbolize its importance and central access point for visitors. Council Chambers and Reception Area, being significant functional areas, are placed next to the Main Hall to facilitate easy access from the central area. Mayor's Office, Meeting Room, and Records Office are placed together below the council chambers and reception area to maintain proximity for administrative efficiency. Finally, Public Restrooms are placed at the bottom left corner, allowing easy access for visitors while maintaining a logical flow within the layout. Each subitem's size reflects its functional importance and usage frequency, with Main Hall being the largest and Public Restrooms the smallest, hence occupying placement according to relative size and usage frequency."
+}

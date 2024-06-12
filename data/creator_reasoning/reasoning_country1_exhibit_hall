@@ -1,0 +1,21 @@
+{
+"layout": {
+    "name": "Exhibit Hall",
+    "coordinates": [-32, 7, -27, 8],
+    "children": [
+        {
+            "name": "Entrance Area",
+            "coordinates": [-32, 7, -31, 8]
+        },
+        {
+            "name": "Information Booth",
+            "coordinates": [-31, 7, -29, 8]
+        },
+        {
+            "name": "Rest Area",
+            "coordinates": [-29, 7, -27, 8]
+        }
+    ]
+},
+"reasoning": "The Entrance Area is placed at the far left of the Exhibit Hall because it makes sense for the entrance to be at the edge of the space for easy access. The Information Booth is placed next to the Entrance Area since visitors will likely want to gather information as soon as they enter. The Rest Area is placed next to the Information Booth, as it is a smaller size and can serve as a small waiting area for visitors as they gather information and prepare to explore the exhibits. Due to limited space within the given coordinates, I included only the most essential items, omitting larger exhibits and additional facilities to ensure compliance with keeping all child coordinates within the boundary of the parent and without overlap."
+}

@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Control Tower",
+    "coordinates": [-995, 745, -980, 755],
+    "children": [
+      {
+        "name": "Control Room",
+        "coordinates": [-995, 750, -990, 755]
+      },
+      {
+        "name": "Radar Room",
+        "coordinates": [-990, 750, -985, 755]
+      },
+      {
+        "name": "Conference Room",
+        "coordinates": [-985, 750, -980, 755]
+      },
+      {
+        "name": "Observation Deck",
+        "coordinates": [-990, 745, -985, 750]
+      },
+      {
+        "name": "Break Room",
+        "coordinates": [-985, 748, -980, 750]
+      },
+      {
+        "name": "Equipment Storage",
+        "coordinates": [-985, 745, -980, 748]
+      }
+    ]
+  },
+  "reasoning": "The 'Control Room' is central to a Control Tower, thus is placed in the largest space, flush against the left side and top of the parent space. The 'Radar Room' is closely related to the Control Room for quick access. The 'Conference Room' extends to the remaining top-right section, allowing for meetings without noise interference from operational rooms below. The 'Observation Deck' is placed centrally at the bottom for a wide view and is next to 'Radar Room'. 'Break Room' is positioned below the 'Conference Room' for ease of access by all personnel. 'Equipment Storage' is smaller and placed below the 'Break Room', providing a clear division between work and utility spaces. This arrangement maximizes space usage and maintains logical adjacency for functional flow."
+}

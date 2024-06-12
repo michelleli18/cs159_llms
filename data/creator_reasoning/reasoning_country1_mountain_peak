@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Mountain Peak",
+    "coordinates": [-20, 17, -8, 20],
+    "children": [
+      {
+        "name": "Summit",
+        "coordinates": [-20, 18, -16, 20]
+      },
+      {
+        "name": "Cliff Edge",
+        "coordinates": [-16, 18, -12, 20]
+      },
+      {
+        "name": "Forest Area",
+        "coordinates": [-12, 17, -8, 19]
+      },
+      {
+        "name": "Rock Formation",
+        "coordinates": [-20, 17, -16, 18]
+      },
+      {
+        "name": "Cabin",
+        "coordinates": [-16, 17, -12, 18]
+      },
+      {
+        "name": "Observation Deck",
+        "coordinates": [-12, 17, -9, 18]
+      },
+      {
+        "name": "Snowy Patch",
+        "coordinates": [-9, 17, -8, 18]
+      }
+    ]
+  },
+  "reasoning": "The Summit is the most critical feature and should be placed at the peak of the Mountain Peak coordinates. It occupies one of the largest areas since it represents the focal point. The Cliff Edge is placed next to the Summit on the peak as well but on a slightly lower altitude, thus it takes the next largest space at the right of Summit. The Forest Area is placed at the bottom right of the Mountain Peak to cover as much space as possible. Rock Formation is placed at the bottom left to use up the remaining available space efficiently, touching the boundaries. The Cabin is a middle-sized object and is placed next to Rock Formation. Observation Deck is a middle-sized object and is placed adjacent to the Cabin for convenience. The Snowy Patch, being the smallest, is carefully placed and fitted into the remaining smallest available area. All items are intentionally chosen for their relative sizes and logical positions considering real-life constraints. The Forest Area is adjacent to the Rock Formation forming a consistent scenic location. Items are placed to maximize efficient use of the available space while preventing overlap."
+}

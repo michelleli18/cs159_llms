@@ -1,0 +1,92 @@
+{
+  "layout": {
+    "name": "Soccer Field",
+    "coordinates": [-49, 41, -36, 49],
+    "children": [
+      {
+        "name": "goalpost 1",
+        "coordinates": [-48, 48, -47, 49]
+      },
+      {
+        "name": "goalpost 2",
+        "coordinates": [-48, 41, -47, 42]
+      },
+      {
+        "name": "bench",
+        "coordinates": [-41, 42, -40, 43]
+      },
+      {
+        "name": "dugout 1",
+        "coordinates": [-46, 42, -45, 44]
+      },
+      {
+        "name": "dugout 2",
+        "coordinates": [-46, 47, -45, 49]
+      },
+      {
+        "name": "locker room 1",
+        "coordinates": [-36, 41, -35, 42]
+      },
+      {
+        "name": "locker room 2",
+        "coordinates": [-36, 42, -35, 43]
+      },
+      {
+        "name": "locker room 3",
+        "coordinates": [-36, 43, -35, 44]
+      },
+      {
+        "name": "locker room 4",
+        "coordinates": [-36, 44, -35, 45]
+      },
+      {
+        "name": "locker room 5",
+        "coordinates": [-36, 45, -35, 46]
+      },
+      {
+        "name": "bleacher 1",
+        "coordinates": [-47, 42, -46, 43]
+      },
+      {
+        "name": "bleacher 2",
+        "coordinates": [-47, 43, -46, 44]
+      },
+      {
+        "name": "bleacher 3",
+        "coordinates": [-47, 44, -46, 45]
+      },
+      {
+        "name": "bleacher 4",
+        "coordinates": [-47, 45, -46, 46]
+      },
+      {
+        "name": "bleacher 5",
+        "coordinates": [-47, 46, -46, 47]
+      },
+      {
+        "name": "bleacher 6",
+        "coordinates": [-47, 47, -46, 48]
+      },
+      {
+        "name": "concession stand 1",
+        "coordinates": [-41, 43, -40, 44]
+      },
+      {
+        "name": "concession stand 2",
+        "coordinates": [-41, 44, -40, 45]
+      },
+      {
+        "name": "concession stand 3",
+        "coordinates": [-41, 45, -40, 46]
+      },
+      {
+        "name": "scoreboard 1",
+        "coordinates": [-49, 49, -48, 48.5]
+      },
+      {
+        "name": "scoreboard 2",
+        "coordinates": [-49, 41.5, -48, 41]
+      }
+    ]
+  },
+  "reasoning": "1. Goalposts have been placed at opposite ends of the soccer field for standard use, each covering a realistic width and height for such installations. This positions them logically as part of the field. 2. Benches are placed near the dugouts but not directly attached, so that players can rest near the field. 3. Dugouts are positioned in close proximity to either goalpost and the bleachers, allowing for better access and viewing angles for players and staff. 4. Locker rooms are lined up together along one end of the field to maximize space and facilitate ease of access for players. 5. Bleachers are placed consecutively to form a seating area where spectators can watch the game comfortably, spanning a significant length of one side of the field. 6. Concession stands are placed near to the seating but away from the field's main area of play to ensure safety and convenience for attendees. 7. Scoreboards are placed on opposite sides to ensure visibility across the entire field. All these placements cover most of the available space and ensure logical, real-life adjacency and functionality, considering the dynamic needs and utility each subitem fulfills."

@@ -1,0 +1,41 @@
+{
+  "layout": {
+    "name": "Locker Rooms",
+    "coordinates": [3, 15, 5, 17],
+    "children": [
+      {
+        "name": "Lockers 1",
+        "coordinates": [3, 16, 4, 17]
+      },
+      {
+        "name": "Lockers 2",
+        "coordinates": [4, 16, 5, 17]
+      },
+      {
+        "name": "Showers",
+        "coordinates": [3, 15, 4, 16]
+      },
+      {
+        "name": "Benches",
+        "coordinates": [4, 15, 5, 16]
+      },
+      {
+        "name": "Toilets",
+        "coordinates": [3, 15, 4, 16]
+      },
+      {
+        "name": "Sink Area",
+        "coordinates": [4, 15, 5, 16]
+      },
+      {
+        "name": "Changing Stalls 1",
+        "coordinates": [3, 15, 4, 16]
+      },
+      {
+        "name": "Changing Stalls 2",
+        "coordinates": [4, 15, 5, 16]
+      }
+    ]
+  },
+  "reasoning": "The layout is designed in a way that ensures all subitems are within the boundary of the Locker Rooms and do not overlap. Since lockers are one of the most essential components, 'Lockers' are given a significant portion at the top of the space, with two instances to cover enough area. 'Showers' and 'Benches' are placed in proximity at the bottom left, providing convenience for users to sit on benches after using the showers. 'Toilets' and 'Sink Area' are next to each other for logical workflow, such as washing hands after using the toilets. Changing Stalls are also essential, so there are two instances—both strategically placed near the lockers and showers to allow users a private space to change. This thoughtful arrangement ensures efficient use of space and logical flow from one activity to the next. All coordinates are integers and within the bounds, and the Locker Room items ensure maximization of the area with all available subitems."
+}

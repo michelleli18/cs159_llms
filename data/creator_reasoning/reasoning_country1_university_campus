@@ -1,0 +1,45 @@
+{
+  "layout": {
+    "name": "University Campus",
+    "coordinates": [0, 5, 2, 7],
+    "children": [
+      {
+        "name": "Library",
+        "coordinates": [0, 6, 0.4, 7]
+      },
+      {
+        "name": "Science Lab",
+        "coordinates": [0.4, 6, 0.8, 7]
+      },
+      {
+        "name": "Lecture Hall",
+        "coordinates": [0.8, 6, 1.2, 7]
+      },
+      {
+        "name": "Cafeteria",
+        "coordinates": [1.2, 6, 1.7, 7]
+      },
+      {
+        "name": "Dormitory",
+        "coordinates": [0, 5, 0.6, 6]
+      },
+      {
+        "name": "Administration Building",
+        "coordinates": [0.6, 5, 1, 6]
+      },
+      {
+        "name": "Sports Complex",
+        "coordinates": [1, 5, 1.8, 6]
+      },
+      {
+        "name": "Student Union",
+        "coordinates": [1.8, 5.5, 2, 6]
+      },
+      {
+        "name": "Parking Lot",
+        "coordinates": [1.8, 5, 2, 5.5]
+      }
+    ]
+  },
+  "reasoning": "The layout is designed to optimize space within the constraints of the university campus [0, 5, 2, 7] while ensuring no overlap between subitems and keeping them within the boundary. The items were sized and placed based on their relative size and logical proximity to each other. The Library, Science Lab, and Lecture Hall are placed next to each other at the top (coordinates [0, 6, 0.4, 7], [0.4, 6, 0.8, 7], [0.8, 6, 1.2, 7]) as they are academic-oriented buildings that students frequently move between. The Cafeteria is placed adjacent to these at [1.2, 6, 1.7, 7] since it is a central social hub. The Dormitory is at [0, 5, 0.6, 6], located for easy access to academic buildings and the cafeteria. The Administration Building ([0.6, 5, 1, 6]) is placed centrally for accessibility. The Sports Complex, being large at [1, 5, 1.8, 6], is at the bottom, easily accessible but separate to minimize noise disruption. The Student Union ([1.8, 5.5, 2, 6]) is positioned near the middle top as a central social area, while the Parking Lot ([1.8, 5, 2, 5.5]) is towards the campus boundary to avoid traffic congestion within the campus. The Chapel was not included due to space constraints after arranging other higher-priority subitems. Overall, this layout considers usage, size, and logical flow within the university campus."
+}

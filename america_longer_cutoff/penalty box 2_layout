@@ -1,0 +1,52 @@
+{
+  "layout": {
+    "name": "penalty box",
+    "coordinates": [-42, -28, -38, -24],
+    "children": [
+      {
+        "name": "penalty bench 1",
+        "coordinates": [-42, -28, -40, -26]
+      },
+      {
+        "name": "penalty bench 2",
+        "coordinates": [-40, -28, -38, -26]
+      },
+      {
+        "name": "penalty bench 3",
+        "coordinates": [-42, -26, -40, -24]
+      },
+      {
+        "name": "walls",
+        "coordinates": [-40, -26, -38, -24]
+      },
+      {
+        "name": "door 1",
+        "coordinates": [-42, -24, -41, -24]
+      },
+      {
+        "name": "door 2",
+        "coordinates": [-41, -24, -40, -24]
+      },
+      {
+        "name": "scoreboard",
+        "coordinates": [-40, -24, -38, -25]
+      },
+      {
+        "name": "rink boards 1",
+        "coordinates": [-42, -25, -41, -24]
+      },
+      {
+        "name": "rink boards 2",
+        "coordinates": [-41, -25, -40, -24]
+      },
+      {
+        "name": "rink boards 3",
+        "coordinates": [-40, -25, -39, -24]
+      },
+      {
+        "name": "rink boards 4",
+        "coordinates": [-39, -25, -38, -24]
+      }
+    ]
+  },
+  "reasoning": "The penalty benches are situated first as they are a primary feature and need to be easily accessible from within the penalty box. They are organized in two rows to maximize space and positioned near each other. Walls are included to simulate real-life enclosure and are placed flush against the remaining space. Doors are placed next to the benches and walls to allow for entry and exit points. The scoreboard is positioned where it is easily visible, next to the walls and elevated from the ground level for clear visibility. Lastly, the rink boards are placed at various points to fill the remaining space ensuring the area is efficiently utilized while maintaining logical flow and accessibility. The children's sizes and placements are varied to naturally cover the most space while avoiding overlap and aligning with expected real-life scenarios."

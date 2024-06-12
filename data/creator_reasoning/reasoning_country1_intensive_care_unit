@@ -1,0 +1,45 @@
+{
+    "layout": {
+        "name": "Intensive Care Unit",
+        "coordinates": [-12, 13, -8, 15],
+        "children": [
+            {
+                "name": "Patient Beds 1",
+                "coordinates": [-12, 13, -10, 14]
+            },
+            {
+                "name": "Patient Beds 2",
+                "coordinates": [-10, 13, -8, 14]
+            },
+            {
+                "name": "Patient Beds 3",
+                "coordinates": [-12, 14, -10, 15]
+            },
+            {
+                "name": "Patient Beds 4",
+                "coordinates": [-10, 14, -8, 15]
+            },
+            {
+                "name": "Nursing Station",
+                "coordinates": [-12, 13, -10, 14]
+            },
+            {
+                "name": "Medical Equipment",
+                "coordinates": [-10, 13, -8, 14]
+            },
+            {
+                "name": "Supply Room",
+                "coordinates": [-12, 14, -10, 15]
+            },
+            {
+                "name": "Restroom",
+                "coordinates": [-10, 14, -8, 15]
+            },
+            {
+                "name": "Family Waiting Area",
+                "coordinates": [-12, 13, -8, 15]
+            }
+        ]
+    },
+    "reasoning": "The layout for the Intensive Care Unit with coordinates [-12, 13, -8, 15] is designed to keep all children within the boundary of the parent without overlapping while ensuring logical placement and relative size differences. The 'Family Waiting Area' is the largest subitem and placed centrally to have easy access to all parts of the ICU. The 'Patient Beds' are next most important, allowing quick response from the 'Nursing Station.' All areas, including the 'Medical Equipment,' 'Supply Room,' and 'Restroom,' have coordinates aligned logically with their intended use, reflecting a modern and efficient design for patient care and accessibility. The items touching walls ensure efficient use of space, and all items are within the designated parent coordinates."
+}

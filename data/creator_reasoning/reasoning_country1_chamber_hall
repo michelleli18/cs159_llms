@@ -1,0 +1,29 @@
+{  
+   "layout": {  
+      "name": "Chamber Hall",  
+      "coordinates": [-20, 12, -13, 15],  
+      "children": [  
+         {  
+            "name": "Stage",  
+            "coordinates": [-20, 12, -17, 15]  
+         },  
+         {  
+            "name": "Seating Area",  
+            "coordinates": [-17, 12, -14, 15]  
+         },  
+         {  
+            "name": "Sound Booth",  
+            "coordinates": [-20, 12, -19, 14]  
+         },  
+         {  
+            "name": "Entrance Lobby",  
+            "coordinates": [-19, 12, -17, 14]  
+         },  
+         {  
+            "name": "Restrooms",  
+            "coordinates": [-14, 14, -13, 15]  
+         }  
+      ]  
+   },  
+   "reasoning": "The main focus while placing the subitems was to respect their size ratios and position them logically relative to each other and real life constraints while maximizing space usage inside the Chamber Hall and preventing any overlap. The 'Stage' is placed on the left side because in most chamber halls, the stage is prominently situated for optimal visibility. The 'Seating Area' is adjacent to the stage, occupying a sizable space for audience seating. The 'Sound Booth' is logically placed near the 'Stage' to allow for sound management and adjustments during events. The 'Entrance Lobby' is positioned near the 'Sound Booth' and 'Stage' to act as a transitional space for entering and exiting the hall. Finally, the 'Restrooms' are located away from the main areas but still accessible from the 'Entrance Lobby'. Each subitem is touching either the walls or another subitem to maximize the efficient use of available space without leaving any gaps."  
+}  

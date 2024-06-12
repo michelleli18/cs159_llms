@@ -1,0 +1,49 @@
+{
+  "layout": {
+    "name": "Airport",
+    "coordinates": [-42, 7, -31, 12],
+    "children": [
+      {
+        "name": "Terminal",
+        "coordinates": [-42, 9, -38, 12]
+      },
+      {
+        "name": "Runway",
+        "coordinates": [-38, 9, -34, 12]
+      },
+      {
+        "name": "Parking Garage",
+        "coordinates": [-34, 9, -31, 12]
+      },
+      {
+        "name": "Cargo Area",
+        "coordinates": [-42, 7, -37, 9]
+      },
+      {
+        "name": "Boarding Gates",
+        "coordinates": [-37, 7, -34, 9]
+      },
+      {
+        "name": "Baggage Claim",
+        "coordinates": [-34, 7, -31, 9]
+      },
+      {
+        "name": "Security Checkpoint",
+        "coordinates": [-42, 7, -39, 8]
+      },
+      {
+        "name": "Check-In Counters",
+        "coordinates": [-39, 7, -36, 8]
+      },
+      {
+        "name": "Control Tower",
+        "coordinates": [-36, 7, -33, 8]
+      },
+      {
+        "name": "Airport Lounge",
+        "coordinates": [-33, 7, -31, 8]
+      }
+    ]
+  },
+  "reasoning": "The Airport has its largest components near each other, with Terminal and Runway being the largest and critical facilities located on the top row to maximize space and allow for straightforward access to other amenities. The Parking Garage is placed next to the Terminal for easy access for travelers. The Cargo Area is placed towards the bottom left since cargo handling may be optimized with easy runway access but does not need immediate passenger terminal adjacency. The Boarding Gates and Baggage Claim are placed close to the Terminal for logical passenger flow. Security Checkpoint, Check-In Counters, and Control Tower are placed centrally at the bottom of the overall layout. The Airport Lounge is smaller and fits efficiently at the bottom right, next to Check-In Counters, to streamline the check-in and relaxation experience. All subitems are fitting perfectly within the parent boundary without any overlap, adhering strictly to the primary priority."
+}

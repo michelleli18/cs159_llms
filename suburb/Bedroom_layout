@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Bedroom",
+    "coordinates": [-50, 20, -40, 35],
+    "children": [
+      {
+        "name": "Bed",
+        "coordinates": [-49, 20, -45, 28]
+      },
+      {
+        "name": "Wardrobe",
+        "coordinates": [-49, 28, -45, 31]
+      },
+      {
+        "name": "Desk",
+        "coordinates": [-44, 20, -40, 25]
+      },
+      {
+        "name": "Dresser",
+        "coordinates": [-49, 31, -46, 34]
+      },
+      {
+        "name": "Nightstand",
+        "coordinates": [-45, 28, -44, 30]
+      },
+      {
+        "name": "Bookshelf",
+        "coordinates": [-44, 28, -40, 31]
+      }
+    ]
+  },
+  "reasoning": "The bed was placed in the bottom left corner to maximize usage of the wall space for headboard and accessibility. The wardrobe was placed adjacent to the bed to allow easy access to clothing when getting ready, filling the small space efficiently. The desk was positioned next to the right wall for natural lighting and to keep the work area separate from the sleeping area. The dresser is adjacent to the wardrobe to provide a logical flow for getting dressed, using available wall space maximally. The nightstand was placed next to the bed for convenience of reaching items from the bed. Finally, the bookshelf is next to the desk and nightstand, providing a logical flow and leveraging the remaining wall space." 
+}

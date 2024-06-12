@@ -1,0 +1,73 @@
+{
+  "layout": {
+    "name": "bleachers",
+    "coordinates": [-50, 46, -48, 48],
+    "children": [
+      {
+        "name": "seating row 1",
+        "coordinates": [-50, 46, -48, 47.5]
+      },
+      {
+        "name": "seating row 2",
+        "coordinates": [-50, 47.5, -48, 49]
+      },
+      {
+        "name": "seating row 3",
+        "coordinates": [-50, 49, -48, 50.5]
+      },
+      {
+        "name": "seating row 4",
+        "coordinates": [-50, 50.5, -48, 52]
+      },
+      {
+        "name": "seating row 5",
+        "coordinates": [-50, 52, -48, 53.5]
+      },
+      {
+        "name": "seating row 6",
+        "coordinates": [-50, 53.5, -48, 55]
+      },
+      {
+        "name": "concession stand 1",
+        "coordinates": [-50, 55, -49, 56]
+      },
+      {
+        "name": "concession stand 2",
+        "coordinates": [-49, 55, -48, 56]
+      },
+      {
+        "name": "concession stand 3",
+        "coordinates": [-49, 54, -48, 55]
+      },
+      {
+        "name": "entrance gate 1",
+        "coordinates": [-49.5, 48, -48.5, 50]
+      },
+      {
+        "name": "entrance gate 2",
+        "coordinates": [-49, 50, -48, 52]
+      },
+      {
+        "name": "restroom 1",
+        "coordinates": [-49, 46, -48, 47]
+      },
+      {
+        "name": "restroom 2",
+        "coordinates": [-48, 46, -47, 47]
+      },
+      {
+        "name": "press box",
+        "coordinates": [-50, 56, -49.5, 57]
+      },
+      {
+        "name": "scoreboard 1",
+        "coordinates": [-48, 56, -47.5, 57]
+      },
+      {
+        "name": "scoreboard 2",
+        "coordinates": [-47.5, 56, -47, 57]
+      }
+    ]
+  },
+  "reasoning": "The seating rows are arranged in a vertically stacked manner to represent the bleachers seating arrangement, with each row being slightly higher than the one before it. Considering access convenience, seating rows take up most of the vertical space. Concession stands are placed towards the top right corner next to the seating rows since they are usually easily accessible from the seats. Entrance gates are placed towards the middle of the area to provide easy access both into the bleachers and towards the seating areas. Restrooms are placed near the entrance for immediate access upon entry. The press box and scoreboards are positioned towards the top part so the press can have a clear view of the entire seating area and the match. The press box takes up one of the prime positions for better coverage visibility, while the scoreboards are on either side of the press box to provide a clear view to all spectators. Each subitem utilizes its relative size effectively, ensuring all coordinates are within the defined bleachers coordinates without overlap. Empty spaces are logically between subitems, primarily around the edges for navigation. The layout maximizes space efficiency and ensures a realistic, architectural design."
+}

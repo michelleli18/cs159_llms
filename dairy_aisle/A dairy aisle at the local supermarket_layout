@@ -1,0 +1,26 @@
+{
+  "layout": {
+    "name": "Dairy aisle",
+    "coordinates": [-50, -50, 50, 50],
+    "children": [
+      {"name": "Refrigerated shelves 1", "coordinates": [-50, -50, -30, -10]},
+      {"name": "Refrigerated shelves 2", "coordinates": [-30, -50, -10, -10]},
+      {"name": "Refrigerated shelves 3", "coordinates": [-10, -50, 10, -10]},
+      {"name": "Refrigerated shelves 4", "coordinates": [10, -50, 30, -10]},
+      {"name": "Refrigerated shelves 5", "coordinates": [30, -50, 50, -10]},
+      {"name": "Milk section", "coordinates": [-50, -10, -10, 0]},
+      {"name": "Cheese section", "coordinates": [-10, -10, 10, 0]},
+      {"name": "Yogurt section", "coordinates": [10, -10, 30, 0]},
+      {"name": "Butter section", "coordinates": [30, -10, 50, 0]},
+      {"name": "Egg section", "coordinates": [-50, 0, -30, 20]},
+      {"name": "Juice section", "coordinates": [-30, 0, -10, 20]},
+      {"name": "Creamers section 1", "coordinates": [-10, 0, 10, 20]},
+      {"name": "Creamers section 2", "coordinates": [10, 0, 30, 20]},
+      {"name": "Specialty items display", "coordinates": [30, 0, 50, 20]},
+      {"name": "Product signs", "coordinates": [-50, 20, -30, 30]},
+      {"name": "Overhead lights", "coordinates": [-30, 20, -10, 30]},
+      {"name": "Floor tiles", "coordinates": [-10, 20, 10, 50]}
+    ]
+  },
+  "reasoning": "To create an efficient and modern layout, the subitems were placed according to their relative sizes and logical adjacency. The refrigerated shelves, which are the largest and essential for maintaining dairy products at the correct temperature, occupy a significant portion of the space towards the bottom, which reflects their importance and size. They are divided into smaller sections for better organization and access. The Milk section, which is a major draw in a dairy aisle, is placed centrally but closer to the refrigerated shelves for easy stocking and access. The Cheese and Yogurt sections are placed next to the Milk section because shoppers often buy these items together. The Butter and Egg sections are placed adjacent to the Milk to use up the remaining space efficiently. The Juice and Creamers sections are positioned near the Eggs and Butter, as shoppers often purchase these items together as well. The Specialty items display is located near the Creamers for easy access and to draw attention to special products. Product signs are spread strategically throughout the aisle to guide customers effectively. Overhead lights are placed centrally to ensure the entire aisle is well-lit. Floor tiles occupy the remaining space towards the top, adding aesthetic value and maintaining cleanliness. All subitems utilize as much of the available space as possible without overlapping, ensuring an efficient layout that mimics a realistic supermarket setting."
+}

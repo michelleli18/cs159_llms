@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Milk Section",
+    "coordinates": [2, -3, 4, -0.9],
+    "children": [
+      {
+        "name": "Milk Aisle 1",
+        "coordinates": [2, -3, 2.9, -2.3]
+      },
+      {
+        "name": "Milk Aisle 2",
+        "coordinates": [2.9, -3, 3.8, -2.3]
+      },
+      {
+        "name": "Refrigerated Shelves",
+        "coordinates": [2, -2.3, 3.2, -1.4]
+      },
+      {
+        "name": "Product Signage",
+        "coordinates": [3.2, -2.3, 3.5, -2.1]
+      },
+      {
+        "name": "End Cap Display",
+        "coordinates": [3.5, -2.3, 3.8, -1.9]
+      },
+      {
+        "name": "Promotional Stand 1",
+        "coordinates": [2.5, -1.4, 3.2, -0.9]
+      },
+      {
+        "name": "Promotional Stand 2",
+        "coordinates": [3.2, -1.4, 4, -0.9]
+      }
+    ]
+  },
+  "reasoning": "The layout has been created to ensure all children fit within the parent coordinates and to logically mimic the efficient use of space typical in a milk section of a store. Two 'Milk Aisle' sections were created due to their larger size to efficiently use the longer horizontal space evident in the parent layout and provide easy navigation for customers starting from the bottom left corner. The 'Refrigerated Shelves' were placed centrally to provide easy access from either aisle and maximize visibility. 'Product Signage' and 'End Cap Display' are placed side by side close to the end of refrigerated shelves due to their smaller size and role in promoting milk-related products straightforwardly. Due to remaining space at the top, two 'Promotional Stands' were added to occupy the remaining areas efficiently, while also enhancing visibility from the top right corner of the parent space. This setup also ensures logical groupings, with refrigerables central, signage and aisles adjacent, and promotional spaces occupying remaining regions."
+}

@@ -1,0 +1,57 @@
+{
+  "layout": {
+    "name": "Baggage Claim",
+    "coordinates": [-34, 7, -31, 9],
+    "children": [
+      {
+        "name": "Baggage Carousels 1",
+        "coordinates": [-34, 8, -32, 9]
+      },
+      {
+        "name": "Baggage Carousels 2",
+        "coordinates": [-34, 7, -32, 8]
+      },
+      {
+        "name": "Baggage Carousels 3",
+        "coordinates": [-33, 8, -31, 9]
+      },
+      {
+        "name": "Conveyor Belts 1",
+        "coordinates": [-33, 7, -31, 8]
+      },
+      {
+        "name": "Conveyor Belts 2",
+        "coordinates": [-34, 7, -33, 8]
+      },
+      {
+        "name": "Information Desk",
+        "coordinates": [-33, 8, -32, 9]
+      },
+      {
+        "name": "Seating Area",
+        "coordinates": [-33, 7, -32, 8]
+      },
+      {
+        "name": "Lost And Found",
+        "coordinates": [-34, 8, -33, 9]
+      },
+      {
+        "name": "Restrooms",
+        "coordinates": [-34, 7, -33, 8]
+      },
+      {
+        "name": "Luggage Carts 1",
+        "coordinates": [-33, 8, -32, 9]
+      },
+      {
+        "name": "Luggage Carts 2",
+        "coordinates": [-34, 7, -33, 8]
+      },
+      {
+        "name": "Exit Doors",
+        "coordinates": [-34, 7, -33, 8]
+      }
+    ]
+  },
+  "reasoning": "The placement of the subitems is based on the relative sizes and an architect's perspective of how these subitems should be arranged in a baggage claim area. The larger items like Baggage Carousels and Conveyor Belts are placed first, ensuring they use up the majority of the available space as these are the primary functions of a baggage claim area and must be easily accessible. Conveyors and Baggage Carousels are placed next to each other to streamline luggage movement for passengers. The Information Desk is centrally located because it needs to be easily accessible from different parts of the baggage claim. The Seating Area, Lost and Found, and Restrooms are placed at the periphery to ensure they do not obstruct the flow of people and luggage but are still easily reachable. Luggage Carts and Exit Doors are placed near the exits for convenience as passengers will need them most when leaving the baggage claim. Multiple Baggage Carousels, Conveyor Belts, and Luggage Carts are included because they are plural; hence, a few instances of each are placed strategically to cover different sections efficiently while utilizing the space effectively without any overlap and ensuring all coordinates are within the parent's boundaries."
+}

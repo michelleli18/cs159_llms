@@ -1,0 +1,28 @@
+{
+    "layout": {
+        "name": "Pool",
+        "coordinates": [20, 5, 27, 13],
+        "children": [
+            {
+                "name": "Main Pool",
+                "coordinates": [20, 7, 26, 13]
+            },
+            {
+                "name": "Kids Pool",
+                "coordinates": [26, 7, 27, 13]
+            },
+            {
+                "name": "Changing Rooms",
+                "coordinates": [20, 5, 22, 7]
+            },
+            {
+                "name": "Lounge Area",
+                "coordinates": [22, 5, 24.5, 7]
+            },
+            {
+                "name": "Poolside Bar",
+                "coordinates": [24.5, 5, 27, 7]
+            }
+        ]
+    },
+    "reasoning": "The 'Main Pool' is the largest subitem and occupies most of the available space, as the main pool is typically the central feature of a pool area. It is placed against the top boundary to maximize its size (6 units wide, 6 units tall). The 'Kids Pool' is placed adjacent to and to the right of the 'Main Pool', utilizing the remaining vertical space while allowing easy access for children and supervision without intersecting other spaces. The 'Changing Rooms', 'Lounge Area', and 'Poolside Bar' are placed along the bottom side in a row, from left to right. This positioning is logical as people often change before entering the pool and then relax in the lounge area or have a drink at the bar after swimming. The 'Changing Rooms' (2 units wide, 2 units tall) are closest to the entrance for convenience, followed by the 'Lounge Area' (2.5 units wide, 2 units tall) allowing more space for relaxation, and the 'Poolside Bar' (2.5 units wide, 2 units tall) is at the rightmost end, creating a convenient flow for people who might go from changing rooms to swimming to relaxing or having a drink. No space is left unwisely unused, and all subitems fill the available area efficiently."

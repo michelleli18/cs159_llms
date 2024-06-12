@@ -1,0 +1,21 @@
+{
+  "layout": {
+    "name": "Pond",
+    "coordinates": [0, 0, 2, 3],
+    "children": [
+      {
+        "name": "Water",
+        "coordinates": [0, 0, 2, 2]
+      },
+      {
+        "name": "Dock",
+        "coordinates": [0, 2, 1, 3]
+      },
+      {
+        "name": "Bench",
+        "coordinates": [1, 2, 2, 3]
+      }
+    ]
+  },
+  "reasoning": "The Pond subitems placement is designed to ensure no overlap and fit logically within the parent item. 'Water' is the largest subitem, allocated most of the space as it represents the body of the pond. It fits within the lower two-thirds of the Pond area [0, 0, 2, 2], ensuring ample space for the next largest items. 'Dock' is placed next to 'Water' at coordinates [0, 2, 1, 3] to facilitate practical access to the pond. 'Bench' is positioned adjacent to 'Dock' at coordinates [1, 2, 2, 3] allowing a place for people to sit and relax while having a view of the pond. 'Shrubbery' and 'Trees' are not included as there isn't enough remaining space to fit them without overlap."
+}

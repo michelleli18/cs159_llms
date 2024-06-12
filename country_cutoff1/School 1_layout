@@ -1,0 +1,53 @@
+{
+  "layout": {
+    "name": "School 1",
+    "coordinates": [-50, 25, -35, 50],
+    "children": [
+      {
+        "name": "Gymnasium",
+        "coordinates": [-50, 40, -45, 50]
+      },
+      {
+        "name": "Auditorium",
+        "coordinates": [-45, 40, -35, 50]
+      },
+      {
+        "name": "Cafeteria",
+        "coordinates": [-50, 30, -43, 40]
+      },
+      {
+        "name": "Playground",
+        "coordinates": [-43, 30, -35, 40]
+      },
+      {
+        "name": "Library",
+        "coordinates": [-50, 25, -42, 30]
+      },
+      {
+        "name": "Classroom A",
+        "coordinates": [-42, 25, -37, 30]
+      },
+      {
+        "name": "Classroom B",
+        "coordinates": [-37, 25, -35, 27]
+      },
+      {
+        "name": "Computer Lab",
+        "coordinates": [-50, 27, -46, 30]
+      },
+      {
+        "name": "Science Lab",
+        "coordinates": [-46, 27, -42, 30]
+      },
+      {
+        "name": "Principal's Office",
+        "coordinates": [-42, 25, -40, 27]
+      },
+      {
+        "name": "Parking Lot",
+        "coordinates": [-40, 25, -35, 27]
+      }
+    ]
+  },
+  "reasoning": "The subitems were placed to maximize usage of available space and ensure logical placement based on function and accessibility. The Gymnasium (largest item) and Auditorium are placed at the top of the layout for easy access and full coverage of the upper boundary. They're next to each other since they are key large facilities often accessed frequently. The Cafeteria and Playground are placed next, grouped in close proximity for student recreation and dining needs, lined up below the Gymnasium and Auditorium. The Library, a relatively stationary and focused area, is placed below this main activity hub. Classrooms are divided into 'Classroom A' and 'Classroom B' for logical educational space, next to the Library for academic proximity. The smaller Computer Lab and Science Lab are placed above these classrooms forming an educational segment. Lastly, the Principal's Office and Parking Lot are placed adjacent to cover the remaining space efficiently."
+}

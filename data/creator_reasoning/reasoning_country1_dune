@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Dune",
+    "coordinates": [4, 0, 6, 4],
+    "children": [
+      {
+        "name": "Sand Dunes 1",
+        "coordinates": [4, 0, 5, 2]
+      },
+      {
+        "name": "Sand Dunes 2",
+        "coordinates": [5, 0, 6, 2]
+      },
+      {
+        "name": "Sand Dunes 3",
+        "coordinates": [4, 2, 5, 3]
+      },
+      {
+        "name": "Desert Oasis",
+        "coordinates": [5, 2, 6, 3]
+      },
+      {
+        "name": "Rock Formations",
+        "coordinates": [4, 3, 5, 4]
+      },
+      {
+        "name": "Desert Campsite",
+        "coordinates": [5, 3, 6, 4]
+      }
+    ]
+  },
+  "reasoning": "The 'Sand Dunes' are the largest subitems, therefore we split them into three separate rectangular areas covering parts of the overall space efficiently. 'Sand Dunes 1' and 'Sand Dunes 2' occupy the lower portion of the place, split in half, while 'Sand Dunes 3' is positioned directly above 'Sand Dunes 1'. This avoids overlap and ensures each part is within the parent coordinates. The 'Desert Oasis' is positioned next to 'Sand Dunes 3' to utilize the space at the upper-middle portion efficiently and because oases are commonly found nestled within or very close to sand dunes. 'Rock Formations' are placed at the top left to make use of the remaining vertical space, mimicking natural layouts where rock formations are often seen near oases and dunes. 'Desert Campsite' is placed in the upper right corner, next to the 'Rock Formations,' as campsites in desert areas are usually positioned close to notable formations and water sources for shelter and resource access. Each subitem is placed to maximally use the space between other items and the walls of the parent place. The coordinates are verified to be within bounds and don't overlap, fulfilling the project's most critical requirement."
+}

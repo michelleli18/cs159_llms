@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Playing Field",
+    "coordinates": [-42, 12, -40, 15],
+    "children": [
+      {
+        "name": "Soccer Field",
+        "coordinates": [-42, 12, -40, 14]
+      },
+      {
+        "name": "Baseball Diamond",
+        "coordinates": [-42, 14, -41, 15]
+      },
+      {
+        "name": "Tennis Courts",
+        "coordinates": [-41, 14, -40, 15]
+      },
+      {
+        "name": "Parking Lot",
+        "coordinates": [-42, 13, -41, 14]
+      },
+      {
+        "name": "Picnic Area",
+        "coordinates": [-41, 13, -40, 14]
+      },
+      {
+        "name": "Bleachers",
+        "coordinates": [-42, 12.5, -41.5, 13]
+      },
+      {
+        "name": "Restrooms",
+        "coordinates": [-41.5, 12.5, -41, 13]
+      }
+    ]
+  },
+  "reasoning": "The Soccer Field is placed at the bottom left with the largest vertical space to take advantage of its size (10) efficiently. The Baseball Diamond and Tennis Courts are placed next to each other at the top, as they are relatively large (9, 6), allowing them to efficiently use the top area. The Parking Lot is placed next to the Soccer Field on the left side to facilitate easy access from the playing fields. The Picnic Area is located next to the Parking Lot, which is a natural choice for visitors wanting to have a picnic after parking. The Bleachers and Restrooms are placed next to each other in the middle, providing a central location for attendees to view games and access facilities. All coordinates are within the boundaries of the original Playing Field and do not overlap."
+}

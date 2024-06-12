@@ -1,0 +1,53 @@
+{
+  "layout": {
+    "name": "ice rink",
+    "coordinates": [-49, -28, -46, -26],
+    "children": [
+      {
+        "name": "main ice rink",
+        "coordinates": [-49, -28, -47, -26]
+      },
+      {
+        "name": "seating area",
+        "coordinates": [-47, -28, -49, -27]
+      },
+      {
+        "name": "lobby area",
+        "coordinates": [-47, -27, -49, -26.5]
+      },
+      {
+        "name": "locker rooms",
+        "coordinates": [-49, -27.5, -48, -27]
+      },
+      {
+        "name": "locker rooms 2",
+        "coordinates": [-48, -27.5, -47, -27]
+      },
+      {
+        "name": "equipment rental",
+        "coordinates": [-47, -27.5, -46.5, -28]
+      },
+      {
+        "name": "concession stand",
+        "coordinates": [-46.5, -27.5, -46, -28]
+      },
+      {
+        "name": "restrooms",
+        "coordinates": [-46, -28, -46, -27.75]
+      },
+      {
+        "name": "restrooms 2",
+        "coordinates": [-46, -27.75, -46, -27.5]
+      },
+      {
+        "name": "staff office",
+        "coordinates": [-46.5, -27, -46, -27.25]
+      },
+      {
+        "name": "staff office 2",
+        "coordinates": [-46.5, -27.25, -46, -27.5]
+      }
+    ]
+  },
+  "reasoning": "The 'main ice rink' is the primary feature and takes up the largest central space, fitting within the coordinates that make sense for its size and importance. The 'seating area' is next to the 'main ice rink,' allowing spectators to have an optimal view and is parallel to the rink for better seating arrangements. The 'lobby area' is placed adjacent to the entrance and the 'seating area' so that visitors can easily access their seats. The 'locker rooms' are divided into two smaller spaces to efficiently use the area next to the 'lobby area,' providing convenient access for players. The 'equipment rental' is logically placed near the 'locker rooms' for quick and easy access to necessary gear. The 'concession stand' is located near the 'seating area' so spectators can easily purchase refreshments. 'Restrooms' are divided into smaller units and positioned next to the 'concession stand' since they are typically located near convenience amenities. The 'staff office' is split and placed next to the restrooms and lobby area, providing quick access and oversight of the rink operations. All subitems are placed in a manner that maximizes their interrelated functionalities and maintains efficient space utilization within the given ice rink."
+}

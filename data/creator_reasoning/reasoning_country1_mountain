@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Mountain",
+    "coordinates": [5, 10, 10, 15],
+    "children": [
+      {
+        "name": "Forest",
+        "coordinates": [5, 10, 7, 14]
+      },
+      {
+        "name": "Lake",
+        "coordinates": [7, 10, 10, 14]
+      },
+      {
+        "name": "Meadow",
+        "coordinates": [5, 14, 8, 15]
+      },
+      {
+        "name": "Lodge",
+        "coordinates": [8, 14, 10, 15]
+      },
+      {
+        "name": "Campsite",
+        "coordinates": [5, 12, 7, 14]
+      },
+      {
+        "name": "Lookout Tower",
+        "coordinates": [7, 14, 8, 15]
+      },
+      {
+        "name": "Summit",
+        "coordinates": [8, 14, 10, 15]
+      }
+    ]
+  },
+  "reasoning": "Placement of each subitem is based on size and logical arrangement considering real-life scenarios, keeping in mind that all coordinates must remain within the bounds of the parent item 'Mountain'. The 'Forest' covers a large area and is placed at the bottom left to create a natural boundary, followed by the 'Lake' to its right as bodies of water are often adjacent to forests. 'Meadow' provides an open space next to the forest and lake in the top left corner, making the overall scene more scenic. The 'Lodge' is placed at the top right corner for accessible vantage points while still being near water (Lake). 'Campsite' is logically placed close to the forest for natural shelter and exploratory proximity. 'Lookout Tower' is in a higher position to serve its observation purpose. Finally, 'Summit,' symbolic of the peak, is placed at the logical highest position, mirroring real-life peaks."
+}

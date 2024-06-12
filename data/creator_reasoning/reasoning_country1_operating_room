@@ -1,0 +1,37 @@
+{
+    "layout": {
+        "name": "Operating Room",
+        "coordinates": [-8, 12, -6, 15],
+        "children": [
+            {
+                "name": "Operating Table",
+                "coordinates": [-8, 14, -6, 15]
+            },
+            {
+                "name": "Anesthesia Machine",
+                "coordinates": [-8, 13, -7, 14]
+            },
+            {
+                "name": "Surgical Lights",
+                "coordinates": [-7, 13, -6, 14]
+            },
+            {
+                "name": "Instrument Table",
+                "coordinates": [-8, 12, -7, 13]
+            },
+            {
+                "name": "Monitoring Equipment",
+                "coordinates": [-7, 12, -6, 13]
+            },
+            {
+                "name": "Supply Cabinet",
+                "coordinates": [-8, 12, -7, 13]
+            },
+            {
+                "name": "Nurse Station",
+                "coordinates": [-7, 12, -6, 13]
+            }
+        ]
+    }, 
+    "reasoning": "The Operating Table was placed at coordinates [-8, 14, -6, 15] to be centrally accessible. The Anesthesia Machine and Surgical Lights are essential to the functionality of the Operating Table and were placed close by at [-8, 13, -7, 14] and [-7, 13, -6, 14] respectively to ensure efficiency. The Instrument Table was located near the Operating Table at [-8, 12, -7, 13] to have surgical tools readily available. The Monitoring Equipment was positioned adjacent to both the Instrument Table and the Operating Table at [-7, 12, -6, 13] for easy monitoring of the patient's vitals. The Supply Cabinet was placed at [-8, 12, -7, 13] for convenient access to additional supplies. Finally, the Nurse Station was placed at coordinates [-7, 12, -6, 13] to maintain overall coordination and operational support during surgeries. The varied sizes reflect the actual dimension needs of these items in relation to each other, ensuring no overlap and efficient space utilization within the Operating Room."
+}

@@ -1,0 +1,69 @@
+{
+    "layout": {
+        "name": "Weightlifting Section",
+        "coordinates": [-48, 46, -46.5, 50],
+        "children": [
+            {
+                "name": "Dumbbell Rack",
+                "coordinates": [-48, 49, -47, 50]
+            },
+            {
+                "name": "Flat Bench 1",
+                "coordinates": [-48, 48, -47, 49]
+            },
+            {
+                "name": "Flat Bench 2",
+                "coordinates": [-47, 48, -46.5, 49]
+            },
+            {
+                "name": "Incline Bench 1",
+                "coordinates": [-48, 47, -47, 48]
+            },
+            {
+                "name": "Incline Bench 2",
+                "coordinates": [-47, 47, -46.5, 48]
+            },
+            {
+                "name": "Weight Plates",
+                "coordinates": [-47.2, 46, -46.5, 47]
+            },
+            {
+                "name": "Power Rack 1",
+                "coordinates": [-48, 46, -47, 47]
+            },
+            {
+                "name": "Power Rack 2",
+                "coordinates": [-47.5, 46, -46.5, 47]
+            },
+            {
+                "name": "Bench Press 1",
+                "coordinates": [-48, 46.5, -47.5, 47.5]
+            },
+            {
+                "name": "Bench Press 2",
+                "coordinates": [-47.5, 46.5, -47, 47.5]
+            },
+            {
+                "name": "Squat Rack 1",
+                "coordinates": [-48.5, 46.5, -48, 47]
+            },
+            {
+                "name": "Squat Rack 2",
+                "coordinates": [-48.5, 47, -48, 47.5]
+            },
+            {
+                "name": "Smith Machine 1",
+                "coordinates": [-48.5, 47.5, -48, 48]
+            },
+            {
+                "name": "Smith Machine 2",
+                "coordinates": [-48.5, 48, -48, 48.5]
+            },
+            {
+                "name": "Smith Machine 3",
+                "coordinates": [-48.5, 48.5, -48, 49]
+            }
+        ]
+    },
+    "reasoning": "The Dumbbell Rack is placed near the top left corner for easy access. Flat Benches and Incline Benches are adjacent because users often alternate between them. Weight Plates are located centrally to be accessible from multiple stations. Power Racks are placed near the center for adequate space around them during use. Bench Press stations are next to the Power Racks for convenience as users may switch between these exercises. Squat Racks are placed in the remaining free space near the Power Racks. Smith Machines are spread along the unused vertical space to cover the entire area efficiently."
+}

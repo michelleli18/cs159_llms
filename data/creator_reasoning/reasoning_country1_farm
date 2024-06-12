@@ -1,0 +1,37 @@
+{
+    "layout": {
+        "name": "Farm",
+        "coordinates": [0, 0, 3, 4],
+        "children": [
+            {
+                "name": "Pasture",
+                "coordinates": [0, 2, 1, 4]
+            },
+            {
+                "name": "Field Crop",
+                "coordinates": [0, 0, 1, 2]
+            },
+            {
+                "name": "Orchard",
+                "coordinates": [1, 2, 3, 4]
+            },
+            {
+                "name": "Barn",
+                "coordinates": [1, 1, 2, 2]
+            },
+            {
+                "name": "Farmhouse",
+                "coordinates": [2, 1, 3, 2]
+            },
+            {
+                "name": "Tractor Shed",
+                "coordinates": [1, 0, 2, 1]
+            },
+            {
+                "name": "Chicken Coop",
+                "coordinates": [2, 0, 3, 1]
+            }
+        ]
+    },
+    "reasoning": "The Pasture and Orchard, being used for livestock and fruit trees, occupy the largest spaces available and are placed at the edges to efficiently use the available area and touch the walls. The Field Crop, another large area, is placed adjacent to the Pasture to maintain logical placement akin to a true farm setup. The Barn is strategically placed close to the Farmhouse to conveniently store farm equipment and animals. The Farmhouse is located centrally to provide easy access to other vital areas of the farm. The Tractor Shed lies between the Barn and the Field Crop for easy machinery access and transition. The Chicken Coop is placed near the Farmhouse and the Orchard as chickens may forage on the pasture or orchard grounds. The Vegetable Garden was not included due to space constraints, ensuring no overlap and honoring space-efficient planning."
+}

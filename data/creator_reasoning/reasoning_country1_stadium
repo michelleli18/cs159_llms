@@ -1,0 +1,45 @@
+{
+    "layout": {
+        "name": "Stadium",
+        "coordinates": [-26, 7, -21, 12],
+        "children": [
+            {
+                "name": "Field",
+                "coordinates": [-26, 9, -22, 12]
+            },
+            {
+                "name": "Stands",
+                "coordinates": [-22, 10, -21, 12]
+            },
+            {
+                "name": "Scoreboard",
+                "coordinates": [-26, 8, -24, 9]
+            },
+            {
+                "name": "Locker Rooms",
+                "coordinates": [-24, 8, -22, 9]
+            },
+            {
+                "name": "Concessions Area",
+                "coordinates": [-26, 7, -25, 8]
+            },
+            {
+                "name": "Restrooms", 
+                "coordinates": [-25, 7, -24, 8]
+            },
+            {
+                "name": "Press Box",
+                "coordinates": [-24, 7, -23, 8]
+            },
+            {
+                "name": "Vip Boxes",
+                "coordinates": [-23, 7, -22, 8]
+            },
+            {
+                "name": "Parking Lot",
+                "coordinates": [-26, 9, -22, 10]
+            }
+        ]
+    },
+    "reasoning": "The layout places the 'Field' as the largest and most central area, reflecting its importance in a stadium. 'Stands' are placed next to the field, allowing spectators to watch the field activities. 'Scoreboard' is placed above 'Locker Rooms' for easy visibility from the stands and field. 'Locker Rooms' are located reasonably close to the field for player convenience. 'Concessions Area', 'Restrooms', 'Press Box', and 'Vip Boxes' are placed towards the edge of the stadium for accessibility and to ensure they do not obstruct the view of the field. 'Parking Lot' is also adjacent to the stadium entrances for easy access. This arrangement ensures no subitems overlap and all remain within the stadium boundaries."
+}
