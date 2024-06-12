@@ -70,6 +70,8 @@ class Creator():
 
     # FIELDS AND PROMPTS FOR INTEGRATING WITH PERSONA
         self.no_bounds = False
+        # self.display_bounds also defined in 
+
         self.top_json = ""
         self.persona_activity_response = ""        
         self.provide_top_level_map_prompt = "The current JSON map is as follows: \n{}\n" 
@@ -86,6 +88,8 @@ class Creator():
         self.new_place_prompt = f"""
         What is a better place that is not on the map where {self.persona_name} can do their activity that also would fit in with the rest of the places on the map? Explain your rationale in detail. Only give your answer and reasoning.
         """
+        self.new_place_response = "Need to call determine_new_place() first"
+        self.new_place_name = self.new_place_response
 
         self.extract_new_place_name_prompt = """
         What is the name of the place being described? Only list the name and limit the name to no more than 4 words. Capitalize the name.
@@ -145,8 +149,7 @@ class Creator():
             children_copy.append(child_copy)
         self.top_json["children"] = children_copy
 
-        if self.no_bounds:
-            self.top_json["coordinates"] = [-1000, -1000, 1000, 1000]
+        
 
     
     def choose_best_place(self):
@@ -290,6 +293,8 @@ class Creator():
     
     def set_no_bounds(self):
         self.no_bounds = True
+        self.display_bounds = self.map_json["coordinates"]
+        self.map_json["coordinates"] = [-1000, -1000, 1000, 1000]
 
 
     def generate_new_place_anywhere_json(self):
@@ -318,7 +323,7 @@ class Creator():
     # Updates and returns the original map json with the new place added
     # Saves if filepath is set
     def add_place_anywhere(self, filepath=None):
-        def update_coords(original, new):
+        def update_display_coords(original, new):
             x1, y1, x2, y2 = original
             a1, b1, a2, b2 = new
             return [min(x1, a1 - 1), min(y1, b1 - 1), max(x2, a2 + 1), max(y2, b2 + 1)]
@@ -336,7 +341,7 @@ class Creator():
 
         self.map_json["children"].append(new_place)
 
-        self.map_json["coordinates"] = update_coords(self.map_json["coordinates"], new_place["coordinates"])
+        self.display_bounds = update_display_coords(self.display_bounds, new_place["coordinates"])
         
         print("SUCCESSFULLY GENERATED NEW PLACE FOR: " + self.new_place_name)
         print(new_place)
@@ -516,8 +521,12 @@ class Creator():
         # Set plot limits and labels
         assert self.map_json['coordinates']
         coordinates = self.map_json['coordinates']
-        ax.set_xlim(coordinates[0] - 1, coordinates[2] + 1)
-        ax.set_ylim(coordinates[1] - 1, coordinates[3] + 1)
+        if self.no_bounds:
+            ax.set_xlim(self.display_bounds[0] - 1, self.display_bounds[2] + 1)
+            ax.set_ylim(self.display_bounds[1] - 1, self.display_bounds[3] + 1)
+        else:
+            ax.set_xlim(coordinates[0] - 1, coordinates[2] + 1)
+            ax.set_ylim(coordinates[1] - 1, coordinates[3] + 1)
         ax.set_xlabel("X Coordinate")
         ax.set_ylabel("Y Coordinate")
         ax.set_title(self.map_json['name'] + " Layout")

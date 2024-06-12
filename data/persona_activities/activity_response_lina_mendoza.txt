@@ -1,0 +1,8 @@
+{
+    "activities": [
+        "Participating in a weekend astrophotography workshop",
+        "Hosting a small community gardening event",
+        "Taking a solitary night trail hike to observe nocturnal wildlife"
+    ],
+    "reasoning": "Participating in a weekend astrophotography workshop would allow Lina to combine her interest in the night sky with her passion for photography, using her vintage cameras to capture celestial events. Hosting a small community gardening event aligns with her urban gardening hobby and desire to work towards sustainable urban living, making a positive impact in her community without the stress of a large social gathering. Taking a solitary night trail hike to observe nocturnal wildlife would enable her to enjoy her love for exploring hidden nature trails and provide a peaceful, introspective experience connected to nature."
+}

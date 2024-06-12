@@ -1,0 +1,8 @@
+{
+    "activities": [
+        "Taking a didgeridoo workshop in a serene, natural setting",
+        "Visiting a lesser-known botanical garden to sketch urban landscapes intertwined with plant life",
+        "Participating in a sustainable architecture tour that highlights eco-friendly buildings"
+    ],
+    "reasoning": "Taking a didgeridoo workshop in a serene, natural setting allows Maya to embrace her interest in the didgeridoo without feeling overwhelmed by crowds and also lets her connect with nature. Visiting a lesser-known botanical garden to sketch urban landscapes intertwined with plant life integrates her love for painting urban scenes and her passion for plants, while also offering a calming environment. Participating in a sustainable architecture tour that highlights eco-friendly buildings aligns with her professional goal of designing sustainable structures and offers inspiration for her work and future projects."
+}

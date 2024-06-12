@@ -1,0 +1,13 @@
+{
+    "experiment": "2",
+    "persona name": "Lina Mendoza",
+    "description": "Lina Mendoza is a 37-year-old Chilean-American urban ecologist. Her pronouns are she/her. She enjoys birdwatching, urban gardening, and exploring hidden nature trails in her free time. However, she has also thought about expanding her interests into astrophotography and calligraphy as well because she is fascinated by the night sky and loves the elegance of hand-written script. She does not like large social gatherings because they make her feel overwhelmed and disconnected from nature, which is her true sanctuary. She has also been working hard towards her long-term goals and dreams, which include publishing a book on sustainable urban living and running a non-profit dedicated to conserving urban green spaces. Personally, she owns an eclectic collection of vintage cameras and a small greenhouse filled with rare plants at her home. Outside of home, she works at a local environmental research institute and occasionally consults for urban planning projects. After work, she enjoys planning to go to different parks and botanical gardens to do all her hobbies.",
+    "set number of activities": 3,
+    "activities": [
+        {
+            "description": "Participating in a weekend astrophotography workshop",
+            "should generate a new place": true,
+            "new place": false
+        }
+    ]
+}

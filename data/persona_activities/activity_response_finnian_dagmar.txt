@@ -1,0 +1,8 @@
+{
+    "activities": [
+        "Participate in an urban gardening workshop",
+        "Develop a mobile app for identifying European beetles",
+        "Host a small-scale sci-fi movie night for friends"
+    ],
+    "reasoning": "Participating in an urban gardening workshop allows Finnian to explore his interest in gardening while benefiting from the therapeutic aspects and fresh produce it offers. Developing a mobile app for identifying European beetles aligns with his passion for entomology and his professional skills as a computer programmer, contributing to his long-term goal of publishing a field guide. Hosting a small-scale sci-fi movie night for friends enables him to enjoy his love for science fiction in a controlled, anxiety-friendly environment without the stress of large crowds."
+}
