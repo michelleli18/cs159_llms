@@ -1,0 +1,13 @@
+{
+    "experiment": "2",
+    "persona name": "Aurora Ibekwe",
+    "description": "Aurora Ibekwe is a 34-year-old Nigerian-Canadian marine biologist. Her pronouns are she/her. She enjoys scuba diving, painting abstract art, and cooking traditional Nigerian dishes in her free time. However, she has also thought about expanding her interests into astrophotography and salsa dancing because she is fascinated by the night sky and loves the rhythm of Latin music. She does not like fast food because it reminds her of her struggles with maintaining a healthy diet in her younger years. She has also been working hard towards her long-term goals and dreams, which include publishing a book on marine conservation and opening an art gallery that features underwater photography.\n\nPersonally, she owns a collection of vintage cameras and a variety of indoor plants at her home. Outside of home, she works at a marine research institute where she studies coral reefs. After work, she enjoys planning trips to coastal locations around the world to do all her hobbies.",
+    "set number of activities": 3,
+    "activities": [
+        {
+            "description": "Astrophotography Weekend Retreat",
+            "should generate a new place": true,
+            "new place": "Nature Reserve"
+        }
+    ]
+}

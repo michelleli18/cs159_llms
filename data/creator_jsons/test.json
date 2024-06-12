@@ -1,0 +1,2284 @@
+{
+    "name": "Country",
+    "coordinates": [
+        0,
+        0,
+        10,
+        15
+    ],
+    "children": [
+        {
+            "name": "National Park",
+            "coordinates": [
+                0,
+                10,
+                5,
+                15
+            ],
+            "children": [
+                {
+                    "name": "Campground",
+                    "coordinates": [
+                        0,
+                        10,
+                        3,
+                        13
+                    ],
+                    "children": [
+                        {
+                            "name": "Lake",
+                            "coordinates": [
+                                0,
+                                10,
+                                3,
+                                11
+                            ]
+                        },
+                        {
+                            "name": "Rv Site",
+                            "coordinates": [
+                                0,
+                                11,
+                                3,
+                                12
+                            ]
+                        },
+                        {
+                            "name": "Parking Lot",
+                            "coordinates": [
+                                0,
+                                12,
+                                3,
+                                13
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Lake",
+                    "coordinates": [
+                        0,
+                        13,
+                        3,
+                        15
+                    ],
+                    "children": [
+                        {
+                            "name": "Dock",
+                            "coordinates": [
+                                0,
+                                13,
+                                1,
+                                14
+                            ]
+                        },
+                        {
+                            "name": "Boathouse",
+                            "coordinates": [
+                                1,
+                                13,
+                                2,
+                                14
+                            ]
+                        },
+                        {
+                            "name": "Beach",
+                            "coordinates": [
+                                2,
+                                14,
+                                3,
+                                15
+                            ]
+                        },
+                        {
+                            "name": "Parking Area",
+                            "coordinates": [
+                                0,
+                                14,
+                                1,
+                                15
+                            ]
+                        },
+                        {
+                            "name": "Picnic Area",
+                            "coordinates": [
+                                1,
+                                14,
+                                2,
+                                15
+                            ]
+                        },
+                        {
+                            "name": "Campground",
+                            "coordinates": [
+                                2,
+                                13,
+                                3,
+                                14
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Visitor Center",
+                    "coordinates": [
+                        3,
+                        10,
+                        5,
+                        12
+                    ],
+                    "children": [
+                        {
+                            "name": "Restrooms",
+                            "coordinates": [
+                                3,
+                                10,
+                                4,
+                                11
+                            ]
+                        },
+                        {
+                            "name": "Information Desk",
+                            "coordinates": [
+                                4,
+                                10,
+                                5,
+                                10.5
+                            ]
+                        },
+                        {
+                            "name": "Interactive Kiosk",
+                            "coordinates": [
+                                4,
+                                10.5,
+                                5,
+                                11
+                            ]
+                        },
+                        {
+                            "name": "Gift Shop",
+                            "coordinates": [
+                                3,
+                                11,
+                                4,
+                                12
+                            ]
+                        },
+                        {
+                            "name": "Exhibit Room",
+                            "coordinates": [
+                                4,
+                                11,
+                                5,
+                                12
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Parking Lot",
+                    "coordinates": [
+                        3,
+                        12,
+                        5,
+                        14
+                    ],
+                    "children": [
+                        {
+                            "name": "Parking Spaces 1",
+                            "coordinates": [
+                                3,
+                                12,
+                                4,
+                                13
+                            ]
+                        },
+                        {
+                            "name": "Parking Spaces 2",
+                            "coordinates": [
+                                4,
+                                12,
+                                5,
+                                13
+                            ]
+                        },
+                        {
+                            "name": "Parking Spaces 3",
+                            "coordinates": [
+                                3,
+                                13,
+                                4,
+                                14
+                            ]
+                        },
+                        {
+                            "name": "Parking Spaces 4",
+                            "coordinates": [
+                                4,
+                                13,
+                                5,
+                                14
+                            ]
+                        },
+                        {
+                            "name": "Parking Spaces 5",
+                            "coordinates": [
+                                3,
+                                12,
+                                3,
+                                13
+                            ]
+                        },
+                        {
+                            "name": "Parking Spaces 6",
+                            "coordinates": [
+                                3,
+                                13,
+                                3,
+                                14
+                            ]
+                        },
+                        {
+                            "name": "Car 1",
+                            "coordinates": [
+                                4,
+                                14,
+                                5,
+                                14
+                            ]
+                        },
+                        {
+                            "name": "Car 2",
+                            "coordinates": [
+                                5,
+                                14,
+                                5,
+                                14
+                            ]
+                        },
+                        {
+                            "name": "Car 3",
+                            "coordinates": [
+                                4,
+                                13,
+                                5,
+                                13
+                            ]
+                        },
+                        {
+                            "name": "Car 4",
+                            "coordinates": [
+                                5,
+                                13,
+                                5,
+                                13
+                            ]
+                        },
+                        {
+                            "name": "Motorcycle 1",
+                            "coordinates": [
+                                3,
+                                14,
+                                3,
+                                14
+                            ]
+                        },
+                        {
+                            "name": "Motorcycle 2",
+                            "coordinates": [
+                                3,
+                                14,
+                                3,
+                                14
+                            ]
+                        },
+                        {
+                            "name": "Pickup Truck",
+                            "coordinates": [
+                                3,
+                                13,
+                                4,
+                                14
+                            ]
+                        },
+                        {
+                            "name": "Handicap Space",
+                            "coordinates": [
+                                4,
+                                12,
+                                5,
+                                12
+                            ]
+                        },
+                        {
+                            "name": "Electric Charging Station",
+                            "coordinates": [
+                                5,
+                                12,
+                                5,
+                                12
+                            ]
+                        },
+                        {
+                            "name": "Parking Booth",
+                            "coordinates": [
+                                3,
+                                14,
+                                4,
+                                14
+                            ]
+                        },
+                        {
+                            "name": "Security Camera",
+                            "coordinates": [
+                                4,
+                                14,
+                                4,
+                                14
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Picnic Area",
+                    "coordinates": [
+                        3,
+                        14,
+                        4,
+                        15
+                    ]
+                },
+                {
+                    "name": "Lodge",
+                    "coordinates": [
+                        4,
+                        14,
+                        5,
+                        15
+                    ]
+                },
+                {
+                    "name": "Ranger Station",
+                    "coordinates": [
+                        4,
+                        12,
+                        5,
+                        13
+                    ]
+                },
+                {
+                    "name": "Scenic Overlook",
+                    "coordinates": [
+                        4,
+                        13,
+                        5,
+                        14
+                    ]
+                },
+                {
+                    "name": "Trailhead",
+                    "coordinates": [
+                        3,
+                        10,
+                        4,
+                        11
+                    ]
+                },
+                {
+                    "name": "Restroom Facility",
+                    "coordinates": [
+                        4,
+                        11,
+                        5,
+                        12
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mountain",
+            "coordinates": [
+                5,
+                10,
+                10,
+                15
+            ],
+            "children": [
+                {
+                    "name": "Forest",
+                    "coordinates": [
+                        5,
+                        10,
+                        7,
+                        14
+                    ],
+                    "children": [
+                        {
+                            "name": "Lake",
+                            "coordinates": [
+                                5,
+                                10,
+                                6,
+                                12
+                            ]
+                        },
+                        {
+                            "name": "Clearing",
+                            "coordinates": [
+                                6,
+                                10,
+                                7,
+                                11
+                            ]
+                        },
+                        {
+                            "name": "Tree Cluster",
+                            "coordinates": [
+                                5,
+                                12,
+                                6,
+                                13
+                            ]
+                        },
+                        {
+                            "name": "Cabin",
+                            "coordinates": [
+                                6,
+                                11,
+                                7,
+                                12
+                            ]
+                        },
+                        {
+                            "name": "Rock Formation",
+                            "coordinates": [
+                                6,
+                                12,
+                                7,
+                                13
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Lake",
+                    "coordinates": [
+                        7,
+                        10,
+                        10,
+                        14
+                    ],
+                    "children": [
+                        {
+                            "name": "Parking Area",
+                            "coordinates": [
+                                7,
+                                12,
+                                8,
+                                14
+                            ]
+                        },
+                        {
+                            "name": "Picnic Area",
+                            "coordinates": [
+                                8,
+                                12,
+                                9,
+                                14
+                            ]
+                        },
+                        {
+                            "name": "Swimming Beach",
+                            "coordinates": [
+                                9,
+                                12,
+                                10,
+                                14
+                            ]
+                        },
+                        {
+                            "name": "Boat Dock",
+                            "coordinates": [
+                                7,
+                                10,
+                                8,
+                                11
+                            ]
+                        },
+                        {
+                            "name": "Fishing Pier",
+                            "coordinates": [
+                                8,
+                                10,
+                                9,
+                                11
+                            ]
+                        },
+                        {
+                            "name": "Restroom Facility",
+                            "coordinates": [
+                                9,
+                                10,
+                                10,
+                                11
+                            ]
+                        },
+                        {
+                            "name": "Campground Area",
+                            "coordinates": [
+                                7,
+                                11,
+                                9,
+                                12
+                            ]
+                        },
+                        {
+                            "name": "Visitor Center",
+                            "coordinates": [
+                                9,
+                                11,
+                                10,
+                                12
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Meadow",
+                    "coordinates": [
+                        5,
+                        14,
+                        8,
+                        15
+                    ]
+                },
+                {
+                    "name": "Lodge",
+                    "coordinates": [
+                        8,
+                        14,
+                        10,
+                        15
+                    ]
+                },
+                {
+                    "name": "Campsite",
+                    "coordinates": [
+                        5,
+                        12,
+                        7,
+                        14
+                    ],
+                    "children": [
+                        {
+                            "name": "Cabin",
+                            "coordinates": [
+                                5,
+                                12,
+                                6,
+                                14
+                            ]
+                        },
+                        {
+                            "name": "Restrooms",
+                            "coordinates": [
+                                6,
+                                12,
+                                7,
+                                14
+                            ]
+                        },
+                        {
+                            "name": "Tent",
+                            "coordinates": [
+                                5,
+                                12,
+                                6,
+                                13
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Lookout Tower",
+                    "coordinates": [
+                        7,
+                        14,
+                        8,
+                        15
+                    ]
+                },
+                {
+                    "name": "Summit",
+                    "coordinates": [
+                        8,
+                        14,
+                        10,
+                        15
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "City",
+            "coordinates": [
+                0,
+                5,
+                5,
+                10
+            ],
+            "children": [
+                {
+                    "name": "City Hall",
+                    "coordinates": [
+                        0,
+                        9,
+                        2,
+                        10
+                    ]
+                },
+                {
+                    "name": "Post Office",
+                    "coordinates": [
+                        2,
+                        9,
+                        3,
+                        10
+                    ]
+                },
+                {
+                    "name": "Library",
+                    "coordinates": [
+                        3,
+                        9,
+                        4,
+                        10
+                    ]
+                },
+                {
+                    "name": "Police Station",
+                    "coordinates": [
+                        4,
+                        9,
+                        5,
+                        10
+                    ]
+                },
+                {
+                    "name": "Fire Station",
+                    "coordinates": [
+                        3,
+                        8,
+                        4,
+                        9
+                    ]
+                },
+                {
+                    "name": "Bus Terminal",
+                    "coordinates": [
+                        0,
+                        7,
+                        2,
+                        9
+                    ],
+                    "children": [
+                        {
+                            "name": "Bus Platforms 1",
+                            "coordinates": [
+                                0,
+                                7,
+                                1,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Bus Platforms 2",
+                            "coordinates": [
+                                1,
+                                7,
+                                2,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Waiting Area",
+                            "coordinates": [
+                                0,
+                                8,
+                                2,
+                                9
+                            ]
+                        },
+                        {
+                            "name": "Ticket Counter",
+                            "coordinates": [
+                                0,
+                                8,
+                                1,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Food Court 1",
+                            "coordinates": [
+                                0,
+                                7,
+                                1,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Food Court 2",
+                            "coordinates": [
+                                1,
+                                7,
+                                2,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Information Desk",
+                            "coordinates": [
+                                0,
+                                8,
+                                1,
+                                9
+                            ]
+                        },
+                        {
+                            "name": "Security Office 1",
+                            "coordinates": [
+                                1,
+                                9,
+                                2,
+                                9
+                            ]
+                        },
+                        {
+                            "name": "Security Office 2",
+                            "coordinates": [
+                                1,
+                                9,
+                                2,
+                                9
+                            ]
+                        },
+                        {
+                            "name": "Luggage Storage 1",
+                            "coordinates": [
+                                0,
+                                9,
+                                1,
+                                9
+                            ]
+                        },
+                        {
+                            "name": "Restrooms 1",
+                            "coordinates": [
+                                0,
+                                9,
+                                1,
+                                9
+                            ]
+                        },
+                        {
+                            "name": "Restrooms 2",
+                            "coordinates": [
+                                1,
+                                9,
+                                2,
+                                9
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Hospital",
+                    "coordinates": [
+                        2,
+                        6,
+                        4,
+                        8
+                    ],
+                    "children": [
+                        {
+                            "name": "Emergency Room",
+                            "coordinates": [
+                                2,
+                                6,
+                                3,
+                                7
+                            ]
+                        },
+                        {
+                            "name": "Operating Theater",
+                            "coordinates": [
+                                3,
+                                6,
+                                4,
+                                7
+                            ]
+                        },
+                        {
+                            "name": "Intensive Care Unit",
+                            "coordinates": [
+                                2,
+                                7,
+                                3,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Radiology Department",
+                            "coordinates": [
+                                3,
+                                7,
+                                4,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Pharmacy",
+                            "coordinates": [
+                                2,
+                                6,
+                                4,
+                                6
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Central Park",
+                    "coordinates": [
+                        4,
+                        6,
+                        5,
+                        9
+                    ]
+                },
+                {
+                    "name": "University Campus",
+                    "coordinates": [
+                        0,
+                        5,
+                        2,
+                        7
+                    ],
+                    "children": [
+                        {
+                            "name": "Library",
+                            "coordinates": [
+                                0,
+                                6,
+                                0.4,
+                                7
+                            ]
+                        },
+                        {
+                            "name": "Science Lab",
+                            "coordinates": [
+                                0.4,
+                                6,
+                                0.8,
+                                7
+                            ]
+                        },
+                        {
+                            "name": "Lecture Hall",
+                            "coordinates": [
+                                0.8,
+                                6,
+                                1.2,
+                                7
+                            ]
+                        },
+                        {
+                            "name": "Cafeteria",
+                            "coordinates": [
+                                1.2,
+                                6,
+                                1.7,
+                                7
+                            ]
+                        },
+                        {
+                            "name": "Dormitory",
+                            "coordinates": [
+                                0,
+                                5,
+                                0.6,
+                                6
+                            ]
+                        },
+                        {
+                            "name": "Administration Building",
+                            "coordinates": [
+                                0.6,
+                                5,
+                                1,
+                                6
+                            ]
+                        },
+                        {
+                            "name": "Sports Complex",
+                            "coordinates": [
+                                1,
+                                5,
+                                1.8,
+                                6
+                            ]
+                        },
+                        {
+                            "name": "Student Union",
+                            "coordinates": [
+                                1.8,
+                                5.5,
+                                2,
+                                6
+                            ]
+                        },
+                        {
+                            "name": "Parking Lot",
+                            "coordinates": [
+                                1.8,
+                                5,
+                                2,
+                                5.5
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Shopping Mall",
+                    "coordinates": [
+                        2,
+                        5,
+                        4,
+                        6
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Town",
+            "coordinates": [
+                5,
+                5,
+                10,
+                10
+            ],
+            "children": [
+                {
+                    "name": "Town Hall",
+                    "coordinates": [
+                        5,
+                        8,
+                        7,
+                        10
+                    ],
+                    "children": [
+                        {
+                            "name": "Council Chambers",
+                            "coordinates": [
+                                5,
+                                8,
+                                7,
+                                10
+                            ],
+                            "children": [
+                                {
+                                    "name": "Podium",
+                                    "coordinates": [
+                                        5,
+                                        8,
+                                        6,
+                                        8
+                                    ]
+                                },
+                                {
+                                    "name": "Clerk Desk",
+                                    "coordinates": [
+                                        5,
+                                        9,
+                                        6,
+                                        10
+                                    ]
+                                },
+                                {
+                                    "name": "Projector Screen",
+                                    "coordinates": [
+                                        6,
+                                        9,
+                                        7,
+                                        10
+                                    ]
+                                },
+                                {
+                                    "name": "Council Table",
+                                    "coordinates": [
+                                        5,
+                                        8,
+                                        7,
+                                        9
+                                    ]
+                                },
+                                {
+                                    "name": "Audience Seating",
+                                    "coordinates": [
+                                        6,
+                                        8,
+                                        7,
+                                        9
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Conference Room",
+                            "coordinates": [
+                                5,
+                                8,
+                                6,
+                                9
+                            ]
+                        },
+                        {
+                            "name": "Reception Area",
+                            "coordinates": [
+                                6,
+                                8,
+                                7,
+                                9
+                            ]
+                        },
+                        {
+                            "name": "Mayor'S Office",
+                            "coordinates": [
+                                5,
+                                9,
+                                6,
+                                10
+                            ]
+                        },
+                        {
+                            "name": "Records Office",
+                            "coordinates": [
+                                6,
+                                9,
+                                7,
+                                10
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Park",
+                    "coordinates": [
+                        7,
+                        8,
+                        10,
+                        10
+                    ],
+                    "children": [
+                        {
+                            "name": "Sports Field",
+                            "coordinates": [
+                                7,
+                                8,
+                                8,
+                                10
+                            ]
+                        },
+                        {
+                            "name": "Playground",
+                            "coordinates": [
+                                8,
+                                8,
+                                9,
+                                10
+                            ]
+                        },
+                        {
+                            "name": "Parking Lot",
+                            "coordinates": [
+                                9,
+                                8,
+                                10,
+                                9
+                            ]
+                        },
+                        {
+                            "name": "Gardens",
+                            "coordinates": [
+                                9,
+                                9,
+                                10,
+                                10
+                            ]
+                        },
+                        {
+                            "name": "Picnic Area",
+                            "coordinates": [
+                                8,
+                                9,
+                                9,
+                                10
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "School",
+                    "coordinates": [
+                        7,
+                        6,
+                        10,
+                        8
+                    ],
+                    "children": [
+                        {
+                            "name": "Auditorium",
+                            "coordinates": [
+                                8,
+                                7,
+                                10,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Gymnasium",
+                            "coordinates": [
+                                8,
+                                6,
+                                10,
+                                7
+                            ]
+                        },
+                        {
+                            "name": "Playground",
+                            "coordinates": [
+                                7,
+                                6,
+                                8,
+                                8
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Hospital",
+                    "coordinates": [
+                        5,
+                        6,
+                        7,
+                        8
+                    ],
+                    "children": [
+                        {
+                            "name": "Reception Desk",
+                            "coordinates": [
+                                5,
+                                7,
+                                5.4,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Waiting Room",
+                            "coordinates": [
+                                5.4,
+                                7,
+                                6.2,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Emergency Room",
+                            "coordinates": [
+                                6.2,
+                                7,
+                                7,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Operating Room",
+                            "coordinates": [
+                                5,
+                                6,
+                                6,
+                                7
+                            ]
+                        },
+                        {
+                            "name": "Patient Room 1",
+                            "coordinates": [
+                                6,
+                                6,
+                                6.5,
+                                7
+                            ]
+                        },
+                        {
+                            "name": "Patient Room 2",
+                            "coordinates": [
+                                6.5,
+                                6,
+                                7,
+                                7
+                            ]
+                        },
+                        {
+                            "name": "Icu",
+                            "coordinates": [
+                                5,
+                                6.5,
+                                6,
+                                7
+                            ]
+                        },
+                        {
+                            "name": "Laboratory",
+                            "coordinates": [
+                                5,
+                                6,
+                                6,
+                                6.5
+                            ]
+                        },
+                        {
+                            "name": "Pharmacy",
+                            "coordinates": [
+                                6,
+                                6,
+                                7,
+                                6.5
+                            ]
+                        },
+                        {
+                            "name": "Radiology Department",
+                            "coordinates": [
+                                5,
+                                6.5,
+                                6,
+                                7
+                            ]
+                        },
+                        {
+                            "name": "Staff Lounge 1",
+                            "coordinates": [
+                                5,
+                                7,
+                                5.2,
+                                7.2
+                            ]
+                        },
+                        {
+                            "name": "Staff Lounge 2",
+                            "coordinates": [
+                                5.2,
+                                7,
+                                5.4,
+                                7.2
+                            ]
+                        },
+                        {
+                            "name": "Staff Lounge 3",
+                            "coordinates": [
+                                5.4,
+                                7,
+                                5.6,
+                                7.2
+                            ]
+                        },
+                        {
+                            "name": "Cafeteria",
+                            "coordinates": [
+                                5,
+                                6,
+                                6.5,
+                                6.5
+                            ]
+                        },
+                        {
+                            "name": "Administrative Office",
+                            "coordinates": [
+                                6.5,
+                                6,
+                                7,
+                                6.5
+                            ]
+                        },
+                        {
+                            "name": "Storage Room 1",
+                            "coordinates": [
+                                6.2,
+                                7,
+                                6.4,
+                                7.2
+                            ]
+                        },
+                        {
+                            "name": "Storage Room 2",
+                            "coordinates": [
+                                6.4,
+                                7,
+                                6.6,
+                                7.2
+                            ]
+                        },
+                        {
+                            "name": "Storage Room 3",
+                            "coordinates": [
+                                6.6,
+                                7,
+                                6.8,
+                                7.2
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Library",
+                    "coordinates": [
+                        5,
+                        5,
+                        7,
+                        6
+                    ]
+                },
+                {
+                    "name": "Supermarket",
+                    "coordinates": [
+                        7,
+                        5,
+                        8,
+                        6
+                    ]
+                },
+                {
+                    "name": "Post Office",
+                    "coordinates": [
+                        8,
+                        5,
+                        9,
+                        6
+                    ]
+                },
+                {
+                    "name": "Fire Station",
+                    "coordinates": [
+                        9,
+                        5,
+                        10,
+                        6
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Forest",
+            "coordinates": [
+                0,
+                0,
+                4,
+                5
+            ],
+            "children": [
+                {
+                    "name": "Clearing",
+                    "coordinates": [
+                        0,
+                        3,
+                        4,
+                        5
+                    ],
+                    "children": [
+                        {
+                            "name": "Tree Cluster",
+                            "coordinates": [
+                                0,
+                                4,
+                                2,
+                                5
+                            ]
+                        },
+                        {
+                            "name": "Tree Cluster 2",
+                            "coordinates": [
+                                2,
+                                4,
+                                4,
+                                5
+                            ]
+                        },
+                        {
+                            "name": "Pond",
+                            "coordinates": [
+                                0,
+                                3,
+                                1,
+                                4
+                            ]
+                        },
+                        {
+                            "name": "Log Cabin",
+                            "coordinates": [
+                                1,
+                                3,
+                                3,
+                                4
+                            ]
+                        },
+                        {
+                            "name": "Fire Pit",
+                            "coordinates": [
+                                3,
+                                4,
+                                4,
+                                4
+                            ]
+                        },
+                        {
+                            "name": "Picnic Table",
+                            "coordinates": [
+                                3,
+                                3,
+                                4,
+                                4
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Pond",
+                    "coordinates": [
+                        0,
+                        0,
+                        2,
+                        3
+                    ],
+                    "children": [
+                        {
+                            "name": "Water",
+                            "coordinates": [
+                                0,
+                                0,
+                                2,
+                                2
+                            ]
+                        },
+                        {
+                            "name": "Dock",
+                            "coordinates": [
+                                0,
+                                2,
+                                1,
+                                3
+                            ]
+                        },
+                        {
+                            "name": "Bench",
+                            "coordinates": [
+                                1,
+                                2,
+                                2,
+                                3
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Campsite",
+                    "coordinates": [
+                        2,
+                        0,
+                        4,
+                        2
+                    ],
+                    "children": [
+                        {
+                            "name": "Parking Lot",
+                            "coordinates": [
+                                2,
+                                0,
+                                4,
+                                2
+                            ],
+                            "children": [
+                                {
+                                    "name": "Parking Spaces 1",
+                                    "coordinates": [
+                                        2,
+                                        0,
+                                        3,
+                                        1
+                                    ]
+                                },
+                                {
+                                    "name": "Parking Spaces 2",
+                                    "coordinates": [
+                                        3,
+                                        0,
+                                        4,
+                                        1
+                                    ]
+                                },
+                                {
+                                    "name": "Parking Spaces 3",
+                                    "coordinates": [
+                                        2,
+                                        1,
+                                        3,
+                                        2
+                                    ]
+                                },
+                                {
+                                    "name": "Parking Spaces 4",
+                                    "coordinates": [
+                                        3,
+                                        1,
+                                        4,
+                                        2
+                                    ]
+                                },
+                                {
+                                    "name": "Handicap Spaces 1",
+                                    "coordinates": [
+                                        2,
+                                        1,
+                                        2,
+                                        2
+                                    ]
+                                },
+                                {
+                                    "name": "Handicap Spaces 2",
+                                    "coordinates": [
+                                        3,
+                                        1,
+                                        3,
+                                        2
+                                    ]
+                                },
+                                {
+                                    "name": "Car",
+                                    "coordinates": [
+                                        2,
+                                        0,
+                                        3,
+                                        1
+                                    ]
+                                },
+                                {
+                                    "name": "Motorcycle Parking 1",
+                                    "coordinates": [
+                                        2,
+                                        0,
+                                        2,
+                                        1
+                                    ]
+                                },
+                                {
+                                    "name": "Motorcycle Parking 2",
+                                    "coordinates": [
+                                        3,
+                                        0,
+                                        3,
+                                        1
+                                    ]
+                                },
+                                {
+                                    "name": "Bicycle Racks",
+                                    "coordinates": [
+                                        4,
+                                        0,
+                                        4,
+                                        1
+                                    ]
+                                },
+                                {
+                                    "name": "Entrance Gate",
+                                    "coordinates": [
+                                        2,
+                                        0,
+                                        3,
+                                        1
+                                    ]
+                                },
+                                {
+                                    "name": "Exit Gate",
+                                    "coordinates": [
+                                        3,
+                                        1,
+                                        4,
+                                        2
+                                    ]
+                                },
+                                {
+                                    "name": "Ticket Booth",
+                                    "coordinates": [
+                                        4,
+                                        0,
+                                        4,
+                                        2
+                                    ]
+                                },
+                                {
+                                    "name": "Security Booth",
+                                    "coordinates": [
+                                        4,
+                                        1,
+                                        4,
+                                        2
+                                    ]
+                                },
+                                {
+                                    "name": "Electric Car Charging",
+                                    "coordinates": [
+                                        4,
+                                        1,
+                                        4,
+                                        2
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Cabin",
+                            "coordinates": [
+                                2,
+                                0,
+                                4,
+                                2
+                            ],
+                            "children": [
+                                {
+                                    "name": "Living Room",
+                                    "coordinates": [
+                                        2,
+                                        0,
+                                        3,
+                                        1
+                                    ]
+                                },
+                                {
+                                    "name": "Kitchen",
+                                    "coordinates": [
+                                        3,
+                                        0,
+                                        4,
+                                        1
+                                    ]
+                                },
+                                {
+                                    "name": "Bedroom",
+                                    "coordinates": [
+                                        2,
+                                        1,
+                                        3,
+                                        2
+                                    ]
+                                },
+                                {
+                                    "name": "Bathroom",
+                                    "coordinates": [
+                                        3,
+                                        1,
+                                        4,
+                                        2
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Restroom",
+                            "coordinates": [
+                                2,
+                                0,
+                                4,
+                                1
+                            ]
+                        },
+                        {
+                            "name": "Picnic Table",
+                            "coordinates": [
+                                2,
+                                1,
+                                3,
+                                2
+                            ]
+                        },
+                        {
+                            "name": "Campfire",
+                            "coordinates": [
+                                3,
+                                1,
+                                4,
+                                2
+                            ]
+                        },
+                        {
+                            "name": "Tent",
+                            "coordinates": [
+                                2,
+                                0,
+                                3,
+                                1
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Rock Formation",
+                    "coordinates": [
+                        2,
+                        2,
+                        4,
+                        3
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Desert",
+            "coordinates": [
+                4,
+                0,
+                7,
+                5
+            ],
+            "children": [
+                {
+                    "name": "Dune",
+                    "coordinates": [
+                        4,
+                        0,
+                        6,
+                        4
+                    ],
+                    "children": [
+                        {
+                            "name": "Sand Dunes 1",
+                            "coordinates": [
+                                4,
+                                0,
+                                5,
+                                2
+                            ]
+                        },
+                        {
+                            "name": "Sand Dunes 2",
+                            "coordinates": [
+                                5,
+                                0,
+                                6,
+                                2
+                            ]
+                        },
+                        {
+                            "name": "Sand Dunes 3",
+                            "coordinates": [
+                                4,
+                                2,
+                                5,
+                                3
+                            ]
+                        },
+                        {
+                            "name": "Desert Oasis",
+                            "coordinates": [
+                                5,
+                                2,
+                                6,
+                                3
+                            ]
+                        },
+                        {
+                            "name": "Rock Formations",
+                            "coordinates": [
+                                4,
+                                3,
+                                5,
+                                4
+                            ]
+                        },
+                        {
+                            "name": "Desert Campsite",
+                            "coordinates": [
+                                5,
+                                3,
+                                6,
+                                4
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Oasis",
+                    "coordinates": [
+                        6,
+                        0,
+                        7,
+                        2
+                    ]
+                },
+                {
+                    "name": "Rock Formation",
+                    "coordinates": [
+                        4,
+                        4,
+                        5,
+                        5
+                    ]
+                },
+                {
+                    "name": "Sandstone Cliff",
+                    "coordinates": [
+                        5,
+                        4,
+                        7,
+                        5
+                    ]
+                },
+                {
+                    "name": "Cactus Patch",
+                    "coordinates": [
+                        6,
+                        2,
+                        7,
+                        3
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "River",
+            "coordinates": [
+                7,
+                0,
+                10,
+                3
+            ],
+            "children": [
+                {
+                    "name": "Bridge",
+                    "coordinates": [
+                        7,
+                        2,
+                        9,
+                        3
+                    ]
+                },
+                {
+                    "name": "Riverbank",
+                    "coordinates": [
+                        7,
+                        0,
+                        9,
+                        2
+                    ],
+                    "children": [
+                        {
+                            "name": "Boat House",
+                            "coordinates": [
+                                7,
+                                0,
+                                7.8,
+                                2
+                            ]
+                        },
+                        {
+                            "name": "Fishing Dock",
+                            "coordinates": [
+                                7.8,
+                                0,
+                                8.6,
+                                2
+                            ]
+                        },
+                        {
+                            "name": "Picnic Area",
+                            "coordinates": [
+                                8.6,
+                                0,
+                                9,
+                                1.5
+                            ]
+                        },
+                        {
+                            "name": "Fishing Store",
+                            "coordinates": [
+                                8.6,
+                                1.5,
+                                9,
+                                2
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Waterfall",
+                    "coordinates": [
+                        9,
+                        0,
+                        10,
+                        1
+                    ]
+                },
+                {
+                    "name": "Campsite",
+                    "coordinates": [
+                        9,
+                        1,
+                        10,
+                        2
+                    ]
+                },
+                {
+                    "name": "Dock",
+                    "coordinates": [
+                        9,
+                        2,
+                        10,
+                        3
+                    ]
+                },
+                {
+                    "name": "Fishing Spot",
+                    "coordinates": [
+                        8,
+                        0,
+                        9,
+                        1
+                    ]
+                },
+                {
+                    "name": "Boat",
+                    "coordinates": [
+                        7,
+                        0,
+                        8,
+                        1
+                    ]
+                },
+                {
+                    "name": "Picnic Area",
+                    "coordinates": [
+                        8,
+                        1,
+                        9,
+                        2
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lake",
+            "coordinates": [
+                7,
+                3,
+                10,
+                5
+            ],
+            "children": [
+                {
+                    "name": "Waterbody",
+                    "coordinates": [
+                        7,
+                        3,
+                        10,
+                        5
+                    ],
+                    "children": [
+                        {
+                            "name": "Lake",
+                            "coordinates": [
+                                7,
+                                3,
+                                10,
+                                5
+                            ],
+                            "children": [
+                                {
+                                    "name": "Dock",
+                                    "coordinates": [
+                                        7,
+                                        5,
+                                        8,
+                                        5
+                                    ]
+                                },
+                                {
+                                    "name": "Swimming Area",
+                                    "coordinates": [
+                                        7,
+                                        3,
+                                        8,
+                                        4
+                                    ]
+                                },
+                                {
+                                    "name": "Picnic Area",
+                                    "coordinates": [
+                                        8,
+                                        4,
+                                        9,
+                                        5
+                                    ]
+                                },
+                                {
+                                    "name": "Boathouse",
+                                    "coordinates": [
+                                        8,
+                                        3,
+                                        9,
+                                        4
+                                    ]
+                                },
+                                {
+                                    "name": "Parking Lot",
+                                    "coordinates": [
+                                        9,
+                                        3,
+                                        10,
+                                        4
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Beach",
+                            "coordinates": [
+                                7,
+                                3,
+                                8,
+                                4
+                            ]
+                        },
+                        {
+                            "name": "Boathouse",
+                            "coordinates": [
+                                8,
+                                3,
+                                9,
+                                4
+                            ]
+                        },
+                        {
+                            "name": "Dock",
+                            "coordinates": [
+                                9,
+                                3,
+                                9,
+                                3
+                            ]
+                        },
+                        {
+                            "name": "Fishing Pier",
+                            "coordinates": [
+                                9,
+                                3,
+                                9,
+                                3
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Dock",
+                    "coordinates": [
+                        7,
+                        3,
+                        8,
+                        3
+                    ]
+                },
+                {
+                    "name": "Picnic Area",
+                    "coordinates": [
+                        7,
+                        4,
+                        8,
+                        5
+                    ]
+                },
+                {
+                    "name": "Campground",
+                    "coordinates": [
+                        8,
+                        4,
+                        9,
+                        5
+                    ]
+                },
+                {
+                    "name": "Parking Lot",
+                    "coordinates": [
+                        8,
+                        3,
+                        9,
+                        4
+                    ]
+                },
+                {
+                    "name": "Swimming Area",
+                    "coordinates": [
+                        9,
+                        3,
+                        10,
+                        4
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Farm",
+            "coordinates": [
+                0,
+                0,
+                3,
+                4
+            ],
+            "children": [
+                {
+                    "name": "Pasture",
+                    "coordinates": [
+                        0,
+                        2,
+                        1,
+                        4
+                    ]
+                },
+                {
+                    "name": "Field Crop",
+                    "coordinates": [
+                        0,
+                        0,
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "name": "Orchard",
+                    "coordinates": [
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "children": [
+                        {
+                            "name": "Tree Groves 1",
+                            "coordinates": [
+                                1,
+                                3,
+                                2,
+                                4
+                            ]
+                        },
+                        {
+                            "name": "Tree Groves 2",
+                            "coordinates": [
+                                2,
+                                3,
+                                3,
+                                4
+                            ]
+                        },
+                        {
+                            "name": "Tree Groves 3",
+                            "coordinates": [
+                                2,
+                                2.5,
+                                3,
+                                3
+                            ]
+                        },
+                        {
+                            "name": "Storage Barn",
+                            "coordinates": [
+                                1,
+                                2.5,
+                                2,
+                                3
+                            ]
+                        },
+                        {
+                            "name": "Farmhouse",
+                            "coordinates": [
+                                1,
+                                2,
+                                1.5,
+                                2.5
+                            ]
+                        },
+                        {
+                            "name": "Packing Shed",
+                            "coordinates": [
+                                1.5,
+                                2.2,
+                                2,
+                                2.5
+                            ]
+                        },
+                        {
+                            "name": "Irrigation Pond",
+                            "coordinates": [
+                                2.5,
+                                2,
+                                3,
+                                2.5
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Barn",
+                    "coordinates": [
+                        1,
+                        1,
+                        2,
+                        2
+                    ]
+                },
+                {
+                    "name": "Farmhouse",
+                    "coordinates": [
+                        2,
+                        1,
+                        3,
+                        2
+                    ]
+                },
+                {
+                    "name": "Tractor Shed",
+                    "coordinates": [
+                        1,
+                        0,
+                        2,
+                        1
+                    ]
+                },
+                {
+                    "name": "Chicken Coop",
+                    "coordinates": [
+                        2,
+                        0,
+                        3,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Beach",
+            "coordinates": [
+                3,
+                0,
+                4,
+                3
+            ]
+        }
+    ]
+}

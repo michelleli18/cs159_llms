@@ -45,8 +45,9 @@ def main():
             activity_info = dict()
 
             activity_desc = activities_list[j]
-            activity_info["description"] = activity_desc
+            activity_info["description"] = str(activity_desc)
             creator.set_persona_activity(activity_desc)
+            print(str(activity_desc))
             
             # Increment and Cycle Counters
             j += 1

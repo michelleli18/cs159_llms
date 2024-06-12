@@ -1,0 +1,13 @@
+{
+    "experiment": "2",
+    "persona name": "Leonardo Thompson",
+    "description": "Leonardo Thompson is a 33-year-old mixed-race (African and Italian) marine biologist currently residing in Seattle, Washington. His pronouns are he/him. He enjoys birdwatching and painting marine landscapes in his free time. However, he has also thought about expanding his interests into underwater photography and sailing because he wants to capture the ocean's beauty from different perspectives and experience the joy of being on the open sea. He does not like loud cities because they overwhelm his senses and make him feel disconnected from nature. He has also been working hard towards his long-term goals and dreams, which include publishing a comprehensive book on the behavior of deep-sea creatures and starting a marine conservation NGO. \n\nPersonally, he owns an impressive collection of rare seashells and several aquariums at his home. Outside of home, he works at the Pacific Marine Research Institute. After work, he enjoys planning to go to different coastal areas to do all his hobbies.",
+    "set number of activities": 3,
+    "activities": [
+        {
+            "description": "{",
+            "should generate a new place": true,
+            "new place": "Leonardo Thompson's Gym"
+        }
+    ]
+}

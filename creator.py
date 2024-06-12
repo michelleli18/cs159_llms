@@ -199,7 +199,7 @@ class Creator():
         self.generate_new_place_name()
         return self.new_place_name
         
-
+    
     # Used in both Experiment 1 and 2
     def estimate_new_place_size(self):
         self.size_estimate_response = ChatGPT_request(
@@ -236,12 +236,11 @@ class Creator():
     
     
     def generate_new_place_bounded_json(self):
-        piece = self.put_new_place_prompt.format(self.new_place_name, self.new_place_name, self.new_place_name, self.new_place_name)
         while True:
             planner_response = ChatGPT_request(
             self.provide_top_level_map_prompt.format(str(self.top_json)) 
                 + self.size_estimate_response + self.is_there_space_response
-                + piece
+                + self.put_new_place_prompt.format(self.new_place_name, self.new_place_name, self.new_place_name, self.new_place_name)
                 + self.specify_put_bounded_prompt.format(self.new_place_name))
         
             try: 
@@ -483,20 +482,11 @@ class Creator():
         # Function to add a rectangle for a subitem
         def add_rectangle(ax, name, coordinates, color='lightblue', linewidth=1, edgecolor='blue'):
             x1, y1, x2, y2 = coordinates
-            try:
-                width = x2 - x1
-                height = y2 - y1
-                rect = patches.Rectangle((x1, y1), width, height, linewidth=linewidth, edgecolor=edgecolor, facecolor=color, label=name)
-                ax.add_patch(rect)
-                ax.text(x1 + width / 2, y1 + height / 2, name, ha='center', va='center', fontsize=8, color='darkblue')
-            except Exception as e:
-                print(x1)
-                print(y1)
-                print(x2)
-                print(y2)
-                return
-
-            
+            width = x2 - x1
+            height = y2 - y1
+            rect = patches.Rectangle((x1, y1), width, height, linewidth=linewidth, edgecolor=edgecolor, facecolor=color, label=name)
+            ax.add_patch(rect)
+            ax.text(x1 + width / 2, y1 + height / 2, name, ha='center', va='center', fontsize=8, color='darkblue')            
 
         # Recursively adds rectangles for all children
         # Exponentially changes colors of children from yellow to green

@@ -1,0 +1,8 @@
+{
+    "activities": [
+        "Astrophotography Weekend Retreat",
+        "Underwater Art Exhibition",
+        "Salsa Dance Workshop"
+    ],
+    "reasoning": "1. Astrophotography Weekend Retreat: This combines Aurora's fascination with the night sky and her collection of vintage cameras, offering her the chance to expand into astrophotography while enjoying serene coastal locations. 2. Underwater Art Exhibition: This activity aligns with her dream of opening an art gallery. She can combine her skills in underwater photography and abstract painting to create a unique art exhibit. 3. Salsa Dance Workshop: Given her love for the rhythm of Latin music and an interest in dancing, a salsa dance workshop would allow her to practice and enjoy this newfound hobby while staying active and engaged."
+}

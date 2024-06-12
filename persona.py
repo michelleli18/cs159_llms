@@ -58,13 +58,13 @@ class Persona():
         # Generate and write the persona to a text file
         persona_desc = ChatGPT_request(self.generate_persona_prompt)
         response_split = persona_desc.split()
-        first_name = response_split[0].lower()
-        last_name = response_split[1].lower()
+        first_name = str(response_split[0])
+        last_name = str(response_split[1])
 
         # Saves the persona to a file if save is set on
         if save:
             with open(
-                f"{personas_dir}/persona_response_{first_name}_{last_name}.txt", "w"
+                f"{personas_dir}/persona_response_{first_name.lower()}_{last_name.lower()}.txt", "w"
             ) as f:
                 f.write(persona_desc)
         
@@ -75,14 +75,32 @@ class Persona():
     # Given num of activities desired, returns activities list (saving list as indicated)
     # For results, look at Eleanor Vasquez
     def generate_activities_batch(self, num_activities, save=True):
-        activities_list = ChatGPT_request(
-            self.generate_n_activities_prompt.format(num_activities) + self.format_batch_answer_prompt)
-        
+        activities_list = ""
+        activities_list_json = ""
+        while True:
+            activities_list_response = ChatGPT_request(
+                self.generate_n_activities_prompt.format(num_activities)
+                + self.format_batch_answer_prompt)
+            
+            try: 
+                activities_list_json = json.loads(activities_list_response)
+                assert "activities" in activities_list_json
+                activities_list = activities_list_json["activities"]
+
+                break
+            except Exception as e:
+                print(e)
+                print(f"FAILED ATTEMPT AT GENERATING PERSONA ACTIVITY LIST FOR {self.first + " " + self.last}...\n{activities_list_response}\nTRYING AGAIN..")
+                continue
+
+        print("SUCCESSFULLY PERSONA ACTIVITY LIST FOR: " + self.first + " " + self.last)
+        print(str(activities_list_json))
+
         # Saves generated activities if save is on
         if save:
             activities_dir = f"data/persona_activities"
-            with open(f"{activities_dir}/activity_response_{self.first}_{self.last}.txt", "w") as f:
-                f.write(activities_list)
+            with open(f"{activities_dir}/activity_response_{self.first.lower()}_{self.last.lower()}.txt", "w") as f:
+                json.dump(activities_list_json, f, indent=4)
         
         return activities_list
 

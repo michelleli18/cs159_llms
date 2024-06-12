@@ -1,0 +1,8 @@
+{
+    "activities": [
+        "Participate in a community mural painting project in a local underrepresented neighborhood",
+        "Organize a legal aid seminar at a local community center",
+        "Join a classical music appreciation society to deepen her understanding of the violin"
+    ],
+    "reasoning": "Participating in a community mural painting project aligns with Adriana's passion for art and her desire to give back to underrepresented communities. Organizing a legal aid seminar allows her to apply her professional skills directly to help those who need it most, supporting her long-term goal of opening a nonprofit. Joining a classical music appreciation society would enhance her understanding of the violin, which could be both a stress-reliever and a way to connect with her interest in music and her collection of rare vinyl records."
+}

@@ -1,0 +1,13 @@
+{
+    "experiment": "2",
+    "persona name": "Juliet Nguyen",
+    "description": "Juliet Nguyen is a 34-year-old Vietnamese-American environmental scientist. Her pronouns are she/her. She enjoys rock climbing, pottery, and writing poetry in her free time. However, she has also thought about expanding her interests into scuba diving and urban gardening because she loves exploring new environments and growing her understanding of ecosystems. She does not like loud crowded places because she finds them overwhelming and intrusive to her peace of mind. She has also been working hard towards her long-term goals and dreams, which include launching an international non-profit for environmental education and writing a book of her poetry. Personally, she owns an extensive collection of rare plants and a mix of vintage and modern pottery at her home. Outside of home, she works at an environmental research institute. After work, she enjoys planning to go to different places to do all her hobbies.",
+    "set number of activities": 3,
+    "activities": [
+        {
+            "description": "Visiting a botanical garden with rare and exotic plants",
+            "should generate a new place": true,
+            "new place": "Botanical Conservatory"
+        }
+    ]
+}

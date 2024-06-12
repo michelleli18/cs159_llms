@@ -45,8 +45,10 @@ def main():
             activity_info = dict()
 
             activity_desc = activities_list[j]
-            activity_info["description"] = activity_desc
+            activity_info["description"] = str(activity_desc)
             creator.set_persona_activity(activity_desc)
+            print("ACTIVITY DESCRIPTION FOR " + info["persona name"] + "...")
+            print(str(activity_desc))
             
             new_place = creator.determine_new_place()
             should_generate_new_place = new_place != None
