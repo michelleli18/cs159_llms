@@ -1,0 +1,45 @@
+{
+  "layout": {
+    "name": "Conference Room",
+    "coordinates": [34, 25, 38, 27],
+    "children": [
+      {
+        "name": "Conference Table",
+        "coordinates": [34, 25, 36, 27]
+      },
+      {
+        "name": "Chairs 1",
+        "coordinates": [36, 25, 37, 26]
+      },
+      {
+        "name": "Chairs 2",
+        "coordinates": [37, 25, 38, 26]
+      },
+      {
+        "name": "Chairs 3",
+        "coordinates": [36, 26, 38, 27]
+      },
+      {
+        "name": "Projector Screen",
+        "coordinates": [34, 27, 35, 27]
+      },
+      {
+        "name": "Whiteboard",
+        "coordinates": [35, 27, 36, 27]
+      },
+      {
+        "name": "Windows",
+        "coordinates": [34, 25, 34, 27]
+      },
+      {
+        "name": "Door",
+        "coordinates": [38, 25, 38, 27]
+      },
+      {
+        "name": "Storage Cabinet",
+        "coordinates": [34, 25, 35, 25]
+      }
+    ]
+  },
+  "reasoning": "The 'Conference Table' is placed centrally as it is the centerpiece of the room. The 'Chairs' are placed around the table to maximize seating capacity without overlap, ensuring they are positioned logically for good access. There are three sets of 'Chairs' to match the plural requirement. The 'Projector Screen' is positioned near the table and against the wall at the top right to be visible to everyone seated. The 'Whiteboard' is adjacent to the 'Projector Screen' for convenience. 'Windows' and 'Door' are positioned on the far edges of the room to ensure accessibility and natural lighting. The 'Storage Cabinet' is placed in a corner to minimize obstruction while being easily accessible. All coordinates are adjusted to ensure they are integers and fit within the parent coordinates with no overlap."
+}

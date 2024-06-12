@@ -1,0 +1,25 @@
+{
+  "layout": {
+    "name": "Reading Area",
+    "coordinates": [34, 21, 40, 27],
+    "children": [
+      { "name": "Bookshelves 1", "coordinates": [34, 25, 36, 27] },
+      { "name": "Bookshelves 2", "coordinates": [36, 25, 38, 27] },
+      { "name": "Bookshelves 3", "coordinates": [38, 25, 40, 27] },
+      { "name": "Bookshelves 4", "coordinates": [34, 23, 36, 25] },
+      { "name": "Bookshelves 5", "coordinates": [36, 23, 38, 25] },
+      { "name": "Reading Tables 1", "coordinates": [38, 21, 40, 23] },
+      { "name": "Reading Tables 2", "coordinates": [36, 21, 38, 23] },
+      { "name": "Reading Tables 3", "coordinates": [34, 21, 36, 23] },
+      { "name": "Study Carrels 1", "coordinates": [34, 27, 35, 23] },
+      { "name": "Study Carrels 2", "coordinates": [35, 25, 36, 23] },
+      { "name": "Study Carrels 3", "coordinates": [38, 23, 40, 25] },
+      { "name": "Lounge Chairs 1", "coordinates": [34, 21, 35, 23] },
+      { "name": "Lounge Chairs 2", "coordinates": [38, 25, 40, 27] },
+      { "name": "Floor Lamps", "coordinates": [38, 27, 39, 23] },
+      { "name": "Check-Out Desk 1", "coordinates": [36, 23, 38, 25] },
+      { "name": "Check-Out Desk 2", "coordinates": [34, 21, 36, 23] }
+    ]
+  },
+  "reasoning": "The 'Reading Area' is a well-defined space with coordinates [34, 21, 40, 27]. The largest items (Bookshelves), are placed flush along the walls to effectively utilize the space. Given there are plural entries for Bookshelves' and based on the expectation of severe high density, we added 5 of them at various corners to fully utilize the edges of the reading area. 'Reading Tables' which are also significantly large items, are placed next to each other towards the lower half of the reading space to create a natural segmentation. 'Study Carrels' are distributed near Bookshelves since they often are near places where focusing and solitary work is needed and smaller sufficient spaces were left for them. 'Lounge Chairs' are placed at the remaining spaces that were left to relax often near windows so suitable for reading light. 'Floor Lamps' are essential but small thus only one placed is enough strategically between reading space. 'Check-Out Desks' is forward from a corner of the room and near the entrance/exits for easy accessibility and Flow Management. Overall, the arrangement ensures appropriate separation and usage based on real-life context and relative size and importance matter being followed and incorporate inputs provided effectly within space limits."
+}

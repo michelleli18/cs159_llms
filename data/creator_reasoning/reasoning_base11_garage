@@ -1,0 +1,20 @@
+{
+"layout": {
+  "name": "Garage",
+  "coordinates": [-6, 5, 0, 8],
+  "children": [
+    {"name": "Car", "coordinates": [-6, 5, -3, 8]},
+    {"name": "Workbench", "coordinates": [-3, 5, -1, 7]},
+    {"name": "Storage Shelves 1", "coordinates": [-6, 7, -4, 8]},
+    {"name": "Storage Shelves 2", "coordinates": [-4, 7, -2, 8]},
+    {"name": "Storage Shelves 3", "coordinates": [-2, 7, 0, 8]},
+    {"name": "Lawn Mower", "coordinates": [-3, 5, 0, 7]},
+    {"name": "Bicycle", "coordinates": [-6, 5, -3, 6]},
+    {"name": "Freezer", "coordinates": [-6, 6, -4, 7]},
+    {"name": "Tool Chest", "coordinates": [-4, 6, -2, 7]},
+    {"name": "Trash Bins 1", "coordinates": [-2, 6, -1, 7]},
+    {"name": "Trash Bins 2", "coordinates": [-1, 6, 0, 7]}
+  ]
+}, 
+"reasoning": "The 'Car' is the largest and occupies the most space, so it's placed first in the most significant area of the garage where it can be easily parked. The 'Workbench' and 'Tool Chest' are placed next to each other in a workspace area for ease of access to tools. 'Storage Shelves' are split into three separate sections to utilize wall space efficiently along the upper wall, allowing easy access for various storage needs. The 'Lawn Mower' and 'Bicycle' are near the front for easy access. The 'Freezer' is close to the main entry for storing groceries without taking much space. Trash bins are placed near the garage door for easy disposal of waste. All items are aligned to the walls to maximize the floor space and facilitate movement within the garage. Given the space limitations, all items fit perfectly within the outlined dimensions, and none of the items overlap." 
+}

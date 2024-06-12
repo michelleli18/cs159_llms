@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Front Yard",
+    "coordinates": [-15, 5, -9, 8],
+    "children": [
+      {
+        "name": "House",
+        "coordinates": [-15, 7, -11, 8]
+      },
+      {
+        "name": "House 2",
+        "coordinates": [-11, 7, -9, 8]
+      },
+      {
+        "name": "House 3",
+        "coordinates": [-15, 5, -12, 6]
+      },
+      {
+        "name": "Lawn",
+        "coordinates": [-12, 5, -9, 6]
+      },
+      {
+        "name": "Driveway",
+        "coordinates": [-15, 6, -13, 7]
+      },
+      {
+        "name": "Flower Beds",
+        "coordinates": [-13, 6, -12, 7]
+      },
+      {
+        "name": "Trees",
+        "coordinates": [-12, 6, -11, 7]
+      }
+    ]
+  },
+  "reasoning": "The Front Yard has been divided into several subitems based on their relative sizes and logical placement considerations. Houses are more numerous because a single 'House' in a yard would be unrealistic, hence three 'House' items are included. They are placed in a row to mimic a real-life scenario where houses might be placed close to each other, while ensuring there is enough space for other subitems like 'Driveway' and 'Lawn'. The Lawn is placed next to the Houses to utilize the remaining area efficiently. The 'Driveway' is placed next to one of the Houses to mimic a real-life driveway arrangement. 'Flower Beds' and 'Trees' are placed near the houses and along the remaining space, ensuring all areas are efficiently utilized without overlap. All items' coordinates fit within the Front Yard's boundary, making the layout practical and realistic."
+}

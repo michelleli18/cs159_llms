@@ -1,0 +1,41 @@
+{
+  "layout": {
+    "name": "Shower Floor",
+    "coordinates": [-37, 11, -35, 13],
+    "children": [
+      {
+        "name": "Shower Mat",
+        "coordinates": [-36, 11, -35, 13]
+      },
+      {
+        "name": "Drain 1",
+        "coordinates": [-37, 11, -36, 12]
+      },
+      {
+        "name": "Drain 2",
+        "coordinates": [-37, 12, -36, 13]
+      },
+      {
+        "name": "Soap Dish 1",
+        "coordinates": [-36, 12, -35, 13]
+      },
+      {
+        "name": "Soap Dish 2",
+        "coordinates": [-36, 11, -35, 12]
+      },
+      {
+        "name": "Bottles 1",
+        "coordinates": [-37, 12, -36, 13]
+      },
+      {
+        "name": "Bottles 2",
+        "coordinates": [-36, 11, -35, 12]
+      },
+      {
+        "name": "Bottles 3",
+        "coordinates": [-36, 11, -35, 13]
+      }
+    ]
+  },
+  "reasoning": "The Shower Mat, being the largest item, was placed occupying a large space touching the walls. Due to its large size relative to others, it functions well occupying a significant part of the floor. The Drains and Soap Dishes, being smaller but equally important, were placed next to each other and near the Shower Mat to indicate functionality and accessibility. Drains are split to two units covering different parts for efficient water drainage across the shower floor. The Soap Dishes are placed near the walls for easy reach while showering. Finally, Bottles are split into 3 units as per the guideline for plural items and placed next to each other ensuring space efficiency and accessibility. The placement ensures that all subitems are within the parent boundary and there is no overlap following strict adherence to the constraints provided."
+}

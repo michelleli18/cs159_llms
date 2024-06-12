@@ -1,0 +1,21 @@
+{
+  "layout": {
+    "name": "Backyard",
+    "coordinates": [0, 5, 6, 8],
+    "children": [
+      {"name": "Swimming Pool", "coordinates": [0, 5, 3, 8]},
+      {"name": "Patio", "coordinates": [3, 5, 6, 8]},
+      {"name": "Garden", "coordinates": [0, 7, 3, 8]},
+      {"name": "Trampoline 1", "coordinates": [0, 5, 3, 6]},
+      {"name": "Trampoline 2", "coordinates": [3, 6, 6, 7]},
+    {"name": "Grill", "coordinates": [3, 5, 4, 6]},
+      {"name": "Shed", "coordinates": [4, 5, 6, 6]},
+      {"name": "Treehouse", "coordinates": [4, 6, 6, 8]},
+      {"name": "Sandbox 1", "coordinates": [0, 6, 3, 7]},
+      {"name": "Outdoor Furniture Set 1", "coordinates": [5, 5, 6, 6]},
+      {"name": "Outdoor Furniture Set 2", "coordinates": [4, 7, 6, 8]},
+      {"name": "Outdoor Furniture Set 3", "coordinates": [3, 7, 4, 8]}
+    ]
+  },
+  "reasoning": "The placements are determined by their relative sizes and logical proximity to each other, taking into consideration real-life placement of such items in a backyard. The 'Swimming Pool' takes up the largest area as it is a major feature and is placed flush to the left side of the backyard for easy access. The 'Patio' is placed next to the pool for convenience. 'Garden' is next to the pool for aesthetic appeal and to use available space efficiently. 'Grill' is placed near the patio for practical reasons. 'Shed' is next to the 'Patio' and 'Grill', providing easy access to tools and supplies. 'Treehouse' is placed at the top right corner, optimizing vertical space and providing a secluded play area for children. Multiple 'Outdoor Furniture Set' placements ensure relaxation spots for guests. 'Trampoline', 'Sandbox', and other items are placed to cover remaining available spaces without overlap, ensuring efficient use of the backyard's area while keeping within boundaries and touching walls wherever possible. The sizes ensure all elements fit harmoniously together. The use of integers guarantees no issues with non-integer coordinates, meeting the strict criteria."
+}

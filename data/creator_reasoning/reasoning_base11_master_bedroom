@@ -1,0 +1,33 @@
+{
+    "layout": {
+        "name": "Master Bedroom",
+        "coordinates": [17, 12, 22, 18],
+        "children": [
+            {
+                "name": "Bed",
+                "coordinates": [17, 15, 20, 18]
+            },
+            {
+                "name": "Wardrobe",
+                "coordinates": [20, 15, 22, 18]
+            },
+            {
+                "name": "Dresser",
+                "coordinates": [17, 13, 20, 15]
+            },
+            {
+                "name": "Nightstands 1",
+                "coordinates": [20, 13, 21, 14]
+            },
+            {
+                "name": "Nightstands 2",
+                "coordinates": [21, 13, 22, 14]
+            },
+            {
+                "name": "Tv Stand",
+                "coordinates": [17, 12, 20, 13]
+            }
+        ]
+    },
+    "reasoning": "The Master Bedroom was divided based on the priority of keeping all items within the boundary and avoiding overlap while utilizing the space efficiently. The Bed, being the largest piece of furniture, is placed centrally against one wall (top right). This not only mirrors real-life bedroom layouts but also ensures a natural walking path around it. The Wardrobe is placed adjacent to the Bed on the top right, allowing for easy access to clothing. The Dresser is placed beneath the Bed and Wardrobe, maximizing the use of vertical space while leaving sufficient room for movement. Two Nightstands are placed on either side of the bed to mimic a realistic bedroom setup; these smaller items were divided to keep within the three-replicate rule for plural names. Lastly, the Tv Stand is positioned at the bottom, centered for optimal viewing from the Bed. Each item's placement ensures that all space is efficiently used while maintaining realistic and functional proximity between key items. The items’ sizes reflect their relative importance and usage in a typical master bedroom setup."
+}

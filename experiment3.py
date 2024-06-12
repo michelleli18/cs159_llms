@@ -15,12 +15,12 @@ def main():
 def town(n):
     persona_name = "Base1" + str(n)
     base_map = {
-                    "name": "Houses",
+                    "name": "Apartments 2",
                     "coordinates": [
-                        -42,
-                        7,
-                        -21,
-                        17
+                        10,
+                        6,
+                        22,
+                        24
                     ],
                 }
     #{"name": "Town", "coordinates": [-50, -25, 50, 25]}

@@ -1,0 +1,77 @@
+{
+  "layout": {
+    "name": "Computer Stations",
+    "coordinates": [30, 21, 32, 25],
+    "children": [
+      {
+        "name": "Workstations 1",
+        "coordinates": [30, 21, 31, 22]
+      },
+      {
+        "name": "Workstations 2",
+        "coordinates": [31, 21, 32, 22]
+      },
+      {
+        "name": "Workstations 3",
+        "coordinates": [30, 22, 31, 23]
+      },
+      {
+        "name": "Desks 1",
+        "coordinates": [31, 22, 32, 23]
+      },
+      {
+        "name": "Desks 2",
+        "coordinates": [30, 23, 31, 24]
+      },
+      {
+        "name": "Desks 3",
+        "coordinates": [31, 23, 32, 24]
+      },
+      {
+        "name": "Chairs 1",
+        "coordinates": [30, 24, 30.5, 24.5]
+      },
+      {
+        "name": "Chairs 2",
+        "coordinates": [31.5, 24, 32, 24.5]
+      },
+      {
+        "name": "Monitors 1",
+        "coordinates": [30, 24.5, 30.5, 25]
+      },
+      {
+        "name": "Computer Towers 1",
+        "coordinates": [31.5, 24.5, 32, 25]
+      },
+      {
+        "name": "Printers 1",
+        "coordinates": [30.5, 21, 31, 21.5]
+      },
+      {
+        "name": "Printers 2",
+        "coordinates": [31.5, 21, 32, 21.5]
+      },
+      {
+        "name": "Shelves 1",
+        "coordinates": [30.5, 21.5, 31, 22]
+      },
+      {
+        "name": "Shelves 2",
+        "coordinates": [31.5, 21.5, 32, 22]
+      },
+      {
+        "name": "Meeting Table 1",
+        "coordinates": [30.5, 22, 31, 23]
+      },
+      {
+        "name": "Whiteboard 1",
+        "coordinates": [30.5, 23, 31, 23.5]
+      },
+      {
+        "name": "Storage Cabinets 1",
+        "coordinates": [31.5, 23.5, 32, 24]
+      }
+    ]
+  },
+  "reasoning": "Workstations were placed first due to their relative importance and size. They are spaced evenly to utilize the available area efficiently. Desks were placed next to workstations for functional efficiency, as they are often used together. Chairs were distributed around the workstations to ensure seating availability. Monitors and computer towers are placed near each workstation logically due to their function. Printers are placed at the bottom (near the entry) for easy access when entering the space. Shelves are placed around the perimeter to save space and provide storage. The meeting table is centrally located for easy access from any workstation. Whiteboard is placed near the meeting table for presentation purposes. Storage cabinets are placed around the perimeter, along with shelves for accessibility without taking central space."
+}

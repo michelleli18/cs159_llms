@@ -1,0 +1,41 @@
+{
+  "layout": {
+    "name": "Apartments 2",
+    "coordinates": [10, 6, 22, 24],
+    "children": [
+      {
+        "name": "Living Room",
+        "coordinates": [10, 18, 18, 24]
+      },
+      {
+        "name": "Kitchen",
+        "coordinates": [10, 12, 17, 18]
+      },
+      {
+        "name": "Master Bedroom",
+        "coordinates": [17, 12, 22, 18]
+      },
+      {
+        "name": "Bathroom",
+        "coordinates": [10, 10, 12, 12]
+      },
+      {
+        "name": "Closet",
+        "coordinates": [12, 10, 14, 12]
+      },
+      {
+        "name": "Guest Bedroom",
+        "coordinates": [14, 6, 22, 12]
+      },
+      {
+        "name": "Laundry Room",
+        "coordinates": [10, 6, 12, 8]
+      },
+      {
+        "name": "Balcony",
+        "coordinates": [12, 6, 14, 8]
+      }
+    ]
+  },
+  "reasoning": "The layout ensures that all subitems are within the given boundary of Apartments 2 and do not overlap with one another. The Living Room and the Kitchen are larger rooms and thus are given spacious locations. The Living Room has been placed adjacent to the Kitchen and Master Bedroom because connectivity within this section of the apartment is logical and provides an open floor plan feeling. Additionally, such positioning allows for efficient use of space while maintaining accessibility. The Master Bedroom is adjacent to the Bathroom, providing convenient access to what is typically required. The Closet is positioned next to the Bathroom, considering practicality and ease of access. The Guest Bedroom occupies one of the larger remaining spaces as it is also a considerable sized room. The Laundry Room is compact and logically placed near the Balcony as these are typically smaller and less frequently used areas, fitting efficiently into the smaller available spaces. The Balcony is placed adjacent to the Laundry Room to effectively utilize this space. Some typical smaller spaces like niches and shorter walls could be used effectively to avoid any empty space and maintain efficiency."
+}

@@ -1,0 +1,41 @@
+{
+  "layout": {
+    "name": "Houses",
+    "coordinates": [-42, 7, -21, 17],
+    "children": [
+      {
+        "name": "Living Room",
+        "coordinates": [-42, 13, -26, 17]
+      },
+      {
+        "name": "Kitchen",
+        "coordinates": [-26, 13, -21, 17]
+      },
+      {
+        "name": "Dining Room",
+        "coordinates": [-26, 9, -21, 13]
+      },
+      {
+        "name": "Bedroom",
+        "coordinates": [-35, 7, -21, 9]
+      },
+      {
+        "name": "Bathroom",
+        "coordinates": [-42, 9, -35, 13]
+      },
+      {
+        "name": "Garage",
+        "coordinates": [-42, 7, -39, 13]
+      },
+      {
+        "name": "Backyard",
+        "coordinates": [-39, 7, -35, 9]
+      },
+      {
+        "name": "Laundry Room",
+        "coordinates": [-39, 9, -35, 11]
+      }
+    ]
+  },
+  "reasoning": "To ensure that all subitems fit within the parent space without overlapping, we started by placing the largest items first. The Living Room and Kitchen are placed facing each other at the top left and right sections because these are common central areas in a house. The Dining Room, which is typically placed close to the Kitchen, is placed directly below the Kitchen. The Bedroom and Bathroom are placed next to each other since easy bathroom access is convenient. The Bathroom is also close to the Living Room. The Garage is placed at the bottom left corner which is a typical place for a garage to be near the entrance. The Backyard is directly adjacent to the Bedroom and Garage but due to size constraints, it is narrower. The Laundry Room fits between the Garage and Bathroom to maximize use of available space. All coordinates are within the parent space, there is no overlap and all subitems touch walls, ensuring efficient space usage."
+}

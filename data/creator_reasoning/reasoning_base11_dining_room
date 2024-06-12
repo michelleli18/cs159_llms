@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Dining Room",
+    "coordinates": [-7, 14, -1, 19],
+    "children": [
+      {
+        "name": "Dining Table",
+        "coordinates": [-6, 17, -2, 19]
+      },
+      {
+        "name": "Chairs 1",
+        "coordinates": [-7, 18, -6, 19]
+      },
+      {
+        "name": "Chairs 2",
+        "coordinates": [-7, 17, -6, 18]
+      },
+      {
+        "name": "Chairs 3",
+        "coordinates": [-2, 17, -1, 18]
+      },
+      {
+        "name": "Chairs 4",
+        "coordinates": [-2, 18, -1, 19]
+      },
+      {
+        "name": "Buffet Table",
+        "coordinates": [-4, 14, -1, 16]
+      },
+      {
+        "name": "China Cabinet",
+        "coordinates": [-7, 14, -3, 16]
+      }
+    ]
+  },
+  "reasoning": "The Dining Room dimensions are [-7, 14, -1, 19], providing a rectangular area for placing the subitems. The Dining Table is the largest item (size 7), so it is centrally located to serve its main function in the Dining Room, touching the top wall for spatial efficiency. The Chairs, being smaller (size 2), are duplicated into four chairs and placed around the Dining Table, allowing practical seating arrangement for diners. The Buffet Table (size 5) and China Cabinet (size 4) are located along available walls; the Buffet Table is placed on the right side of the room touching both the bottom and right walls, while the China Cabinet is placed along the bottom left corner, touching the left and bottom walls. This arrangement ensures there is no overlap and efficiently uses all available space in the room, aligning with the architectural priority of maximizing usability while maintaining logical placement of items often found near each other in a dining environment."
+}

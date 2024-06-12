@@ -1,0 +1,15 @@
+{
+  "layout": {
+    "name": "Guest Bedroom",
+    "coordinates": [14, 6, 22, 12],
+    "children": [
+      {"name": "Bed", "coordinates": [14, 6, 18, 9]},
+      {"name": "Dresser", "coordinates": [18, 6, 21, 8]},
+      {"name": "Nightstand", "coordinates": [14, 9, 16, 11]},
+      {"name": "Desk", "coordinates": [16, 9, 19, 12]},
+      {"name": "Bookshelf", "coordinates": [19, 9, 22, 12]},
+      {"name": "Closet", "coordinates": [21, 6, 22, 9]}
+    ]
+  },
+  "reasoning": "The Bed, being one of the larger items, is placed in the lower left corner of the Guest Bedroom and takes up a considerable amount of space. The Dresser is placed next to the Bed, allowing for practical use of space and realistic access. The Nightstand is placed next to the Bed, ensuring easy accessibility. The Desk is placed on the upper left corner with the Bookshelf next to it, allowing for a comfortable workspace. The Closet is placed in one of the remaining spaces, making use of an area that allows for easy reach without obstructing other items. Each item has been carefully placed to ensure no overlap and full usage of the available space, while maintaining logical and practical placements."
+}

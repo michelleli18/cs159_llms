@@ -1,0 +1,21 @@
+{
+    "layout": {
+        "name": "Treehouse",
+        "coordinates": [4, 6, 6, 8],
+        "children": [
+            {
+                "name": "Main Tree",
+                "coordinates": [4, 6, 5, 8]
+            },
+            {
+                "name": "Treehouse Structure",
+                "coordinates": [5, 6, 6, 7]
+            },
+            {
+                "name": "Balcony",
+                "coordinates": [5, 7, 6, 8]
+            }
+        ]
+    },
+    "reasoning": "The 'Main Tree' uses the most area since it is the largest element with a size of 10 relative to the size of the treehouse. It is placed along the left side to provide structural support. The 'Treehouse Structure' at size 7 is placed immediately to the right of 'Main Tree' to make efficient use of the area, touching the bottom-right part of the parent space. The 'Balcony' at size 4 is placed above the 'Treehouse Structure,' making logical sense for a balcony to overlook the area and to cover the higher portion of the space. The 'Ladder' was not included as the area left did not fit an integral coordinate division without using decimals. The 'Rope Bridge' and 'Observation Deck' were omitted as their sizes and coordinate fit were not practical within the defined space. Placing these items in their respective positions ensures all space is efficiently covered without overlapping and maintains logical structural integrity for practical use as a treehouse."
+}

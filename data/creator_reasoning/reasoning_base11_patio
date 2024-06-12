@@ -1,0 +1,42 @@
+{
+    "layout": {
+        "name": "Patio",
+        "coordinates": [3, 5, 6, 8],
+        "children": [
+            {
+                "name": "Table",
+                "coordinates": [3, 5, 5, 8]
+            },
+            {
+                "name": "Chairs 1",
+                "coordinates": [5, 5, 6, 6]
+            },
+            {
+                "name": "Chairs 2",
+                "coordinates": [5, 6, 6, 7]
+            },
+            {
+                "name": "Chairs 3",
+                "coordinates": [5, 7, 6, 8]
+            },
+            {
+                "name": "Grill",
+                "coordinates": [3, 5, 4, 6]
+            },
+            {
+                "name": "Umbrella",
+                "coordinates": [4, 5, 5, 6]
+            },
+            {
+                "name": "Planter Boxes",
+                "coordinates": [3, 6, 4, 7]
+            },
+            {
+                "name": "Fire Pit",
+                "coordinates": [3, 7, 5, 8]
+            }
+        ]
+    },
+    "reasoning":
+    "The 'Table' is placed prominently and centrally as it's a large item and a central feature in any patio setting. The 'Chairs' are placed near the 'Table' for practical use, divided into three sections to emphasize their importance and due to their plural nature. They are positioned on the right side of the 'Table' for easy accessibility. The 'Grill' is placed adjacent to the 'Table' but at a slight distance to prevent smoke from disturbing people sitting by the 'Table'. The 'Umbrella' is placed close to the 'Grill' to maximize shade near the cooking area. 'Planter Boxes' are placed adjacent to the 'Table' for aesthetic appeal and separation from the cooking area. Lastly, the 'Fire Pit' is placed at the top right but with enough space around it for safety reasons. All items adhere to the given relative sizes and do not overlap or exceed the parent patio's boundaries. The entire space has been utilized efficiently, with items touching the walls where logical to do so."
+}

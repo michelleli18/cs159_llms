@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Swimming Pool",
+    "coordinates": [0, 5, 3, 8],
+    "children": [
+      {
+        "name": "Main Pool",
+        "coordinates": [0, 5, 3, 7]
+      },
+      {
+        "name": "Kiddie Pool",
+        "coordinates": [0, 7, 1, 8]
+      },
+      {
+        "name": "Diving Board",
+        "coordinates": [2, 7, 3, 8]
+      },
+      {
+        "name": "Lifeguard Station",
+        "coordinates": [1, 7, 2, 8]
+      },
+      {
+        "name": "Changing Rooms",
+        "coordinates": [1, 5, 2, 6]
+      },
+      {
+        "name": "Restrooms",
+        "coordinates": [0, 6, 1, 7]
+      }
+    ]
+  },
+  "reasoning": "The 'Main Pool' occupies most of the available space because it is the central feature of the swimming pool area. It is placed at the bottom to leave room for other features above it. The 'Kiddie Pool' is smaller but still important, so it is placed at the top-left corner for easy access. The 'Diving Board' is adjacent to the 'Main Pool' and is positioned next to the 'Lifeguard Station' for safety reasons. The 'Lifeguard Station' is centrally located at the top edge to cover the entire pool area. The 'Changing Rooms' are placed near the bottom-right corner for easy access to the 'Main Pool'. The 'Restrooms' are next to the 'Changing Rooms' for convenience. The 'Poolside Lounge', 'Snack Bar', 'Equipment Room', and 'Shower Area' could not be included due to space limitations within the given coordinates."
+}

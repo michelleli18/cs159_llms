@@ -1,0 +1,41 @@
+{
+  "layout": {
+    "name": "Pantry",
+    "coordinates": [10, 12, 14, 14],
+    "children": [
+      {
+        "name": "Shelves 1",
+        "coordinates": [10, 12, 11, 13]
+      },
+      {
+        "name": "Shelves 2",
+        "coordinates": [11, 12, 12, 13]
+      },
+      {
+        "name": "Shelves 3",
+        "coordinates": [12, 12, 13, 13]
+      },
+      {
+        "name": "Cabinets 1",
+        "coordinates": [13, 12, 14, 13]
+      },
+      {
+        "name": "Cabinets 2",
+        "coordinates": [10, 13, 11, 14]
+      },
+      {
+        "name": "Cabinets 3",
+        "coordinates": [11, 13, 12, 14]
+      },
+      {
+        "name": "Countertops",
+        "coordinates": [12, 13, 14, 14]
+      },
+      {
+        "name": "Refrigerator",
+        "coordinates": [10, 12, 11, 14]
+      }
+    ]
+  },
+  "reasoning": "Using the given relative sizes, the 'Shelves' was the smallest item and has been split into three sections (Shelves 1, Shelves 2, Shelves 3), each taking full width and 1/2 height, aligned at the bottom. The 'Cabinets' was the next smallest and thus split into three sections (Cabinets 1, Cabinets 2, Cabinets 3), proceeding from right to left to avoid overlap and make logical use of shape. The 'Countertops' was a larger item and occupied the remaining corner space up to the top right while still keeping against the walls of the pantry. 'Refrigerator' has been placed adjacent to the Shelves at the bottom. This arrangement is logical for a pantry, where shelves and cabinets are lined on walls and refrigerators are easily accessible. The design ensures no overlaps while covering almost all the wall space of the pantry, taking into account relative sizes and practical functionalities."
+}

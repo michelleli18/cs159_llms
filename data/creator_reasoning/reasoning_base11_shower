@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Shower",
+    "coordinates": [-37, 11, -35, 13],
+    "children": [
+      {
+        "name": "Shower Floor",
+        "coordinates": [-37, 11, -35, 13]
+      },
+      {
+        "name": "Shower Curtain",
+        "coordinates": [-37, 11, -35, 12]
+      },
+      {
+        "name": "Showerhead",
+        "coordinates": [-37, 12, -36, 13]
+      },
+      {
+        "name": "Soap Dish",
+        "coordinates": [-36, 12, -35, 13]
+      },
+      {
+        "name": "Shampoo Bottle",
+        "coordinates": [-37, 11, -36, 12]
+      }
+    ]
+  },
+  "reasoning": "The 'Shower Floor' covers the entire space of the shower (coordinates: [-37, 11, -35, 13]) as it is the largest subitem and provides footing. The 'Shower Curtain' is placed along one wall (coordinates: [-37, 11, -35, 12]) since it's needed to contain water. The 'Showerhead' is logically placed higher up (coordinates: [-37, 12, -36, 13]) to ensure water flow, while the 'Soap Dish' is placed next to it (coordinates: [-36, 12, -35, 13]) for easy access. The 'Shampoo Bottle' is placed at a reachable height (coordinates: [-37, 11, -36, 12]) near the 'Shower Curtain' to save space and provide convenience. Efficient placement ensures no overlapping and maximizes usability of the space."
+}

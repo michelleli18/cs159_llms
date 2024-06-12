@@ -1,0 +1,1094 @@
+{
+    "name": "Houses 2",
+    "coordinates": [
+        -15,
+        5,
+        6,
+        19
+    ],
+    "children": [
+        {
+            "name": "Living Room",
+            "coordinates": [
+                -15,
+                14,
+                -7,
+                19
+            ],
+            "children": [
+                {
+                    "name": "Sofa",
+                    "coordinates": [
+                        -15,
+                        18,
+                        -11,
+                        19
+                    ]
+                },
+                {
+                    "name": "Tv Stand",
+                    "coordinates": [
+                        -11,
+                        18,
+                        -7,
+                        19
+                    ]
+                },
+                {
+                    "name": "Coffee Table",
+                    "coordinates": [
+                        -13,
+                        16,
+                        -9,
+                        18
+                    ]
+                },
+                {
+                    "name": "Bookshelf",
+                    "coordinates": [
+                        -15,
+                        14,
+                        -11,
+                        16
+                    ]
+                },
+                {
+                    "name": "Armchair",
+                    "coordinates": [
+                        -11,
+                        14,
+                        -7,
+                        16
+                    ]
+                },
+                {
+                    "name": "Side Table",
+                    "coordinates": [
+                        -13,
+                        17,
+                        -11,
+                        18
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Dining Room",
+            "coordinates": [
+                -7,
+                14,
+                -1,
+                19
+            ],
+            "children": [
+                {
+                    "name": "Dining Table",
+                    "coordinates": [
+                        -6,
+                        17,
+                        -2,
+                        19
+                    ]
+                },
+                {
+                    "name": "Chairs 1",
+                    "coordinates": [
+                        -7,
+                        18,
+                        -6,
+                        19
+                    ]
+                },
+                {
+                    "name": "Chairs 2",
+                    "coordinates": [
+                        -7,
+                        17,
+                        -6,
+                        18
+                    ]
+                },
+                {
+                    "name": "Chairs 3",
+                    "coordinates": [
+                        -2,
+                        17,
+                        -1,
+                        18
+                    ]
+                },
+                {
+                    "name": "Chairs 4",
+                    "coordinates": [
+                        -2,
+                        18,
+                        -1,
+                        19
+                    ]
+                },
+                {
+                    "name": "Buffet Table",
+                    "coordinates": [
+                        -4,
+                        14,
+                        -1,
+                        16
+                    ]
+                },
+                {
+                    "name": "China Cabinet",
+                    "coordinates": [
+                        -7,
+                        14,
+                        -3,
+                        16
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Kitchen",
+            "coordinates": [
+                -1,
+                14,
+                6,
+                19
+            ],
+            "children": [
+                {
+                    "name": "Refrigerator",
+                    "coordinates": [
+                        5,
+                        16,
+                        6,
+                        19
+                    ]
+                },
+                {
+                    "name": "Oven",
+                    "coordinates": [
+                        2,
+                        17,
+                        4,
+                        19
+                    ]
+                },
+                {
+                    "name": "Stove",
+                    "coordinates": [
+                        0,
+                        17,
+                        2,
+                        19
+                    ]
+                },
+                {
+                    "name": "Sink",
+                    "coordinates": [
+                        4,
+                        14,
+                        6,
+                        16
+                    ]
+                },
+                {
+                    "name": "Kitchen Island",
+                    "coordinates": [
+                        -1,
+                        17,
+                        3,
+                        18
+                    ]
+                },
+                {
+                    "name": "Countertop",
+                    "coordinates": [
+                        -1,
+                        15,
+                        5,
+                        17
+                    ]
+                },
+                {
+                    "name": "Dishwasher",
+                    "coordinates": [
+                        5,
+                        14,
+                        6,
+                        15
+                    ]
+                },
+                {
+                    "name": "Pantry",
+                    "coordinates": [
+                        -1,
+                        14,
+                        2,
+                        15
+                    ]
+                },
+                {
+                    "name": "Cabinet",
+                    "coordinates": [
+                        0,
+                        15,
+                        4,
+                        17
+                    ]
+                },
+                {
+                    "name": "Microwave",
+                    "coordinates": [
+                        2,
+                        16,
+                        4,
+                        17
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Master Bedroom",
+            "coordinates": [
+                -15,
+                8,
+                -2,
+                14
+            ],
+            "children": [
+                {
+                    "name": "Bed",
+                    "coordinates": [
+                        -15,
+                        10,
+                        -8,
+                        14
+                    ]
+                },
+                {
+                    "name": "Wardrobe",
+                    "coordinates": [
+                        -8,
+                        12,
+                        -2,
+                        14
+                    ]
+                },
+                {
+                    "name": "Dresser",
+                    "coordinates": [
+                        -8,
+                        10,
+                        -2,
+                        12
+                    ]
+                },
+                {
+                    "name": "Nightstand",
+                    "coordinates": [
+                        -8,
+                        8,
+                        -5,
+                        10
+                    ]
+                },
+                {
+                    "name": "Bookshelf",
+                    "coordinates": [
+                        -15,
+                        8,
+                        -10,
+                        10
+                    ]
+                },
+                {
+                    "name": "Desk",
+                    "coordinates": [
+                        -10,
+                        8,
+                        -5,
+                        10
+                    ]
+                },
+                {
+                    "name": "Chair",
+                    "coordinates": [
+                        -5,
+                        8,
+                        -2,
+                        9
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Guest Bedroom",
+            "coordinates": [
+                -2,
+                8,
+                6,
+                14
+            ],
+            "children": [
+                {
+                    "name": "Bed",
+                    "coordinates": [
+                        -2,
+                        8,
+                        2,
+                        14
+                    ]
+                },
+                {
+                    "name": "Nightstand",
+                    "coordinates": [
+                        2,
+                        8,
+                        4,
+                        10
+                    ]
+                },
+                {
+                    "name": "Dresser",
+                    "coordinates": [
+                        4,
+                        8,
+                        6,
+                        12
+                    ]
+                },
+                {
+                    "name": "Wardrobe",
+                    "coordinates": [
+                        2,
+                        10,
+                        6,
+                        14
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bathroom",
+            "coordinates": [
+                -12,
+                5,
+                -9,
+                8
+            ],
+            "children": [
+                {
+                    "name": "Bathtub",
+                    "coordinates": [
+                        -12,
+                        6,
+                        -10,
+                        8
+                    ]
+                },
+                {
+                    "name": "Shower",
+                    "coordinates": [
+                        -12,
+                        5,
+                        -10,
+                        6
+                    ]
+                },
+                {
+                    "name": "Toilet",
+                    "coordinates": [
+                        -10,
+                        5,
+                        -9,
+                        6
+                    ]
+                },
+                {
+                    "name": "Sink",
+                    "coordinates": [
+                        -11,
+                        5,
+                        -10,
+                        6
+                    ]
+                },
+                {
+                    "name": "Cabinet",
+                    "coordinates": [
+                        -11,
+                        6,
+                        -10,
+                        8
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Laundry Room",
+            "coordinates": [
+                -9,
+                5,
+                -6,
+                8
+            ],
+            "children": [
+                {
+                    "name": "Washing Machine",
+                    "coordinates": [
+                        -9,
+                        7,
+                        -8,
+                        8
+                    ]
+                },
+                {
+                    "name": "Dryer",
+                    "coordinates": [
+                        -8,
+                        7,
+                        -7,
+                        8
+                    ]
+                },
+                {
+                    "name": "Laundry Sink",
+                    "coordinates": [
+                        -7,
+                        7,
+                        -6,
+                        8
+                    ]
+                },
+                {
+                    "name": "Folding Table",
+                    "coordinates": [
+                        -9,
+                        5,
+                        -8,
+                        7
+                    ]
+                },
+                {
+                    "name": "Clothing Rack",
+                    "coordinates": [
+                        -8,
+                        5,
+                        -7,
+                        7
+                    ]
+                },
+                {
+                    "name": "Laundry Basket",
+                    "coordinates": [
+                        -7,
+                        5,
+                        -6,
+                        6
+                    ]
+                },
+                {
+                    "name": "Cabinet",
+                    "coordinates": [
+                        -7,
+                        6,
+                        -6,
+                        7
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Garage",
+            "coordinates": [
+                -6,
+                5,
+                0,
+                8
+            ],
+            "children": [
+                {
+                    "name": "Car",
+                    "coordinates": [
+                        -6,
+                        5,
+                        -3,
+                        8
+                    ]
+                },
+                {
+                    "name": "Workbench",
+                    "coordinates": [
+                        -3,
+                        5,
+                        -1,
+                        7
+                    ]
+                },
+                {
+                    "name": "Storage Shelves 1",
+                    "coordinates": [
+                        -6,
+                        7,
+                        -4,
+                        8
+                    ]
+                },
+                {
+                    "name": "Storage Shelves 2",
+                    "coordinates": [
+                        -4,
+                        7,
+                        -2,
+                        8
+                    ]
+                },
+                {
+                    "name": "Storage Shelves 3",
+                    "coordinates": [
+                        -2,
+                        7,
+                        0,
+                        8
+                    ]
+                },
+                {
+                    "name": "Lawn Mower",
+                    "coordinates": [
+                        -3,
+                        5,
+                        0,
+                        7
+                    ]
+                },
+                {
+                    "name": "Bicycle",
+                    "coordinates": [
+                        -6,
+                        5,
+                        -3,
+                        6
+                    ]
+                },
+                {
+                    "name": "Freezer",
+                    "coordinates": [
+                        -6,
+                        6,
+                        -4,
+                        7
+                    ]
+                },
+                {
+                    "name": "Tool Chest",
+                    "coordinates": [
+                        -4,
+                        6,
+                        -2,
+                        7
+                    ]
+                },
+                {
+                    "name": "Trash Bins 1",
+                    "coordinates": [
+                        -2,
+                        6,
+                        -1,
+                        7
+                    ]
+                },
+                {
+                    "name": "Trash Bins 2",
+                    "coordinates": [
+                        -1,
+                        6,
+                        0,
+                        7
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Front Yard",
+            "coordinates": [
+                -15,
+                5,
+                -9,
+                8
+            ],
+            "children": [
+                {
+                    "name": "House",
+                    "coordinates": [
+                        -15,
+                        7,
+                        -11,
+                        8
+                    ],
+                    "children": [
+                        {
+                            "name": "Living Room",
+                            "coordinates": [
+                                -15,
+                                7,
+                                -14,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Kitchen",
+                            "coordinates": [
+                                -14,
+                                7,
+                                -13,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Bedroom",
+                            "coordinates": [
+                                -13,
+                                7,
+                                -12,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Bathroom",
+                            "coordinates": [
+                                -12,
+                                7,
+                                -11,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Dining Room",
+                            "coordinates": [
+                                -15,
+                                8,
+                                -13,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Garage",
+                            "coordinates": [
+                                -15,
+                                7,
+                                -12,
+                                7
+                            ]
+                        },
+                        {
+                            "name": "Office",
+                            "coordinates": [
+                                -14,
+                                8,
+                                -11,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Laundry Room",
+                            "coordinates": [
+                                -13,
+                                7,
+                                -11,
+                                7
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "House 2",
+                    "coordinates": [
+                        -11,
+                        7,
+                        -9,
+                        8
+                    ]
+                },
+                {
+                    "name": "House 3",
+                    "coordinates": [
+                        -15,
+                        5,
+                        -12,
+                        6
+                    ]
+                },
+                {
+                    "name": "Lawn",
+                    "coordinates": [
+                        -12,
+                        5,
+                        -9,
+                        6
+                    ]
+                },
+                {
+                    "name": "Driveway",
+                    "coordinates": [
+                        -15,
+                        6,
+                        -13,
+                        7
+                    ]
+                },
+                {
+                    "name": "Flower Beds",
+                    "coordinates": [
+                        -13,
+                        6,
+                        -12,
+                        7
+                    ]
+                },
+                {
+                    "name": "Trees",
+                    "coordinates": [
+                        -12,
+                        6,
+                        -11,
+                        7
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Backyard",
+            "coordinates": [
+                0,
+                5,
+                6,
+                8
+            ],
+            "children": [
+                {
+                    "name": "Swimming Pool",
+                    "coordinates": [
+                        0,
+                        5,
+                        3,
+                        8
+                    ],
+                    "children": [
+                        {
+                            "name": "Main Pool",
+                            "coordinates": [
+                                0,
+                                5,
+                                3,
+                                7
+                            ],
+                            "children": [
+                                {
+                                    "name": "Main Pool",
+                                    "coordinates": [
+                                        0,
+                                        5,
+                                        2,
+                                        6
+                                    ]
+                                },
+                                {
+                                    "name": "Pool Deck",
+                                    "coordinates": [
+                                        2,
+                                        5,
+                                        3,
+                                        7
+                                    ]
+                                },
+                                {
+                                    "name": "Lounge Chairs",
+                                    "coordinates": [
+                                        0,
+                                        6,
+                                        1,
+                                        7
+                                    ]
+                                },
+                                {
+                                    "name": "Lounge Chairs 2",
+                                    "coordinates": [
+                                        1,
+                                        6,
+                                        2,
+                                        7
+                                    ]
+                                },
+                                {
+                                    "name": "Changing Rooms",
+                                    "coordinates": [
+                                        2,
+                                        6,
+                                        3,
+                                        7
+                                    ]
+                                },
+                                {
+                                    "name": "Lifeguard Station",
+                                    "coordinates": [
+                                        1,
+                                        5,
+                                        2,
+                                        6
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Kiddie Pool",
+                            "coordinates": [
+                                0,
+                                7,
+                                1,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Diving Board",
+                            "coordinates": [
+                                2,
+                                7,
+                                3,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Lifeguard Station",
+                            "coordinates": [
+                                1,
+                                7,
+                                2,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Changing Rooms",
+                            "coordinates": [
+                                1,
+                                5,
+                                2,
+                                6
+                            ]
+                        },
+                        {
+                            "name": "Restrooms",
+                            "coordinates": [
+                                0,
+                                6,
+                                1,
+                                7
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Patio",
+                    "coordinates": [
+                        3,
+                        5,
+                        6,
+                        8
+                    ],
+                    "children": [
+                        {
+                            "name": "Table",
+                            "coordinates": [
+                                3,
+                                5,
+                                5,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Chairs 1",
+                            "coordinates": [
+                                5,
+                                5,
+                                6,
+                                6
+                            ]
+                        },
+                        {
+                            "name": "Chairs 2",
+                            "coordinates": [
+                                5,
+                                6,
+                                6,
+                                7
+                            ]
+                        },
+                        {
+                            "name": "Chairs 3",
+                            "coordinates": [
+                                5,
+                                7,
+                                6,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Grill",
+                            "coordinates": [
+                                3,
+                                5,
+                                4,
+                                6
+                            ]
+                        },
+                        {
+                            "name": "Umbrella",
+                            "coordinates": [
+                                4,
+                                5,
+                                5,
+                                6
+                            ]
+                        },
+                        {
+                            "name": "Planter Boxes",
+                            "coordinates": [
+                                3,
+                                6,
+                                4,
+                                7
+                            ]
+                        },
+                        {
+                            "name": "Fire Pit",
+                            "coordinates": [
+                                3,
+                                7,
+                                5,
+                                8
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Garden",
+                    "coordinates": [
+                        0,
+                        7,
+                        3,
+                        8
+                    ]
+                },
+                {
+                    "name": "Trampoline 1",
+                    "coordinates": [
+                        0,
+                        5,
+                        3,
+                        6
+                    ]
+                },
+                {
+                    "name": "Trampoline 2",
+                    "coordinates": [
+                        3,
+                        6,
+                        6,
+                        7
+                    ]
+                },
+                {
+                    "name": "Grill",
+                    "coordinates": [
+                        3,
+                        5,
+                        4,
+                        6
+                    ]
+                },
+                {
+                    "name": "Shed",
+                    "coordinates": [
+                        4,
+                        5,
+                        6,
+                        6
+                    ]
+                },
+                {
+                    "name": "Treehouse",
+                    "coordinates": [
+                        4,
+                        6,
+                        6,
+                        8
+                    ],
+                    "children": [
+                        {
+                            "name": "Main Tree",
+                            "coordinates": [
+                                4,
+                                6,
+                                5,
+                                8
+                            ]
+                        },
+                        {
+                            "name": "Treehouse Structure",
+                            "coordinates": [
+                                5,
+                                6,
+                                6,
+                                7
+                            ]
+                        },
+                        {
+                            "name": "Balcony",
+                            "coordinates": [
+                                5,
+                                7,
+                                6,
+                                8
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Sandbox 1",
+                    "coordinates": [
+                        0,
+                        6,
+                        3,
+                        7
+                    ]
+                },
+                {
+                    "name": "Outdoor Furniture Set 1",
+                    "coordinates": [
+                        5,
+                        5,
+                        6,
+                        6
+                    ]
+                },
+                {
+                    "name": "Outdoor Furniture Set 2",
+                    "coordinates": [
+                        4,
+                        7,
+                        6,
+                        8
+                    ]
+                },
+                {
+                    "name": "Outdoor Furniture Set 3",
+                    "coordinates": [
+                        3,
+                        7,
+                        4,
+                        8
+                    ]
+                }
+            ]
+        }
+    ]
+}

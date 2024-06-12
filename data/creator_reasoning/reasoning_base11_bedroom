@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Bedroom",
+    "coordinates": [-35, 7, -21, 9],
+    "children": [
+      {
+        "name": "Bed",
+        "coordinates": [-35, 7, -27, 9]
+      },
+      {
+        "name": "Dresser",
+        "coordinates": [-27, 7, -21, 8]
+      },
+      {
+        "name": "Nightstand",
+        "coordinates": [-27, 8, -25, 9]
+      },
+      {
+        "name": "Desk",
+        "coordinates": [-25, 8, -21, 9]
+      },
+      {
+        "name": "Wardrobe",
+        "coordinates": [-27, 7, -21, 8]
+      }
+    ]
+  },
+  "reasoning": "The 'Bed' is placed along the left wall because it is one of the largest pieces and needs to be easily accessible. Adjacent to the bed, to the bottom right, is the 'Nightstand' because it is commonly placed next to beds for convenience. The 'Wardrobe' is placed in the middle as it is another large item and needs ample space. 'Desk' is placed on the right side in the front corner for easy access and natural lighting from nearby window (assuming one is present in the bedroom). The 'Dresser' is placed next to the 'Wardrobe'. The 'Bookshelf' is excluded as all other items just fit within the available space."
+}

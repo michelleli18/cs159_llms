@@ -69,6 +69,7 @@ class Creator():
         """
 
     # FIELDS AND PROMPTS FOR INTEGRATING WITH PERSONA
+        self.no_bounds = False
         self.top_json = ""
         self.persona_activity_response = ""        
         self.provide_top_level_map_prompt = "The current JSON map is as follows: \n{}\n" 
@@ -83,12 +84,42 @@ class Creator():
         """
 
         self.new_place_prompt = f"""
-        What is a better place that {self.persona_name} can do their activity that also would fit in with the rest of the places on the map?
+        What is a better place that is not on the map where {self.persona_name} can do their activity that also would fit in with the rest of the places on the map? Explain your rationale in detail. Only give your answer and reasoning.
         """
 
         self.extract_new_place_name_prompt = """
         What is the name of the place being described? Only list the name and limit the name to no more than 4 words. Capitalize the name.
         """
+
+        self.size_estimate_prompt = """
+        Given the area and size of the places on the map and how large the average {} is compared to the places on the map, estimate the area and size of the average {} if it was scaled onto the map. Vividly picture how it would look if it was put onto the existing map and how it would compare in size to the things around it. Explain your rationale in detail using the area and sizes of places on the map.
+        """
+
+        self.is_there_space_prompt = """
+        The map is confined to the coordinates {} where these 4 coordinates define a rectangular space: [bottom_left_corner_x, bottom_left_corner_y, top_right_corner_x, top_right_corner_y]. This has an area of {}. No places can have coordinates outside of these coordinates, and no places can overlap! *If any place has coordinates outside of these coordinates or coordinates that overlap with other places, it CANNOT fit on the map.* 
+
+        Think about which specific places on the map a {} would be placed next to for more people to make use of it. Considering the size of a {} and the places it should be next to, is there enough space on the map to add a {}?
+        """
+        self.extract_enough_space_prompt = """
+        If there’s enough space, return 1 for True, and 0 for False. *LIMIT YOUR RESPONSE TO 1 OR 0 and ONLY RETURN THAT SINGLE CHARACTER* The answer can be inferred from the information you’ve considered so far.        
+        """
+
+        self.put_new_place_prompt = '''
+        You are now a *urban planner* with decades of experience. Your job is to masterfully place the {} on the map in a way that is realistic, modern, and space-efficient. I am your boss and your contractor. If your performance is poor, you will not get paid and will be fired immediately. Thus, you must follow what I say to the best of your ability in order to map out the best place possible. 
+
+        Consider the area of the {} and the places it should be close to on the map. Given these considerations, add the {} on the map where it fits best and output the resulting JSON element containing the name and coordinates in the same format as the current JSON map. The JSON element should contain the name {} exactly as is and the rectangle of 4 coordinates representing its location. To be more specific, all coordinates are defined in the following form to define a rectangular space: [bottom_left_corner_x, bottom_left_corner_y, top_right_corner_x, top_right_corner_y].  *The coordinates of the place CANNOT overlap with existing places. If it does, you\'ll be immediately fired.* Also, provide an explanation of why you chose to place it in the specific location and make it the specific size. This reasoning should address all considerations explained above.
+
+        Return your answer in the following format and only return this: "{{"layout": your answer in JSON object form, "reasoning": reasoning of why you placed the item all stored in exactly 1 string}}". Leave out the ```json ``` when you return your response as well, but always make sure to have the curly brackets wrapping the whole answer, ie {{}} at the beginning and end of final answer. Do not use special formatting in your answer either, such as double star for bolding. Remember the two keys of layout should always be "name" and "coordinates".
+        \n'''
+
+        self.specify_put_bounded_prompt = """"
+        You must place the {} within the bounds of the map. That is, the coordinates of the place must fulfill these requirements: bottom_left_corner_x <= x <= top_right_corner_x, bottom_left_corner_y <= y <= top_right_corner_y. This is the most important consideration.
+        """
+
+        self.specify_put_anywhere_prompt = """"
+        You can put the {} anywhere you would like according to your judgment as a skilled architect. There is no bound on the coordinates; however, it is usually better to build new places closer to existing places on the map. Think about which specific places it should be placed next to for more people to make use of it.
+        """
+
 
     # DETERMINE NEW PLACE FUNCTIONS
     
@@ -114,6 +145,9 @@ class Creator():
             children_copy.append(child_copy)
         self.top_json["children"] = children_copy
 
+        if self.no_bounds:
+            self.top_json["coordinates"] = [-1000, -1000, 1000, 1000]
+
     
     def choose_best_place(self):
         self.best_place_response = ChatGPT_request(
@@ -138,13 +172,13 @@ class Creator():
 
 
     def generate_new_place_name(self):
-        new_place_response = ChatGPT_request(
+        self.new_place_response = ChatGPT_request(
             self.provide_top_level_map_prompt.format(str(self.top_json))
             + self.provide_persona_activity_prompt.format(self.persona_activity_response)
-            + self.best_place_response + 
+            + self.best_place_response
             + self.new_place_prompt)
         
-        self.new_place_name = ChatGPT_request(new_place_response + 
+        self.new_place_name = ChatGPT_request(self.new_place_response
             + self.extract_new_place_name_prompt)
 
 
@@ -152,6 +186,7 @@ class Creator():
     # Returns False if not, True if so
     # If True, name of the place is in self.new_place_name after running this
     # Assumes self.persona_activity_response has already been set
+    # Used for Experiment 1 and 2
     def determine_new_place(self):
         self.extract_top_level_map_json()
         self.choose_best_place()
@@ -166,11 +201,153 @@ class Creator():
         return True
         
 
+    # Used in both Experiment 1 and 2
+    def estimate_new_place_size(self):
+        self.size_estimate_response = ChatGPT_request(
+            self.provide_top_level_map_prompt.format(str(self.top_json))
+            + self.new_place_response
+            + self.size_estimate_prompt.format(self.new_place_name, self.new_place_name))
+    
+
+
+    # EXPERIMENT 1 SPECIFIC FUNCTIONS: ADDING NEW PLACE WITH HARD BOUNDARY
+
+    # Determines if there is enough space for the proposed new place to be added
+    # Returns False if not, True if so
+    def determine_enough_space(self):
+        self.estimate_new_place_size()
+
+        coors = self.map_json["coordinates"]
+        area = (coors[2] - coors[0]) * (coors[3] - coors[1])
+        
+        self.is_there_space_response = ChatGPT_request(
+            self.provide_top_level_map_prompt.format(str(self.top_json)) + self.size_estimate_response 
+            + self.is_there_space_prompt.format(str(coors), str(area), self.new_place_name, self.new_place_name, self.new_place_name))
+        
+        while True:
+            extract_enough_space_response = ChatGPT_request(self.extract_enough_space_prompt)
+            
+            try: 
+                self.is_enough_space = int(extract_enough_space_response)
+                return self.is_enough_space == 1
+            except Exception as e:
+                print(e)
+                print(f"FAILED ATTEMPT AT EXTRACTING ENOUGH SPACE ANSWER FOR:\n{self.persona_activity_response}\n\n{extract_enough_space_response}\nTRYING AGAIN..")
+                continue
+    
+    
+    def generate_new_place_bounded_json(self):
+        piece = self.put_new_place_prompt.format(self.new_place_name, self.new_place_name, self.new_place_name, self.new_place_name)
+        while True:
+            planner_response = ChatGPT_request(
+            self.provide_top_level_map_prompt.format(str(self.top_json)) 
+                + self.size_estimate_response + self.is_there_space_response
+                + piece
+                + self.specify_put_bounded_prompt.format(self.new_place_name))
+        
+            try: 
+                # Make sure returned json matches with our base object
+                self.planner_response_json = json.loads(planner_response)
+                assert "layout" in self.planner_response_json
+                assert "reasoning" in self.planner_response_json
+                assert self.planner_response_json["layout"]['name'] == self.new_place_name
+                assert "coordinates" in self.planner_response_json["layout"]
+
+                break
+            except Exception as e:
+                print(e)
+                print(f"FAILED ATTEMPT AT GENERATING NEW PLACE FOR {self.new_place_name}: \n{planner_response}\nTRYING AGAIN..")
+                continue
+
+
+    # MAIN FUNCTION FOR THE EXPERIMENT 1
+    # Updates and returns the original map json with the new place added
+    # Assumes there's already enough space 
+    # Saves if filepath is set
+    def add_place_bounded(self, filepath=None):
+        self.generate_new_place_bounded_json()
+        new_place = self.planner_response_json["layout"]
+
+        place_map_generator = Creator(self.persona_name, new_place)
+        generated_map = place_map_generator.create_map(save=False, include_reasoning=True)
+        new_place["children"] = generated_map["children"]
+
+        new_place["placement_reasoning"] = self.planner_response_json["reasoning"]
+
+        self.map_json["children"].append(new_place)
+        
+        print("SUCCESSFULLY GENERATED NEW PLACE FOR: " + self.new_place_name)
+        print(new_place)
+
+        if filepath != None:
+            with open(filepath, 'w') as f:
+                json.dump(self.map_json, f, indent=4)
+
+        return self.map_json
 
         
         
 
+    # EXPERIMENT 2 SPECIFIC FUNCTIONS: ADDING NEW PLACE ANYWHERE
+    
+    def set_no_bounds(self):
+        self.no_bounds = True
 
+
+    def generate_new_place_anywhere_json(self):
+        while True:
+            planner_response = ChatGPT_request(
+            self.provide_top_level_map_prompt.format(str(self.top_json)) + self.size_estimate_response 
+                + self.put_new_place_prompt.format(self.new_place_name, self.new_place_name, self.new_place_name, self.new_place_name)
+                + self.specify_put_anywhere_prompt.format(self.new_place_name))
+        
+            try: 
+                # Make sure returned json matches with our base object
+                self.planner_response_json = json.loads(planner_response)
+                assert "layout" in self.planner_response_json
+                assert "reasoning" in self.planner_response_json
+                assert self.planner_response_json["layout"]['name'] == self.new_place_name
+                assert "coordinates" in self.planner_response_json["layout"]
+
+                break
+            except Exception as e:
+                print(e)
+                print(f"FAILED ATTEMPT AT GENERATING NEW PLACE FOR {self.new_place_name}: \n{planner_response}\nTRYING AGAIN..")
+                continue
+
+
+    # MAIN FUNCTION FOR THE EXPERIMENT 2
+    # Updates and returns the original map json with the new place added
+    # Saves if filepath is set
+    def add_place_anywhere(self, filepath=None):
+        def update_coords(original, new):
+            x1, y1, x2, y2 = original
+            a1, b1, a2, b2 = new
+            return [min(x1, a1 - 1), min(y1, b1 - 1), (x2, a2 + 1), (y2, b2 + 1)]
+        
+        self.estimate_new_place_size()
+
+        self.generate_new_place_anywhere_json()
+        new_place = self.planner_response_json["layout"]
+
+        place_map_generator = Creator(self.persona_name, new_place)
+        generated_map = place_map_generator.create_map(save=False, include_reasoning=True)
+        new_place["children"] = generated_map["children"]
+
+        new_place["placement_reasoning"] = self.planner_response_json["reasoning"]
+
+        self.map_json["children"].append(new_place)
+
+        self.map_json["coordinates"] = update_coords(self.map_json["coordinates"], new_place["coordinates"])
+        
+        print("SUCCESSFULLY GENERATED NEW PLACE FOR: " + self.new_place_name)
+        print(new_place)
+
+        if filepath != None:
+            with open(filepath, 'w') as f:
+                json.dump(self.map_json, f, indent=4)
+
+        return self.map_json
 
 
 
@@ -300,7 +477,7 @@ class Creator():
     
 
     # Displays map using MatPlotLib and saves png image of generated map
-    def display_map(self, save=True):
+    def display_map(self, save=True, filepath=None):
         def rand_color():
             return (random.random(), random.random(), random.random())
         
@@ -351,8 +528,12 @@ class Creator():
         ax.grid(True)
         plt.gca().set_aspect('equal', adjustable='box')
         
-        if save:
+        if filepath != None:
+            plt.savefig(filepath)
+
+        elif save:
             plt.savefig(f"{map_dir}/final_map_" + self.file_tag + ".png")
+        
 
         plt.show()
 

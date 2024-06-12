@@ -1,0 +1,41 @@
+{
+  "layout": {
+    "name": "House",
+    "coordinates": [-15, 7, -11, 8],
+    "children": [
+      {
+        "name": "Living Room",
+        "coordinates": [-15, 7, -14, 8]
+      },
+      {
+        "name": "Kitchen",
+        "coordinates": [-14, 7, -13, 8]
+      },
+      {
+        "name": "Bedroom",
+        "coordinates": [-13, 7, -12, 8]
+      },
+      {
+        "name": "Bathroom",
+        "coordinates": [-12, 7, -11, 8]
+      },
+      {
+        "name": "Dining Room",
+        "coordinates": [-15, 8, -13, 8]
+      },
+      {
+        "name": "Garage",
+        "coordinates": [-15, 7, -12, 7]
+      },
+      {
+        "name": "Office",
+        "coordinates": [-14, 8, -11, 8]
+      },
+      {
+        "name": "Laundry Room",
+        "coordinates": [-13, 7, -11, 7]
+      }
+    ]
+  },
+  "reasoning": "To ensure all children are within the boundary of the parent and no subitems overlap, the items were placed next to each other, making efficient use of the available space. Given that the 'House' has coordinates [-15, 7, -11, 8], each subitem was positioned to touch the walls of the house. The 'Living Room', 'Kitchen', 'Bedroom', and 'Bathroom' were positioned on the left side of the house given their relative sizes, followed by 'Dining Room', which was placed adjacent to the 'Living Room' to create a common area. The 'Garage' was placed touching the lower wall of the house since it needs easy access from the outside. The 'Office' was placed next to the 'Kitchen' for convenience. Lastly, the 'Laundry Room' was placed close to the 'Bedroom' and 'Bathroom' for practical reasons. All coordinates were carefully chosen to be integers as required."
+}

@@ -1,0 +1,17 @@
+{
+  "layout": {
+    "name": "Balcony",
+    "coordinates": [12, 6, 14, 8],
+    "children": [
+      {"name": "Table", "coordinates": [12, 7, 13, 8]},
+      {"name": "Grill", "coordinates": [13, 7, 14, 8]},
+      {"name": "Chairs 1", "coordinates": [12, 6, 12, 7]},
+      {"name": "Chairs 2", "coordinates": [13, 6, 13, 7]},
+      {"name": "Chairs 3", "coordinates": [14, 6, 14, 7]},
+      {"name": "Plant Pots 1", "coordinates": [12, 6, 12, 6]},
+      {"name": "Plant Pots 2", "coordinates": [12, 6, 12, 6]},
+      {"name": "Plant Pots 3", "coordinates": [12, 6, 12, 6]}
+    ]
+  },
+  "reasoning": "The Table and Grill are placed on the upper side of the balcony since these are larger items and occupy the top-right and top-left corners respectively. These spots make them easily accessible. The three Chair items are small but require individual distinct spaces, thus they are placed in the lower side of the balcony from left to right. The Plant Pots, having the smallest size, are split into three to meet the requirement of plural items and fit naturally in the remaining spaces left on the bottom, touching the walls and not overlapping with other items. This layout ensures no overlapping, fills up the available space while maintaining a realistic arrangement, which allows for a modern and space-efficient design."
+}

@@ -1,0 +1,49 @@
+{
+"layout": {
+    "name": "Houses 2",
+    "coordinates": [-15, 5, 6, 19],
+    "children": [
+        {
+            "name": "Living Room",
+            "coordinates": [-15, 14, -7, 19]
+        },
+        {
+            "name": "Dining Room",
+            "coordinates": [-7, 14, -1, 19]
+        },
+        {
+            "name": "Kitchen",
+            "coordinates": [-1, 14, 6, 19]
+        },
+        {
+            "name": "Master Bedroom",
+            "coordinates": [-15, 8, -2, 14]
+        },
+        {
+            "name": "Guest Bedroom",
+            "coordinates": [-2, 8, 6, 14]
+        },
+        {
+            "name": "Bathroom",
+            "coordinates": [-12, 5, -9, 8]
+        },
+        {
+            "name": "Laundry Room",
+            "coordinates": [-9, 5, -6, 8]
+        },
+        {
+            "name": "Garage",
+            "coordinates": [-6, 5, 0, 8]
+        },
+        {
+            "name": "Front Yard",
+            "coordinates": [-15, 5, -9, 8]
+        },
+        {
+            "name": "Backyard",
+            "coordinates": [0, 5, 6, 8]
+        }
+    ]
+},
+"reasoning": "The Living Room, Dining Room, and Kitchen are placed at the top as they are common areas and benefit from being central and easily accessible. The Master Bedroom and Guest Bedroom are placed in the middle so they are easy to access but still provide privacy. The Bathroom is placed next to the bedrooms for convenience. The Laundry Room is positioned near the living areas for ease of use. The Garage is placed for easy access and transition to outdoor spaces. Front Yard and Backyard are set in remaining spaces to cover the area efficiently and provide outdoor spaces. All items are arranged to logically mimic real-world placement and are within the boundaries of the parent item without any overlap."
+}

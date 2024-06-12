@@ -1,0 +1,21 @@
+{
+"layout": {
+	"name": "Administration Office",
+	"coordinates": [36, 25, 38, 27],
+	"children": [
+		{
+			"name": "Reception Desk",
+			"coordinates": [36, 26, 37, 27]
+		},
+		{
+			"name": "Manager Office",
+			"coordinates": [37, 26, 38, 27]
+		},
+		{
+			"name": "Meeting Room",
+			"coordinates": [36, 25, 38, 26]
+		}
+	]
+},
+"reasoning": "Given the tight constraints of the Administration Office boundaries [36, 25, 38, 27] and the need to accommodate relatively large subitems, only three major subitems could fit. The Reception Desk and Management Office are critical for any administration office and are placed near the top corners for easy accessibility. They also take up vertically elongated spaces consistent with their functions. The Meeting Room is stationed along the entire bottom length, providing ample space for large gatherings and facilitating collaboration. This layout efficiently utilizes the entire space and ensures all subitems are within boundaries. The Break Room, Copy Room, Storage Room, Restrooms, and Workstations couldn't be included due to spatial constraints, and need larger or multiple segments to fit."
+}
