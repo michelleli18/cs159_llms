@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Toilet Stalls 2",
+    "coordinates": [1, -22, 3, -20],
+    "children": [
+      {
+        "name": "Stall Door",
+        "coordinates": [1, -22, 1.5, -20]
+      },
+      {
+        "name": "Toilet",
+        "coordinates": [1.5, -22, 2.1, -20]
+      },
+      {
+        "name": "Sink",
+        "coordinates": [2.1, -22, 2.7, -20]
+      },
+      {
+        "name": "Paper Towel Dispenser 1",
+        "coordinates": [2.7, -22, 2.8, -20]
+      },
+      {
+        "name": "Paper Towel Dispenser 2",
+        "coordinates": [2.8, -22, 2.9, -20]
+      },
+      {
+        "name": "Mirror",
+        "coordinates": [2.9, -22, 3, -20]
+      }
+    ]
+  },
+  "reasoning": "Each item is placed next to each other based on functionality and size. The 'Stall Door' is placed at the far left because it typically serves as the entrance. 'Toilet' follows next closest to the 'Stall Door' for easy accessibility. 'Sink' is placed after the 'Toilet,' reflecting typical restroom layout. The 'Paper Towel Dispenser 1' and 'Paper Towel Dispenser 2' are placed near the 'Sink' for proper hygiene practices. The 'Mirror' is last, typically found near sinks in restrooms. The sizes of each item correspond to their given relative sizes. All items are aligned to utilize the maximum area without any overlap and to ensure each item is within the parent coordinates."
+}

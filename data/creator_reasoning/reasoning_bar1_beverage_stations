@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Beverage Stations",
+    "coordinates": [38, -20, 40, -18],
+    "children": [
+      {
+        "name": "Coffee Machine",
+        "coordinates": [38, -20, 38, -19]
+      },
+      {
+        "name": "Soda Fountain",
+        "coordinates": [38, -19, 38, -18]
+      },
+      {
+        "name": "Countertop",
+        "coordinates": [38, -18, 39, -18]
+      },
+      {
+        "name": "Refrigerator",
+        "coordinates": [39, -20, 40, -20]
+      },
+      {
+        "name": "Sink",
+        "coordinates": [39, -19, 40, -19]
+      },
+      {
+        "name": "Storage Cabinet",
+        "coordinates": [40, -20, 40, -19]
+      }
+    ]
+  },
+  "reasoning": "The coordinates of all children are within the parent item, and no subitems overlap. Following the relative sizes and positions, the Coffee Machine and Soda Fountain are placed near each other, as they often function together in a practical sense. The Countertop, being the next largest item, is placed adjacent to the Soda Fountain to make a streamlined and accessible workspace. The Refrigerator is set against the opposite corner to ensure that it remains within easy reach. The Sink is placed next to the Refrigerator for accessibility to water for the other items. Finally, the Storage Cabinet is placed in the remaining available area to ensure there is ample storage space. All items are flush to the boundary of the parent item, ensuring optimal space usage."
+}

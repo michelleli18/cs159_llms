@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Checkout Counter",
+    "coordinates": [-11, -10, -8, -7],
+    "children": [
+      {
+        "name": "Cash Register",
+        "coordinates": [-11, -10, -10, -9]
+      },
+      {
+        "name": "Payment Terminal",
+        "coordinates": [-10, -10, -9, -9]
+      },
+      {
+        "name": "Checkout Conveyor",
+        "coordinates": [-9, -10, -8, -8]
+      },
+      {
+        "name": "Bagging Area",
+        "coordinates": [-10, -9, -8, -8]
+      },
+      {
+        "name": "Customer Line",
+        "coordinates": [-11, -8, -9, -7]
+      }
+    ]
+  },
+  "reasoning": "The layout was designed to ensure that all subitems fit within the coordinates of the parent 'Checkout Counter' and respected their relative sizes and logical placements. The 'Cash Register' is placed at the top-left corner since it is usually the starting point at the checkout counter where the cashier operates. The 'Payment Terminal' is next to the 'Cash Register' as it is often directly adjacent or integrated to make payments efficient. The 'Checkout Conveyor' stretches horizontally since it needs space for products to slide down towards the 'Bagging Area'. The 'Bagging Area' is placed next to the 'Checkout Conveyor' to streamline the process of placing items into bags after scanning. The 'Customer Line' is placed at the bottom part of the space to allow customers to queue up neatly. Unfortunately, 'Product Shelves' could not be included as there was not enough space left within the given boundaries of the parent element. The layout efficiently uses the space by placing all items next to each other while ensuring they touch the walls and remaining logical in a real-world setup."
+}

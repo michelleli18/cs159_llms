@@ -1,0 +1,69 @@
+{
+  "layout": {
+    "name": "Sidelines",
+    "coordinates": [24, -15, 29, -14],
+    "children": [
+      {
+        "name": "Bleachers 1",
+        "coordinates": [24, -15, 25, -14]
+      },
+      {
+        "name": "Bleachers 2",
+        "coordinates": [25, -15, 26, -14]
+      },
+      {
+        "name": "Bleachers 3",
+        "coordinates": [26, -15, 27, -14]
+      },
+      {
+        "name": "Benches 1",
+        "coordinates": [27, -15, 28, -14]
+      },
+      {
+        "name": "Benches 2",
+        "coordinates": [28, -15, 29, -14]
+      },
+      {
+        "name": "Benches 3",
+        "coordinates": [24, -14, 25, -14]
+      },
+      {
+        "name": "Team Benches 1",
+        "coordinates": [25, -14, 26, -14]
+      },
+      {
+        "name": "Team Benches 2",
+        "coordinates": [26, -14, 27, -14]
+      },
+      {
+        "name": "Team Benches 3",
+        "coordinates": [27, -14, 28, -14]
+      },
+      {
+        "name": "Team Benches 4",
+        "coordinates": [28, -14, 29, -14]
+      },
+      {
+        "name": "Coaching Area 1",
+        "coordinates": [24, -15, 25, -14]
+      },
+      {
+        "name": "Coaching Area 2",
+        "coordinates": [25, -15, 26, -14]
+      },
+      {
+        "name": "Coaching Area 3",
+        "coordinates": [26, -15, 27, -14]
+      },
+      {
+        "name": "Coaching Area 4",
+        "coordinates": [27, -15, 28, -14]
+      },
+      {
+        "name": "Coaching Area 5",
+        "coordinates": [28, -15, 29, -14]
+      }
+    ]
+  },
+  "reasoning": "In order to organize the Sidelines area, we placed the sizes relative to each other, ensuring that the sub-items don't overlap and that they all fit within the coordinates [24, -15, 29, -14]. Bleachers were made the largest components since they are typically the most significant structures in Sidelines to accommodate spectators. After that, benches, which generally come in sets, were arranged next to the bleachers because they are intended for onlookers who don't prefer bleachers. Following this, the team benches were placed as they are crucial for teams to rest. The coaching area was kept near the team benches for practical access during games or practices. The items were named and numbered to meet the three-item naming requirement for plural objects. Unfortunately, the dugout could not be included due to size constraints. This placement mimics real-world situations where spectators' arrangements are essential, followed by team-related spaces designed for close access and use."
+}

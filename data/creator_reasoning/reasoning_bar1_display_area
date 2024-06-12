@@ -1,0 +1,45 @@
+{
+    "layout": {
+        "name": "Display Area",
+        "coordinates": [-13, -7, -6, -1],
+        "children": [
+            {
+                "name": "Exhibit Hall",
+                "coordinates": [-13, -7, -8, -1]
+            },
+            {
+                "name": "Art Gallery",
+                "coordinates": [-8, -7, -6, -2]
+            },
+            {
+                "name": "Presentation Stage",
+                "coordinates": [-8, -2, -6, -1]
+            },
+            {
+                "name": "Seating Area",
+                "coordinates": [-13, -3, -10, -1]
+            },
+            {
+                "name": "Interactive Display",
+                "coordinates": [-10, -3, -8, -2]
+            },
+            {
+                "name": "Information Desk",
+                "coordinates": [-10, -7, -9, -5]
+            },
+            {
+                "name": "Display Cases 1",
+                "coordinates": [-9, -7, -8, -5]
+            },
+            {
+                "name": "Display Cases 2",
+                "coordinates": [-9, -5, -8, -4]
+            },
+            {
+                "name": "Display Cases 3",
+                "coordinates": [-9, -4, -8, -3]
+            }
+        ]
+    },
+    "reasoning": "The large 'Exhibit Hall' (size 10) is placed on the left side covering almost the entire height of the display area since it should be prominent. 'Art Gallery' (size 8) is placed next to it as it's the second largest and needs significant space, but it also allows 'Presentation Stage' and 'Seating Area' to sit below and next to it respectively for easy access during events. 'Presentation Stage' (size 6) is placed next to the 'Art Gallery' at the top-right area for visibility. 'Seating Area' (size 4) is below the 'Exhibit Hall', making it accessible after viewing the exhibits. 'Interactive Display' (size 3) is placed next to both the 'Seating Area' and 'Presentation Stage' for easy interaction points. The 'Information Desk' (size 2) is placed at the entrance area to assist visitors immediately. Finally, 'Display Cases' 1, 2, and 3 (each size 3) are scattered but compiled in the remaining space available for showcasing items without causing congestion. All items are placed due to their relative size, ensuring no overlap and making efficient use of available space."
+}

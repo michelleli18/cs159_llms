@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Study Rooms",
+    "coordinates": [24, -24, 26, -20],
+    "children": [
+      {
+        "name": "Bookshelf",
+        "coordinates": [24, -20, 25, -22]
+      },
+      {
+        "name": "Study Desk",
+        "coordinates": [24, -22, 25, -24]
+      },
+      {
+        "name": "Chairs 1",
+        "coordinates": [25, -24, 26, -23]
+      },
+      {
+        "name": "Chairs 2",
+        "coordinates": [25, -23, 26, -22]
+      },
+      {
+        "name": "Chairs 3",
+        "coordinates": [25, -22, 26, -21]
+      },
+      {
+        "name": "Computer Station",
+        "coordinates": [25, -21, 26, -20]
+      },
+      {
+        "name": "Whiteboard",
+        "coordinates": [24, -21, 25, -20]
+      }
+    ]
+  },
+  "reasoning": "The placement of the subitems is done based on their sizes and logical grouping for a modern and space-efficient layout while fulfilling all given priorities. The Bookshelf, which has one of the largest sizes, is placed along the left wall (coordinates: [24, -20, 25, -22]) to efficiently use the vertical space. Next, the Study Desk is placed directly below the Bookshelf (coordinates: [24, -22, 25, -24]) to maximize the available space. The Chairs are relatively small and are placed in three different areas (Chairs 1: [25, -24, 26, -23], Chairs 2: [25, -23, 26, -22], Chairs 3: [25, -22, 26, -21]) along the remaining left wall space. The Computer Station, another mid-sized item, is placed in the remaining space along the top right side (coordinates: [25, -21, 26, -20]). Finally, the Whiteboard, being of medium size, is placed prominently at the top left corner (coordinates: [24, -21, 25, -20]). This layout ensures that all subitems are efficiently placed using almost all the available space of the Study Rooms, and logically grouped for ease of access to each subitem, respecting their relative sizes and typical positioning in a real-world study room scenario. The Lighting Fixture was omitted as there was no remaining space to place it without overlapping other items."
+}

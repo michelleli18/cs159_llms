@@ -1,0 +1,24 @@
+{
+	"layout": {
+		"name": "Parking Spaces 1",
+		"coordinates": [24, -9, 26, -6],
+		"children": [{
+				"name": "Handicap Space",
+				"coordinates": [24, -9, 25, -7]
+			},
+			{
+				"name": "Parking Spot",
+				"coordinates": [25, -9, 26, -8]
+			},
+			{
+				"name": "Car",
+				"coordinates": [24, -8, 25, -6]
+			},
+			{
+				"name": "Motorcycle Slot",
+				"coordinates": [25, -8, 26, -7]
+			}
+		]
+	},
+	"reasoning": "The most important consideration was ensuring all subitems stayed within the boundaries of the parent coordinates and did not overlap with each other. The Handicap Space is placed at the bottom left, next to the entrance for easy access, and deservedly occupies a larger space due to priority in accessibility. The Parking Spot is placed nearby it on the right to maximize space efficiency and since parking spots are generally larger but less crucial than Handicap Spaces. The Car is placed above the Handicap Space, covering the entire left column up to the top because cars occupy significant space. The Motorcycle Slot is intentionally smaller and able to fit into the remaining available space on the right side, given its smaller relative size compared to other subitems. This arrangement ensures the use of the available space efficiently while adhering strictly to the coordinates and size priorities."
+}

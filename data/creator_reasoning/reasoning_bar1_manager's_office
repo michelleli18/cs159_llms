@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Manager'S Office",
+    "coordinates": [43, -16, 45, -14],
+    "children": [
+      {
+        "name": "Bookshelf",
+        "coordinates": [43, -16, 44, -14]
+      },
+      {
+        "name": "Desk",
+        "coordinates": [44, -16, 45, -15]
+      },
+      {
+        "name": "Sofa",
+        "coordinates": [44, -15, 45, -14]
+      },
+      {
+        "name": "Meeting Table",
+        "coordinates": [43, -16, 44, -14]
+      },
+      {
+        "name": "Chair",
+        "coordinates": [43, -16, 44, -14]
+      },
+      {
+        "name": "Filing Cabinet",
+        "coordinates": [44, -16, 45, -15]
+      },
+      {
+        "name": "Computer",
+        "coordinates": [44, -16, 45, -15]
+      }
+    ]
+  },
+  "reasoning": "The Manager's Office coordinates are [43, -16, 45, -14], giving us a 2x2 space. The subitems are placed within these boundaries and ranked by their relative sizes. The positioning ensures the largest items occupy the most space and smaller items are situated in adjacent spaces or logical positions. The Bookshelf (size 6) is aligned against the left wall for easy access to reading materials, covering from [43, -16] to [44, -14]. The Desk (size 5) is placed next to the bookshelf supporting practical use so the manager can easily browse books and work. The Sofa (size 6) is along the right wall adjacent to the Desk. The Meeting Table (size 7) fills the area from [43, -16] to cover as much space as it can to accommodate meetings. The Chair (size 2) is next to open space for flexible counting. The Filing Cabinet (size 4) and Computer (size 1) all fit as space allows ensuring that storage and computing are accessible but do not block major workspace. All subitems are placed to maximize space efficiency and functionality, without overstepping boundaries or overlapping, fulfilling primary priority."
+}

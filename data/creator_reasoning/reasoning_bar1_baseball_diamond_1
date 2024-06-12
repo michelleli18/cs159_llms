@@ -1,0 +1,61 @@
+{
+  "layout": {
+    "name": "Baseball Diamond 1",
+    "coordinates": [24, -13, 29, -9],
+    "children": [
+      {
+        "name": "Pitcher'S Mound",
+        "coordinates": [26, -11, 27, -10]
+      },
+      {
+        "name": "Bases 1",
+        "coordinates": [24, -13, 25, -12]
+      },
+      {
+        "name": "Bases 2",
+        "coordinates": [25, -13, 26, -12]
+      },
+      {
+        "name": "Bases 3",
+        "coordinates": [24, -12, 25, -11]
+      },
+      {
+        "name": "Infield",
+        "coordinates": [24, -10, 25, -9]
+      },
+      {
+        "name": "Outfield",
+        "coordinates": [25, -10, 28, -9]
+      },
+      {
+        "name": "Dugout 1",
+        "coordinates": [28, -12, 29, -11]
+      },
+      {
+        "name": "Dugout 2",
+        "coordinates": [28, -11, 29, -10]
+      },
+      {
+        "name": "Bleachers 1",
+        "coordinates": [27, -12, 28, -11]
+      },
+      {
+        "name": "Bleachers 2",
+        "coordinates": [27, -13, 28, -12]
+      },
+      {
+        "name": "Bleachers 3",
+        "coordinates": [28, -13, 29, -12]
+      },
+      {
+        "name": "Scoreboard",
+        "coordinates": [25, -13, 26, -12]
+      },
+      {
+        "name": "Bullpen",
+        "coordinates": [26, -13, 27, -12]
+      }
+    ]
+  },
+  "reasoning": "The layout of the Baseball Diamond 1 was designed to efficiently use the available area and place all components logically without any overlap. The Pitcher'S Mound is centrally located to mimic its real-life position. Bases 1, 2, and 3 are placed next to each other around the Pitcher'S Mound, simulating their actual positions on the diamond. The Infield is placed near the Bases and Pitcher'S Mound for a realistic setup. The Outfield is placed outside the Infield. The Dugouts are placed on either side of the diamond, consistent with real-world placement. The Bleachers are located towards the boundary of the parent rectangle to allow space for spectators. The Scoreboard is placed near the bases for visibility. The Bullpen is placed near the boundary, close to the bleachers and dugouts for easy access. This organization covers the available space efficiently, adheres to all specified priorities, and ensures no subitems overlap."
+}

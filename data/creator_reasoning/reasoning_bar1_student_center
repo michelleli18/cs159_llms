@@ -1,0 +1,49 @@
+{
+    "layout": {
+        "name": "Student Center",
+        "coordinates": [34, -9, 42, -5],
+        "children": [
+            {
+                "name": "Cafeteria",
+                "coordinates": [34, -5, 38, -9]
+            },
+            {
+                "name": "Library",
+                "coordinates": [38, -5, 42, -9]
+            },
+            {
+                "name": "Meeting Hall",
+                "coordinates": [34, -5, 37, -7]
+            },
+            {
+                "name": "Study Rooms",
+                "coordinates": [37, -5, 42, -7]
+            },
+            {
+                "name": "Computer Lab",
+                "coordinates": [34, -7, 37, -9]
+            },
+            {
+                "name": "Game Room",
+                "coordinates": [37, -7, 40, -9]
+            },
+            {
+                "name": "Lounge Area",
+                "coordinates": [40, -7, 42, -9]
+            },
+            {
+                "name": "Bookstore",
+                "coordinates": [34, -7, 36, -9]
+            },
+            {
+                "name": "Reception Desk",
+                "coordinates": [36, -7, 37, -9]
+            },
+            {
+                "name": "Restrooms",
+                "coordinates": [37, -7, 38, -9]
+            }
+        ]
+    },
+    "reasoning": "The subitems were placed with several considerations in mind. The Cafeteria and Library, being larger, were placed at opposite sides of the Student Center. The Meeting Hall was placed next to the Study Rooms for convenience since they often serve similar purposes. The Computer Lab was made slightly smaller and put next to the Game Room to create a tech area. The Lounge Area was placed next to the Game Room for relaxation. The Bookstore was placed close to the entrance and exit for easy access. Reception Desk and Restrooms were placed strategically in smaller partitions near the center. This strategic placement ensures that all the subitems are within the boundary of the parent, no items overlap, and logical grouping of similar or related subitems is maintained."
+}

@@ -1,0 +1,41 @@
+{
+  "layout": {
+    "name": "Librarian Office",
+    "coordinates": [24, -22, 26, -20],
+    "children": [
+      {
+        "name": "Desk",
+        "coordinates": [24, -22, 25, -21]
+      },
+      {
+        "name": "Bookshelves",
+        "coordinates": [25, -22, 26, -21]
+      },
+      {
+        "name": "Filing Cabinets",
+        "coordinates": [24, -21, 25, -20]
+      },
+      {
+        "name": "Work Table",
+        "coordinates": [25, -21, 26, -20]
+      },
+      {
+        "name": "Chairs",
+        "coordinates": [24, -22, 24, -22]
+      },
+      {
+        "name": "Chairs 2",
+        "coordinates": [24, -21, 24, -21]
+      },
+      {
+        "name": "Chairs 3",
+        "coordinates": [25, -22, 25, -22]
+      },
+      {
+        "name": "Computer Station",
+        "coordinates": [25, -22, 25, -22]
+      }
+    ]
+  },
+  "reasoning": "The Desk is placed at the bottom-left corner since it is important for easy accessibility. The Bookshelves are placed next to the Desk as they are commonly accessed together. Filing Cabinets are positioned adjacent to the Desk for convenience in filing documents. The Work Table is placed next to the Bookshelves to form a collaborative workspace. The Chairs are distributed throughout the room to ensure seating options are available near the main work areas. The Computer Station is strategically placed near the back of the room for focused work, ensuring it doesn’t obstruct the main working area."
+}

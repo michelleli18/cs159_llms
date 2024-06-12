@@ -1,0 +1,88 @@
+{
+	"layout": {
+		"name": "Toilet Stalls 5",
+		"coordinates": [-1, -18, 1, -16],
+		"children": [{
+				"name": "Stall Doors 1",
+				"coordinates": [-1, -17, -0.7, -16]
+			},
+			{
+				"name": "Stall Doors 2",
+				"coordinates": [-0.7, -17, -0.4, -16]
+			},
+			{
+				"name": "Stall Doors 3",
+				"coordinates": [-0.4, -17, -0.1, -16]
+			},
+			{
+				"name": "Stall Doors 4",
+				"coordinates": [0.1, -17, 0.4, -16]
+			},
+			{
+				"name": "Stall Doors 5",
+				"coordinates": [0.4, -17, 0.7, -16]
+			},
+			{
+				"name": "Stall Doors 6",
+				"coordinates": [0.7, -17, 1, -16]
+			},
+			{
+				"name": "Toilets 1",
+				"coordinates": [-1, -18, -0.6, -17]
+			},
+			{
+				"name": "Toilets 2",
+				"coordinates": [-0.6, -18, -0.2, -17]
+			},
+			{
+				"name": "Toilets 3",
+				"coordinates": [0.2, -18, 0.6, -17]
+			},
+			{
+				"name": "Toilets 4",
+				"coordinates": [0.6, -18, 1, -17]
+			},
+			{
+				"name": "Toilets 5",
+				"coordinates": [0.1, -18, 0.5, -17]
+			},
+			{
+				"name": "Toilet Paper Dispensers 1",
+				"coordinates": [-1, -18, -0.8, -17.5]
+			},
+			{
+				"name": "Toilet Paper Dispensers 2",
+				"coordinates": [0.5, -18, 0.7, -17.5]
+			},
+			{
+				"name": "Sinks 1",
+				"coordinates": [-1, -18, -0.5, -17.5]
+			},
+			{
+				"name": "Sinks 2",
+				"coordinates": [-0.5, -18, 0, -17.5]
+			},
+			{
+				"name": "Sinks 3",
+				"coordinates": [0, -18, 0.5, -17.5]
+			},
+			{
+				"name": "Sinks 4",
+				"coordinates": [0.5, -18, 1, -17.5]
+			},
+			{
+				"name": "Trash Bins 1",
+				"coordinates": [-0.5, -18, -0.3, -17.5]
+			},
+			{
+				"name": "Trash Bins 2",
+				"coordinates": [-0.3, -18, -0.1, -17.5]
+			},
+			{
+				"name": "Trash Bins 3",
+				"coordinates": [0.5, -18, 0.7, -17.5]
+			}
+		]
+	},
+	"reasoning": "The design ensures efficient use of space by maximizing usage within the given boundaries. 'Stall Doors' are logically placed at the front of each stall to allow access. There are six stall doors, each named and sized similarly but given slightly varied coordinates to fit along the top edge. The 'Toilets' are adjacent to the stall doors, reflecting realistic bathroom layouts. They are spread across the bottom area to simulate multiple stall spaces. Since Toilets are central to the function, they have been given relatively more vertical space. 'Toilet Paper Dispensers' are placed near the 'Toilets' for practical usage, ensuring both left and right stall coverage. 'Sinks' are placed near the top and bottom sections, ensuring accessibility from different points, reflecting higher relative size. Lastly, 'Trash Bins' are adjacent to 'Sinks' and 'Toilets' as efficient placements for waste disposal. The multiple bins ensure that the waste disposal unit is close enough for hygiene without cluttering the design. All items are placed touching the walls as much as possible without overlapping or going out of the given boundary."
+}

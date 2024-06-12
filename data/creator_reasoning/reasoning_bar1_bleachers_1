@@ -1,0 +1,57 @@
+{
+    "layout": {
+        "name": "Bleachers 1",
+        "coordinates": [34, -18, 36, -16],
+        "children": [
+            {
+                "name": "Seating Rows 1",
+                "coordinates": [34, -18, 34, -17]
+            },
+            {
+                "name": "Seating Rows 2",
+                "coordinates": [34, -17, 34, -16]
+            },
+            {
+                "name": "Seating Rows 3",
+                "coordinates": [35, -18, 35, -17]
+            },
+            {
+                "name": "Seating Rows 4",
+                "coordinates": [35, -17, 35, -16]
+            },
+            {
+                "name": "Seating Rows 5",
+                "coordinates": [34, -17, 34, -16]
+            },
+            {
+                "name": "Seating Rows 6",
+                "coordinates": [35, -18, 35, -17]
+            },
+            {
+                "name": "Seating Rows 7",
+                "coordinates": [34, -18, 34, -17]
+            },
+            {
+                "name": "Seating Rows 8",
+                "coordinates": [35, -18, 35, -17]
+            },
+            {
+                "name": "Press Box",
+                "coordinates": [34, -17, 34, -16]
+            },
+            {
+                "name": "Concession Stand",
+                "coordinates": [35, -18, 35, -17]
+            },
+            {
+                "name": "Locker Rooms",
+                "coordinates": [34, -18, 34, -16]
+            },
+            {
+                "name": "Scoreboard",
+                "coordinates": [35, -16, 35, -16]
+            }
+        ]
+    },
+    "reasoning": "The 'Seating Rows' are the most critical items to place first due to their substantial relative size and requirement of multiples, so they were distributed throughout to cover the main spectator area. They were placed in a grid pattern across the available coordinate space ensuring no overlap and all coordinates fitting within the parent boundaries. 'Press Box' was placed adjacent to 'Seating Rows' logically to provide visibility over the seating area, reflecting its moderate relative size. 'Concession Stand' was placed close to 'Seating Rows' for easy access by spectators. 'Locker Rooms' are placed in a position allowing convenient access to players, who are major users of seating areas too. Finally, the 'Scoreboard' was placed in a smaller segment on the edge of the coordinates, considering it does not require large space but needs visibility to everyone in the bleachers."
+}

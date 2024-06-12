@@ -1,0 +1,49 @@
+{
+  "layout": {
+    "name": "Laboratory",
+    "coordinates": [36, -18, 41, -13],
+    "children": [
+      {
+        "name": "Workbench",
+        "coordinates": [36, -18, 38, -13]
+      },
+      {
+        "name": "Fume Hood",
+        "coordinates": [38, -18, 40, -13]
+      },
+      {
+        "name": "Storage Cabinet",
+        "coordinates": [40, -18, 41, -15]
+      },
+      {
+        "name": "Microscope Station",
+        "coordinates": [40, -15, 41, -14]
+      },
+      {
+        "name": "Chemical Shelves",
+        "coordinates": [39, -14, 41, -13]
+      },
+      {
+        "name": "Sink Area",
+        "coordinates": [37, -17, 39, -15]
+      },
+      {
+        "name": "Refrigerator",
+        "coordinates": [36, -18, 37, -16]
+      },
+      {
+        "name": "Incubator",
+        "coordinates": [36, -16, 37, -15]
+      },
+      {
+        "name": "Computer Desk",
+        "coordinates": [36, -15, 37, -14]
+      },
+      {
+        "name": "Lab Stool",
+        "coordinates": [38, -15, 39, -14]
+      }
+    ]
+  },
+  "reasoning": "The laboratory has dimensions sufficient to fit all subitems except in cases where size constraints would necessitate further breakdowns or multiple instances, which is not required here due to item singularity. The Workbench is placed in the bottom left corner to provide ample workspace and is the largest item. Adjacent to it, covering the bottom row, is the Fume Hood as it requires direct access and connectivity to the workbench for safe handling of volatile substances. The Storage Cabinet is placed in the top-right corner for easy access. Next to it is the Microscope Station because it needs to be both close to the storage for samples and centrally located. Chemical Shelves are adjacent to the Microscope Station and near the top boundary for easy access to frequently used chemicals. Sink Area is centrally located to be accessible from many areas of the lab. The Refrigerator is near the bottom left and the central work area but requires wall adjacency for ventilation. The Incubator is placed directly above the Refrigerator for temperature control items. The Computer Desk is aligned closely with the microscope station to allow easy data recording and analysis. Lastly, the Lab Stool is centrally located next to the Computer Desk for ease of use and accessibility to multiple workstations."
+}

@@ -1,0 +1,89 @@
+{
+  "layout": {
+    "name": "Parking Lot",
+    "coordinates": [-39, -5, -35, 3],
+    "children": [
+      {
+        "name": "Parking Spaces 1",
+        "coordinates": [-39, -5, -38, -4]
+      },
+      {
+        "name": "Parking Spaces 2",
+        "coordinates": [-38, -5, -37, -4]
+      },
+      {
+        "name": "Parking Spaces 3",
+        "coordinates": [-37, -5, -36, -4]
+      },
+      {
+        "name": "Parking Spaces 4",
+        "coordinates": [-36, -5, -35, -4]
+      },
+      {
+        "name": "Parking Spaces 5",
+        "coordinates": [-39, -4, -38, -3]
+      },
+      {
+        "name": "Parking Spaces 6",
+        "coordinates": [-38, -4, -37, -3]
+      },
+      {
+        "name": "Parking Spaces 7",
+        "coordinates": [-37, -4, -36, -3]
+      },
+      {
+        "name": "Parking Spaces 8",
+        "coordinates": [-36, -4, -35, -3]
+      },
+      {
+        "name": "Parking Spaces 9",
+        "coordinates": [-39, -3, -38, -2]
+      },
+      {
+        "name": "Handicap Spaces 1",
+        "coordinates": [-38, -3, -37, -2]
+      },
+      {
+        "name": "Handicap Spaces 2",
+        "coordinates": [-37, -3, -36, -2]
+      },
+      {
+        "name": "Compact Spaces 1",
+        "coordinates": [-36, -3, -35, -2]
+      },
+      {
+        "name": "Compact Spaces 2",
+        "coordinates": [-39, -2, -38, -1]
+      },
+      {
+        "name": "Compact Spaces 3",
+        "coordinates": [-38, -2, -37, -1]
+      },
+      {
+        "name": "Ev Charging Stations",
+        "coordinates": [-37, -2, -36, -1]
+      },
+      {
+        "name": "Garbage Bins",
+        "coordinates": [-36, -2, -35, -1]
+      },
+      {
+        "name": "Ticket Booth",
+        "coordinates": [-39, -1, -38, 0]
+      },
+      {
+        "name": "Entry/Exit Gate",
+        "coordinates": [-38, -1, -37, 0]
+      },
+      {
+        "name": "Security Booth",
+        "coordinates": [-37, -1, -36, 0]
+      },
+      {
+        "name": "Bike Rack",
+        "coordinates": [-36, -1, -35, 0]
+      }
+    ]
+  },
+  "reasoning": "The layout is designed to make efficient use of space and provide logical placement of subitems according to their relative sizes and common usage patterns. Parking Spaces are the most abundant and relatively large, so they are placed first filling the majority of the area. Handicap Spaces are placed next to the regular Parking Spaces for easy accessibility. Compact Spaces are smaller and commonly placed together, so they are positioned next to the Handicap Spaces. EV Charging Stations are placed near Parking and Compact Spaces for convenience. Garbage Bins are smaller and placed strategically near parking spaces for easy waste disposal. Ticket Booth is placed near the Entry/Exit Gate for ticket operations. Security Booth is near the Ticket Booth to ensure security operations are managed. Finally, the Bike Rack is placed near the front of the Parking Lot for easy access. All subitems are carefully sized and positioned to ensure they fit within the parent dimensions and cover the available space as efficiently as possible."
+}

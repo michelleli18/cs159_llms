@@ -1,0 +1,33 @@
+{
+    "layout": {
+        "name": "Dance Floor",
+        "coordinates": [-7, -20, -3, -18],
+        "children": [
+            {
+                "name": "Dj Booth",
+                "coordinates": [-7, -20, -6, -18]
+            },
+            {
+                "name": "Bar Area",
+                "coordinates": [-6, -20, -4, -17]
+            },
+            {
+                "name": "Seating Area 1",
+                "coordinates": [-4, -20, -3, -19]
+            },
+            {
+                "name": "Seating Area 2",
+                "coordinates": [-5, -19, -3, -18]
+            },
+            {
+                "name": "Restrooms",
+                "coordinates": [-5, -18, -4, -19]
+            },
+            {
+                "name": "Entrance",
+                "coordinates": [-7, -18, -5, -17]
+            }
+        ]
+    },
+    "reasoning": "The Dj Booth is placed at the bottom left corner because it is one of the smaller items and typically has a fixed position against a wall. The Bar Area is larger and is placed adjacent to the Dj Booth along the bottom wall, ensuring accessibility for people entering the dance floor area. The Seating Areas are scattered on the right side in two parts, as seating regions should be accessible but spread out to avoid overcrowding. Restrooms are placed near the seating area for better accessibility from where people sit and drink. The Entrance is located at the bottom right corner to allow direct access to the seating and bar areas while also defining a clear entry/exit point. Each subitem is strategically placed touching the parent boundaries to ensure efficient use of space and avoid overlap. Larger items like the Bar Area take up more space, while smaller items like the Dj Booth and Restrooms are compact."
+}

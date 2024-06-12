@@ -1,0 +1,45 @@
+{
+  "layout": {
+    "name": "Basketball Court",
+    "coordinates": [-32, -5, -28, -2],
+    "children": [
+      {
+        "name": "Sidelines 1",
+        "coordinates": [-32, -5, -30, -3]
+      },
+      {
+        "name": "Sidelines 2",
+        "coordinates": [-32, -3, -30, -2]
+      },
+      {
+        "name": "Sidelines 3",
+        "coordinates": [-30, -5, -28, -3]
+      },
+      {
+        "name": "Sidelines 4",
+        "coordinates": [-30, -3, -28, -2]
+      },
+      {
+        "name": "Team Benches 1",
+        "coordinates": [-32, -5, -31, -4]
+      },
+      {
+        "name": "Team Benches 2",
+        "coordinates": [-32, -4, -31, -3]
+      },
+      {
+        "name": "Team Benches 3",
+        "coordinates": [-31, -5, -30, -3]
+      },
+      {
+        "name": "Scorer's Table 1",
+        "coordinates": [-28, -5, -28, -4]
+      },
+      {
+        "name": "Scorer's Table 2",
+        "coordinates": [-28, -4, -28, -3]
+      }
+    ]
+  },
+  "reasoning": "The Basketball Court has been divided into several subitems based on the given sizes. The 'Sidelines', being the largest with a relative size of 9, has been divided into four sections to cover the entire periphery of the court to clearly demarcate the playing area. 'Sidelines 1' and 'Sidelines 2' are placed on the left side while 'Sidelines 3' and 'Sidelines 4' are on the right side to balance the court layout. The 'Team Benches' with a relative size of 3 are strategically placed close to the sidelines, mimicking real-life positioning, providing easy access for players. There are three 'Team Benches' to fulfill the requirement for plural items. The 'Scorer's Table', having a relative size of 2, is placed centrally to cover the remaining space and to have a clear view of the game. Both 'Scorer's Table 1' and 'Scorer's Table 2' are positioned towards the bottom right corner, avoiding overlap with other subitems. This meticulous arrangement ensures proper utilization of space and maintains realism in the layout."
+}

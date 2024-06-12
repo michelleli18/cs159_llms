@@ -1,0 +1,404 @@
+{
+    "name": "Bar",
+    "coordinates": [
+        -9,
+        -22,
+        3,
+        -16
+    ],
+    "children": [
+        {
+            "name": "Bar Counter",
+            "coordinates": [
+                -9,
+                -22,
+                -4,
+                -20
+            ]
+        },
+        {
+            "name": "Tables 1",
+            "coordinates": [
+                -4,
+                -22,
+                0,
+                -20
+            ]
+        },
+        {
+            "name": "Tables 2",
+            "coordinates": [
+                -4,
+                -20,
+                0,
+                -18
+            ]
+        },
+        {
+            "name": "Tables 3",
+            "coordinates": [
+                -4,
+                -18,
+                0,
+                -16
+            ]
+        },
+        {
+            "name": "Chairs 1",
+            "coordinates": [
+                0,
+                -22,
+                3,
+                -21
+            ]
+        },
+        {
+            "name": "Chairs 2",
+            "coordinates": [
+                0,
+                -21,
+                3,
+                -20
+            ]
+        },
+        {
+            "name": "Chairs 3",
+            "coordinates": [
+                0,
+                -20,
+                3,
+                -19
+            ]
+        },
+        {
+            "name": "Chairs 4",
+            "coordinates": [
+                0,
+                -19,
+                3,
+                -18
+            ]
+        },
+        {
+            "name": "Chairs 5",
+            "coordinates": [
+                0,
+                -18,
+                3,
+                -17
+            ]
+        },
+        {
+            "name": "Chairs 6",
+            "coordinates": [
+                0,
+                -17,
+                3,
+                -16
+            ]
+        },
+        {
+            "name": "Stage",
+            "coordinates": [
+                -9,
+                -20,
+                -4,
+                -18
+            ]
+        },
+        {
+            "name": "Restrooms",
+            "coordinates": [
+                -9,
+                -18,
+                -6,
+                -16
+            ],
+            "children": [
+                {
+                    "name": "Toilet Stalls 1",
+                    "coordinates": [
+                        -9,
+                        -18,
+                        -8,
+                        -17
+                    ]
+                },
+                {
+                    "name": "Toilet Stalls 2",
+                    "coordinates": [
+                        -8,
+                        -18,
+                        -7,
+                        -17
+                    ]
+                },
+                {
+                    "name": "Toilet Stalls 3",
+                    "coordinates": [
+                        -7,
+                        -18,
+                        -6,
+                        -17
+                    ]
+                },
+                {
+                    "name": "Toilet Stalls 4",
+                    "coordinates": [
+                        -9,
+                        -17,
+                        -8,
+                        -16
+                    ]
+                },
+                {
+                    "name": "Toilet Stalls 5",
+                    "coordinates": [
+                        -8,
+                        -17,
+                        -7,
+                        -16
+                    ]
+                },
+                {
+                    "name": "Toilet Stalls 6",
+                    "coordinates": [
+                        -7,
+                        -17,
+                        -6,
+                        -16
+                    ]
+                },
+                {
+                    "name": "Toilet Stalls 7",
+                    "coordinates": [
+                        -9,
+                        -18,
+                        -6,
+                        -17
+                    ]
+                },
+                {
+                    "name": "Sinks 1",
+                    "coordinates": [
+                        -9,
+                        -17,
+                        -8,
+                        -16
+                    ]
+                },
+                {
+                    "name": "Sinks 2",
+                    "coordinates": [
+                        -8,
+                        -17,
+                        -7,
+                        -16
+                    ]
+                },
+                {
+                    "name": "Sinks 3",
+                    "coordinates": [
+                        -7,
+                        -17,
+                        -6,
+                        -16
+                    ]
+                },
+                {
+                    "name": "Mirrors 1",
+                    "coordinates": [
+                        -9,
+                        -18,
+                        -8,
+                        -17
+                    ]
+                },
+                {
+                    "name": "Mirrors 2",
+                    "coordinates": [
+                        -8,
+                        -18,
+                        -7,
+                        -17
+                    ]
+                },
+                {
+                    "name": "Hand Dryers",
+                    "coordinates": [
+                        -9,
+                        -17,
+                        -6,
+                        -16
+                    ]
+                },
+                {
+                    "name": "Entrance Door",
+                    "coordinates": [
+                        -9,
+                        -18,
+                        -6,
+                        -17
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Kitchen",
+            "coordinates": [
+                -6,
+                -18,
+                -3,
+                -16
+            ],
+            "children": [
+                {
+                    "name": "Refrigerator",
+                    "coordinates": [
+                        -6,
+                        -18,
+                        -5,
+                        -17
+                    ]
+                },
+                {
+                    "name": "Oven",
+                    "coordinates": [
+                        -5,
+                        -18,
+                        -4,
+                        -17
+                    ]
+                },
+                {
+                    "name": "Sink",
+                    "coordinates": [
+                        -4,
+                        -18,
+                        -3,
+                        -17
+                    ]
+                },
+                {
+                    "name": "Counter",
+                    "coordinates": [
+                        -6,
+                        -17,
+                        -4,
+                        -16
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Storage Room",
+            "coordinates": [
+                -4,
+                -18,
+                -1,
+                -16
+            ],
+            "children": [
+                {
+                    "name": "Large Equipment",
+                    "coordinates": [
+                        -4,
+                        -18,
+                        -2,
+                        -16
+                    ]
+                },
+                {
+                    "name": "Shelving Units 1",
+                    "coordinates": [
+                        -2,
+                        -18,
+                        -1,
+                        -17
+                    ]
+                },
+                {
+                    "name": "Shelving Units 2",
+                    "coordinates": [
+                        -2,
+                        -17,
+                        -1,
+                        -16
+                    ]
+                },
+                {
+                    "name": "Workbench",
+                    "coordinates": [
+                        -4,
+                        -17,
+                        -3,
+                        -16
+                    ]
+                },
+                {
+                    "name": "Cabinets",
+                    "coordinates": [
+                        -3,
+                        -17,
+                        -2,
+                        -16
+                    ]
+                },
+                {
+                    "name": "Storage Bins 1",
+                    "coordinates": [
+                        -4,
+                        -18,
+                        -3,
+                        -17
+                    ]
+                },
+                {
+                    "name": "Storage Bins 2",
+                    "coordinates": [
+                        -3,
+                        -18,
+                        -2,
+                        -17
+                    ]
+                },
+                {
+                    "name": "Boxes",
+                    "coordinates": [
+                        -2,
+                        -18,
+                        -1,
+                        -18
+                    ]
+                },
+                {
+                    "name": "Tool Rack",
+                    "coordinates": [
+                        -4,
+                        -16,
+                        -3,
+                        -16
+                    ]
+                },
+                {
+                    "name": "Pallets",
+                    "coordinates": [
+                        -4,
+                        -16,
+                        -2,
+                        -16
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Dance Floor",
+            "coordinates": [
+                -9,
+                -16,
+                0,
+                -16
+            ]
+        }
+    ]
+}

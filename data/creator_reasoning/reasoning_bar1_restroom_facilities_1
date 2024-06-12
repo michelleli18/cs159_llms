@@ -1,0 +1,77 @@
+{
+  "layout": {
+    "name": "Restroom Facilities 1",
+    "coordinates": [34, -18, 36, -16],
+    "children": [
+      {
+        "name": "Toilet Stalls 1",
+        "coordinates": [34, -18, 34, -17]
+      },
+      {
+        "name": "Toilet Stalls 2",
+        "coordinates": [34, -17, 34, -16]
+      },
+      {
+        "name": "Toilet Stalls 3",
+        "coordinates": [35, -18, 35, -17]
+      },
+      {
+        "name": "Toilet Stalls 4",
+        "coordinates": [35, -17, 35, -16]
+      },
+      {
+        "name": "Toilet Stalls 5",
+        "coordinates": [36, -18, 36, -17]
+      },
+      {
+        "name": "Toilet Stalls 6",
+        "coordinates": [36, -17, 36, -16]
+      },
+      {
+        "name": "Sinks 1",
+        "coordinates": [35, -16, 36, -16]
+      },
+      {
+        "name": "Sinks 2",
+        "coordinates": [34, -16, 35, -16]
+      },
+      {
+        "name": "Hand Dryers 1",
+        "coordinates": [34, -16, 34, -16]
+      },
+      {
+        "name": "Hand Dryers 2",
+        "coordinates": [36, -18, 36, -18]
+      },
+      {
+        "name": "Urinals 1",
+        "coordinates": [36, -16, 36, -16]
+      },
+      {
+        "name": "Urinals 2",
+        "coordinates": [35, -16, 35, -16]
+      },
+      {
+        "name": "Mirrors 1",
+        "coordinates": [34, -16, 34, -16]
+      },
+      {
+        "name": "Mirrors 2",
+        "coordinates": [35, -16, 35, -16]
+      },
+      {
+        "name": "Waste Bins 1",
+        "coordinates": [34, -18, 34, -18]
+      },
+      {
+        "name": "Waste Bins 2",
+        "coordinates": [35, -18, 35, -18]
+      },
+      {
+        "name": "Changing Table",
+        "coordinates": [35, -16, 36, -16]
+      }
+    ]
+  },
+  "reasoning": "Toilet Stalls were placed in the lower part of the restroom because they are relatively large and need to be close to walls for privacy. They were organized in rows to maximize space efficiency. Sinks were placed near the toilet stalls but against the wall for easy access immediately after using the stalls. Hand Dryers were placed near sinks to ensure users can easily dry their hands after washing. Urinals were placed in the corner to maintain privacy. Mirrors were placed adjacent to sinks because users would typically need them there. Waste Bins were placed near the exits and the changing table to encourage quick and easy disposal of waste."
+}

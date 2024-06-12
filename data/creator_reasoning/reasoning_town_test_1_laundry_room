@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Laundry Room",
+    "coordinates": [-20, -11, -17, -9],
+    "children": [
+      {
+        "name": "Washing Machine",
+        "coordinates": [-20, -11, -18, -10]
+      },
+      {
+        "name": "Dryer",
+        "coordinates": [-18, -11, -16, -10]
+      },
+      {
+        "name": "Laundry Basket",
+        "coordinates": [-17, -10, -16, -9]
+      },
+      {
+        "name": "Folding Table",
+        "coordinates": [-19, -10, -17, -8]
+      },
+      {
+        "name": "Utility Sink",
+        "coordinates": [-20, -9, -19, -7]
+      },
+      {
+        "name": "Storage Shelves",
+        "coordinates": [-19, -9, -18, -7]
+      }
+    ]
+  },
+  "reasoning": "The Washing Machine and Dryer are placed next to each other on the left wall, as these are commonly found together and require easy access to each other. The Laundry Basket is placed next to the Dryer on the bottom wall to allow for convenient transfer of clothes from the Dryer. The Folding Table, used for folding clothes, is placed to the right of the Laundry Basket and along the bottom wall, providing ample space for folding. The Utility Sink is placed next to the Folding Table on the left side wall, as it often needs proximity for tasks like soaking and hand washing. Finally, the Storage Shelves are placed to the right of the Utility Sink, utilizing the remaining space efficiently. This arrangement ensures that all items are within the bounds of the Laundry Room and use the available space effectively while maintaining logical placements relative to each item's use case."
+}

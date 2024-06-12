@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Balcony",
+    "coordinates": [-34, -13, -26, -9],
+    "children": [
+      {
+        "name": "Table",
+        "coordinates": [-34, -13, -30, -10]
+      },
+      {
+        "name": "Chairs 1",
+        "coordinates": [-30, -13, -28, -12]
+      },
+      {
+        "name": "Chairs 2",
+        "coordinates": [-28, -13, -26, -12]
+      },
+      {
+        "name": "Chairs 3",
+        "coordinates": [-28, -12, -26, -11]
+      },
+      {
+        "name": "Plant Pots 1",
+        "coordinates": [-32, -13, -30, -12]
+      },
+      {
+        "name": "Plant Pots 2",
+        "coordinates": [-32, -12, -30, -11]
+      },
+      {
+        "name": "Plant Pots 3",
+        "coordinates": [-30, -12, -28, -11]
+      }
+    ]
+  },
+  "reasoning": "The Table is the largest item among the subitems, so it has been placed touching one of the corners to take up a significant part of the space efficiently. The three Chairs are placed near the Table, forming a seated area which is a logical and practical layout. Since the chairs are relatively smaller, they fit well beside and around the Table without overlapping. The Plant Pots, being the smallest items, are dispersed in the remaining space, touching the walls and filling in the remaining gaps while ensuring they do not overlap. This placement ensures that all space is efficiently used without leaving empty areas except for necessary pathways."
+}

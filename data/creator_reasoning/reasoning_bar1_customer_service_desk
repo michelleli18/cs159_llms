@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Customer Service Desk",
+    "coordinates": [-9, -10, -6, -7],
+    "children": [
+      {
+        "name": "Service Counter",
+        "coordinates": [-9, -10, -7, -8]
+      },
+      {
+        "name": "Customer Seating",
+        "coordinates": [-9, -8, -6, -7]
+      },
+      {
+        "name": "Queue Barrier",
+        "coordinates": [-7, -10, -6, -9]
+      },
+      {
+        "name": "Information Kiosk",
+        "coordinates": [-8, -8, -7, -7]
+      },
+      {
+        "name": "Notice Board",
+        "coordinates": [-8, -9, -7, -8]
+      },
+      {
+        "name": "Computer Terminal",
+        "coordinates": [-7, -9, -6, -8]
+      },
+      {
+        "name": "Brochure Stand",
+        "coordinates": [-9, -9, -8, -8]
+      }
+    ]
+  },
+  "reasoning": "The Service Counter was placed at the front bottom left corner as it is often the primary interface for customer interaction and needs to be accessible. The Customer Seating was placed at the top right corner so that customers have a waiting area that is easily accessible yet away from the service activities, consistent with its size of 5. The Queue Barrier adjacent to the Service Counter facilitates orderly customer flow to the Service Counter. The Information Kiosk, Notice Board, and Computer Terminal were placed near the Queue Barrier and Service Counter to provide customers with easy access to information and self-service options. The Brochure Stand was placed near the Notice Board, capitalizing on the smaller space available between larger items, making it logical for customers who seek detailed information after noticing something on the Notice Board. Each subitem's size and placement were determined in alignment with their need for accessibility and realistic use cases in customer service areas, ensuring no overlap and fully utilizing the available space efficiently while adhering to the given constraints."
+}

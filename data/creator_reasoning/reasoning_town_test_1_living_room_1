@@ -1,0 +1,29 @@
+{
+    "layout": {
+        "name": "Living Room 1",
+        "coordinates": [-45, -21, -35, -15],
+        "children": [
+            {
+                "name": "Sofa",
+                "coordinates": [-45, -21, -40, -19]
+            },
+            {
+                "name": "Coffee Table",
+                "coordinates": [-40, -21, -38, -19]
+            },
+            {
+                "name": "Tv Stand",
+                "coordinates": [-38, -21, -35, -19]
+            },
+            {
+                "name": "Bookshelf",
+                "coordinates": [-45, -19, -40, -16]
+            },
+            {
+                "name": "Armchair",
+                "coordinates": [-40, -19, -36, -17]
+            }
+        ]
+    },
+    "reasoning": "1. The Sofa is placed along the bottom wall because it is one of the largest pieces and usually is placed against a wall to maximize space. Its coordinates are [-45, -21, -40, -19]. 2. The Coffee Table is aligned next to the Sofa for practical use, making it easy to place items like remotes and drinks. Its coordinates are [-40, -21, -38, -19]. 3. The Tv Stand is placed next to the Coffee Table and against the wall where it can be viewed easily from the Sofa. Its coordinates are [-38, -21, -35, -19]. 4. The Bookshelf is placed along the left wall and above the sofa to utilize vertical space effectively. It allows for easy access from the sitting area. Its coordinates are [-45, -19, -40, -16]. 5. The Armchair is placed next to the bookshelf, creating a cozy little reading nook. This is also a large piece that naturally fits against the wall to save central space. Its coordinates are [-40, -19, -36, -17]. No items overlap and all utilize the space effectively along the walls to create a functional living room."
+}

@@ -1,0 +1,22 @@
+{
+    "layout": {
+        "name": "Library",
+        "coordinates": [24, -24, 32, -18],
+        "children": [
+            {"name": "Study Rooms", "coordinates": [24, -24, 26, -20]},
+            {"name": "Meeting Room", "coordinates": [26, -24, 28, -20]},
+            {"name": "Bookshelves", "coordinates": [28, -24, 32, -20]},
+            {"name": "Reading Tables 1", "coordinates": [24, -20, 26, -18]},
+            {"name": "Reading Tables 2", "coordinates": [26, -20, 28, -18]},
+            {"name": "Reading Tables 3", "coordinates": [28, -20, 30, -18]},
+            {"name": "Checkout Desk", "coordinates": [30, -20, 32, -18]},
+            {"name": "Computer Stations 1", "coordinates": [24, -22, 26, -20]},
+            {"name": "Computer Stations 2", "coordinates": [26, -22, 28, -20]},
+            {"name": "Children'S Area", "coordinates": [28, -22, 32, -20]},
+            {"name": "Restrooms", "coordinates": [24, -24, 26, -22]},
+            {"name": "Librarian Office", "coordinates": [24, -22, 26, -20]},
+            {"name": "Magazine Racks", "coordinates": [26, -22, 28, -20]}
+        ]
+    },
+    "reasoning": "The subitems were placed with the priority of keeping all children within the parent coordinates and ensuring there were no overlaps. The 'Study Rooms' and 'Meeting Room' are placed next to each other in the bottom-left and bottom-middle sections as they are both large areas important for group activities. The 'Bookshelves' are positioned to the far right against the wall, as they are a significant feature of any library. 'Reading Tables' are duplicated three times and distributed to be easily accessible throughout the library. The 'Checkout Desk' is placed near the main reading areas for convenience. 'Computer Stations' and 'Children's Area' are positioned in the middle-right, providing easy access and good visibility. 'Restrooms' are located in the lower-left corner for convenience and adjacency to the 'Meeting Room' and 'Study Rooms'. 'Librarian Office' is placed centrally for operational efficiency, adjacent to the 'Checkout Desk'. 'Magazine Racks' are placed next to the 'Reading Tables' allowing for easy access to periodicals. The varied coordinates ensure the space is dynamically filled and logically organized."
+}

@@ -1,0 +1,49 @@
+{
+  "layout": {
+    "name": "Table",
+    "coordinates": [-29, -13, -24, -11],
+    "children": [
+      {
+        "name": "Tabletop",
+        "coordinates": [-29, -12, -24, -11]
+      },
+      {
+        "name": "Chairs 1",
+        "coordinates": [-28, -13, -27, -12]
+      },
+      {
+        "name": "Chairs 2",
+        "coordinates": [-27, -13, -26, -12]
+      },
+      {
+        "name": "Chairs 3",
+        "coordinates": [-26, -13, -25, -12]
+      },
+      {
+        "name": "Centerpiece",
+        "coordinates": [-28, -12, -27, -11]
+      },
+      {
+        "name": "Dishes 1",
+        "coordinates": [-27, -12, -26, -11]
+      },
+      {
+        "name": "Dishes 2",
+        "coordinates": [-26, -12, -25, -11]
+      },
+      {
+        "name": "Cutlery",
+        "coordinates": [-25, -12, -24, -11]
+      },
+      {
+        "name": "Glasses",
+        "coordinates": [-25, -13, -24, -12]
+      },
+      {
+        "name": "Napkins",
+        "coordinates": [-29, -13, -28, -12]
+      }
+    ]
+  },
+  "reasoning": "The Tabletop is the largest subitem so it is placed centrally on the table. The Chairs are equally distributed around the edges to allow seating, meeting the requirement of at least three places. The Centerpiece is placed near the center to make it visible and accessible. Dishes are placed next to the Centerpiece for ease of serving. Cutlery and Glasses are placed near the Dishes for convenience. Napkins are placed next to a chair for easy reachability. This arrangement ensures efficient use of space while keeping items logically accessible based on their use."
+}

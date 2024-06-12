@@ -1,0 +1,33 @@
+{
+    "layout": {
+        "name": "Dormitory",
+        "coordinates": [44, -24, 47, -18],
+        "children": [
+            {
+                "name": "Bed",
+                "coordinates": [44, -22, 45, -19]
+            },
+            {
+                "name": "Desk",
+                "coordinates": [45, -22, 46, -20]
+            },
+            {
+                "name": "Wardrobe",
+                "coordinates": [46, -23, 47, -20]
+            },
+            {
+                "name": "Bookshelf",
+                "coordinates": [44, -24, 45, -23]
+            },
+            {
+                "name": "Study Area",
+                "coordinates": [45, -24, 46, -22]
+            },
+            {
+                "name": "Closet",
+                "coordinates": [46, -24, 47, -23]
+            }
+        ]
+    },
+    "reasoning": "We started by placing the Bed, which has a size of 7 and is one of the largest items, near the bottom left corner of the dormitory (coordinates: [44, -22, 45, -19]). This allows easy access while leaving space for other items. Next, the Desk, which is smaller (size 4), is positioned right next to the Bed (coordinates: [45, -22, 46, -20]), providing a convenient workspace near sleeping area. The Wardrobe, being relatively large (size 6), is placed near the bottom right corner (coordinates: [46, -23, 47, -20]) to maximize the wall space and to keep it away from high-traffic areas. The Bookshelf is smaller (size 3) and is positioned at the bottom left corner (coordinates: [44, -24, 45, -23]), next to the Bed. This keeps books and study materials easily accessible from both the Bed and Study Area. The Study Area, which has a size of 5, is placed near the bottom right (coordinates: [45, -24, 46, -22]), which is a central location to aid in focusing without distractions. Finally, the Closet, the smallest item (size 2), is located next to the Bookshelf and near the bottom right corner (coordinates: [46, -24, 47, -23]). All items are within the dormitory's coordinates, do not overlap, and make efficient use of the available space."
+}

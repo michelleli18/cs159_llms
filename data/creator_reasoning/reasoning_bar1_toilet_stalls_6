@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Toilet Stalls 6",
+    "coordinates": [1, -18, 3, -16],
+    "children": [
+      {
+        "name": "Toilet Stalls 1",
+        "coordinates": [1, -18, 1.67, -16.67]
+      },
+      {
+        "name": "Toilet Stalls 2",
+        "coordinates": [1.67, -18, 2.33, -16.67]
+      },
+      {
+        "name": "Toilet Stalls 3",
+        "coordinates": [2.33, -18, 3, -16.67]
+      },
+      {
+        "name": "Sinks",
+        "coordinates": [1, -16.67, 2, -16]
+      },
+      {
+        "name": "Mirrors",
+        "coordinates": [2, -16.67, 3, -16]
+      },
+      {
+        "name": "Hand Dryers",
+        "coordinates": [1, -17, 1.5, -17.66]
+      },
+      {
+        "name": "Toilet Paper Dispensers",
+        "coordinates": [1.5, -17, 2, -17.66]
+      }
+    ]
+  },
+  "reasoning": "Toilet Stalls 1, Toilet Stalls 2, and Toilet Stalls 3 are placed next to each other as they are the primary feature and the largest components. Their sizes are proportional to the largest available vertical space within the coordinates. Sinks are logically placed near the Toilet Stalls for easy access after use. Mirrors are placed adjacent to the Sinks as they often accompany them for users to check their appearance. Hand Dryers are positioned near the Sinks but above them to maintain flow efficiency — users wash their hands and then dry them without crossing other subitems. Toilet Paper Dispensers are selected to fill the remaining space left efficiently, positioned near the Sinks for logical access within a restroom. The sizes were chosen to cover as much space as possible while retaining realistic dimensions of the subitems. No overlaps are present, and all children subitems are placed within the parent coordinates."
+}

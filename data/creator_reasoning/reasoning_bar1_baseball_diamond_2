@@ -1,0 +1,53 @@
+{
+  "layout": {
+    "name": "Baseball Diamond 2",
+    "coordinates": [29, -13, 34, -9],
+    "children": [
+      {
+        "name": "Home Plate",
+        "coordinates": [32, -11, 33, -10]
+      },
+      {
+        "name": "Picher'S Mound",
+        "coordinates": [31, -11, 32, -10]
+      },
+      {
+        "name": "First Base",
+        "coordinates": [33, -11, 34, -10]
+      },
+      {
+        "name": "Second Base",
+        "coordinates": [32, -13, 33, -12]
+      },
+      {
+        "name": "Third Base",
+        "coordinates": [30, -11, 31, -10]
+      },
+      {
+        "name": "Outfield",
+        "coordinates": [29, -13, 32, -9]
+      },
+      {
+        "name": "Infield",
+        "coordinates": [31, -13, 34, -12]
+      },
+      {
+        "name": "Dugout 1",
+        "coordinates": [29, -11, 30, -10]
+      },
+      {
+        "name": "Dugout 2",
+        "coordinates": [30, -13, 31, -12]
+      },
+      {
+        "name": "Bleachers",
+        "coordinates": [29, -13, 30, -12]
+      },
+      {
+        "name": "Scoreboard",
+        "coordinates": [29, -12, 30, -11]
+      }
+    ]
+  },
+  "reasoning": "Each subitem is placed based on its relative size, functional importance, and logical placement within a real-life baseball diamond layout. 'Home Plate' is placed centrally near the bottom for accessibility to 'Picher's Mound', 'First Base', 'Second Base', and 'Third Base'. 'Picher's Mound' centrally aligns within 'Home Plate'. 'First Base', 'Second Base', and 'Third Base' are logically placed for ease of access from 'Home Plate'. The 'Outfield' covers the most space occupying the upper left region. 'Infield' fills the next considerable area positioned centrally. For functional needs, 'Dugout' and 'Scoreboard' are placed on the left lower and upper regions respectively. Placement of all subitems ensures no overlapping while using available space efficiently and adhering to prioritization rules."
+}

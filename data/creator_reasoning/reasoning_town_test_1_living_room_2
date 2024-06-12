@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Living Room 2",
+    "coordinates": [-35, -21, -25, -15],
+    "children": [
+      {
+        "name": "Sofa",
+        "coordinates": [-35, -21, -30, -16]
+      },
+      {
+        "name": "Coffee Table",
+        "coordinates": [-30, -19, -27, -16]
+      },
+      {
+        "name": "Tv Stand",
+        "coordinates": [-27, -21, -25, -17]
+      },
+      {
+        "name": "Bookshelf",
+        "coordinates": [-30, -21, -27, -17]
+      }, 
+      {
+        "name": "Armchair",
+        "coordinates": [-32, -19, -28, -16]
+      }
+    ]
+  },
+  "reasoning": "The 'Sofa' is placed along the bottom left corner, extending towards the center because the sofa is usually a central piece in a living room and holds a relatively larger space. The 'Coffee Table' is positioned in front of the 'Sofa' for accessible reach and smaller footprint. The 'Tv Stand' is placed against the right wall, aligning with the 'Sofa' to enable optimal viewing. The 'Bookshelf' is placed near the 'Sofa' but towards the wall on the left, making the space organized and accessible. Finally, the 'Armchair' is placed near the 'Sofa' but leaving adequate space around the 'Coffee Table' for movement. All items are positioned to take efficient use of the corners and boundaries while maintaining accessibility and reasonable living room layout principles."
+}

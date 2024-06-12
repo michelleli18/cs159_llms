@@ -1,0 +1,101 @@
+{
+  "layout": {
+    "name": "Restrooms",
+    "coordinates": [24, -24, 26, -22],
+    "children": [
+      {
+        "name": "Toilet Stalls 1",
+        "coordinates": [24, -24, 24.8, -23.6]
+      },
+      {
+        "name": "Toilet Stalls 2",
+        "coordinates": [24.8, -24, 25.6, -23.6]
+      },
+      {
+        "name": "Toilet Stalls 3",
+        "coordinates": [25.6, -24, 26, -23.6]
+      },
+      {
+        "name": "Toilet Stalls 4",
+        "coordinates": [24, -23.6, 24.8, -23.2]
+      },
+      {
+        "name": "Toilet Stalls 5",
+        "coordinates": [24.8, -23.6, 25.6, -23.2]
+      },
+      {
+        "name": "Toilet Stalls 6",
+        "coordinates": [25.6, -23.6, 26, -23.2]
+      },
+      {
+        "name": "Toilet Stalls 7",
+        "coordinates": [24, -23.2, 24.8, -22.8]
+      },
+      {
+        "name": "Toilet Stalls 8",
+        "coordinates": [24.8, -23.2, 25.6, -22.8]
+      },
+      {
+        "name": "Sinks 1",
+        "coordinates": [24, -22.8, 24.5, -22.3]
+      },
+      {
+        "name": "Sinks 2",
+        "coordinates": [24.5, -22.8, 25, -22.3]
+      },
+      {
+        "name": "Sinks 3",
+        "coordinates": [25, -22.8, 25.5, -22.3]
+      },
+      {
+        "name": "Sinks 4",
+        "coordinates": [25.5, -22.8, 26, -22.3]
+      },
+      {
+        "name": "Urinals 1",
+        "coordinates": [24, -23.2, 24.4, -22.8]
+      },
+      {
+        "name": "Urinals 2",
+        "coordinates": [24.4, -23.2, 24.8, -22.8]
+      },
+      {
+        "name": "Urinals 3",
+        "coordinates": [24.8, -23.2, 25.2, -22.8]
+      },
+      {
+        "name": "Urinals 4",
+        "coordinates": [25.2, -23.2, 25.6, -22.8]
+      },
+      {
+        "name": "Urinals 5",
+        "coordinates": [25.6, -23.2, 26, -22.8]
+      },
+      {
+        "name": "Mirrors 1",
+        "coordinates": [24, -22.8, 24.25, -22.55]
+      },
+      {
+        "name": "Mirrors 2",
+        "coordinates": [24.25, -22.8, 24.5, -22.55]
+      },
+      {
+        "name": "Hand Dryers",
+        "coordinates": [25, -22.55, 25.3, -22.25]
+      },
+      {
+        "name": "Trash Bins 1",
+        "coordinates": [25.3, -22.55, 25.6, -22.45]
+      },
+      {
+        "name": "Trash Bins 2",
+        "coordinates": [25.6, -22.55, 26, -22.45]
+      },
+      {
+        "name": "Changing Table",
+        "coordinates": [25.3, -22.45, 25.8, -22.25]
+      }
+    ]
+  },
+  "reasoning": "Toilet Stalls are the largest in size relative to the overall restroom space, hence they occupy the most area and are placed at one end of the layout to ensure ease of accessibility. Multiple Toilet Stalls grouped together make it convenient and efficient. Sinks, being important but smaller than Toilet Stalls, are placed parallel to the Toilet Stalls to ensure quick handwashing access after use. Urinals, smaller than sinks but still necessary, are placed against another wall away from the stalls to prevent awkward movement. Mirrors are logically placed above the sinks for grooming checks. Hand Dryers need to be near the sinks and mirrors for easy hand drying after washing. Trash Bins are positioned next to the hand dryers to dispose of used hand towels. The Changing Table is placed in a corner for a bit more privacy. This arrangement ensures all items are logically placed making realistic use of space and ensuring no overlap or out-of-bounds placement."
+}

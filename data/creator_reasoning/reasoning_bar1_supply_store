@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Supply Store",
+    "coordinates": [-13, -10, 0, 0],
+    "children": [
+      {
+        "name": "Entrance Door",
+        "coordinates": [-13, -10, -11, -8]
+      },
+      {
+        "name": "Checkout Counter",
+        "coordinates": [-11, -10, -8, -7]
+      },
+      {
+        "name": "Shelving Units 1",
+        "coordinates": [-8, -10, -4, -6]
+      },
+      {
+        "name": "Shelving Units 2",
+        "coordinates": [-4, -10, 0, -6]
+      },
+      {
+        "name": "Storage Room",
+        "coordinates": [-8, -6, 0, 0]
+      },
+      {
+        "name": "Employee Area",
+        "coordinates": [-13, -6, -8, 0]
+      }
+    ]
+  },
+  "reasoning": "The 'Entrance Door' is placed at the bottom-left corner to provide easy access to the store. Right next to it is the 'Checkout Counter' to facilitate quick and convenient payment after entering. 'Shelving Units' are divided into two sections due to their considerable size and are placed adjacent to the 'Checkout Counter', ensuring goods are within easy reach. The 'Storage Room' is placed at the top-right corner to make effective use of space and is large enough to store excess inventory. Finally, the 'Employee Area' is placed at the top-left corner, contiguous with both the 'Entrance Door' and the 'Storage Room', facilitating easy access for staff members and effective use of available space. All subitems are within the bounding coordinates of the 'Supply Store' and do not overlap, ensuring efficient space utilization and practical arrangement for shop operations."
+}

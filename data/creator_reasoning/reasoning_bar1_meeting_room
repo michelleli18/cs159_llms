@@ -1,0 +1,41 @@
+{
+  "layout": {
+    "name": "Meeting Room",
+    "coordinates": [26, -24, 28, -20],
+    "children": [
+      {
+        "name": "Conference Table",
+        "coordinates": [26, -24, 27, -22]
+      },
+      {
+        "name": "Chairs 1",
+        "coordinates": [26, -22, 26.5, -21.5]
+      },
+      {
+        "name": "Chairs 2",
+        "coordinates": [27, -22, 27.5, -21.5]
+      },
+      {
+        "name": "Chairs 3",
+        "coordinates": [27.5, -22, 28, -21.5]
+      },
+      {
+        "name": "Whiteboard",
+        "coordinates": [26, -20.5, 26.5, -20]
+      },
+      {
+        "name": "Projector Screen",
+        "coordinates": [26.5, -20.5, 27.5, -20]
+      },
+      {
+        "name": "Windows",
+        "coordinates": [27, -24, 28, -23]
+      },
+      {
+        "name": "Cabinet",
+        "coordinates": [26.5, -23.5, 27, -22]
+      }
+    ]
+  },
+  "reasoning": "The 'Conference Table' is placed at the center-bottom of the Meeting Room since it's the primary item used for meetings. It's the largest item relative to its position and use. The 'Chairs' are placed around the table in a U-shape, allowing easy access to the table and optimizing space. We have three 'Chairs' items since the name is plural, and we're ensuring the most efficient use of space around the conference table. The 'Whiteboard' is placed at the top-left corner of the room for easy visibility while presenting. The 'Projector Screen' is placed next to the 'Whiteboard' to be in direct view of the 'Conference Table', optimizing presentation capabilities. The 'Windows' are placed at the bottom-right of the room so that natural light can be used without interfering with the 'Projector Screen'. The 'Cabinet' is placed near the 'Conference Table' and 'Chairs' to store documents and other materials needed for the meeting. Each item is arranged to touch the boundaries of the Meeting Room, ensuring space efficiency and functionality. The items were checked to stay within the parent boundaries and not overlap, fulfilling the primary requirement."
+}

@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Concession Stand",
+    "coordinates": [27, -18, 29, -14],
+    "children": [
+      {
+        "name": "Counter",
+        "coordinates": [27, -18, 29, -17]
+      },
+      {
+        "name": "Seating Area",
+        "coordinates": [27, -17, 29, -15]
+      },
+      {
+        "name": "Snack Display",
+        "coordinates": [27, -15, 28, -14]
+      },
+      {
+        "name": "Cooler",
+        "coordinates": [28, -15, 29, -14]
+      },
+      {
+        "name": "Menu Board",
+        "coordinates": [27, -15, 28, -14]
+      },
+      {
+        "name": "Cash Register",
+        "coordinates": [28, -18, 29, -17]
+      },
+      {
+        "name": "Trash Bin",
+        "coordinates": [29, -16, 29, -16]
+      }
+    ]
+  },
+  "reasoning": "The Concession Stand has dimensions [27, -18, 29, -14], giving it a height of 4 units and width of 2 units. The Counter is placed at the bottom left corner at coordinates [27, -18, 29, -17] as it is a large item that is typically at the front for service. The Seating Area, the largest item, is placed just above the Counter at [27, -17, 29, -15] to maximize space efficiency and ensure no overlap. The Snack Display is placed to the left at [27, -15, 28, -14] as it is slightly smaller and often near the seating for convenience. The Cooler is placed next to the Snack Display at [28, -15, 29, -14], considering the available space and logical placement for access to cold items. The Menu Board is placed at [27, -15, 28, -14] next to the seating and displays items easily accessible to customers. The Cash Register is a small item and is placed next to the Counter at [28, -18, 29, -17] where transactions happen. Lastly, the Trash Bin is very small and is situated at [29, -16, 29, -16] to ensure no space is wasted and conveniently placed for waste disposal. The layout maximizes the use of available space and keeps all subitems within the coordinates of the parent item, with no overlap, maintaining realistic and modern design principles."
+}

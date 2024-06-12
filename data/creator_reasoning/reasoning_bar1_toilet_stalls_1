@@ -1,0 +1,41 @@
+{
+  "layout": {
+    "name": "Toilet Stalls 1",
+    "coordinates": [-1, -22, 1, -20],
+    "children": [
+      {
+        "name": "Toilet Stalls 1",
+        "coordinates": [-1, -22, -1, -21]
+      },
+      {
+        "name": "Toilet Stalls 2",
+        "coordinates": [-1, -21, -1, -20]
+      },
+      {
+        "name": "Toilet Stalls 3",
+        "coordinates": [0, -22, 0, -21]
+      },
+      {
+        "name": "Toilet Stalls 4",
+        "coordinates": [0, -21, 0, -20]
+      },
+      {
+        "name": "Sink Counters",
+        "coordinates": [1, -21, 1, -20]
+      },
+      {
+        "name": "Hand Dryers",
+        "coordinates": [1, -22, 1, -21]
+      },
+      {
+        "name": "Trash Bins",
+        "coordinates": [0, -22, 0, -21]
+      },
+      {
+        "name": "Trash Bins 2",
+        "coordinates": [0, -21, 0, -20]
+      }
+    ]
+  },
+  "reasoning": "To ensure efficient use of space and prevent any overlapping or out-of-bounds placement, all subitems were carefully placed. The Toilet Stalls were broken into separate entities because of their smaller but multiple presence in the real world. Each Toilet Stall is an individual unit as commonly seen in public restrooms, and they occupy most of the space on the left side of the layout. The Sink Counters were placed adjacent to the Toilet Stalls as they are typically found near toilets for ease of use. The Hand Dryers were placed next to the Sinks as logically, people dry their hands right after washing them. The Trash Bins were also placed nearby as they are essential for disposing of hand towels or other waste. Due to constraints in space, there wasn't enough room to fit the Entrance Door and Floor Tiles subitems logically within the coordinates provided. These subitems were excluded because they could not fit into the defined area without overlapping or going out of bounds."
+}

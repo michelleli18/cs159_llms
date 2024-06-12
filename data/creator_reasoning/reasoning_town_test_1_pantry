@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Pantry",
+    "coordinates": [-29, -21, -27, -19],
+    "children": [
+      {
+        "name": "Floor Space",
+        "coordinates": [-29, -21, -27, -20]
+      },
+      {
+        "name": "Wall Cabinets",
+        "coordinates": [-29, -20, -28, -19]
+      },
+      {
+        "name": "Shelves",
+        "coordinates": [-28, -20, -27, -19]
+      },
+      {
+        "name": "Pantry Door",
+        "coordinates": [-29, -19, -28, -20]
+      },
+      {
+        "name": "Storage Bins",
+        "coordinates": [-28, -21, -27, -20]
+      }
+    ]
+  },
+  "reasoning": "Starting from the bottom left corner, the largest item 'Floor Space' was placed first to cover the majority of the available space. Due to its size, it's placed from [-29, -21] to [-27, -20]. Next, 'Wall Cabinets' which is the second largest, is placed from [-29, -20] to [-28, -19] along the top left area to utilize the vertical space efficiently. 'Shelves' are placed next to 'Wall Cabinets' from [-28, -20] to [-27, -19] as they are usually adjacent in pantry settings for ease of access. The 'Pantry Door', which is an essential access point, is located on the bottom side from [-29, -19] to [-28, -20]. Lastly, 'Storage Bins' are placed to the right of 'Floor Space' in coordinates [-28, -21] to [-27, -20] for convenient access from the door. All coordinates are within the parent boundaries, cover the maximum area with minimal empty space, and no items overlap, fulfilling the requirements."
+}

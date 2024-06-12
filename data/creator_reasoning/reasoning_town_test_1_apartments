@@ -1,0 +1,14 @@
+{
+"layout": {
+  "name": "Apartments",
+  "coordinates": [-45, -21, -17, -9],
+  "children": [
+    {"name": "Living Room", "coordinates": [-45, -21, -31, -15]},
+    {"name": "Kitchen", "coordinates": [-31, -21, -24, -15]},
+    {"name": "Bedroom", "coordinates": [-24, -21, -17, -13]},
+    {"name": "Bathroom", "coordinates": [-45, -15, -40, -9]},
+    {"name": "Dining Area", "coordinates": [-40, -15, -31, -9]},
+    {"name": "Closet", "coordinates": [-31, -15, -24, -9]}
+    ]
+},
+"reasoning": "The 'Living Room' is placed in the bottom-left corner with coordinates [-45, -21, -31, -15] as it is the largest subitem and should be centrally located for easy access. The 'Kitchen', with coordinates [-31, -21, -24, -15], is placed next to the 'Living Room' to facilitate flow and access while cooking and hosting guests. The 'Bedroom' is placed on the right side in coordinates [-24, -21, -17, -13], providing privacy away from the common areas. The 'Bathroom' is placed near the 'Bedroom' with coordinates [-45, -15, -40, -9], ensuring convenience and accessibility at night. The 'Dining Area' is placed near both the 'Kitchen' and 'Living Room' for easy access during meals, with coordinates [-40, -15, -31, -9]. The 'Closet', with coordinates [-31, -15, -24, -9], is placed next to the 'Bedroom' and 'Bathroom' for easy access to clothing and storage. Each subitem's size and location were determined to maximize space efficiency while ensuring a logical and realistic layout without overlap."}

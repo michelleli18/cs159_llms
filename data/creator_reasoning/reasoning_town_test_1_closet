@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Closet",
+    "coordinates": [-31, -15, -24, -9],
+    "children": [
+      {
+        "name": "Shelving Unit",
+        "coordinates": [-31, -15, -27, -9]
+      },
+      {
+        "name": "Hanging Rod",
+        "coordinates": [-27, -15, -24, -12]
+      },
+      {
+        "name": "Shoe Rack",
+        "coordinates": [-27, -12, -24, -9]
+      },
+      {
+        "name": "Storage Bin",
+        "coordinates": [-31, -15, -30, -12]
+      },
+      {
+        "name": "Laundry Basket",
+        "coordinates": [-31, -12, -30, -9]
+      }
+    ]
+  },
+  "reasoning": "The Shelving Unit is placed along the left wall of the closet taking the full height as it is the largest item (size 7) and is often found installed at the side. The Hanging Rod is placed adjacent to the shelving unit on the right and takes the top left corner almost touching the roof as it is frequently found at the top to hang clothes. The Shoe Rack is placed directly below the Hanging Rod as both items tend to be close to each other near the bottom. The Storage Bin is smaller and is tucked into the bottom left corner touching the Shelving Unit. Lastly, the Laundry Basket is placed to the right of the Storage Bin on the bottom to use up the remaining space. All items have touched the walls to maximize space and there's no overlap, maintaining a logical and space-efficient design."
+}

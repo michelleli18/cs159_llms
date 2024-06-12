@@ -1,0 +1,45 @@
+{
+  "layout": {
+    "name": "Checkout Desk",
+    "coordinates": [30, -20, 32, -18],
+    "children": [
+      {
+        "name": "Checkout Counter",
+        "coordinates": [30, -20, 31, -19]
+      },
+      {
+        "name": "Cash Register",
+        "coordinates": [31, -20, 31, -19]
+      },
+      {
+        "name": "Credit Card Terminal",
+        "coordinates": [31, -20, 31, -19]
+      },
+      {
+        "name": "Shopping Baskets 1",
+        "coordinates": [30, -19, 30, -18]
+      },
+      {
+        "name": "Shopping Baskets 2",
+        "coordinates": [30, -19, 30, -18]
+      },
+      {
+        "name": "Shopping Baskets 3",
+        "coordinates": [30, -18, 30, -18]
+      },
+      {
+        "name": "Receipt Printer",
+        "coordinates": [31, -19, 31, -18]
+      },
+      {
+        "name": "Display Shelves",
+        "coordinates": [30, -18, 31, -18]
+      },
+      {
+        "name": "Queue Area",
+        "coordinates": [31, -18, 32, -18]
+      }
+    ]
+  },
+  "reasoning": "The 'Checkout Counter' is placed first and occupies a significant portion of the available space because it is one of the largest and most central items. Beside it, I put the 'Cash Register' and the 'Credit Card Terminal' since they are typically located on or near the checkout counter. The 'Shopping Baskets' are split into three separate items and dispersed by the entrance for easy access. The 'Receipt Printer' is beside the checkout counter but away from the 'Cash Register' to avoid congestion. 'Display Shelves' occupy most of the remaining space to ensure customers can pick up additional items quickly. Finally, a 'Queue Area' is placed adjacent to both the checkout counter and the display shelves to utilize the remaining space effectively. Given the restricted area, I prioritized fitting relevant items logically without overlapping and without exceeding the parent boundaries. All items were placed flush against the sides to maximize space efficiency."
+}

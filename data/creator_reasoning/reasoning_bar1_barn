@@ -1,0 +1,37 @@
+{
+    "layout": {
+        "name": "Barn",
+        "coordinates": [31, -18, 33, -16],
+        "children": [
+            {
+                "name": "Stalls 1",
+                "coordinates": [31, -18, 31, -17]
+            },
+            {
+                "name": "Stalls 2",
+                "coordinates": [31, -17, 31, -16]
+            },
+            {
+                "name": "Hayloft",
+                "coordinates": [31, -16, 32, -16]
+            },
+            {
+                "name": "Barn Doors 1",
+                "coordinates": [32, -16, 33, -16]
+            },
+            {
+                "name": "Feed Room",
+                "coordinates": [32, -17, 32, -16]
+            },
+            {
+                "name": "Storage Area",
+                "coordinates": [32, -18, 32, -17]
+            },
+            {
+                "name": "Tack Room",
+                "coordinates": [33, -18, 33, -17]
+            }
+        ]
+    },
+    "reasoning": "Starting with Stalls which are the largest (9), they are placed in two sets on the left side of the barn. This is logical as barns typically have stalls running alongside one or both walls for ease of access and maximized space utilization. Next, the Hayloft (7) is positioned above the stalls on the left. This is because haylofts are often raised structures in barns. The Barn Doors (4) are placed near the front (right side) for accessibility. The Feed Room (6) is placed centrally near the stalls for convenience in feeding the animals. The Storage Area (5) is next for practical access to supplies. Lastly, the Tack Room (5) is near the front-right for easy entrance and exit when managing riding equipment. This logical placement ensures efficient use of space, ease of access, and adherence to general architectural principles for barn layouts. Each subitem fits within the provided parent coordinates without overlap."
+}

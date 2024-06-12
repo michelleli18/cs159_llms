@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Bedroom",
+    "coordinates": [-24, -21, -17, -13],
+    "children": [
+      {
+        "name": "Bed",
+        "coordinates": [-24, -21, -20, -17]
+      },
+      {
+        "name": "Wardrobe",
+        "coordinates": [-20, -21, -17, -18]
+      },
+      {
+        "name": "Desk",
+        "coordinates": [-20, -18, -17, -15]
+      },
+      {
+        "name": "Dresser",
+        "coordinates": [-24, -17, -21, -14]
+      },
+      {
+        "name": "Bookshelf",
+        "coordinates": [-21, -17, -19, -14]
+      },
+      {
+        "name": "Nightstand",
+        "coordinates": [-19, -17, -17, -15]
+      }
+    ]
+  },
+  "reasoning": "In designing the layout for the bedroom, the goal was to ensure all items fit efficiently within the given space while considering their relative sizes and common placement logic. The 'Bed', being one of the largest and most central items in a bedroom, is placed flush against the left and bottom walls for optimal space utilization. The 'Wardrobe' is placed next to the bed along the bottom wall as wardrobes are usually accessible adjacent to the bed. The 'Desk' is placed next to the wardrobe along the right wall for study or work purposes, keeping continuity in functional area. The 'Dresser' is placed above the bed along the left wall maximizing use of remaining space there. The 'Bookshelf' is placed next to the dresser, with a logical placement in mind that bookshelves are often near dressers for easy reach. Finally, the 'Nightstand' is placed on the right of the bookshelf, near the head of the bed, an ideal position for easy access during bedtime. All coordinates are verified to ensure no overlaps and that every item is within the boundaries of the bedroom."
+}

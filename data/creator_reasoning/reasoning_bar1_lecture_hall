@@ -1,0 +1,29 @@
+{
+    "layout": {
+        "name": "Lecture Hall",
+        "coordinates": [32, -24, 38, -18],
+        "children": [
+            {
+                "name": "Seating Area",
+                "coordinates": [32, -24, 38, -20]
+            },
+            {
+                "name": "Podium",
+                "coordinates": [35, -20, 36, -19]
+            },
+            {
+                "name": "Whiteboard",
+                "coordinates": [32, -19, 33, -18]
+            },
+            {
+                "name": "Projector Screen",
+                "coordinates": [33, -19, 35, -18]
+            },
+            {
+                "name": "Lectern",
+                "coordinates": [36, -20, 38, -19]
+            }
+        ]
+    },
+    "reasoning": "Given the priorities outlined, we first ensured all child coordinates of the original Lecture Hall are within the parent coordinates [32, -24, 38, -18] and that they do not overlap. Here's the explanation for the placements: Seating Area is placed along the bottom left [32, -24, 38, -20] as it occupies the largest area (size 10), and seating areas should logically take up most of the space closest to the entrance for easy access. The Podium is placed centrally [35, -20, 36, -19], as it is commonly at the front middle of a lecture hall to be visible to all seated individuals (size 3). The Whiteboard and Projector Screen are placed at the upper left [32, -19, 33, -18] and center [33, -19, 35, -18] respectively above the Podium for better visibility (both size 5). The Lectern, which is smaller (size 2), is placed next to the Podium but to the right [36, -20, 38, -19], ensuring it does not interfere with sight lines. This layout logically organizes the space similar to real-life lecture halls, prioritizes visibility, and fits all key items without overlap or boundary violations."
+}

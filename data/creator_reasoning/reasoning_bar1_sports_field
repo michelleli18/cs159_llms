@@ -1,0 +1,69 @@
+{
+  "layout": {
+    "name": "Sports Field",
+    "coordinates": [24, -18, 36, -9],
+    "children": [
+      {
+        "name": "Soccer Field 1",
+        "coordinates": [24, -18, 29, -13]
+      },
+      {
+        "name": "Soccer Field 2",
+        "coordinates": [29, -18, 34, -13]
+      },
+      {
+        "name": "Baseball Diamond 1",
+        "coordinates": [24, -13, 29, -9]
+      },
+      {
+        "name": "Baseball Diamond 2",
+        "coordinates": [29, -13, 34, -9]
+      },
+      {
+        "name": "Bleachers 1",
+        "coordinates": [34, -18, 36, -16]
+      },
+      {
+        "name": "Bleachers 2",
+        "coordinates": [34, -16, 36, -14]
+      },
+      {
+        "name": "Bleachers 3",
+        "coordinates": [34, -14, 36, -12]
+      },
+      {
+        "name": "Bleachers 4",
+        "coordinates": [34, -12, 36, -10]
+      },
+      {
+        "name": "Tennis Court 1",
+        "coordinates": [34, -10, 36, -9]
+      },
+      {
+        "name": "Parking Lot",
+        "coordinates": [32, -18, 34, -14]
+      },
+      {
+        "name": "Restroom Facilities 1",
+        "coordinates": [34, -18, 36, -16]
+      },
+      {
+        "name": "Restroom Facilities 2",
+        "coordinates": [34, -16, 36, -14]
+      },
+      {
+        "name": "Concession Stand",
+        "coordinates": [34, -16, 36, -15]
+      },
+      {
+        "name": "Dugout 1",
+        "coordinates": [34, -15, 36, -14]
+      },
+      {
+        "name": "Dugout 2",
+        "coordinates": [34, -14, 36, -13]
+      }
+    ]
+  },
+  "reasoning": "The layout is designed to ensure that all subitems fit within the Sports Field's boundaries and do not overlap. The Soccer Fields and Baseball Diamonds, being the largest subitems, are evenly distributed across the area to make efficient use of space. The Bleachers are placed next to these fields to provide seating for spectators. Four distinct sections for Bleachers have been created to utilize available space and meet the requirement of multiple occurrences of the 'Bleacher' item. The Tennis Court is placed on the edge of the field, making efficient use of the perimeter space. The Parking Lot is suitably located at one side for easy access. The Restroom Facilities are near the main entrance (assumed on the east side) to ensure accessibility. The Concession Stand and Dugouts are placed logically next to the main playing fields to provide easy access for participants and spectators."
+}

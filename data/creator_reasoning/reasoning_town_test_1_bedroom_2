@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Bedroom 2",
+    "coordinates": [-32, -15, -17, -9],
+    "children": [
+      {
+        "name": "Bed",
+        "coordinates": [-31, -15, -24, -11]
+      },
+      {
+        "name": "Wardrobe",
+        "coordinates": [-23, -15, -17, -11]
+      },
+      {
+        "name": "Dresser",
+        "coordinates": [-31, -10, -26, -9]
+      },
+      {
+        "name": "Nightstand",
+        "coordinates": [-25, -10, -23, -9]
+      },
+      {
+        "name": "Desk",
+        "coordinates": [-22, -10, -18, -9]
+      },
+      {
+        "name": "Bookshelf",
+        "coordinates": [-20, -15, -17, -12]
+      }
+    ]
+  },
+  "reasoning": "The Bed is given the largest space and placed against the longest wall for easy access and visibility, typically found in any bedroom setup. The Wardrobe, being the next sizable item, is placed adjacent to the Bed to allow convenient storage of clothes. The Dresser, which is typically smaller and used for organizing smaller clothing items, is placed near the Wardrobe for logical convenience. The Nightstand is placed next to the Bed to hold essential bedside items such as a lamp, alarm clock, or books. The Desk is positioned near the Nightstand on the remaining short side, making efficient use of remaining wall space and providing a dedicated work or study area. Finally, the Bookshelf is placed along the available wall near the Wardrobe, creating an accessible space for books and decor items. This arrangement ensures all items are within the stated coordinates of the Bedroom 2, do not overlap, and maximize the space usage by placing larger items against the walls and strategically positioning smaller items around them."
+}

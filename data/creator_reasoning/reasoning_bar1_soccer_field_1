@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Soccer Field 1",
+    "coordinates": [24, -18, 29, -13],
+    "children": [
+      {
+        "name": "Soccer Field",
+        "coordinates": [24, -18, 29, -14]
+      },
+      {
+        "name": "Bleachers",
+        "coordinates": [24, -14, 26, -13]
+      },
+      {
+        "name": "Dugout",
+        "coordinates": [26, -14, 27, -13]
+      },
+      {
+        "name": "Parking Lot",
+        "coordinates": [27, -14, 29, -13]
+      },
+      {
+        "name": "Concession Stand",
+        "coordinates": [27, -18, 29, -14]
+      }
+    ]
+  },
+  "reasoning": "The main 'Soccer Field' occupies the largest area within the coordinates [24, -18, 29, -14] as it is the primary focus and takes up the bulk of the space. Bleachers are positioned next to the Soccer Field at [24, -14, 26, -13] for spectators, ensuring they have a good view. The Dugout is logically placed adjacent to the Bleachers at [26, -14, 27, -13] for easy access for players coming off and on the field. The Parking Lot is placed to the right of the Dugout at [27, -14, 29, -13], which is conveniently placed for spectators arriving at the location, facilitating easy access. Finally, the Concession Stand is placed along the bottom right corner at [27, -18, 29, -14], providing access to visitors without interrupting the main viewing areas. These placements ensure all subitems are within the parent's coordinates with no overlap. The assignment of coordinates maximizes the use of available space while respecting the relative sizes and logical real-world positioning of each subitem."
+}

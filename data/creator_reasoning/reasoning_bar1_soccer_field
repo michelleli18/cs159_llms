@@ -1,0 +1,73 @@
+{
+  "layout": {
+    "name": "Soccer Field",
+    "coordinates": [24, -18, 29, -14],
+    "children": [
+      {
+        "name": "Goal Posts",
+        "coordinates": [24, -18, 26, -17]
+      },
+      {
+        "name": "Goal Posts 2",
+        "coordinates": [27, -18, 29, -17]
+      },
+      {
+        "name": "Midfield Circle",
+        "coordinates": [26, -16, 27, -15]
+      },
+      {
+        "name": "Penalty Box",
+        "coordinates": [24, -17, 26, -16]
+      },
+      {
+        "name": "Penalty Box 2",
+        "coordinates": [27, -17, 29, -16]
+      },
+      {
+        "name": "Corner Arc",
+        "coordinates": [24, -14, 24, -14]
+      },
+      {
+        "name": "Corner Arc 2",
+        "coordinates": [29, -18, 29, -18]
+      },
+      {
+        "name": "Corner Arc 3",
+        "coordinates": [24, -18, 24, -18]
+      },
+      {
+        "name": "Sidelines",
+        "coordinates": [24, -15, 29, -14]
+      },
+      {
+        "name": "Benches",
+        "coordinates": [25, -18, 26, -18]
+      },
+      {
+        "name": "Benches 2",
+        "coordinates": [24, -14, 25, -14]
+      },
+      {
+        "name": "Benches 3",
+        "coordinates": [28, -14, 29, -14]
+      },
+      {
+        "name": "Dugout",
+        "coordinates": [25, -15, 26, -15]
+      },
+      {
+        "name": "Dugout 2",
+        "coordinates": [25, -15, 26, -15]
+      },
+      {
+        "name": "Scoreboard",
+        "coordinates": [26, -18, 27, -18]
+      },
+      {
+        "name": "Scoreboard 2",
+        "coordinates": [24, -18, 25, -18]
+      }
+    ]
+  },
+  "reasoning": "The Goal Posts are placed at the edges of the soccer field to stay true to a real-life soccer field layout. We have two sets, one on each end. The Midfield Circle is placed in the center of the field to emulate a real soccer field. The Penalty Boxes are just in front of the Goal Posts to stay true to real-life positioning. Three Corner Arcs are placed at each corner space to maximize corner representation. The Sidelines are alongside the length of the field. Three Benches are located near the edges to be accessible to players and staff without obstructing field play. Dugouts are placed near the sidelines for similar reasons. Two Scoreboards are added at opposite ends to maximize visibility. All subitems are within the boundary of the parent and utilize the available area efficiently without overlap."
+}

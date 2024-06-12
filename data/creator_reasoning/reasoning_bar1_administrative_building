@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Administrative Building",
+    "coordinates": [41, -18, 45, -13],
+    "children": [
+      {
+        "name": "Main Entrance",
+        "coordinates": [41, -18, 43, -17]
+      },
+      {
+        "name": "Reception Desk",
+        "coordinates": [41, -17, 43, -16]
+      },
+      {
+        "name": "Restrooms",
+        "coordinates": [43, -17, 45, -16]
+      },
+      {
+        "name": "Break Room",
+        "coordinates": [43, -18, 45, -17]
+      },
+      {
+        "name": "Conference Room",
+        "coordinates": [41, -16, 43, -14]
+      },
+      {
+        "name": "Manager'S Office",
+        "coordinates": [43, -16, 45, -14]
+      },
+      {
+        "name": "Cubicle Area",
+        "coordinates": [41, -14, 43, -13]
+      }
+    ]
+  },
+  "reasoning": "The children subitems were placed within the Administrative Building with careful consideration of size, function, and adjacency to ensure efficiency and logical placement. The Main Entrance and Reception Desk are positioned at the front of the building (bottom of the coordinates), allowing easy access for visitors. The Restrooms and Break Room are together on the right side, as these areas are related in terms of employee convenience. Next to the Restrooms and Break Room is the Manager's Office, providing direct accessibility from the Break Room. The Conference Room is placed next to the Reception Desk, convenient for guests and staff for quick meetings. Finally, the Cubicle Area is located in the upper-left corner, as it occupies a larger area and allows staff to be close to the Conference Room and Reception Desk. The Storage Room could not be placed due to space constraints, ensuring no overlap and fully utilizing the given space within the building's boundaries."
+}

@@ -1,0 +1,53 @@
+{
+  "layout": {
+    "name": "Pond",
+    "coordinates": [-28, -5, -24, -1],
+    "children": [
+      {
+        "name": "Pond Water",
+        "coordinates": [-28, -5, -24, -2]
+      },
+      {
+        "name": "Dock",
+        "coordinates": [-26, -2, -24, -1]
+      },
+      {
+        "name": "Picnic Area 1",
+        "coordinates": [-28, -2, -26, -1]
+      },
+      {
+        "name": "Picnic Area 2",
+        "coordinates": [-28, -3, -26, -2]
+      },
+      {
+        "name": "Picnic Area 3",
+        "coordinates": [-28, -4, -26, -3]
+      },
+      {
+        "name": "Trees 1",
+        "coordinates": [-26, -4, -25, -3]
+      },
+      {
+        "name": "Trees 2",
+        "coordinates": [-25, -4, -24, -3]
+      },
+      {
+        "name": "Trees 3",
+        "coordinates": [-26, -3, -25, -2]
+      },
+      {
+        "name": "Trees 4",
+        "coordinates": [-25, -3, -24, -2]
+      },
+      {
+        "name": "Trees 5",
+        "coordinates": [-26, -5, -25, -4]
+      },
+      {
+        "name": "Trees 6",
+        "coordinates": [-25, -5, -24, -4]
+      }
+    ]
+  },
+  "reasoning": "Pond Water is placed in the largest contiguous space and it is the biggest element. The Dock is logically placed adjacent to the Pond Water on one side. Picnic Areas are placed next to each other on the other side of the dock to make a realistic and comfortable layout for visitors. Since Picnic Areas are sizeable but not the biggest, they spread out in smaller chunks and are adjacent to each other. Trees are smaller and are spread around the remaining space to efficiently use every bit of available area and give a natural look. The space is efficiently utilized by perfectly fitting all items within the defined boundaries and maintaining logical proximity."
+}

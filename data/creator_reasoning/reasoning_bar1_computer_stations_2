@@ -1,0 +1,33 @@
+{
+    "layout": {
+        "name": "Computer Stations 2",
+        "coordinates": [26, -22, 28, -20],
+        "children": [
+            {
+                "name": "Computer Desk",
+                "coordinates": [26, -22, 27, -21]
+            },
+            {
+                "name": "Computer Desk 2",
+                "coordinates": [27, -22, 28, -21]
+            },
+            {
+                "name": "Monitors",
+                "coordinates": [26, -21, 26, -20]
+            },
+            {
+                "name": "Chairs",
+                "coordinates": [27, -21, 27, -20]
+            },
+            {
+                "name": "Cabinets",
+                "coordinates": [28, -21, 28, -20]
+            },
+            {
+                "name": "Whiteboard",
+                "coordinates": [28, -22, 28, -21]
+            }
+        ]
+    },
+    "reasoning": "The subitems were placed in accordance with their relative sizes while ensuring no overlap and staying within the bounds of the original place. Two 'Computer Desk' subitems were created to satisfy the spatial requirements and their relative size (5 out of 10). They were placed in the larger part of the available area. 'Monitors' were positioned next to the Computer Desks, given their relative size (2 out of 10) and common usage in real-life settings (next to desks for user convenience). 'Chairs' were also placed near the desks for logical accessibility based on their size (3 out of 10) and typical use cases. 'Cabinets', being the largest in size (6 out of 10), were placed near the borders to make space more efficient. The 'Whiteboard' was positioned appropriately, given its size (4 out of 10) and typical location near workspaces for meetings or brainstorming sessions. All coordinates were integers, ensuring validity based on the parent item."
+}

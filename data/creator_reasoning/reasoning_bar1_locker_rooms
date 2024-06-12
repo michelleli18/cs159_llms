@@ -1,0 +1,29 @@
+{
+    "layout": {
+        "name": "Locker Rooms",
+        "coordinates": [31, -15, 33, -13],
+        "children": [
+            {
+                "name": "Lockers 1",
+                "coordinates": [31, -15, 32, -14]
+            },
+            {
+                "name": "Lockers 2",
+                "coordinates": [32, -15, 33, -14]
+            },
+            {
+                "name": "Benches 1",
+                "coordinates": [31, -14, 32, -13]
+            },
+            {
+                "name": "Benches 2",
+                "coordinates": [32, -14, 33, -13]
+            },
+            {
+                "name": "Changing Areas 1",
+                "coordinates": [31, -15, 33, -13]
+            }
+        ]
+    },
+    "reasoning": "The Locker Rooms have dimensions [31, -15, 33, -13], which is a 2x2 grid of space. The subitems were placed to prioritize the most important rule: keeping all children within the parent item and avoiding any overlap. Each item has been given its own rectangle within this grid. The 'Lockers' are placed adjacent to each other at the bottom (32, -15 to 33, -14 coordinates), as they are the primary function of the room and their size is relatively significant. The 'Benches' are placed at the top (31, -14 to 33, -13 coordinates) because people will need a place to sit when changing and they should be easily accessible from the 'Lockers'. There are two benches adjacent to each other. Due to space constraints, only parts of each item were included and not every item from the initial list could be fitted. The Shower, Toilets, and Sinks weren't included as their total combined relative sizes exceeded available grid space after placing the Lockers, Benches, and Changing Areas. This layout ensures usage of all available space efficiently."
+}

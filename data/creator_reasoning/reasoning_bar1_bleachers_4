@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Bleachers 4",
+    "coordinates": [34, -12, 36, -10],
+    "children": [
+      {
+        "name": "Field",
+        "coordinates": [34, -12, 35, -11]
+      },
+      {
+        "name": "Bleacher Seats 1",
+        "coordinates": [35, -12, 36, -11]
+      },
+      {
+        "name": "Bleacher Seats 2",
+        "coordinates": [34, -11, 35, -10]
+      },
+      {
+        "name": "Bleacher Seats 3",
+        "coordinates": [35, -11, 36, -10]
+      },
+      {
+        "name": "Concession Stand",
+        "coordinates": [34, -12, 34.5, -11.5]
+      },
+      {
+        "name": "Scoreboard",
+        "coordinates": [34.5, -12, 35, -11.5]
+      },
+      {
+        "name": "Restrooms",
+        "coordinates": [34, -11.5, 34.5, -11]
+      }
+    ]
+  },
+  "reasoning": "The Field was placed first due to it being the largest item (size 10), taking up a significant section of the lower left area. The Bleacher Seats were divided into three segments to fulfill the requirement of having a plural item with at least three instances. They were strategically placed to the right and above the Field, maximizing usage of available space. The Concession Stand and Scoreboard were placed together for accessibility and to logically mimic real life where people can see the scoreboard from the bleachers while getting food. The Restrooms were placed near the Concession Stand to provide easy access for spectators. Ensuring that all items are within the bounds and touching the walls optimizes space efficiency and accessibility."
+}

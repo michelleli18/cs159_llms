@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Outfield",
+    "coordinates": [29, -13, 32, -9],
+    "children": [
+      {
+        "name": "Field",
+        "coordinates": [29, -13, 32, -10]
+      },
+      {
+        "name": "Bleachers 1",
+        "coordinates": [29, -10, 30, -9]
+      },
+      {
+        "name": "Bleachers 2",
+        "coordinates": [30, -10, 31, -9]
+      },
+      {
+        "name": "Bleachers 3",
+        "coordinates": [31, -10, 32, -9]
+      },
+      {
+        "name": "Bullpen",
+        "coordinates": [31, -13, 32, -12]
+      },
+      {
+        "name": "Scoreboard",
+        "coordinates": [30, -13, 31, -12]
+      },
+      {
+        "name": "Walls",
+        "coordinates": [29, -12, 31, -10]
+      }
+    ]
+  },
+  "reasoning": "The placement of the subitems was done taking into account their sizes and the necessity to cover as much space as possible within the parent's rectangle, while ensuring no overlapping or out-of-bound coordinates. The 'Field' is the largest item, thus it is placed prominently covering most of the area from the bottom-left to almost the top-right corner. The 'Bleachers' are split into three separate sections (Bleachers 1, Bleachers 2, and Bleachers 3) and placed compactly at the top right to make efficient use of the space while producing a realistic layout where spectators can view the field. The 'Walls' are then placed covering a space bordering 'Field' and adjacent to 'Scoreboard' and 'Bullpen'. This layout ensures all areas are effectively utilized and align with logical real-world locations within an Outfield setup. The 'Bullpen' and 'Scoreboard' are positioned at the lower part to the right, providing logical and realistic placement, being smaller elements that fit snugly into the remaining spaces. The sizes of the items reflect their functional requirements within the outfield context, such as expansive 'Field' space and smaller yet multiple 'Bleachers'."
+}

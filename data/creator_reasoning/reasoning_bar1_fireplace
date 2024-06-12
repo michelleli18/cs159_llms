@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Fireplace",
+    "coordinates": [-9, -16, -6, -14],
+    "children": [
+      {
+        "name": "Chimney",
+        "coordinates": [-9, -14, -8, -6]
+      },
+      {
+        "name": "Mantelpiece",
+        "coordinates": [-8, -14, -7, -10]
+      },
+      {
+        "name": "Fireplace Hearth",
+        "coordinates": [-8, -10, -9, -3]
+      },
+      {
+        "name": "Fireplace Screen",
+        "coordinates": [-9, -10, -10, -5]
+      },
+      {
+        "name": "Firewood Stack",
+        "coordinates": [-7, -10, -6, -5]
+      },
+      {
+        "name": "Ash Bin",
+        "coordinates": [-6, -15, -9, -16]
+      }
+    ]
+  },
+  "reasoning": "To ensure efficient use of space and logical positioning, the largest item, the Chimney, was placed at the top of the Fireplace, occupying most of the left side. This placement is logical as chimneys are usually positioned above other items like the Mantelpiece and Hearth. The Mantelpiece, being the second-largest, is placed below the Chimney but still occupying a central space. The Fireplace Hearth is placed directly below the Mantelpiece as it is typically located at the bottom of fireplaces. The Fireplace Screen was positioned on the left of the Hearth, creating a barrier and thus behaving logically. Meanwhile, the Firewood Stack was placed to the right of the Hearth, making it easily accessible for adding wood to the fire. The Ash Bin, being the smallest item, was placed at the bottom, left of the available space not occupied by the Chimney. All items were fit within the constraints of the Fireplace's coordinates ensuring no overlap and efficient use of space."
+}

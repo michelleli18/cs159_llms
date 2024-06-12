@@ -1,0 +1,25 @@
+{
+  "layout": {
+    "name": "Sink Area",
+    "coordinates": [37, -17, 39, -15],
+    "children": [
+      {
+        "name": "Sink Basin",
+        "coordinates": [37, -17, 38, -16]
+      },
+      {
+        "name": "Faucet",
+        "coordinates": [38, -17, 39, -16]
+      },
+      {
+        "name": "Countertop",
+        "coordinates": [37, -16, 38, -15]
+      },
+      {
+        "name": "Dish Rack",
+        "coordinates": [38, -16, 39, -15]
+      }
+    ]
+  },
+  "reasoning": "The subitems were placed based on their relative sizes and necessity to be near each other in a realistic kitchen sink area. The Sink Basin is centrally located and aligned with the bottom-left corner to make room for the Faucet directly next to it on the right, ensuring easy access to water. The Countertop is placed above the Sink Basin to provide a workspace for washing and drying dishes. The Dish Rack is located next to the Faucet and Countertop, mimicking real-life arrangements in the kitchen, allowing for efficient dish storage and drying. The Under-Sink Cabinet could not be included due to space constraints, ensuring all placed items fit within the required boundaries without any overlap."
+}

@@ -1,0 +1,25 @@
+{
+    "layout": {
+        "name": "Playground",
+        "coordinates": [-32, -5, -28, -2],
+        "children": [
+            {
+                "name": "Basketball Court",
+                "coordinates": [-32, -5, -28, -2]
+            },
+            {
+                "name": "Climbing Frame",
+                "coordinates": [-32, -5, -30, -3]
+            },
+            {
+                "name": "Swing Set",
+                "coordinates": [-30, -5, -29, -3]
+            },
+            {
+                "name": "Merry-Go-Round",
+                "coordinates": [-29, -5, -28, -3]
+            }
+        ]
+    },
+    "reasoning": "The items have been placed considering the following constraints: the total size of the Playground and the relative sizes and logical locations of each subitem. The Basketball Court, being the biggest item requiring the full width of the place, was placed along the bottom touching all corners. The Climbing Frame, Swing Set, and Merry-Go-Round were chosen since they could fit into the remaining space without overlapping or requiring sub-decimal coordinates. These items were also chosen because they are important to a playground and logically can be adjacent to each other. The relative sizes have been maintained and naturally items that are logically close in a real playground (like the Swing Set and Merry-Go-Round) are placed next to each other. Due to size constraints, other items such as Slide, Sandbox, Seesaw, Picnic Tables, and Public Restroom could not be included as they would either overlap with existing items or exceed the given space boundaries."
+}

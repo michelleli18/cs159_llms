@@ -1,0 +1,25 @@
+{
+"layout": {
+  "name": "Bathroom",
+  "coordinates": [-45, -15, -40, -9],
+  "children": [
+    {
+      "name": "Bathtub",
+      "coordinates": [-44, -14, -42, -10]
+    },
+    {
+      "name": "Shower",
+      "coordinates": [-42, -14, -40, -11]
+    },
+    {
+      "name": "Toilet",
+      "coordinates": [-44, -15, -43, -14]
+    },
+    {
+      "name": "Sink",
+      "coordinates": [-43, -15, -42, -14]
+    }
+  ]
+},
+"reasoning": "The Bathtub, being the largest subitem, was placed first and occupies a significant portion of the Bathroom. It is adjacent to the upper left corner due to its large size and the need to efficiently use space. The Shower is placed next to the Bathtub because it is the second largest item and aligns flush with the right wall to maximize space. The Toilet and Sink are smaller in size and are placed in the lower left corner. This makes the most effective use of remaining  space, ensuring no area is wasted while also grouping similar hygiene-related items together. The Cabinet could not be included because fitting it would violate the constraints, and there was insufficient space left to place it without overlapping other subitems or extending beyond the bathroom's boundaries."
+}

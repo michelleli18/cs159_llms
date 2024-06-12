@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Soccer Field 2",
+    "coordinates": [29, -18, 34, -13],
+    "children": [
+      {
+        "name": "Field",
+        "coordinates": [29, -18, 34, -13]
+      },
+      {
+        "name": "Goal 1",
+        "coordinates": [29, -18, 30, -15]
+      },
+      {
+        "name": "Goal 2",
+        "coordinates": [33, -18, 34, -15]
+      },
+      {
+        "name": "Bleachers",
+        "coordinates": [29, -15, 31, -13]
+      },
+      {
+        "name": "Locker Rooms",
+        "coordinates": [31, -15, 33, -13]
+      },
+      {
+        "name": "Parking Lot",
+        "coordinates": [33, -15, 34, -13]
+      }
+    ]
+  },
+  "reasoning": "The 'Field' occupies the main area since it is the largest and most central part of a soccer field. The 'Goals' are placed at opposite ends of the field, with 'Goal 1' at the lower left corner and 'Goal 2' at the lower right corner, touching the boundaries to maximize space. The 'Bleachers' are placed next to the 'Field' at the upper left to allow spectators a good view, while 'Locker Rooms' are placed next to 'Bleachers' for easy access for players. The 'Parking Lot' is placed at the upper right for easy access and it touches the boundaries of the place, making efficient use of space. All items fit within the provided coordinates with no overlap and integer coordinates."
+}

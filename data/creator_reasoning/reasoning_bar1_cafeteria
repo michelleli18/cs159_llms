@@ -1,0 +1,61 @@
+{
+  "layout": {
+    "name": "Cafeteria",
+    "coordinates": [38, -24, 44, -18],
+    "children": [
+      {
+        "name": "Serving Counter",
+        "coordinates": [38, -23, 40, -20]
+      },
+      {
+        "name": "Beverage Stations",
+        "coordinates": [38, -20, 40, -18]
+      },
+      {
+        "name": "Cash Register",
+        "coordinates": [40, -23, 42, -21]
+      },
+      {
+        "name": "Trash Bins",
+        "coordinates": [40, -21, 40, -18]
+      },
+      {
+        "name": "Dining Tables 1",
+        "coordinates": [42, -23, 44, -22]
+      },
+      {
+        "name": "Dining Tables 2",
+        "coordinates": [42, -22, 44, -21]
+      },
+      {
+        "name": "Dining Tables 3",
+        "coordinates": [42, -21, 44, -20]
+      },
+      {
+        "name": "Chairs 1",
+        "coordinates": [42, -20, 43, -19]
+      },
+      {
+        "name": "Chairs 2",
+        "coordinates": [43, -20, 44, -19]
+      },
+      {
+        "name": "Chairs 3",
+        "coordinates": [42, -19, 43, -18]
+      },
+      {
+        "name": "Entrance Door",
+        "coordinates": [40, -24, 41, -23]
+      },
+      {
+        "name": "Restrooms",
+        "coordinates": [41, -24, 43, -23]
+      },
+      {
+        "name": "Food Storage",
+        "coordinates": [43, -24, 44, -22]
+      }
+    ]
+  },
+  "reasoning": "The layout design ensures all subitems are within the coordinates of the Cafeteria and do not overlap. The 'Serving Counter' and 'Beverage Stations' are placed near the entrance to provide immediate accessibility for food and drinks. The 'Cash Register' is placed near the serving area to facilitate easy payment processes. 'Trash Bins' are placed next to the beverage station for convenience. 'Dining Tables' and 'Chairs' are spread out to the right side, making it a spacious dining area. The 'Entrance Door' and 'Restrooms' are placed close to each other for easy navigation. The 'Food Storage' is placed towards the back for better organization and accessibility for staff. This placement maximizes the use of the space while adhering to logical and practical placement of subitems based on cafeteria functionality."
+}

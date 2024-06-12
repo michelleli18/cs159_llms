@@ -1,0 +1,28 @@
+{
+	"layout": {
+		"name": "Hearth",
+		"coordinates": [-37, -20, -34, -18],
+		"children": [{
+				"name": "Fireplace",
+				"coordinates": [-37, -20, -35, -19]
+			},
+			{
+				"name": "Seating Area",
+				"coordinates": [-35, -20, -34, -19]
+			},
+			{
+				"name": "Wood Stack",
+				"coordinates": [-37, -19, -36, -18]
+			},
+			{
+				"name": "Cookpot",
+				"coordinates": [-36, -19, -35, -18]
+			},
+			{
+				"name": "Mantelpiece",
+				"coordinates": [-35, -19, -34, -18]
+			}
+		]
+	},
+	"reasoning": "The placement of the subitems has been done taking into consideration their sizes and functionalities as per realistic architectural design. The Fireplace, which is the largest item, is placed flush along the bottom-left edge of the Hearth, allowing it sufficient room. The Seating Area is located directly adjacent to the Fireplace on its right, ensuring that it stays within the boundaries while providing convenient and logical use. The Wood Stack is put in the top-left corner, next to the Fireplace, allowing easy access from the Fireplace. The Cookpot is placed next to the Wood Stack, centering all heating and cooking components in one area. Finally, the Mantelpiece is placed adjacent to the Cookpot, ensuring it fits within the boundary of the Hearth and offers ease of access. This setup keeps all items within the borders of the Hearth efficiently, ensuring no overlaps and adhering to the priorities, primarily ensuring that everything remains within the bounding box and utilizes the given space efficiently."
+}

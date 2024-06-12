@@ -1,0 +1,20 @@
+{
+    "layout": {
+        "name": "Storage Room",
+        "coordinates": [-8, -6, 0, 0],
+        "children": [
+            {"name": "Freezer", "coordinates": [-8, -6, -2, 0]},
+            {"name": "Shelving Units 1", "coordinates": [-2, -6, 0, -2]},
+            {"name": "Shelving Units 2", "coordinates": [-5, -6, -2, -2]},
+            {"name": "Shelving Units 3", "coordinates": [-8, -6, -5, -2]},
+            {"name": "Workbench", "coordinates": [-8, -4, -4, -2]},
+            {"name": "Cabinets", "coordinates": [-8, -4, -4, 0]},
+            {"name": "File Cabinets", "coordinates": [-4, -4, 0, 0]},
+            {"name": "Tools Rack", "coordinates": [-4, -4, 0, -2]},
+            {"name": "Storage Boxes 1", "coordinates": [-4, -6, -2, -4]},
+            {"name": "Storage Boxes 2", "coordinates": [-8, -2, -4, 0]},
+            {"name": "Storage Boxes 3", "coordinates": [-2, -2, 0, 0]}
+        ]
+    },
+    "reasoning": "The placement of subitems ensures all children are inside the Storage Room coordinates and no subitems overlap with each other. The Freezer is placed along the left wall as it's the largest item and needs a significant amount of space. Shelving Units are divided into three parts and spread out along the lower left corner to the midsection, utilizing walls and covering the area efficiently. The Workbench is logically placed in the lower midsection as it needs to be accessible for working. Cabinets are placed above the Workbench since they are frequently accessed from the work area. File Cabinets are placed in the upper midsection and Tools Rack right next to it for easy access to tools and files. Storage Boxes are placed in three separate locations to make efficient use of remaining space while adhering to the coordinates. This spatial arrangement allows easy movement and practical, logical use of space, considering the frequency of access and functionality of each item."
+}

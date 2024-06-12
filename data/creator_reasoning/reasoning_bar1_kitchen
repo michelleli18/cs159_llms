@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Kitchen",
+    "coordinates": [8, -19, 12, -17],
+    "children": [
+      {
+        "name": "Refrigerator",
+        "coordinates": [8, -19, 9, -18]
+      },
+      {
+        "name": "Stove",
+        "coordinates": [9, -19, 10, -18]
+      },
+      {
+        "name": "Sink",
+        "coordinates": [10, -19, 11, -18]
+      },
+      {
+        "name": "Countertop",
+        "coordinates": [11, -19, 12, -18]
+      },
+      {
+        "name": "Cabinets",
+        "coordinates": [8, -18, 9, -17]
+      },
+      {
+        "name": "Kitchen Table",
+        "coordinates": [9, -18, 10, -17]
+      },
+      {
+        "name": "Dishwasher",
+        "coordinates": [10, -18, 11, -17]
+      }
+    ]
+  },
+  "reasoning": "The placement prioritizes fitting all subitems within the defined kitchen space while ensuring no overlaps. The refrigerator, stove, sink, and countertop are placed in a line along the bottom to leverage the wall and ensure easy access as typically seen in modern kitchens. The cabinets are placed in the top left corner for storage accessibility. The kitchen table, which is significant in size, is positioned centrally but to the right to leave clear pathways. Due to space constraints, the oven (size 5) could not be included as it would exceed the available area. All coordinates are integers and thus comply with the requirements."
+}
