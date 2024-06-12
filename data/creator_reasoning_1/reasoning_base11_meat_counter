@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Meat Counter",
+    "coordinates": [2, -7, 6, -4],
+    "children": [
+      {
+        "name": "Display Case",
+        "coordinates": [2, -4, 4, -6]
+      },
+      {
+        "name": "Cutting Table",
+        "coordinates": [4, -4, 6, -7]
+      },
+      {
+        "name": "Refrigerator",
+        "coordinates": [2, -7, 4, -5]
+      },
+      {
+        "name": "Freezer",
+        "coordinates": [4, -7, 6, -6]
+      },
+      {
+        "name": "Cash Register",
+        "coordinates": [3, -6, 5, -7]
+      }
+    ]
+  },
+  "reasoning": "The meat counter is a relatively small area with dimensions [2, -7, 6, -4]. I utilized every inch of space without any overlap. The Display Case is placed on the top left, occupying the coordinates [2, -4, 4, -6] allowing customers to view the products right away. The Cutting Table is situated at the bottom right, providing a dedicated space for butchers. The Refrigerator is placed at the bottom left, adjacent to the Cutting Table, enabling quick access to fresh meat. The Freezer is located next to the Refrigerator for the same reason. The Cash Register is strategically placed next to the Display Case, ensuring efficient service for customers at the point of sale. Each item is logically placed to mimic real-life operations within the constraints provided, reserving critical adjacency for work efficiency."
+}

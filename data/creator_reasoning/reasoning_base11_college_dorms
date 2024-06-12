@@ -1,0 +1,18 @@
+{
+  "layout": {
+        "name": "College Dorms",
+        "coordinates": [27, -3, 44, 13],
+        "children": [
+            {"name": "Dorm Room", "coordinates": [27, 7, 34, 13]},
+            {"name": "Dorm Room 2", "coordinates": [34, 7, 41, 13]},
+            {"name": "Dorm Room 3", "coordinates": [41, 7, 44, 13]},
+            {"name": "Study Lounge", "coordinates": [27, 3, 37, 7]},
+            {"name": "Study Lounge 2", "coordinates": [37, 3, 44, 7]},
+            {"name": "Common Area", "coordinates": [27, -3, 37, 3]},
+            {"name": "Bathroom", "coordinates": [37, 0, 41, 3]},
+            {"name": "Bathroom 2", "coordinates": [41, 0, 44, 3]},
+            {"name": "Kitchenette", "coordinates": [37, -3, 44, 0]}
+        ]
+    },
+  "reasoning": "The College Dorms were designed with practical living arrangements in mind. The largest areas, the Dorm Rooms, were placed at the top to have access to natural light and easy ventilation, while making sure there were three of them to adhere to the plural item rule. They occupy the highest priority areas but were placed in a repeated fashion to optimize space use. Three Study Lounges were designed to be adjacent to Dorm Rooms, as students need quick access to study areas from their sleeping quarters. Each has a sizable space to accommodate multiple students studying together. The Common Area was placed centrally to allow convenient access for all dorm rooms and study areas, large enough to facilitate social interactions and group activities. Bathrooms were deliberately positioned close to Dorm Rooms and Common Areas for easy access, with two of them spread out to ensure no bathroom congestion. Kitchenette was placed towards the bottom edge, thereby making it risky to place more than one due to space constraints and the necessity to adhere to all items fitting into the given coordinates. Lastly, the Storage Closet was not included due to insufficient space within the given parameters once the more critical subitems were appropriately mapped out."
+}

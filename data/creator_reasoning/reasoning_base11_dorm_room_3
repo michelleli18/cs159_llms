@@ -1,0 +1,37 @@
+{
+    "layout": {
+        "name": "Dorm Room 3",
+        "coordinates": [41, 7, 44, 13],
+        "children": [
+            {
+                "name": "Bed",
+                "coordinates": [41, 7, 42, 9]
+            },
+            {
+                "name": "Desk",
+                "coordinates": [42, 7, 43, 9]
+            },
+            {
+                "name": "Dresser",
+                "coordinates": [43, 7, 44, 9]
+            },
+            {
+                "name": "Closet",
+                "coordinates": [41, 9, 42, 11]
+            },
+            {
+                "name": "Bookshelf",
+                "coordinates": [42, 9, 43, 10]
+            },
+            {
+                "name": "Chair",
+                "coordinates": [43, 9, 44, 10]
+            },
+            {
+                "name": "Mini Fridge",
+                "coordinates": [41, 11, 42, 12]
+            }
+        ]
+    },
+    "reasoning": "The layout ensures that all subitems are within the coordinates of Dorm Room 3 and do not overlap with each other. The bed is positioned in the bottom-left corner, a logical place as it is commonly the largest object that initially anchors a room. Next to the bed is the desk, allowing for easy transition from bed to study area. The dresser is placed next to the desk to maintain continuity of the larger storage areas. The closet is positioned above the bed for ease of access to clothing upon waking up or going to bed. The bookshelf is next to the closet for easy access while studying at the desk. The chair is placed next to the bookshelf and closet, providing a convenient seating option near the study area and storage. Finally, the mini fridge is placed in the top-left corner, providing convenient access while minimizing disruption to the flow of the room. This layout effectively uses the available space while keeping transitions between different activities (sleeping, studying, storage, etc.) intuitive and fluid."
+}

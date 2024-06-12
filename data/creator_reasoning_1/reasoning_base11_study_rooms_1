@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Study Rooms 1",
+    "coordinates": [31, 3, 36, 6],
+    "children": [
+      {
+        "name": "Study Table",
+        "coordinates": [31, 3, 32, 5]
+      },
+      {
+        "name": "Chairs 1",
+        "coordinates": [32, 3, 32, 4]
+      },
+      {
+        "name": "Chairs 2",
+        "coordinates": [33, 3, 33, 4]
+      },
+      {
+        "name": "Chairs 3",
+        "coordinates": [34, 3, 34, 4]
+      },
+      {
+        "name": "Whiteboard",
+        "coordinates": [31, 5, 34, 6]
+      },
+      {
+        "name": "Bookshelf",
+        "coordinates": [34, 4, 36, 6]
+      },
+      {
+        "name": "Lamp",
+        "coordinates": [34, 3, 35, 4]
+      }
+    ]
+  },
+  "reasoning": "To design a space-efficient study room, I prioritized placing items according to their relative sizes and logical placement within a study setting. The larger items like the Study Table (size 6) were placed first to ensure they fit within the room. The Study Table was placed along the bottom-left corner stretching vertically (coordinates [31, 3, 32, 5]) to maximize desk space while leaving sufficient room for other items. Adjacent to the Study Table, three separate Chairs (each size 3) were placed in a row along the bottom-right section of the room: (Chairs 1 at coordinates [32, 3, 32, 4]), (Chairs 2 at coordinates [33, 3, 33, 4]), and (Chairs 3 at coordinates [34, 3, 34, 4]). This arrangement simulates a realistic setup where chairs are near the table but can be maneuvered around. The Whiteboard (size 4) is placed along the top-left corner (coordinates [31, 5, 34, 6]), making it visible from the Study Table. The Bookshelf (size 5) is placed vertically on the top-right, consuming the space adjacent to the Whiteboard (coordinates [34, 4, 36, 6]). It ensures easy access to books and materials. Finally, the Lamp (size 2) is placed next to the Bookshelf but below it (coordinates [34, 3, 35, 4]), providing lighting while fitting within the remaining space. This layout assures no subitems overlap and all are contained within the room boundaries, maintaining a logical and realistic setup."
+}

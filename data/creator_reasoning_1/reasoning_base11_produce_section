@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Produce Section",
+    "coordinates": [4, -9, 12, -2],
+    "children": [
+      {
+        "name": "Fruit Display 1",
+        "coordinates": [4, -9, 6, -6]
+      },
+      {
+        "name": "Fruit Display 2",
+        "coordinates": [6, -9, 8, -6]
+      },
+      {
+        "name": "Fruit Display 3",
+        "coordinates": [8, -9, 10, -6]
+      },
+      {
+        "name": "Vegetable Section 1",
+        "coordinates": [10, -9, 12, -6]
+      },
+      {
+        "name": "Vegetable Section 2",
+        "coordinates": [4, -6, 6, -3]
+      },
+      {
+        "name": "Refrigerated Shelves",
+        "coordinates": [6, -6, 9, -3]
+      },
+      {
+        "name": "Organic Produce",
+        "coordinates": [9, -6, 12, -3]
+      }
+    ]
+  },
+  "reasoning": "The Produce Section (4, -9, 12, -2) is divided into subitems by considering both their size ratings and logical placement. 'Fruit Display' and 'Vegetable Section' have the highest size rating of 7, so they occupy the most extensive portions of the area. Fruit Display is split into three parts to comply with covering the space fully and to respect the priority of no overlap. They are placed along the bottom left to middle space [4, -9, 10, -6], and another Fruit Display fills [10, -9, 12, -6] to efficiently use the space. 'Vegetable Section' follows the same logic and is split into two parts. Both Vegetable Section and one Fruit Display touch each other in logical ways, as you typically find these sections next to each other in grocery stores. 'Refrigerated Shelves' hold a size rating of 6 and are placed centrally (in coordinates [6, -6, 9, -3]) to provide easy access from all parts of the Produce Section. 'Organic Produce,' which is smaller but vital, is placed in [9, -6, 12, -3] making reachable close to the vegetable and refrigerated sections, logically reflecting a real-life setting. The placement ensures no overlapping and efficient use of space."
+}

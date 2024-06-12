@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Closet",
+    "coordinates": [34, 7, 37, 10],
+    "children": [
+      {
+        "name": "Clothes Rack",
+        "coordinates": [34, 8, 36, 10]
+      },
+      {
+        "name": "Shoe Rack",
+        "coordinates": [36, 9, 37, 10]
+      },
+      {
+        "name": "Shelf",
+        "coordinates": [36, 7, 37, 9]
+      },
+      {
+        "name": "Storage Box",
+        "coordinates": [34, 7, 35, 8]
+      },
+      {
+        "name": "Hamper",
+        "coordinates": [35, 7, 36, 8]
+      }
+    ]
+  },
+  "reasoning": "The layout for the Closet ensures that all items fit within the given coordinates [34, 7, 37, 10] without overlapping, maximizing the use of space. The Clothes Rack is placed along the top wall from [34, 8, 36, 10] to provide easy access to hanging clothes. Next to the Clothes Rack is the Shoe Rack from [36, 9, 37, 10], utilizing the top-right corner. Below the Shoe Rack, we have placed the Shelf from [36, 7, 37, 9], accommodating its slightly larger size. On the bottom-left, there is the Storage Box located at [34, 7, 35, 8], allowing enough room for occasional access. Finally, the Hamper from [35, 7, 36, 8] is placed next to the Storage Box for easy access to laundry. All placements adhere to the required boundary conditions and ensure logical proximity between related items. This efficient layout covers the available space, aligning the subitems with the closet walls."
+}

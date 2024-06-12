@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Bakery",
+    "coordinates": [12, -3, 17, -1],
+    "children": [
+      {
+        "name": "Entrance",
+        "coordinates": [12, -3, 14, -2]
+      },
+      {
+        "name": "Display Case",
+        "coordinates": [14, -3, 16, -2]
+      },
+      {
+        "name": "Counter",
+        "coordinates": [16, -3, 17, -2]
+      },
+      {
+        "name": "Seating Area",
+        "coordinates": [12, -2, 15, -1]
+      },
+      {
+        "name": "Kitchen",
+        "coordinates": [15, -2, 17, -1]
+      },
+      {
+        "name": "Ovens",
+        "coordinates": [15, -3, 17, -2]
+      }
+    ]
+  },
+  "reasoning": "The coordinates of each subitem are carefully chosen to fit within the Bakery's bounds while ensuring no overlap and optimal use of space. The Entrance is placed at the bottom left corner for easy access. Next to the Entrance, the Display Case is situated, as customers typically want to see products immediately upon entering. The Counter is placed next to the Display Case, providing a logical flow for ordering. The large Seating Area is adjacent to the Entrance and Display Case, occupying a significant portion of the remaining space for customer comfort. The Kitchen and Ovens are positioned towards the back, next to each other, with the Ovens placed symmetrically to the left half of the space for practical workflow reasons in a bakery. The Restroom and Storage Room were omitted as there wasn't enough space to accommodate them while maintaining realistic dimensions."
+}

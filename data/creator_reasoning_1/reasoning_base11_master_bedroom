@@ -1,0 +1,25 @@
+{
+  "layout": {
+    "name": "Master Bedroom",
+    "coordinates": [36, 11, 38, 13],
+    "children": [
+      {
+        "name": "Bed",
+        "coordinates": [36, 11, 38, 12]
+      },
+      {
+        "name": "Wardrobe",
+        "coordinates": [36, 12, 37, 13]
+      },
+      {
+        "name": "Dresser",
+        "coordinates": [37, 12, 38, 13]
+      },
+      {
+        "name": "Nightstand",
+        "coordinates": [36, 13, 36, 13]
+      }
+    ]
+  },
+  "reasoning": "The Bed is placed along the bottom edge spanning from coordinates [36, 11] to [38, 12] because it is the largest piece and beds are typically placed along one side of the room. The Wardrobe is placed along the top edge from coordinates [36, 12] to [37, 13], making use of the vertical space adjacent to the bed. The Dresser is placed from coordinates [37, 12] to [38, 13], right next to the wardrobe, as these items often share proximity. The Nightstand is smaller and placed in the remaining space next to the bed at coordinates [36, 13] to [36, 13], even though there is minimal space left for Nightstand. Nightstands are typically placed close to the bed for convenient access during the night. The Desk couldn't be included due to space constraints as it doesn't fit in the remaining layout without causing overlaps or extending beyond the boundaries of the Master Bedroom."
+}

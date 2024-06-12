@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = api key
+openai.api_key = api key 
 
 DISPLAY_OUT = False
 

@@ -1,0 +1,41 @@
+{
+  "layout": {
+    "name": "Picnic Area",
+    "coordinates": [37, 9, 40, 11],
+    "children": [
+      {
+        "name": "Parking Lot",
+        "coordinates": [37, 9, 38, 11]
+      },
+      {
+        "name": "Open Field",
+        "coordinates": [38, 9, 40, 10]
+      },
+      {
+        "name": "Playground",
+        "coordinates": [39, 10, 40, 11]
+      },
+      {
+        "name": "Restroom Building",
+        "coordinates": [38, 10, 39, 11]
+      },
+      {
+        "name": "Shelter Pavilion",
+        "coordinates": [38, 11, 39, 11]
+      },
+      {
+        "name": "Picnic Table 1",
+        "coordinates": [37, 10, 37, 11]
+      },
+      {
+        "name": "Picnic Table 2",
+        "coordinates": [37, 10, 37, 11]
+      },
+      {
+        "name": "Grill Station",
+        "coordinates": [37, 10, 37, 11]
+      }
+    ]
+  },
+  "reasoning": "The layout of the 'Picnic Area' was carefully designed to maximize spatial efficiency and enhance usability. The largest item, the 'Open Field,' was placed centrally to serve as a hub for outdoor activities. Adjacent to it, 'Playground' and 'Restroom Building' were positioned to provide easy access for children and parents. The 'Parking Lot' was placed next to the main entrance (bottom-left), ensuring convenient parking access. 'Shelter Pavilion' was placed near the restroom for convenience during gatherings. 'Picnic Table 1,' 'Picnic Table 2,' and 'Grill Station' were added near the shelter pavilion and playground for outdoor eating and barbecue activities. All items were kept within the site boundaries without any overlap, following the priority guidelines."
+}

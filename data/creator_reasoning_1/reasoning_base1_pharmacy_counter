@@ -1,0 +1,25 @@
+{
+  "layout": {
+    "name": "Pharmacy Counter",
+    "coordinates": [13, -5, 16, -3],
+    "children": [
+      {
+        "name": "Counter",
+        "coordinates": [13, -5, 14, -4]
+      },
+      {
+        "name": "Cash Register",
+        "coordinates": [14, -5, 15, -4]
+      },
+      {
+        "name": "Shelves",
+        "coordinates": [13, -4, 14, -3]
+      },
+      {
+        "name": "Storage Room",
+        "coordinates": [14, -4, 15, -3]
+      }
+    ]
+  },
+  "reasoning": "The 'Counter' is placed near the entrance and covers one corner to be easily accessible to customers. The 'Cash Register' is placed adjacent to the 'Counter' to facilitate easy transactions. 'Shelves' are placed along the longer dimension and next to the 'Counter' so that items can be picked easily by the pharmacist. 'Storage Room' is placed next to the 'Shelves' for easy stocking of items. The 'Waiting Area' and 'Consultation Room' were not included due to insufficient space, as their combined size ratings exceed the available area inside the parent coordinates."
+}

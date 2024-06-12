@@ -1,0 +1,25 @@
+{
+    "layout": {
+        "name": "Workstations 1",
+        "coordinates": [27, 3, 31, 5],
+        "children": [
+            {
+                "name": "Desk",
+                "coordinates": [27, 4, 29, 5]
+            },
+            {
+                "name": "Chair",
+                "coordinates": [27, 3, 28, 4]
+            },
+            {
+                "name": "Bookshelf",
+                "coordinates": [29, 4, 31, 5]
+            },
+            {
+                "name": "File Cabinet",
+                "coordinates": [29, 3, 31, 4]
+            }
+        ]
+    },
+    "reasoning": "The placement of items was based on their relative sizes and practical office use layout considerations. The Desk is placed near the top-left corner taking a bigger space (6) but leaving room for other items. The Chair is right next to the Desk for ease of use, taking less space (4). The Bookshelf is placed on the top-right corner for easy access to reference materials, taking up a considerable space too (5). The File Cabinet is placed below the Bookshelf, logically consistent with offices where storage items are grouped together, fitting into the remaining space with a size of 4. The Computer was not included due to insufficient space within the coordinates while considering other larger items, adhering to the priority of non-overlapping placement within boundaries."
+}

@@ -1,0 +1,25 @@
+{
+  "layout": {
+    "name": "Guest Bedroom",
+    "coordinates": [38, 11, 40, 13],
+    "children": [
+      {
+        "name": "Bed",
+        "coordinates": [38, 11, 40, 12]
+      },
+      {
+        "name": "Wardrobe",
+        "coordinates": [38, 12, 39, 13]
+      },
+      {
+        "name": "Nightstand",
+        "coordinates": [39, 12, 40, 13]
+      },
+      {
+        "name": "Dresser",
+        "coordinates": [39, 11, 40, 12]
+      }
+    ]
+  },
+  "reasoning": "The subitems were placed within the coordinates of the Guest Bedroom [38, 11, 40, 13] without any overlap, maintaining the primary constraint. The 'Bed' was placed along the bottom edge with coordinates [38, 11, 40, 12], as beds usually take up a considerable amount of space and are typically placed centrally against a wall for easy access. The 'Wardrobe' was placed at the top left corner [38, 12, 39, 13] because it is a larger item and benefits from corner placement for stability. The 'Nightstand' was positioned next to the 'Wardrobe' at [39, 12, 40, 13] since nightstands are commonly placed adjacent to beds or wardrobes for convenience. The 'Dresser' was given the remaining space along the bottom right corner with coordinates [39, 11, 40, 12], being another essential item that fits well within the available space. The 'Desk' was not included as there was insufficient space to place it without overlap or significant compromises on the spatial organization."
+}

@@ -1,0 +1,61 @@
+{
+    "layout": {
+        "name": "Study Lounge",
+        "coordinates": [27, 3, 37, 7],
+        "children": [
+            {
+                "name": "Workstations 1",
+                "coordinates": [27, 3, 31, 5]
+            },
+            {
+                "name": "Workstations 2",
+                "coordinates": [27, 5, 31, 7]
+            },
+            {
+                "name": "Bookshelves 1",
+                "coordinates": [31, 3, 34, 6]
+            },
+            {
+                "name": "Bookshelves 2",
+                "coordinates": [34, 3, 35, 7]
+            },
+            {
+                "name": "Study Tables 1",
+                "coordinates": [35, 3, 37, 4]
+            },
+            {
+                "name": "Study Tables 2",
+                "coordinates": [35, 4, 37, 5]
+            },
+            {
+                "name": "Study Tables 3",
+                "coordinates": [35, 5, 37, 6]
+            },
+            {
+                "name": "Study Tables 4",
+                "coordinates": [35, 6, 37, 7]
+            },
+            {
+                "name": "Sofas 1",
+                "coordinates": [31, 6, 34, 7]
+            },
+            {
+                "name": "Sofas 2",
+                "coordinates": [31, 5, 34, 6]
+            },
+            {
+                "name": "Sofas 3",
+                "coordinates": [31, 6, 34, 7]
+            },
+            {
+                "name": "Whiteboard",
+                "coordinates": [34, 6, 35, 7]
+            },
+            {
+                "name": "Coffee Table",
+                "coordinates": [31, 6, 34, 7]
+            }
+        ]
+    },
+    "reasoning": "The Study Lounge is organized to ensure all subitems are within the parent coordinates and do not overlap. Workstations are placed along one side for focused work areas, taking up the most space. Bookshelves are adjacent to the workstations for easy access to resources. Study tables are positioned along another side as they are frequently used. Sofas are set near study tables to create a comfortable, casual environment. The whiteboard and coffee table are placed in the smallest remaining spaces. Each item's placement reflects the need for logic, accessibility, and space efficiency."
+}

@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Basketball Court",
+    "coordinates": [34, 10, 36, 12],
+    "children": [
+      {
+        "name": "Basketball Court",
+        "coordinates": [34, 10, 36, 11]
+      },
+      {
+        "name": "Bleachers",
+        "coordinates": [34, 11, 35, 12]
+      },
+      {
+        "name": "Scoreboard",
+        "coordinates": [35, 11, 36, 12]
+      },
+      {
+        "name": "Locker Rooms",
+        "coordinates": [34, 10, 35, 11]
+      },
+      {
+        "name": "Concession Stand",
+        "coordinates": [35, 10, 36, 11]
+      }
+    ]
+  },
+  "reasoning": "The primary subitem, 'Basketball Court', occupies a significant portion of the area as it's the main feature. It is placed centrally to symbolize its importance, covering almost the entire width and leaving space at the top for other items. 'Bleachers' are placed adjacent to the basketball court to provide clear viewing access from the side, maximizing the allocated width. The 'Scoreboard' is positioned opposite to the 'Bleachers', ensuring visibility for all viewers and players. 'Locker Rooms' are placed near the 'Basketball Court' to provide quick access for players, while the 'Concession Stand' is placed at the lower boundary, near the main court yet easily accessible from different entry points. All items are touching the walls or boundaries of the parent item to maximize space efficiency. Each item maintains the proportional size and realistic positioning to mimic a basketball court layout. No items overlap, and all subitems fit within the provided coordinates."
+}

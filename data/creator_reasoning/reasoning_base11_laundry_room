@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Laundry Room",
+    "coordinates": [29, 0, 33, 6],
+    "children": [
+      {
+        "name": "Washing Machine",
+        "coordinates": [29, 0, 31, 3]
+      },
+      {
+        "name": "Dryer",
+        "coordinates": [31, 0, 33, 3]
+      },
+      {
+        "name": "Utility Sink",
+        "coordinates": [29, 3, 31, 6]
+      },
+      {
+        "name": "Folding Table",
+        "coordinates": [31, 3, 33, 4]
+      },
+      {
+        "name": "Storage Shelves",
+        "coordinates": [31, 4, 33, 6]
+      }
+    ]
+  },
+  "reasoning": "The Laundry Room has a space of coordinates [29, 0, 33, 6]. The Washing Machine and Dryer are placed next to each other at the bottom, making it convenient for transferring clothes easily. The Washing Machine occupies [29, 0, 31, 3] which is a reasonable size for ease of use, and the Dryer occupies [31, 0, 33, 3] next to it. The Utility Sink is placed on the opposite wall in the top-left corner at [29, 3, 31, 6] for easy access to water near the washing area. The Folding Table is placed near the Dryer at [31, 3, 33, 4] to allow for convenient folding of clothes right after drying. Finally, the Storage Shelves are placed above the Folding Table at [31, 4, 33, 6], making use of vertical space and accessible for storing laundry essentials. The Laundry Basket is omitted as there isn’t enough space left within the given coordinates without overlap."
+}

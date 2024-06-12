@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Baseball Field",
+    "coordinates": [37, 11, 40, 13],
+    "children": [
+      {
+        "name": "Infield Diamond",
+        "coordinates": [37, 11, 39, 13]
+      },
+      {
+        "name": "Outfield Grass",
+        "coordinates": [39, 11, 40, 13]
+      },
+      {
+        "name": "Pitcher'S Mound",
+        "coordinates": [38, 11, 39, 12]
+      },
+      {
+        "name": "Home Plate Area",
+        "coordinates": [37, 11, 38, 12]
+      },
+      {
+        "name": "Dugouts 1",
+        "coordinates": [37, 12, 38, 13]
+      },
+      {
+        "name": "Dugouts 2",
+        "coordinates": [39, 12, 40, 13]
+      }
+    ]
+  },
+  "reasoning": "The Infield Diamond and Outfield Grass are the largest subitems and are placed adjacent to each other, covering the entire width of the baseball field. The Infield Diamond is larger, so it covers the majority with coordinates [37, 11, 39, 13], and the Outfield Grass fits in the remaining space at [39, 11, 40, 13]. The Pitcher's Mound is a smaller subitem and is centrally located within the Infield Diamond, as expected on a real baseball field. Its coordinates are [38, 11, 39, 12]. The Home Plate Area is important and needs to be near the Infield Diamond and the Pitcher's Mound, so it is placed at [37, 11, 38, 12]. The Dugouts are needed for players and therefore are placed alongside the edges near the Infield Diamond; Dugouts 1 at [37, 12, 38, 13] and Dugouts 2 at [39, 12, 40, 13]. Bleachers and Scoreboard were not included due to size constraints and priorities of other essential items."
+}

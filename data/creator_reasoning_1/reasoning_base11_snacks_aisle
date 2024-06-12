@@ -1,0 +1,45 @@
+{
+  "layout": {
+    "name": "Snacks Aisle",
+    "coordinates": [4, -2, 9, 1],
+    "children": [
+      {
+        "name": "Chips Section 1",
+        "coordinates": [4, -2, 6, -1]
+      },
+      {
+        "name": "Chips Section 2",
+        "coordinates": [4, -1, 6, 0]
+      },
+      {
+        "name": "Chips Section 3",
+        "coordinates": [4, 0, 6, 1]
+      },
+      {
+        "name": "Candy Shelves 1",
+        "coordinates": [6, -2, 7, -1]
+      },
+      {
+        "name": "Candy Shelves 2",
+        "coordinates": [6, -1, 7, 0]
+      },
+      {
+        "name": "Candy Shelves 3",
+        "coordinates": [6, 0, 7, 1]
+      },
+      {
+        "name": "Cookies Display 1",
+        "coordinates": [7, -2, 9, -1]
+      },
+      {
+        "name": "Cookies Display 2",
+        "coordinates": [7, -1, 9, 0]
+      },
+      {
+        "name": "Cookies Display 3",
+        "coordinates": [7, 0, 9, 1]
+      }
+    ]
+  },
+  "reasoning": "Chips Section and Cookies Display both have the same relative size of 6 and they are prominent items, so they have multiple sections and are placed at different vertical coordinates to fully utilize the space. The Chips Sections are placed along the left wall and the Cookies Displays are placed along the right wall to maximize space utilization. Each section of Popcorn Shelves has a relative size of 5, hence 3 sections are placed vertically to meet the size allocation. The Candy Shelves are placed in the middle with a size allocation of 5, divided into three sections to match the vertical split of the central columns for efficient use of space. This arrangement ensures full coverage of the available space while keeping each item logically aligned and accessible."
+}

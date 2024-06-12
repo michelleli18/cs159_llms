@@ -13,14 +13,14 @@ def main():
     town(1)
 
 def town(n):
-    persona_name = "Bar" + str(n)
+    persona_name = "Base1" + str(n)
     base_map = {
-                    "name": "Supply Store",
+                    "name": "Houses",
                     "coordinates": [
-                        -13,
-                        -10,
-                        0,
-                        0
+                        -42,
+                        7,
+                        -21,
+                        17
                     ],
                 }
     #{"name": "Town", "coordinates": [-50, -25, 50, 25]}

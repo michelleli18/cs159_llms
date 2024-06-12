@@ -48,7 +48,9 @@ class Persona():
         self.generate_one_more_prompt = '''
         Please give one activity that you as this persona would want to do, reference their persona from previous prompts: "''' + self.persona_desc + '''". You previously already wanted to do the following activities, please generate something different from these: {}.'''
             
-
+    def get_name(self):
+        return self.first + " " + self.last
+    
     def unique_persona(self, save=True):
         # Generate and write the persona to a text file
         persona_desc = ChatGPT_request(self.generate_persona_prompt)

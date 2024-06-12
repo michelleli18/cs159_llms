@@ -1,0 +1,13 @@
+{
+"layout": {
+    "name": "Kitchen Area",
+    "coordinates": [-13, -2, -10, 0],
+    "children": [
+        {
+            "name": "Kitchen Island",
+            "coordinates": [-13, -2, -10, 0]
+        }
+    ]
+},
+"reasoning": "The 'Kitchen Island' is the largest item with a relative size of 6. Given the limited dimensions of the parent 'Kitchen Area', it was important to start by placing the largest item first to utilize the maximum area efficiently. The coordinates [-13, -2, -10, 0] exactly cover the entire space of the Kitchen Area without overlapping or exceeding the boundary. Due to this, no other subitems could fit within the remaining available space. Therefore only the 'Kitchen Island' was included."
+}

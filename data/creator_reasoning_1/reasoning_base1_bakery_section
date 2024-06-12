@@ -1,0 +1,45 @@
+{
+  "layout": {
+    "name": "Bakery Section",
+    "coordinates": [13, -9, 16, -5],
+    "children": [
+      {
+        "name": "Storage Room",
+        "coordinates": [13, -9, 15, -6]
+      },
+      {
+        "name": "Seating Area",
+        "coordinates": [15, -9, 16, -6]
+      },
+      {
+        "name": "Counters",
+        "coordinates": [13, -6, 14, -5]
+      },
+      {
+        "name": "Display Cases",
+        "coordinates": [14, -6, 15, -5]
+      },
+      {
+        "name": "Ovens",
+        "coordinates": [15, -6, 16, -5]
+      },
+      {
+        "name": "Work Tables",
+        "coordinates": [13, -6, 15, -6]
+      },
+      {
+        "name": "Refrigerators",
+        "coordinates": [15, -8, 16, -6]
+      },
+      {
+        "name": "Shelves",
+        "coordinates": [14, -8, 15, -9]
+      },
+      {
+        "name": "Cash Register",
+        "coordinates": [14, -9, 15, -8]
+      }
+    ]
+  },
+  "reasoning": "The Storage Room (8) was placed at the bottom left corner as it is often a larger, less accessible area. The Seating Area (7) was placed adjacent to the Storage Room for easy access from the seating to other sections. The Counters (6) were placed near the front for customer interaction, with Display Cases (5) nearby to showcase products. The Ovens (4) are usually placed toward the back for safety and efficiency in workflow, next to the Work Tables (5), essential for preparing food close to the ovens. The Refrigerators (4) were placed in proximity to the Work Tables and Ovens to keep the workflow smooth. Shelves (3) and Cash Register (2) are smaller, with Shelves placed next to the Display Cases for product arrangement and the Cash Register near the exit for customer convenience. Each item is placed logically based on their usage frequency and size while ensuring no overlap and effective use of space."
+}

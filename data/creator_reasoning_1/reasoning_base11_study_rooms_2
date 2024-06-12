@@ -1,0 +1,41 @@
+{
+  "layout": {
+    "name": "Study Rooms 2",
+    "coordinates": [36, 3, 41, 6],
+    "children": [
+      {
+        "name": "Window",
+        "coordinates": [36, 5, 41, 6]
+      },
+      {
+        "name": "Whiteboard",
+        "coordinates": [36, 3, 38, 5]
+      },
+      {
+        "name": "Study Table",
+        "coordinates": [38, 3, 40, 5]
+      },
+      {
+        "name": "Bookshelves",
+        "coordinates": [40, 3, 41, 5]
+      },
+      {
+        "name": "Chairs 1",
+        "coordinates": [36, 3, 37, 4]
+      },
+      {
+        "name": "Chairs 2",
+        "coordinates": [37, 3, 38, 4]
+      },
+      {
+        "name": "Chairs 3",
+        "coordinates": [38, 3, 39, 4]
+      },
+      {
+        "name": "Door",
+        "coordinates": [39, 3, 41, 4]
+      }
+    ]
+  },
+  "reasoning": "The layout was carefully designed to fit within the boundaries of the parent Study Rooms 2 while ensuring no overlap and making full use of the space available. The Window is placed along the top wall to allow natural light to enter. Since the Whiteboard is essential for collaborative work, it is placed near the entrance (which is modern and realistic). The Study Table, which is frequently used, is placed centrally with adequate adjacent space for multiple Chairs to ensure accessibility and flexibility. Bookshelves are vertically aligned, maximizing storage while saving horizontal space. Three Chairs are positioned near the study table and arranged in aligned fashion to save space and facilitate study sessions. Finally, the Door is tactically placed towards the bottom right for easy access while ensuring minimal obstruction to movement. This arrangement ensures efficient use of space and logical, real-world adjacencies."
+}

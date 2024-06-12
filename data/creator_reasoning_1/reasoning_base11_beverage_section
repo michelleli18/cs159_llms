@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Beverage Section",
+    "coordinates": [9, -2, 17, 1],
+    "children": [
+      {
+        "name": "Soda Aisle",
+        "coordinates": [9, -2, 13, -1]
+      },
+      {
+        "name": "Juice Shelf",
+        "coordinates": [13, -2, 16, -1]
+      },
+      {
+        "name": "Water Display",
+        "coordinates": [9, -1, 11, 1]
+      },
+      {
+        "name": "Energy Drinks Section",
+        "coordinates": [11, -1, 13, 1]
+      },
+      {
+        "name": "Tea And Coffee",
+        "coordinates": [13, -1, 17, 1]
+      }
+    ]
+  },
+  "reasoning": "The 'Soda Aisle' is placed along the bottom left corner of the Beverage Section as it has one of the larger sizes (8) and typically soda aisles are longer. Next to it and still along the bottom, 'Juice Shelf' is placed since it's slightly smaller (5) and can fit well adjacent to the Soda Aisle. The 'Water Display' is positioned at the top left, which makes sense due to its moderate size (6) and it's often one of the first things customers see. The 'Energy Drinks Section' is placed next to the Water Display due to its slightly smaller size (4) and will be grouped with other beverages for logical arrangement. Finally, 'Tea And Coffee' is placed in the remaining space on the top right, as it has a sizable area (7), and it's logical for it to be next to the Energy Drinks for varied options in the beverage section. This layout ensures no items overlap and all space is efficiently used, touching the walls of the parent place while keeping adjacent related items together, as found in real-life scenarios."
+}

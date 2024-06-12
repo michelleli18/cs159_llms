@@ -1,0 +1,53 @@
+{
+    "layout": {
+        "name": "Break Room",
+        "coordinates": [-13, -4, -11, -2],
+        "children": [
+            {
+                "name": "Table",
+                "coordinates": [-13, -4, -12, -3]
+            },
+            {
+                "name": "Chairs 1",
+                "coordinates": [-12, -4, -11, -3.5]
+            },
+            {
+                "name": "Chairs 2",
+                "coordinates": [-12, -3.5, -11, -3]
+            },
+            {
+                "name": "Chairs 3",
+                "coordinates": [-12.5, -4, -12.25, -3.5]
+            },
+            {
+                "name": "Microwave",
+                "coordinates": [-13, -3, -12, -2.5]
+            },
+            {
+                "name": "Refrigerator",
+                "coordinates": [-12, -3, -11, -2.5]
+            },
+            {
+                "name": "Sink",
+                "coordinates": [-12.5, -2.5, -11.75, -2]
+            },
+            {
+                "name": "Cabinets",
+                "coordinates": [-13, -3.5, -12.25, -3]
+            },
+            {
+                "name": "Vending Machine",
+                "coordinates": [-13, -3, -12, -2.75]
+            },
+            {
+                "name": "Sofa",
+                "coordinates": [-12, -2.75, -11, -2]
+            },
+            {
+                "name": "Trash Can",
+                "coordinates": [-13, -2.25, -12.8, -2]
+            }
+        ]
+    },
+    "reasoning": "Tables are centrally located for accessibility and shared use. Chairs are placed around the table, with additional ones smaller and tucked along walls, adhering to the plural rule. The microwave and refrigerator are near each other for convenience, creating a kitchen corner. The sink is logically placed nearby and correctly sized. Cabinets flank the sink, efficiently using vertical space. The vending machine is near the kitchen for efficient space use. The sofa occupies a cozy spot farthest from the table, making use of horizontal space along the wall. The trash can is placed near the lower traffic space near the refrigerator and microwave, making it logically accessible."
+}

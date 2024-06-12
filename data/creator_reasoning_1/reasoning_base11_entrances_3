@@ -1,0 +1,41 @@
+{
+  "layout": {
+    "name": "Entrances 3",
+    "coordinates": [27, 3, 31, 6],
+    "children": [
+      {
+        "name": "Entryway Doors",
+        "coordinates": [27, 5, 28, 6]
+      },
+      {
+        "name": "Entryway Doors 2",
+        "coordinates": [28, 5, 29, 6]
+      },
+      {
+        "name": "Entryway Doors 3",
+        "coordinates": [29, 5, 30, 6]
+      },
+      {
+        "name": "Security Desk",
+        "coordinates": [30, 5, 31, 6]
+      },
+      {
+        "name": "Lobby Area",
+        "coordinates": [27, 3, 31, 5]
+      },
+      {
+        "name": "Waiting Chairs",
+        "coordinates": [27, 4, 28, 5]
+      },
+      {
+        "name": "Information Booth",
+        "coordinates": [29, 4, 30, 5]
+      },
+      {
+        "name": "Information Booth 2",
+        "coordinates": [30, 4, 31, 5]
+      }
+    ]
+  },
+  "reasoning": "The Entryway Doors are placed at the top of the area since they mark the entrance, with multiple instances to reflect the plural form requirement. The Security Desk is also placed near the entrance to logically follow the entryway, ensuring security upon entering. The Lobby Area is centrally located and spans a large part of the available space given its large relative size. Waiting Chairs are placed near the lobby area to ensure logical seating arrangements while waiting. The Information Booths are placed near the waiting area and are split into two parts to fulfill the plural form requirement, ensuring information is accessible from different points of the lobby. All items are placed adjacent to each other, using integers only, and fitting precisely within the coordinates of the parent item without any overlaps, ensuring efficient use of space."
+}

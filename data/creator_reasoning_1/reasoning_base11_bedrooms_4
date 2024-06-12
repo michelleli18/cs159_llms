@@ -1,0 +1,25 @@
+{
+  "layout": {
+    "name": "Bedrooms 4",
+    "coordinates": [36, 9, 40, 13],
+    "children": [
+      {
+        "name": "Master Bedroom",
+        "coordinates": [36, 11, 38, 13]
+      },
+      {
+        "name": "Guest Bedroom",
+        "coordinates": [38, 11, 40, 13]
+      },
+      {
+        "name": "Children'S Bedroom",
+        "coordinates": [36, 9, 38, 11]
+      },
+      {
+        "name": "Office/Study",
+        "coordinates": [38, 9, 40, 11]
+      }
+    ]
+  },
+  "reasoning": "Given the initial coordinates [36, 9, 40, 13], the place is divided into four parts ensuring no overlap while covering the entire area. The Master Bedroom and Guest Bedroom are placed next to each other (top) because both are important, private spaces and having them at the top allows easier access. The Children's Bedroom and Office/Study are placed at the bottom, making efficient use of the space. This arrangement mirrors a typical home layout where bedrooms are usually paired together. We ensured that every subitem is within the parent's coordinates and no overlaps occur. Items not included are Bathroom, Walk-In Closet, Living Room, Kitchen, Dining Room, Laundry Room, Garage, Backyard, and Front Yard due to space constraints."
+}

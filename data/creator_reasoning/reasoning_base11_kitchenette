@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Kitchenette",
+    "coordinates": [37, -3, 44, 0],
+    "children": [
+      {
+        "name": "Countertop",
+        "coordinates": [37, -3, 40, -1]
+      },
+      {
+        "name": "Stovetop",
+        "coordinates": [40, -3, 42, -1]
+      },
+      {
+        "name": "Refrigerator",
+        "coordinates": [42, -3, 44, -1]
+      },
+      {
+        "name": "Microwave",
+        "coordinates": [37, -1, 38, 0]
+      },
+      {
+        "name": "Sink",
+        "coordinates": [38, -1, 39, 0]
+      },
+      {
+        "name": "Cabinet",
+        "coordinates": [39, -1, 41, 0]
+      },
+      {
+        "name": "Dishwasher",
+        "coordinates": [41, -1, 43, 0]
+      }
+    ]
+  },
+  "reasoning": "The placement of the subitems follows the rule of keeping all items within the boundary and ensuring no overlap. The Countertop is large and located at the bottom left corner for easy access. The Stovetop is placed next to the Countertop because it naturally complements the cooking area. The Refrigerator, larger in size, is placed conveniently next to the Stovetop to minimize kitchen workflow disruptions. Microwave is placed on the top left corner for easy reach and usage without interfering with other main kitchen activities. The Sink is adjacent to the Microwave for easy access to water, making this area an efficient workspace. Cabinetry, being used for storage, is placed above and centered for an organized look. The Dishwasher is positioned near the Sink for easier dish handling and maintains seamless workflow. The Table item is omitted due to spatial constraints and to maintain efficient use of the available space without overlap."
+}

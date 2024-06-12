@@ -1,0 +1,45 @@
+{
+  "layout": {
+    "name": "Workstations",
+    "coordinates": [-13, -6, -9, -2],
+    "children": [
+      {
+        "name": "Desks 1",
+        "coordinates": [-13, -6, -12, -4]
+      },
+      {
+        "name": "Desks 2",
+        "coordinates": [-12, -6, -11, -4]
+      },
+      {
+        "name": "Desks 3",
+        "coordinates": [-11, -6, -10, -4]
+      },
+      {
+        "name": "Desks 4",
+        "coordinates": [-13, -4, -12, -2]
+      },
+      {
+        "name": "Chairs 1",
+        "coordinates": [-12, -4, -11, -3]
+      },
+      {
+        "name": "Chairs 2",
+        "coordinates": [-11, -4, -10, -3]
+      },
+      {
+        "name": "Whiteboard",
+        "coordinates": [-13, -3, -12, -2]
+      },
+      {
+        "name": "Conference Table",
+        "coordinates": [-10, -6, -9, -2]
+      },
+      {
+        "name": "File Cabinets 1",
+        "coordinates": [-11, -3, -10, -2]
+      }
+    ]
+  },
+  "reasoning": "Desks are placed to cover most of the bottom left area as they need a logical grouping similar to a workstation setup. Desks 4 is placed next to Desks 3 to utilize corner spaces effectively. Chairs are placed next to desks since they logically pair together. The Whiteboard is placed next to Desks since it would commonly be used during meetings or by individuals at the desks. The Conference Table, being the largest item, is placed to the far right to ensure it has sufficient space. The File Cabinet is adjacent to the Whiteboard for quick access to files during meetings. Larger items occupy more prominent positions while still keeping within the boundary and non-overlapping. Not all items are included due to spatial constraints."
+}

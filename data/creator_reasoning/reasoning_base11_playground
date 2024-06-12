@@ -1,0 +1,41 @@
+{
+  "layout": {
+    "name": "Playground",
+    "coordinates": [33, 9, 36, 12],
+    "children": [
+      {
+        "name": "Soccer Field",
+        "coordinates": [33, 10, 34, 12]
+      },
+      {
+        "name": "Basketball Court",
+        "coordinates": [34, 10, 36, 12]
+      },
+      {
+        "name": "Climbing Structure",
+        "coordinates": [33, 9, 34, 10]
+      },
+      {
+        "name": "Swing Set",
+        "coordinates": [34, 9, 35, 10]
+      },
+      {
+        "name": "Slide",
+        "coordinates": [35, 9, 36, 10]
+      },
+      {
+        "name": "Sandbox",
+        "coordinates": [35, 10, 36, 11]
+      },
+      {
+        "name": "Picnic Area",
+        "coordinates": [34, 9, 35, 10]
+      },
+      {
+        "name": "Restroom",
+        "coordinates": [33, 9, 33, 10]
+      }
+    ]
+  },
+  "reasoning": "The layout starts with placing the largest items first to ensure there's sufficient space for them. The Soccer Field and Basketball Court, being the largest items, are placed adjacent to each other at the top part of the playground, covering the coordinates. This allows both spaces to take advantage of the most area and fulfill the requirement of being flush to the boundaries. The Climbing Structure, Swing Set, and Slide are placed next, fitting logically into available spaces near the bottom, as these are typically placed together in playgrounds. The Sandbox and Picnic Area, having moderate sizes, are placed near each other ensuring that kids and their guardians can be nearby. The Restroom, being the smallest, occupies a modest but accessible space at the bottom left corner. This layout makes efficient use of space and follows realistic placement principles for a playground, ensuring no overlaps and all subitems fit within the defined coordinates."
+}

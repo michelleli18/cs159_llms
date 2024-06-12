@@ -1,0 +1,64 @@
+{
+	"layout": {
+		"name": "Storage Room",
+		"coordinates": [13, -9, 15, -6],
+		"children": [{
+				"name": "Shelving Units 1",
+				"coordinates": [13, -9, 13, -7]
+			},
+			{
+				"name": "Shelving Units 2",
+				"coordinates": [13, -7, 13, -6]
+			},
+			{
+				"name": "Shelving Units 3",
+				"coordinates": [13, -6, 13.5, -6]
+			},
+			{
+				"name": "Storage Bins 1",
+				"coordinates": [13.5, -9, 13.5, -8.5]
+			},
+			{
+				"name": "Storage Bins 2",
+				"coordinates": [13.5, -8.5, 13.5, -8]
+			},
+			{
+				"name": "Storage Bins 3",
+				"coordinates": [13.5, -8, 13.5, -7.5]
+			},
+			{
+				"name": "Workbench",
+				"coordinates": [13.5, -7.5, 13.5, -6]
+			},
+			{
+				"name": "Tool Cabinet",
+				"coordinates": [14, -9, 14.5, -8] 
+			},
+			{
+				"name": "Boxes 1",
+				"coordinates": [14.5, -8, 14.5, -7]
+			},
+			{
+				"name": "Boxes 2",
+				"coordinates": [14.5, -7, 14.5, -6.5]
+			},
+			{
+				"name": "Pallets 1",
+				"coordinates": [14.5, -6.5, 14.5, -6]
+			},
+			{
+				"name": "Pallets 2",
+				"coordinates": [14.5, -6, 15, -6]
+			},
+			{
+				"name": "File Cabinets",
+				"coordinates": [14, -7.5, 14.5, -6]
+			},
+			{
+				"name": "Locker",
+				"coordinates": [14.5, -6, 15, -6]
+			}
+		]
+	},
+	"reasoning": "Shelving Units are placed along the left wall to cover the vertical space efficiently and are divided into three parts to follow the rule of having multiples. Storage Bins are placed next to Shelving Units because items are often accessed together. The Workbench is placed adjacent to storage areas for easy access to tools. The Tool Cabinet is next to the Workbench for easy tool access. Boxes and Pallets are placed next to each other because they are often used together in storage settings. File Cabinets are placed along the top right corner for office-related items, and the Locker is placed next to it to ensure all walls are fully utilized. Rationalizing the placements ensures the efficient usage of all available space while meeting the size and adjacency considerations."
+}

@@ -1,0 +1,41 @@
+{
+    "layout": {
+        "name": "Employee Area",
+        "coordinates": [-13, -6, -8, 0],
+        "children": [
+            {
+                "name": "Workstations",
+                "coordinates": [-13, -6, -9, -2]
+            },
+            {
+                "name": "Conference Room",
+                "coordinates": [-9, -6, -8, -3]
+            },
+            {
+                "name": "Kitchen Area",
+                "coordinates": [-13, -2, -10, 0]
+            },
+            {
+                "name": "Lounge Area",
+                "coordinates": [-10, -2, -8, 0]
+            },
+            {
+                "name": "Break Room",
+                "coordinates": [-13, -4, -11, -2]
+            },
+            {
+                "name": "Restrooms",
+                "coordinates": [-11, -6, -10, -4]
+            },
+            {
+                "name": "Manager Office",
+                "coordinates": [-10, -6, -9, -4]
+            },
+            {
+                "name": "Supply Closet",
+                "coordinates": [-10, -4, -9, -3]
+            }
+        ]
+    },
+    "reasoning": "The Workstations area is placed from [-13, -6] to [-9, -2] to provide the largest space as it’s the primary workspace, touching the left boundary and bottom for a natural layout. Next, the Conference Room is from [-9, -6] to [-8, -3], ensuring proximity to the Workstations for easy access for meetings. The Kitchen Area from [-13, -2] to [-10, 0] and Lounge Area from [-10, -2] to [-8, 0] are placed on the top adjacent to each other to facilitate convenient breaks and meal times. The Break Room from [-13, -4] to [-11, -2] is adjacent to the Kitchen Area for easy access. The Restrooms from [-11, -6] to [-10, -4] are centrally placed for easy access from Workstations and other areas. The Manager Office from [-10, -6] to [-9, -4] is slightly secluded for privacy but close to Workstations for supervision. Finally, the Supply Closet from [-10, -4] to [-9, -3] is added next to the Restrooms and Manager Office for efficient use of remaining space. This placement ensures coverage of space without overlaps and follows realistic office layout conventions."
+}

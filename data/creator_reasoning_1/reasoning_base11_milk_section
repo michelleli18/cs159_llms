@@ -1,0 +1,41 @@
+{
+  "layout": {
+    "name": "Milk Section",
+    "coordinates": [12, -9, 14, -5],
+    "children": [
+      {
+        "name": "Refrigerator Units",
+        "coordinates": [12, -5, 14, -9]
+      },
+      {
+        "name": "Aisle Shelves",
+        "coordinates": [12, -7, 13, -5]
+      },
+      {
+        "name": "Aisle Shelves 2",
+        "coordinates": [13, -7, 14, -5]
+      },
+      {
+        "name": "Cart Return Area",
+        "coordinates": [12, -9, 13, -8]
+      },
+      {
+        "name": "Cart Return Area 2",
+        "coordinates": [13, -9, 14, -8]
+      },
+      {
+        "name": "Milk Crates",
+        "coordinates": [12, -8, 13, -7]
+      },
+      {
+        "name": "Milk Crates 2",
+        "coordinates": [13, -8, 14, -7]
+      },
+      {
+        "name": "Signage Boards",
+        "coordinates": [13, -8, 14, -9]
+      }
+    ]
+  },
+  "reasoning": "The overall available space for the Milk Section is sufficiently utilized while making sure that none of the children overlap with one another and all children lie within the parent’s coordinates. The Refrigerator Units, due to their large size (10), are placed at the bottom of the space to maximize their utilization. The Aisle Shelves, with a size of 8, are split into two logical units along the top left and right sections for easy accessibility and aisle formation. The Cart Return Area, although smaller in size, is also distributed into two sections and positioned near the bottom corners for logistical access. The Milk Crates, being smaller, are divided and placed between the Cart Return Areas and Aisle Shelves. Signage Boards occupy a smaller area and are situated next to Cart Return Areas for visibility near access points. The division ensures efficiency, accessibility, and practicality in a real-world scenario."
+}

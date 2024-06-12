@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Bedrooms 3",
+    "coordinates": [32, 9, 36, 13],
+    "children": [
+      {
+        "name": "Master Bed",
+        "coordinates": [32, 10, 34, 12]
+      },
+      {
+        "name": "Dresser",
+        "coordinates": [34, 10, 35, 12]
+      },
+      {
+        "name": "Wardrobe",
+        "coordinates": [35, 10, 36, 12]
+      },
+      {
+        "name": "Bed 2",
+        "coordinates": [32, 9, 33, 10]
+      },
+      {
+        "name": "Bed 3",
+        "coordinates": [33, 9, 34, 10]
+      },
+      {
+        "name": "Closet 1",
+        "coordinates": [34, 9, 35, 10]
+      },
+      {
+        "name": "Closet 2",
+        "coordinates": [35, 9, 36, 10]
+      }
+    ]
+  },
+  "reasoning": "The primary focus was ensuring that all subitems fit within the parent coordinates [32, 9, 36, 13] without overlapping. The space was divided logically to maximize usage and to place larger items next to each other for practical layout planning, resembling a typical bedroom arrangement. The 'Master Bed' was placed in the largest available chunk [32, 10, 34, 12] as it is the largest and most important item in a bedroom. The 'Dresser' and 'Wardrobe', which are also essential but relatively smaller, were placed next to it along the upper wall. 'Bed 2' and 'Bed 3', which are of the same size, were placed next to each other on the lower wall, accompanied by the 'Closet 1' and 'Closet 2'. 'Closet 3' could not be included without violating the spatial constraints and maintaining non-overlapping criteria, hence it was left out."
+}

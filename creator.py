@@ -10,6 +10,7 @@ from gptutils import ChatGPT_request
 
 MINIMUM_ITEM_AREA_PXL = 4
 SUITABILITY_RATING_THRESHOLD = 7
+DISPLAY_COLOR_DECAY_FACTOR = 0.7
 
 
 attempts_dir = "data/creator_num_attempts"
@@ -228,6 +229,7 @@ class Creator():
                 # Make sure returned json matches with our base object
                 self.architect_response_json = json.loads(architect_response)
                 assert "layout" in self.architect_response_json
+                assert "reasoning" in self.architect_response_json
                 assert self.architect_response_json["layout"]['name'] == self.map_json['name']
                 assert self.architect_response_json["layout"]['coordinates'] == self.map_json['coordinates']
                 for child in self.architect_response_json["layout"]["children"]:
@@ -265,7 +267,7 @@ class Creator():
     # MAIN FUNCTION FOR THE CREATOR
     # Generates a map from given item by recursively generating children
     # Saves and returns the original json with the children added
-    def create_map(self, save=True):
+    def create_map(self, save=True, include_reasoning=False):
         if self.check_object() or self.check_item_too_small():
             return None
         
@@ -275,13 +277,17 @@ class Creator():
             self.assign_relative_sizes()
             self.generate_children_json()
             self.map_json['children'] = self.architect_response_json['layout']['children']
+
+            if include_reasoning:
+                self.map_json['reasoning'] = self.architect_response_json['reasoning']
+
             print("SUCCESSFULLY GENERATED CHILDREN FOR: " + self.map_json['name'])
             print(self.map_json)
 
         for child in self.map_json['children']:
             print("GENERATION FOR: " + child['name'])
             child_map_generator = Creator(self.persona_name, child)
-            generated_map = child_map_generator.create_map(False)
+            generated_map = child_map_generator.create_map(save=False, include_reasoning=include_reasoning)
             #print(generated_map)
             if generated_map != None:
                 child['children'] = generated_map['children']
@@ -317,7 +323,7 @@ class Creator():
                 add_rectangle(ax, "", item_json['coordinates'], color=(1,1,1), linewidth=3)
             else:
                 add_rectangle(ax, item_json['name'], item_json['coordinates'], color=color)
-                color = (color[0]*0.7, color[1], color[2])
+                color = (color[0]*DISPLAY_COLOR_DECAY_FACTOR, color[1], color[2])
             
             if not 'children' in item_json:
                 return

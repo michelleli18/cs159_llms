@@ -1,0 +1,37 @@
+{
+    "layout": {
+        "name": "Infield Diamond",
+        "coordinates": [37, 11, 39, 13],
+        "children": [
+            {
+                "name": "Pitcher'S Mound",
+                "coordinates": [38, 12, 39, 13]
+            },
+            {
+                "name": "Home Plate",
+                "coordinates": [37, 11, 38, 12]
+            },
+            {
+                "name": "First Base",
+                "coordinates": [38, 11, 39, 12]
+            },
+            {
+                "name": "Second Base",
+                "coordinates": [38, 12, 39, 13]
+            },
+            {
+                "name": "Third Base",
+                "coordinates": [37, 12, 38, 13]
+            },
+            {
+                "name": "Infield Grass",
+                "coordinates": [37, 11, 39, 13]
+            },
+            {
+                "name": "Outfield Grass",
+                "coordinates": [37, 11, 39, 13]
+            }
+        ]
+    },
+    "reasoning": "The 'Infield Diamond' is a tightly constrained space with only a 2x2 area to place subitems. The subitems of 'Infield Diamond' are organized strictly based on their relative sizes and logical real-life placements. The 'Pitcher'S Mound' is of the highest priority in terms of space, so it takes the center-most area of the diamond at [38, 12, 39, 13]. 'Home Plate' takes the coordinate area directly at the bottom-left of the 'Pitcher'S Mound', located at [37, 11, 38, 12] for realistic placement. 'First Base' is placed directly to the right of 'Home Plate' at [38, 11, 39, 12]. 'Second Base' is naturally above 'First Base', while 'Third Base' is left of the 'Pitcher'S Mound'. The 'Infield Grass' and 'Outfield Grass' completely cover the diamond, effectively utilizing all available space in the infield diamond area. Hence, subitems' positions replicate their realistic counterparts on an actual baseball field, adhering to spatial constraints without overlapping."
+}

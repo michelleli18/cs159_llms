@@ -1,0 +1,57 @@
+{
+  "layout": {
+    "name": "Restroom",
+    "coordinates": [42, -2, 44, 0],
+    "children": [
+      {
+        "name": "Stall",
+        "coordinates": [42, -2, 42, 0]
+      },
+      {
+        "name": "Stall 2",
+        "coordinates": [43, -2, 43, 0]
+      },
+      {
+        "name": "Stall 3",
+        "coordinates": [44, -2, 44, 0]
+      },
+      {
+        "name": "Sink",
+        "coordinates": [42, 0, 43, 0]
+      },
+      {
+        "name": "Sink 2",
+        "coordinates": [43, 0, 44, 0]
+      },
+      {
+        "name": "Mirror",
+        "coordinates": [42, -1, 42, -1]
+      },
+      {
+        "name": "Mirror 2",
+        "coordinates": [43, -1, 43, -1]
+      },
+      {
+        "name": "Counter",
+        "coordinates": [42, -1, 43, -1]
+      },
+      {
+        "name": "Counter 2",
+        "coordinates": [43, -1, 44, -1]
+      },
+      {
+        "name": "Door",
+        "coordinates": [42, -2, 42, -1]
+      },
+      {
+        "name": "Door 2",
+        "coordinates": [43, -2, 43, -1]
+      },
+      {
+        "name": "Door 3",
+        "coordinates": [44, -2, 44, -1]
+      }
+    ]
+  },
+  "reasoning": "The place 'Restroom' has coordinates [42, -2, 44, 0]. The subitems were placed based on their relative sizes and logical positions relative to each other. The 'Stall' subitems, being the largest with a size rating of 5, were placed first along the bottom edge to ensure adequate space utilization and easy access. Three 'Stall' elements were added to cover the space logically. The 'Sink' and 'Counter' subitems, with size ratings of 2 and 3 respectively, were placed next along the top edge next to the 'Stall' subitems to mimic typical restroom layouts where sinks and counters are near stalls. The 'Mirror' subitems, also with a size rating of 2, were placed near the 'Sink' to reflect real-life usage, where mirrors are often above sinks. Lastly, the 'Door' subitems, with a size rating of 4, were placed along the bottom edge to allow easy entry and exit. This layout ensures that all space within the restroom is used efficiently without any overlap. Some items were duplicated to adhere to the instruction of having multiples of each item where applicable."
+}

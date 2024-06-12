@@ -1,0 +1,41 @@
+{
+    "layout": {
+        "name": "Yogurt Section",
+        "coordinates": [16, -9, 18, -6],
+        "children": [
+            {
+                "name": "Refrigerators 1",
+                "coordinates": [16, -9, 17, -7]
+            },
+            {
+                "name": "Refrigerators 2",
+                "coordinates": [17, -9, 18, -7]
+            },
+            {
+                "name": "Shelves 1",
+                "coordinates": [16, -7, 17, -6]
+            },
+            {
+                "name": "Shelves 2",
+                "coordinates": [17, -7, 18, -6]
+            },
+            {
+                "name": "Yogurt Containers 1",
+                "coordinates": [16, -8, 17, -7]
+            },
+            {
+                "name": "Yogurt Containers 2",
+                "coordinates": [17, -8, 18, -7]
+            },
+            {
+                "name": "Price Labels 1",
+                "coordinates": [16, -9, 17, -8]
+            },
+            {
+                "name": "Promotional Signs 1",
+                "coordinates": [16, -9, 16.5, -8.5]
+            }
+        ]
+    },
+    "reasoning": "The 'Refrigerators' are larger items needed for cooling and storing yogurt, thus they were divided into two parts and placed at the bottom of the layout next to each other to utilize space. 'Shelves' were also divided into two parts and placed at the top to store various yogurt containers. 'Yogurt Containers' being of medium size are placed between the shelves and refrigerators for easy access and visibility. 'Price Labels', being smaller, were strategically placed next to yogurt containers near the refrigerators for clear viewability near the price sensitive area.  'Promotional Signs', the smallest items, are placed in smaller spaces left over after placing bigger items, here in the bottom left corner next to 'Refrigerators' to attract customers. Extra units of 'Shelves' and 'Price Labels' were added to meet the 3 items plural requirement and ensure space utilization."
+}

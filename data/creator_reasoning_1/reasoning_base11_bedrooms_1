@@ -1,0 +1,25 @@
+{
+  "layout": {
+    "name": "Bedrooms 1",
+    "coordinates": [27, 6, 32, 11],
+    "children": [
+      {
+        "name": "Bed",
+        "coordinates": [27, 8, 30, 11]
+      },
+      {
+        "name": "Dresser",
+        "coordinates": [30, 9, 32, 11]
+      },
+      {
+        "name": "Wardrobe",
+        "coordinates": [30, 6, 32, 9]
+      },
+      {
+        "name": "Desk",
+        "coordinates": [27, 6, 30, 8]
+      }
+    ]
+  },
+  "reasoning": "First, the 'Bed' is the largest furniture item with a relative size of 7 and is placed in a corner next to two walls for a cozy feeling and efficient use of space. The coordinates for the bed are [27, 8, 30, 11]. This ensures it uses a large portion of the room. The 'Dresser' is placed next to the bed along the longer wall with coordinates [30, 9, 32, 11] to utilize the vertical space effectively, given its size is 4. The 'Wardrobe', which has a size of 5, is placed next to the dresser with coordinates [30, 6, 32, 9]. This placement creates a logical flow of furniture that maximizes wall engagement and accessibility. The 'Desk,' with a size of 3, uses the remaining space efficiently without blocking any other item. Its coordinates are [27, 6, 30, 8]. There's no space to fit the 'Nightstand' with size 2 left without causing overlap or exceeding parent's boundaries, hence it's excluded."
+}

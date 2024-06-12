@@ -1,0 +1,44 @@
+{
+	"layout": {
+		"name": "Study Rooms 4",
+		"coordinates": [31, 6, 34, 9],
+		"children": [{
+				"name": "Study Tables 1",
+				"coordinates": [31, 8, 32, 9]
+			},
+			{
+				"name": "Study Tables 2",
+				"coordinates": [32, 8, 33, 9]
+			},
+			{
+				"name": "Study Tables 3",
+				"coordinates": [33, 8, 34, 9]
+			},
+			{
+				"name": "Chairs 1",
+				"coordinates": [31, 7, 32, 8]
+			},
+			{
+				"name": "Chairs 2",
+				"coordinates": [33, 7, 34, 8]
+			},
+			{
+				"name": "Bookshelves 1",
+				"coordinates": [31, 6, 32, 7]
+			},
+			{
+				"name": "Bookshelves 2",
+				"coordinates": [32, 6, 33, 7]
+			},
+			{
+				"name": "Whiteboard",
+				"coordinates": [31, 7, 33, 8]
+			},
+			{
+				"name": "Windows",
+				"coordinates": [33, 6, 34, 7]
+			}
+		]
+	},
+	"reasoning": "The Study Rooms 4 space is divided based on the subitems' relative sizes and logical locations. The study tables are relatively larger items requiring comfortable space for use; thus, I've placed them along the top wall, spreading them into Study Tables 1, 2, and 3 to ensure sufficient workspace for users and to follow the rule of having 3 instances for plural items. Each table takes up a similar amount of space logically. Chairs are placed adjacent to the tables for ease of accessibility, specifically at Study Tables 1 and 3 to avoid overlap and maintain a realistic arrangement. Bookshelves, which also take significant yet slightly smaller space, are placed along the bottom wall, ensuring they don't overlap other items and are easily accessible from all parts of the room. The Whiteboard, central to most study rooms, is placed in a middle wall area where users can view it easily from multiple points. Windows are located on the bottom-right corner for maximum natural light without interfering with other functionalities. This placement ensures an efficient, natural layout that maximizes the utility and space of the Study Room to an optimal level."
+}

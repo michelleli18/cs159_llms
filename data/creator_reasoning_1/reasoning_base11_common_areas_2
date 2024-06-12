@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Common Areas 2",
+    "coordinates": [35, -3, 39, 3],
+    "children": [
+      {
+        "name": "Lounge Area",
+        "coordinates": [35, -3, 37, 1]
+      },
+      {
+        "name": "Study Room",
+        "coordinates": [37, -3, 39, 0]
+      },
+      {
+        "name": "Reception Desk",
+        "coordinates": [37, 0, 39, 2]
+      },
+      {
+        "name": "Meeting Room",
+        "coordinates": [35, 0, 37, 3]
+      },
+      {
+        "name": "Restrooms",
+        "coordinates": [37, 2, 39, 3]
+      }
+    ]
+  },
+  "reasoning": "The layout had to ensure all subitems fit within the specified boundaries of the parent place while ensuring no overlaps. The 'Lounge Area' is the largest and is placed flush with the bottom-left corner stretching up and to the right, using up its significant space efficiently. The other subitems are arranged around it to maximize the available space naturally. The 'Study Room' is placed next to the 'Lounge Area' at the bottom right corner since students or visitors may move directly from the lounge to the study area. 'Reception Desk' sits above the 'Study Room', centralized and easily accessible from the entrance near the middle of the top portion. The 'Meeting Room' is bigger and therefore placed in the top-left corner to make use of that wider area. Finally, 'Restrooms' are placed in the top-right corner for easy access from other rooms towards the back, which is logical placement for restrooms in this layout. This configuration adheres to architectural principles ensuring efficient use of space and functional proximity of related areas."
+}

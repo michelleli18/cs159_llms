@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Study Rooms 3",
+    "coordinates": [41, 3, 44, 6],
+    "children": [
+      {
+        "name": "Study Table",
+        "coordinates": [41, 3, 42, 5]
+      },
+      {
+        "name": "Chairs 1",
+        "coordinates": [42, 3, 43, 4]
+      },
+      {
+        "name": "Chairs 2",
+        "coordinates": [43, 3, 44, 4]
+      },
+      {
+        "name": "Chairs 3",
+        "coordinates": [42, 4, 43, 5]
+      },
+      {
+        "name": "Bookshelves",
+        "coordinates": [43, 4, 44, 5]
+      },
+      {
+        "name": "Whiteboard",
+        "coordinates": [41, 5, 42, 6]
+      },
+      {
+        "name": "Windows",
+        "coordinates": [42, 5, 44, 6]
+      }
+    ]
+  },
+  "reasoning": "The study table is given the largest space due to its relative size and central importance. It is placed at the bottom left corner of the room for easy access. The chairs are placed in proximity to the study table to maintain usability and ease of usage, being smaller but numerous. Three sets of chairs are placed around the study table and the bookshelves ensuring none overlap and they maximize space. The bookshelves are located nearby for convenience, allowing users to easily access study materials. The whiteboard is placed on the top left for optimal visibility and so it doesn't interfere with other activities. The windows are placed along the remaining top boundary to provide natural light to the room which is essential in study environments."
+}

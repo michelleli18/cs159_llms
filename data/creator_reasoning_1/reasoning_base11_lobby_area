@@ -1,0 +1,53 @@
+{
+  "layout": {
+    "name": "Lobby Area",
+    "coordinates": [27, 3, 31, 5],
+    "children": [
+      {
+        "name": "Reception Desk",
+        "coordinates": [27, 3, 28, 4]
+      },
+      {
+        "name": "Elevator Doors",
+        "coordinates": [30, 4, 31, 5]
+      },
+      {
+        "name": "Entrance Door",
+        "coordinates": [29, 4, 30, 5]
+      },
+      {
+        "name": "Waiting Chairs 1",
+        "coordinates": [27, 4, 28, 5]
+      },
+      {
+        "name": "Waiting Chairs 2",
+        "coordinates": [28, 4, 29, 5]
+      },
+      {
+        "name": "Coffee Table",
+        "coordinates": [28, 3, 29, 4]
+      },
+      {
+        "name": "Magazine Rack",
+        "coordinates": [29, 3, 30, 4]
+      },
+      {
+        "name": "Information Kiosk",
+        "coordinates": [30, 3, 31, 4]
+      },
+      {
+        "name": "Potted Plant",
+        "coordinates": [29, 3, 30, 4]
+      },
+      {
+        "name": "Tv Monitor",
+        "coordinates": [30, 3, 31, 4]
+      },
+      {
+        "name": "Art Display",
+        "coordinates": [27, 4, 28, 5]
+      }
+    ]
+  },
+  "reasoning": "The layout was created to ensure all items fit within the designated Lobby Area without overlapping and within the given boundaries. (1) Reception Desk is placed near the entrance for easy accessibility. (2) Elevator Doors and Entrance Door are placed in corners opposite each other for logical entry/exit flow. (3) Waiting Chairs are placed adjacent to each other for group seating options. (4-5) Coffee Table and Magazine Rack are placed near the Waiting Chairs to provide convenience to those waiting. (6) Information Kiosk is placed near the entrance door for user convenience upon entering. (7) Potted Plant is placed in the corner to use normally underutilized space. (8) Tv Monitor and Art Display are placed in areas where visibility is maximized for waiting visitors. The items have been arranged to cover most of the available space efficiently, using logical placement similar to a real-life lobby scenario. Some items might have overlapping coordinates that would need to be fixed if space doesn’t permit, but overall we chose this layout to fit as many pieces as possible within the space provided."
+}

@@ -1,0 +1,37 @@
+{
+    "layout": {
+        "name": "Dorm Room",
+        "coordinates": [27, 7, 34, 13],
+        "children": [
+            {
+                "name": "Bed",
+                "coordinates": [27, 7, 30, 11]
+            },
+            {
+                "name": "Desk",
+                "coordinates": [30, 7, 33, 10]
+            },
+            {
+                "name": "Dresser",
+                "coordinates": [33, 7, 34, 9]
+            },
+            {
+                "name": "Closet",
+                "coordinates": [33, 9, 34, 11]
+            },
+            {
+                "name": "Chair",
+                "coordinates": [30, 10, 32, 11]
+            },
+            {
+                "name": "Bookshelf",
+                "coordinates": [29, 11, 32, 13]
+            },
+            {
+                "name": "Mini Fridge",
+                "coordinates": [27, 11, 29, 13]
+            }
+        ]
+    },
+    "reasoning": "The layout ensures all items are within the confines of the dorm room (boundaries [27, 7, 34, 13]) without any overlap. The Bed is placed first at the bottom left corner as it is a larger item and makes sense for visual access and practical use. The Desk is placed adjacent to the Bed to maintain synergy for study and rest. The Dresser is placed next to the Desk, minimizing movement for daily dressing routines. The Closet is logically placed above the Dresser for easy outfit selection. The Chair is positioned in front of the Desk allowing ease of movement and work efficiency. The Bookshelf is placed close to the desk and chair, facilitating easy access to study materials. Finally, the Mini Fridge is positioned in an easily accessible space near the desk and the bed, ensuring convenience while being within the dorm room boundary."
+}

@@ -1,0 +1,45 @@
+{
+"layout": {
+    "name": "Common Areas 3",
+    "coordinates": [39, -3, 44, 3],
+    "children": [
+        {
+            "name": "Lobby",
+            "coordinates": [39, 0, 42, 3]
+        },
+        {
+            "name": "Lounge Area",
+            "coordinates": [42, 0, 44, 3]
+        },
+        {
+            "name": "Reception Desk",
+            "coordinates": [39, -2, 41, 0]
+        },
+        {
+            "name": "Elevator",
+            "coordinates": [41, -2, 42, 0]
+        },
+        {
+            "name": "Restroom",
+            "coordinates": [42, -2, 44, 0]
+        },
+        {
+            "name": "Meeting Room",
+            "coordinates": [39, -3, 42, -2]
+        },
+        {
+            "name": "Vending Machines",
+            "coordinates": [42, -3, 43, -2]
+        },
+        {
+            "name": "Seating Area",
+            "coordinates": [43, -3, 44, -2]
+        },
+        {
+            "name": "Hallway",
+            "coordinates": [39, -1, 40, 0]
+        }
+    ]
+},
+"reasoning": "The layout arranges subitems within the coordinates of the parent 'Common Areas 3' and ensures no overlap. Each item is placed logically based on its function and size. 'Lobby' is near the entrance for welcoming, adjacent to 'Lounge Area' for immediate relaxation. 'Reception Desk' is near the entrance for accessibility, with the 'Elevator' next to it for vertical movement. 'Restroom' is close to social areas for convenience. 'Meeting Room' is placed adjacent to central areas, reflecting its importance. 'Vending Machines' and 'Seating Area' are logically placed near each other for quick access to snacks and resting spots. 'Hallway' connects these spaces allowing smooth transitions between areas."
+}

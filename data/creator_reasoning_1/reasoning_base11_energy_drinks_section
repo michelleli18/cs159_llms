@@ -1,0 +1,41 @@
+{
+  "layout": {
+    "name": "Energy Drinks Section",
+    "coordinates": [11, -1, 13, 1],
+    "children": [
+      {
+        "name": "Coolers 1",
+        "coordinates": [11, -1, 12, 0]
+      },
+      {
+        "name": "Coolers 2",
+        "coordinates": [12, -1, 13, 0]
+      },
+      {
+        "name": "Drink Displays 1",
+        "coordinates": [11, 0, 12, 1]
+      },
+      {
+        "name": "Drink Displays 2",
+        "coordinates": [12, 0, 13, 1]
+      },
+      {
+        "name": "Shelves 1",
+        "coordinates": [11, 0, 11, 1]
+      },
+      {
+        "name": "Shelves 2",
+        "coordinates": [13, 0, 13, 1]
+      },
+      {
+        "name": "Cash Register",
+        "coordinates": [12, -1, 13, -1]
+      },
+      {
+        "name": "Signage",
+        "coordinates": [12, -1, 13, -1]
+      }
+    ]
+  },
+  "reasoning": "The Energy Drinks Section has designated coordinates of [11, -1, 13, 1] which provides us with a 2x2 area to work with. Based on the given sizes and logical positioning: Coolers are critical for energy drinks, hence they are placed immediately inside the entrance at bottom left and bottom right corners, with Coolers 1 and Coolers 2 occupying [11, -1, 12, 0] and [12, -1, 13, 0] respectively. Drink Displays are also important and are placed on top corners with Drink Displays 1 at [11, 0, 12, 1] and Drink Displays 2 at [12, 0, 13, 1] for easy access. Shelves are extension items, placed along the boundary next to the Coolers and Drink Displays to avoid disrupting high-priority items. They are at [11, 0, 11, 1] and [13, 0, 13, 1]. Cash Register is placed near the Coolers and Drink Displays at [12, -1, 13, -1] for easy checkouts. Due to space constraints, Signage is minimally placed next to Cash Register for visibility without interfering with primary items. This arrangement ensures that all items fit within the defined boundaries, avoid overlapping, and make logical and efficient use of the space."
+}

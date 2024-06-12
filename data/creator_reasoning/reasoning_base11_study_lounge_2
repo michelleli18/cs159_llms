@@ -1,0 +1,53 @@
+{
+  "layout": {
+    "name": "Study Lounge 2",
+    "coordinates": [37, 3, 44, 7],
+    "children": [
+      {
+        "name": "Study Tables 1",
+        "coordinates": [37, 3, 40, 5]
+      },
+      {
+        "name": "Study Tables 2",
+        "coordinates": [37, 5, 40, 7]
+      },
+      {
+        "name": "Study Tables 3",
+        "coordinates": [40, 3, 43, 5]
+      },
+      {
+        "name": "Bookshelves 1",
+        "coordinates": [40, 5, 42, 6]
+      },
+      {
+        "name": "Bookshelves 2",
+        "coordinates": [42, 5, 44, 6]
+      },
+      {
+        "name": "Bookshelves 3",
+        "coordinates": [43, 3, 44, 5]
+      },
+      {
+        "name": "Couches 1",
+        "coordinates": [40, 6, 43, 7]
+      },
+      {
+        "name": "Couches 2",
+        "coordinates": [37, 3, 39, 5]
+      },
+      {
+        "name": "Couches 3",
+        "coordinates": [39, 3, 40, 5]
+      },
+      {
+        "name": "Whiteboard",
+        "coordinates": [37, 5, 40, 6]
+      },
+      {
+        "name": "Coffee Station",
+        "coordinates": [40, 6, 41, 7]
+      }
+    ]
+  },
+  "reasoning": "The layout was configured to maximize efficient usage of space while ensuring no overlap and maintaining realistic placement. 'Study Tables' were split into three subitems due to their relative large size, placed evenly across the space in three rows to facilitate easy access. 'Bookshelves' were placed near the 'Study Tables' since it is logical for study spaces to be close to resources. Using the vertical edges efficiently, 'Couches' were positioned to utilize remaining spaces optimally while adding seating comfort. With 'Whiteboard' typically used for visual engagement or teaching, it was placed at the center, accessible to the majority of the space. 'Coffee Station' was placed conveniently leaving enough space to not disrupt the flow while ensuring accessibility. All subitems were positioned to touch the walls and fit perfectly within the coordinates."
+}

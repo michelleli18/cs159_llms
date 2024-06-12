@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Study Rooms 5",
+    "coordinates": [34, 6, 37, 9],
+    "children": [
+      {
+        "name": "Study Table",
+        "coordinates": [34, 6, 35, 8]
+      },
+      {
+        "name": "Chairs 1",
+        "coordinates": [35, 6, 35, 7]
+      },
+      {
+        "name": "Chairs 2",
+        "coordinates": [35, 7, 35, 8]
+      },
+      {
+        "name": "Chairs 3",
+        "coordinates": [35, 8, 35, 9]
+      },
+      {
+        "name": "Bookshelves",
+        "coordinates": [35, 6, 37, 7]
+      },
+      {
+        "name": "Whiteboard",
+        "coordinates": [35, 7, 37, 8]
+      },
+      {
+        "name": "Windows",
+        "coordinates": [35, 8, 37, 9]
+      }
+    ]
+  },
+  "reasoning": "The 'Study Table' is placed in the bottom left corner (coordinates: [34, 6, 35, 8]), making efficient use of the available space. Due to the requirement of 3 'Chairs', they are placed vertically next to the 'Study Table' in a stacked manner with coordinates [35, 6, 35, 7], [35, 7, 35, 8], [35, 8, 35, 9] to save space. 'Bookshelves' are placed adjacent to 'Chairs' on the right side, spanning horizontally along the bottom part of the room with coordinates [35, 6, 37, 7]. The 'Whiteboard' is placed above the 'Bookshelves' with coordinates [35, 7, 37, 8] for ease of access and visibility. Finally, 'Windows' are placed above the 'Whiteboard' with coordinates [35, 8, 37, 9] to allow natural light into the room."
+}

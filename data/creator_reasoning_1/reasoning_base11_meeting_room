@@ -1,0 +1,45 @@
+{
+  "layout": {
+    "name": "Meeting Room",
+    "coordinates": [35, 0, 37, 3],
+    "children": [
+      {
+        "name": "Conference Table",
+        "coordinates": [35, 0, 36, 2]
+      },
+      {
+        "name": "Whiteboard",
+        "coordinates": [36, 0, 37, 1]
+      },
+      {
+        "name": "Projector Screen",
+        "coordinates": [35, 2, 36, 3]
+      },
+      {
+        "name": "Chairs 1",
+        "coordinates": [36, 2, 37, 2]
+      },
+      {
+        "name": "Chairs 2",
+        "coordinates": [35, 1, 35, 2]
+      },
+      {
+        "name": "Chairs 3",
+        "coordinates": [35, 2, 35, 3]
+      },
+      {
+        "name": "Cabinet",
+        "coordinates": [36, 1, 37, 2]
+      },
+      {
+        "name": "Door",
+        "coordinates": [35, 0, 36, 0]
+      },
+      {
+        "name": "Windows",
+        "coordinates": [36, 3, 37, 3]
+      }
+    ]
+  },
+  "reasoning": "In creating an optimal layout for the meeting room, the Conference Table—which is the largest and most central item—was placed first and centrally located to allow for easy interaction and communication within the room. The Whiteboard and Projector Screen were positioned adjacently to the Conference Table for easy visibility from the table. The chairs, which are smaller, are dispersed around the Conference Table to maximize seating without crowding any single space. The Cabinet is placed in the corner to make use of the available wall space while keeping it accessible but out of the way of primary activities. The Door is positioned at an entrance location, logically at one end of the room. Finally, the Windows are placed along the remaining wall space to allow for natural lighting. The layout ensures all items are within the boundaries of the room and do not overlap, with the items touching the walls wherever possible to maximize use of the space."
+}

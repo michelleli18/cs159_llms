@@ -1,0 +1,25 @@
+{
+    "layout": {
+        "name": "Children'S Bedroom",
+        "coordinates": [36, 9, 38, 11],
+        "children": [
+            {
+                "name": "Bed",
+                "coordinates": [36, 9, 37, 10]
+            },
+            {
+                "name": "Closet",
+                "coordinates": [37, 9, 38, 10]
+            },
+            {
+                "name": "Dresser",
+                "coordinates": [36, 10, 37, 11]
+            },
+            {
+                "name": "Desk",
+                "coordinates": [37, 10, 38, 11]
+            }
+        ]
+    },
+    "reasoning": "The 'Bed' is placed in the bottom left corner as it is a common practice to have a bed against a wall for support and coziness. The 'Closet' is placed adjacent to the 'Bed' and along the bottom wall, making use of the space efficiently and allowing for accessibility from the bed. The 'Dresser' is placed above the 'Bed,' utilizing the vertical space and making it easy for children to organize their clothes. Lastly, the 'Desk' is placed above the 'Closet,' maximizing the remaining vertical space and facilitating study or play activities adjacent to the window, which is typically on the upper part of walls in most rooms. The 'Bookshelf' and 'Toy Box' were omitted due to the limited space and prioritization of primary furniture essential to a children's bedroom setup. Each subitem adheres to the provided coordinates, ensuring they fit within the constraints without any overlap and maintaining efficient usage of wall space as per priority 4."
+}

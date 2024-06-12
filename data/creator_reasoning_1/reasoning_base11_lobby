@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Lobby",
+    "coordinates": [39, 0, 42, 3],
+    "children": [
+      {
+        "name": "Reception Desk",
+        "coordinates": [39, 0, 40, 1]
+      },
+      {
+        "name": "Information Counter",
+        "coordinates": [40, 0, 41, 1]
+      },
+      {
+        "name": "Security Checkpoint",
+        "coordinates": [41, 0, 42, 1]
+      },
+      {
+        "name": "Seating Area",
+        "coordinates": [39, 1, 41, 2]
+      },
+      {
+        "name": "Coffee Table",
+        "coordinates": [41, 1, 42, 2]
+      },
+      {
+        "name": "Elevators",
+        "coordinates": [39, 2, 42, 3]
+      }
+    ]
+  },
+  "reasoning": "The Reception Desk and Information Counter are placed at the bottom-left corner next to each other because they are typically found near the entrance for easy accessibility. The Security Checkpoint is placed adjacent to the Information Counter for security purposes near the entrance. The Seating Area is placed centrally to accommodate visitors, and the Coffee Table is placed next to it for convenience. The Elevators are positioned at the top of the layout, utilizing the remaining space effectively, allowing easy access from the seating area and reception. The sizes and relative positions consider the overall layout logic, maintaining no overlaps and fitting within the defined boundaries."
+}

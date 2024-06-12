@@ -1,0 +1,17 @@
+{
+    "layout": {
+        "name": "Dorm Room 2",
+        "coordinates": [34, 7, 41, 13],
+        "children": [
+            {"name": "Bed", "coordinates": [34, 10, 38, 13]},
+            {"name": "Desk", "coordinates": [38, 10, 41, 12]},
+            {"name": "Closet", "coordinates": [34, 7, 37, 10]},
+            {"name": "Dresser", "coordinates": [37, 7, 41, 10]},
+            {"name": "Bookshelf", "coordinates": [34, 12, 36, 13]},
+            {"name": "Chair", "coordinates": [36, 12, 38, 13]},
+            {"name": "Nightstand", "coordinates": [39, 12, 41, 13]},
+            {"name": "Lamp", "coordinates": [38, 12, 39, 13]}
+        ]
+    },
+    "reasoning": "The main priorities for placing the subitems were to ensure all coordinates fall within the bounds of the parent Dorm Room 2 with no overlap. The Bed was placed in the top-left corner and made relatively large for comfort and access. The Desk was put next to the bed, as students usually want their desks close to their beds, and it fits logically within the space. The Closet was placed in the bottom-left corner, which is typical in many dorm rooms for ease of access when entering the room. The Dresser was placed next to the closet to maintain a consistent flow and utilize the bottom section fully. The Bookshelf was placed above the bed and flush to the top side of the area, as bookshelves tend to be vertical furniture that can fit into smaller horizontal spaces. The Chair, which is smaller, was placed next to the bookshelf. The Nightstand is placed near the bed where it is often used, and the Lamp was placed on the nightstand's side to ensure easy access for students. Extra care was taken to ensure that all spaces are utilized efficiently and respecting the boundaries."
+}

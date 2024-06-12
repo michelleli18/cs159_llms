@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Common Room",
+    "coordinates": [27, 6, 33, 13],
+    "children": [
+      {
+        "name": "Couch",
+        "coordinates": [27, 10, 30, 13]
+      },
+      {
+        "name": "Coffee Table",
+        "coordinates": [30, 10, 33, 12]
+      },
+      {
+        "name": "Bookshelf",
+        "coordinates": [27, 6, 30, 8]
+      },
+      {
+        "name": "Television",
+        "coordinates": [27, 8, 30, 10]
+      },
+      {
+        "name": "Armchair",
+        "coordinates": [30, 8, 33, 10]
+      },
+      {
+        "name": "Dining Table",
+        "coordinates": [27, 8, 33, 11]
+      }
+    ]
+  },
+  "reasoning": "The Common Room's coordinates are [27, 6, 33, 13]. The Couch is placed in the top left corner of the Common Room from coordinates [27, 10, 30, 13] because it is a relatively large item (size 7) and commonly placed against a wall for support. The Coffee Table (size 3) is placed adjacent to the Couch at [30, 10, 33, 12] because Coffee Tables are often placed near couches. The Bookshelf (size 6) is placed at [27, 6, 30, 8] which is in the bottom left corner, so it's easily accessible and against a wall. The Television (size 4) is placed right above the Bookshelf at [27, 8, 30, 10], as it is often positioned facing the Couch. The Armchair (size 5) is placed at [30, 8, 33, 10], creating a cozy sitting area next to the Couch. Lastly, the Dining Table (size 6) is placed at [27, 8, 33, 11], covering the remaining space efficiently and providing a clear logical distinction between the lounging and dining areas. The Cabinet was not included due to the lack of available space within the defined coordinates."
+}

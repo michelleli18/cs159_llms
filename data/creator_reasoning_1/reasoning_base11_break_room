@@ -1,0 +1,49 @@
+{
+  "layout": {
+    "name": "Break Room",
+    "coordinates": [31, 1, 33, 3],
+    "children": [
+      {
+        "name": "Sofa",
+        "coordinates": [31, 1, 32, 3]
+      },
+      {
+        "name": "Table",
+        "coordinates": [32, 2, 33, 3]
+      },
+      {
+        "name": "Chairs 1",
+        "coordinates": [32, 1, 32, 2]
+      },
+      {
+        "name": "Chairs 2",
+        "coordinates": [32, 1, 33, 2]
+      },
+      {
+        "name": "Refrigerator",
+        "coordinates": [31, 1, 32, 2]
+      },
+      {
+        "name": "Microwave",
+        "coordinates": [32, 1, 33, 2]
+      },
+      {
+        "name": "Sink",
+        "coordinates": [31, 1, 32, 2]
+      },
+      {
+        "name": "Coffee Machine",
+        "coordinates": [32, 2, 33, 3]
+      },
+      {
+        "name": "Vending Machine",
+        "coordinates": [31, 2, 33, 2]
+      },
+      {
+        "name": "Cabinets",
+        "coordinates": [31, 2, 32, 2]
+      }
+    ]
+  },
+  "reasoning": "The Sofa is placed in the bottom left corner to allow relaxation space upon entering the Break Room since it is the largest item. The Table is placed next to the Sofa, as it makes sense for people to eat or work while seated on the Sofa or the Chairs around the Table. Chairs are duplicated due to the plurality rule and placed adjacent to the Table to provide seating. The Refrigerator is placed in the bottom right corner, close to the Table and Sofa, making it convenient for accessing food and beverages. The Microwave is placed next to the Refrigerator because they are often used together. The Sink is positioned near the Refrigerator and Microwave, maintaining the kitchen functionality zone. The Coffee Machine is placed next to the Table, as people often grab coffee while working or eating. The Vending Machine is placed opposite to the Refrigerator for easy access to snacks. Cabinets are placed towards the upper side since storage items can be easily accessed while standing. All items are within the parent's boundary and positioned logically without overlap, making efficient use of space."
+}
