@@ -1,6 +1,7 @@
 import json
 import os
 import random
+import copy
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 
@@ -68,7 +69,8 @@ class Creator():
         Based on the relative size of other locations, what should the dimensions be for {place}? Return the dimensions as a dictionary with 'width' and 'height'.
         """
 
-    # FIELDS AND PROMPTS FOR INTEGRATING WITH PERSONA
+        
+        # FIELDS AND PROMPTS FOR INTEGRATING WITH PERSONA
         self.no_bounds = False
         # self.display_bounds also defined in 
 
@@ -122,6 +124,11 @@ class Creator():
         You can put the {} anywhere you would like according to your judgment as a skilled architect. There is no bound on the coordinates; however, it is usually better to build new places closer to existing places on the map. Think about which specific places it should be placed next to for more people to make use of it.
         """
 
+    def get_json_map_copy(self):
+        dcopy = copy.deepcopy(self.map_json)
+        if self.no_bounds:
+            dcopy["coordinates"] = list(self.display_bounds)
+        return dcopy
 
     # DETERMINE NEW PLACE FUNCTIONS
     

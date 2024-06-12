@@ -43,6 +43,7 @@ def main():
         j = 0
         while True:
             activity_info = dict()
+            info["activities"].append(activity_info)
 
             activity_desc = activities_list[j]
             activity_info["description"] = str(activity_desc)
@@ -72,8 +73,6 @@ def main():
             if not is_enough_space:
                 print(f"Ran out of space after {activity_count} activities")
                 break
-
-            info["activities"].append(activity_info)
 
             # Save files
             filepath = experiment1_dir + "/bounded_add_" + persona.get_name().lower().replace(" ", "_") + "_" + str(j)

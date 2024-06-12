@@ -43,6 +43,7 @@ def main():
         activities_list = persona.generate_activities_batch(N_ACTIVITIES_TOTAL)
         for j in range(N_ACTIVITIES_TOTAL):
             activity_info = dict()
+            info["activities"].append(activity_info)
 
             activity_desc = activities_list[j]
             activity_info["description"] = str(activity_desc)
@@ -59,8 +60,7 @@ def main():
 
             activity_info["new place"] = new_place
 
-            info["activities"].append(activity_info)
-
+            # Save intermediate files
             filepath = experiment2_dir + "/anywhere_add_" + persona.get_name().lower().replace(" ", "_") + "_" + str(j)
 
             with open(filepath + "_info.json", 'w') as f:
@@ -69,6 +69,18 @@ def main():
             creator.add_place_anywhere(filepath=filepath + "_map.json")
             
             creator.display_map(filepath=filepath + "_map.png")
+
+        # Save final files
+        filepath = experiment2_dir + "/anywhere_add_" + persona.get_name().lower().replace(" ", "_") + "_final"
+
+        with open(filepath + "_info.json", 'w') as f:
+            json.dump(info, f, indent=4)
+            
+        map_copy_json = creator.get_json_map_copy()
+        with open(filepath + "_map.json", 'w') as f:
+            json.dump(map_copy_json, f, indent=4)
+
+        creator.display_map(filepath=filepath + "_map.png")
 
 
 # Returns the dict object of the base map json

@@ -1,0 +1,13 @@
+{
+    "experiment": "2",
+    "persona name": "Emil\u00eda Kov\u00e1cs",
+    "description": "Emil\u00eda Kov\u00e1cs is a 27-year-old Hungarian-American urban planner living in Seattle. Her pronouns are she/her. She enjoys hiking in the nearby mountains and collecting vintage postcards in her free time. However, she has also thought about expanding her interests into learning how to play the viola as well because she believes it could be a fascinating way to explore her love for classical music in a more hands-on manner. She does not like crowded city festivals because they overwhelm her and she prefers more intimate settings. She has also been working hard towards her long-term goals and dreams, which include designing sustainable, community-driven urban spaces that promote environmental conservation and social inclusivity. Personally, she owns a collection of handmade ceramic teapots at her home. Outside of home, she works at a local urban development firm that specializes in eco-friendly projects. After work, she enjoys planning to visit different botanical gardens to do all her hobbies.",
+    "set number of activities": 3,
+    "activities": [
+        {
+            "description": "Visit a local artisan market to discover unique, handmade ceramic pieces",
+            "should generate a new place": true,
+            "new place": "Artisan Market"
+        }
+    ]
+}
