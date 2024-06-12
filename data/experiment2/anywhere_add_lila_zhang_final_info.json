@@ -1,0 +1,21 @@
+{
+    "experiment": "2",
+    "persona name": "Lila Zhang",
+    "description": "Lila Zhang is a 34-year-old Chinese-American marine biologist currently residing in Seattle. Her pronouns are she/her. She enjoys diving and painting marine landscapes in her free time. However, she has also thought about expanding her interests into pottery because it seems like a peaceful and grounding activity. She does not like overly crowded places because she feels they are overwhelming and make it hard for her to think clearly. She has also been working hard towards her long-term goals and dreams, which include starting her own marine conservation non-profit and publishing a book on marine ecosystems. Personally, she owns a collection of rare seashells and a Bonsai garden at her home. Outside of home, she works at the Pacific Marine Research Institute. After work, she enjoys planning to go to local art galleries and coastal towns to capture different marine scenes for her paintings.",
+    "set number of activities": 3,
+    "activities": [
+        {
+            "description": "Pottery Workshop by the Ocean",
+            "should generate a new place": false
+        },
+        {
+            "description": "Kayaking in Quiet Coastal Areas",
+            "should generate a new place": true,
+            "new place": "Lakefront Landing"
+        },
+        {
+            "description": "Hosting a Marine Conservation Webinar",
+            "should generate a new place": false
+        }
+    ]
+}
