@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Backstage",
+    "coordinates": [28, 37, 37, 40],
+    "children": [
+      {
+        "name": "Stage Entrance",
+        "coordinates": [28, 39, 30, 40]
+      },
+      {
+        "name": "Dressing Rooms",
+        "coordinates": [30, 38, 35, 40]
+      },
+      {
+        "name": "Wardrobe Area",
+        "coordinates": [35, 38, 37, 40]
+      },
+      {
+        "name": "Lighting Control",
+        "coordinates": [30, 37, 32, 38]
+      },
+      {
+        "name": "Sound Control",
+        "coordinates": [32, 37, 34, 38]
+      },
+      {
+        "name": "Props Table",
+        "coordinates": [34, 37, 35, 38]
+      }
+    ]
+  },
+  "reasoning": "The Backstage area has been divided based on realistic considerations of space utility and the practical needs of a theater backstage environment. The Stage Entrance is placed immediately next to the outer edge of the coordinates to ensure easy access to and from the stage. The Dressing Rooms are placed next to the Stage Entrance, spanning more width since they are relatively larger due to their size rating, which assumes the space will need to accommodate multiple people changing. The Wardrobe Area is adjacent to the Dressing Rooms on the top part of the parent coordinates since it logically follows that crew members need access to costumes closely related to where they get dressed. Lighting Control and Sound Control are smaller and logically needed close to each other for technical management, thus they are also adjacent. The Props Table is placed near the entrance within the free space that remains to ensure easy access to props when entering or exiting the stage. The coordinates have been carefully chosen to ensure no overlapping and that all elements are contained within the given dimensions (28, 37, 37, 40)."
+}

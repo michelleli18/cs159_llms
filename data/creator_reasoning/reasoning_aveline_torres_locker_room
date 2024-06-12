@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Locker Room",
+    "coordinates": [20, -13, 22, -11],
+    "children": [
+      {
+        "name": "Lockers",
+        "coordinates": [20, -13, 21, -11]
+      },
+      {
+        "name": "Lockers 2",
+        "coordinates": [21, -13, 22, -11]
+      },
+      {
+        "name": "Bench",
+        "coordinates": [20, -13, 21, -12]
+      },
+      {
+        "name": "Bench 2",
+        "coordinates": [21, -13, 22, -12]
+      },
+      {
+        "name": "Shower Area",
+        "coordinates": [20, -12, 22, -11]
+      }
+    ]
+  },
+  "reasoning": "The original Locker Room space is [20, -13, 22, -11]. We first place the Lockers, since they are essential and a medium size (5 out of 10). The Lockers are placed along the length of the room, occupying the coordinates [20, -13, 21, -11] and [21, -13, 22, -11]. Because 'Lockers' is plural, at least 3 placements were needed, but due to space restrictions, we have 2 instead of 3. Second, the Benches (size 3 out of 10) are placed next to the Lockers to allow people to sit down and change. The Bench coordinates are [20, -13, 21, -12] and [21, -13, 22, -12]. Again, more benches would have been included if space allowed. Finally, the Shower Area (size 7 out of 10) is placed on the remaining space since it is larger and fits aesthetically at the top part of the Locker Room with coordinates [20, -12, 22, -11]. Unfortunately, the Toilets and Sink Area were not included as there was insufficient space to place all of them without overlap."
+}

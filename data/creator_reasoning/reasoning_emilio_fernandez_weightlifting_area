@@ -1,0 +1,41 @@
+{
+    "layout": {
+        "name": "Weightlifting Area",
+        "coordinates": [26, 8, 31, 13],
+        "children": [
+            {
+                "name": "Squat Rack",
+                "coordinates": [26, 12, 28, 13]
+            },
+            {
+                "name": "Smith Machine",
+                "coordinates": [28, 12, 31, 13]
+            },
+            {
+                "name": "Bench Press",
+                "coordinates": [26, 10, 28, 12]
+            },
+            {
+                "name": "Lifting Platform",
+                "coordinates": [28, 10, 31, 12]
+            },
+            {
+                "name": "Dumbbell Rack",
+                "coordinates": [26, 8, 28, 10]
+            },
+            {
+                "name": "Adjustable Bench",
+                "coordinates": [28, 8, 30, 10]
+            },
+            {
+                "name": "Weight Plates",
+                "coordinates": [30, 8, 31, 9]
+            },
+            {
+                "name": "Barbells",
+                "coordinates": [30, 9, 31, 10]
+            }
+        ]
+    },
+    "reasoning": "The Squat Rack (bigger) and Smith Machine (same size), both essential for similar exercises, are placed next to each other along the top row with maximum space utilization. The Bench Press and Lifting Platform, also large and important, are placed adjacent below these because they also are used for major compound movements, offering logical location for someone performing major lifts. The Dumbbell Rack and Adjustable Bench are placed together as dumbbells are often used with an adjustable bench, logically grouping these smaller and often-used items. Lastly, the Weight Plates and Barbells, though smaller, are placed in the remaining small sections, ensuring all items fit within the boundary with no overlap and aligning with logical use-cases in the weightlifting area."
+}

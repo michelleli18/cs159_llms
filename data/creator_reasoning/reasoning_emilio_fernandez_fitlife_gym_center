@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "FitLife Gym Center",
+    "coordinates": [19, 8, 34, 22],
+    "children": [
+      {
+        "name": "Reception Area",
+        "coordinates": [19, 8, 21, 10]
+      },
+      {
+        "name": "Cardio Machines",
+        "coordinates": [21, 8, 26, 13]
+      },
+      {
+        "name": "Weightlifting Area",
+        "coordinates": [26, 8, 31, 13]
+      },
+      {
+        "name": "Personal Training Room",
+        "coordinates": [31, 8, 34, 11]
+      },
+      {
+        "name": "Group Fitness Room",
+        "coordinates": [31, 11, 34, 15]
+      },
+      {
+        "name": "Locker Rooms",
+        "coordinates": [26, 13, 31, 16]
+      },
+      {
+        "name": "Swimming Pool",
+        "coordinates": [19, 10, 31, 22]
+      }
+    ]
+  },
+  "reasoning": "The children were placed according to their relative sizes and logical real-life placement within a gym layout. The Reception Area is placed at the entrance (bottom-left corner) for logical access. Cardio Machines area and Weightlifting Area are placed adjacent to each other for easy access to workout areas and are placed centrally. The Personal Training Room and Group Fitness Room occupy the top-right corner, ensuring they have a separate area. The Locker Rooms are placed next to the Weightlifting Area for convenient changing after workouts. The Swimming Pool, being the largest item, is placed along the right side to utilize the largest available space efficiently. The coordinates of all subitems ensure there is no overlap and all space within the FitLife Gym Center is used efficiently, adhering to the size and position priorities outlined."
+}

@@ -1,0 +1,65 @@
+{
+  "layout": {
+    "name": "Cardio Area",
+    "coordinates": [22, -14, 24, -11],
+    "children": [
+      {
+        "name": "Treadmills 1",
+        "coordinates": [22, -14, 22, -13]
+      },
+      {
+        "name": "Treadmills 2",
+        "coordinates": [22, -13, 22, -12]
+      },
+      {
+        "name": "Treadmills 3",
+        "coordinates": [22, -12, 22, -11]
+      },
+      {
+        "name": "Ellipticals 1",
+        "coordinates": [23, -14, 23, -13]
+      },
+      {
+        "name": "Ellipticals 2",
+        "coordinates": [23, -13, 23, -12]
+      },
+      {
+        "name": "Ellipticals 3",
+        "coordinates": [23, -12, 23, -11]
+      },
+      {
+        "name": "Stationary Bikes 1",
+        "coordinates": [24, -14, 24, -13]
+      },
+      {
+        "name": "Stationary Bikes 2",
+        "coordinates": [24, -13, 24, -12]
+      },
+      {
+        "name": "Stationary Bikes 3",
+        "coordinates": [24, -12, 24, -11]
+      },
+      {
+        "name": "Rowing Machines 1",
+        "coordinates": [22, -14, 23, -14]
+      },
+      {
+        "name": "Rowing Machines 2",
+        "coordinates": [22, -13, 23, -13]
+      },
+      {
+        "name": "Rowing Machines 3",
+        "coordinates": [22, -12, 23, -12]
+      },
+      {
+        "name": "Stair Climbers 1",
+        "coordinates": [22, -12, 24, -12]
+      },
+      {
+        "name": "Stair Climbers 2",
+        "coordinates": [22, -11, 24, -11]
+      }
+    ]
+  },
+  "reasoning": "The Treadmills are placed on the left side of the Cardio Area because they are frequently used and positioning them near the entrance makes them easily accessible. Three instances of Treadmills are created due to the plural naming ('Treadmills'). Similarly, the Ellipticals follow Treadmills' vertical alignment to balance the structure. Three instances of Ellipticals are placed due to the same plural naming rule. Stationary Bikes are located on the right to create a dynamic but balanced layout, with three instances respecting the naming rule. Rowing Machines and Stair Climbers, due to their similar size, fit in horizontally across the central part, addressing space efficiency and adherence to the naming structure. The subitems cover the perimeters well, ensuring space efficiency and realistic layout. The subitems fit within the parent bounds, and none overlap with each other."
+}

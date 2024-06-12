@@ -1,6 +1,7 @@
 import openai
 
 openai.api_key = api key
+
 DISPLAY_OUT = False
 
 # ChatGPT_request function taken directly from Generative Agents paper github (Park et al, 2023) without modification

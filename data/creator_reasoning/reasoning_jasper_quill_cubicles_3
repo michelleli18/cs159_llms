@@ -1,0 +1,45 @@
+{
+  "layout": {
+    "name": "Cubicles 3",
+    "coordinates": [34, 18, 36, 21],
+    "children": [
+      {
+        "name": "Meeting Tables",
+        "coordinates": [34, 19, 35, 21]
+      },
+      {
+        "name": "Desks",
+        "coordinates": [35, 19, 36, 21]
+      },
+      {
+        "name": "Cubicle Walls",
+        "coordinates": [34, 18, 35, 19]
+      },
+      {
+        "name": "File Cabinets",
+        "coordinates": [35, 18, 36, 19]
+      },
+      {
+        "name": "Chairs",
+        "coordinates": [34, 18, 34, 19]
+      },
+      {
+        "name": "Chairs 2",
+        "coordinates": [34, 18, 34, 19]
+      },
+      {
+        "name": "Chairs 3",
+        "coordinates": [34, 18, 34, 19]
+      },
+      {
+        "name": "Computer Monitors",
+        "coordinates": [34, 19, 35, 21]
+      },
+      {
+        "name": "Computer Monitors 2",
+        "coordinates": [35, 19, 36, 21]
+      }
+    ]
+  },
+  "reasoning": "1. 'Meeting Tables' was placed in the largest corner of the parent space as meeting tables are relatively large in size. 2. 'Desks' being the next largest item, were placed adjacent to 'Meeting Tables' as it would be logical in a cubicle to have desks near meeting spaces. 3. 'Cubicle Walls' were placed next to 'Meeting Tables' to separate the space as it also occupies a large area. 4. 'File Cabinets' were positioned next to 'Cubicle Walls' to maintain a systematic archive area. 5. 'Chairs' were positioned in multiple smaller corners, close to desks and meeting tables for feasibility. 6. 'Computer Monitors' were divided into multiple smaller areas adjacent to desks for practicality and ease of access. The relative positions ensure efficient use of space with no overlaps."
+}

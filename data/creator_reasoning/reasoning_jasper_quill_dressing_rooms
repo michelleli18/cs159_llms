@@ -1,0 +1,49 @@
+{
+  "layout": {
+    "name": "Dressing Rooms",
+    "coordinates": [30, 38, 35, 40],
+    "children": [
+      {
+        "name": "Fitting Rooms 1",
+        "coordinates": [30, 38, 31, 39]
+      },
+      {
+        "name": "Fitting Rooms 2",
+        "coordinates": [31, 38, 32, 39]
+      },
+      {
+        "name": "Fitting Rooms 3",
+        "coordinates": [32, 38, 33, 39]
+      },
+      {
+        "name": "Mirrors 1",
+        "coordinates": [33, 38, 34, 38.5]
+      },
+      {
+        "name": "Mirrors 2",
+        "coordinates": [34, 38, 35, 38.5]
+      },
+      {
+        "name": "Mirrors 3",
+        "coordinates": [33, 38.5, 34, 39]
+      },
+      {
+        "name": "Seating Area",
+        "coordinates": [30, 39, 32, 40]
+      },
+      {
+        "name": "Clothing Racks",
+        "coordinates": [32, 39, 33, 40]
+      },
+      {
+        "name": "Checkout Counter",
+        "coordinates": [33, 39, 34, 40]
+      },
+      {
+        "name": "Waiting Area",
+        "coordinates": [34, 39, 35, 40]
+      }
+    ]
+  },
+  "reasoning": "The Dressing Rooms is a small narrow place with limited space. Thus fitting rooms are placed on the lower side as three separate subitems with top boundaries at 39 y-coordinates to keep clear entrance access on the bottom at 38 coordinates. Fitting rooms also have a larger size of 7 so 3 subitems are necessary. Mirrors being relatively smaller in size (3) are positioned above the Fitting Rooms to prevent space congestion around Fitting Rooms, also mirrors subitems are split part above of 32 and 33 coordinates assisting in a natural flow. The largest subitems like Seating Area (5), Clothing Racks (6), Checkout Counter (4), and Waiting Area (4) are placed on the top to touch the walls to effectively utilize the upper space in an orderly manner making free walkways on the lower side." 
+}

@@ -1,0 +1,21 @@
+{
+    "layout": {
+        "name": "Witness Stand",
+        "coordinates": [26, 28, 28, 30],
+        "children": [
+            {
+                "name": "Judge's Bench",
+                "coordinates": [26, 28, 27, 30]
+            },
+            {
+                "name": "Witness Chair",
+                "coordinates": [27, 28, 28, 29]
+            },
+            {
+                "name": "Courtroom Door",
+                "coordinates": [27, 29, 28, 30]
+            }
+        ]
+    },
+    "reasoning": "To ensure all children were placed within the parent 'Witness Stand', I began by arranging and prioritizing the items based on their relative sizes and logical placement. The 'Judge's Bench' was given the largest amount of space on the left side of the 'Witness Stand' extending from [26, 28] to [27, 30], since in a courtroom it is typically larger and adjacent to the witness stand. The 'Witness Chair' was placed next to the 'Judge's Bench' extending from [27, 28] to [28, 29], making it easily accessible for individuals approaching from the Judge's Bench while making efficient use of the available space. The 'Courtroom Door', due to its smaller size, was positioned in the remaining available space extending from [27, 29] to [28, 30], logically situated to allow entry to the space. Due to space constraints and the necessity to prevent overlapping objects, the 'Jury Box' and 'Attorneys' Tables' were excluded as they could not fit within the remaining space without violating the constraints."
+}

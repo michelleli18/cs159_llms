@@ -1,0 +1,15 @@
+{
+  "layout": {
+    "name": "Fitness Studio",
+    "coordinates": [22, -11, 25, -8],
+    "children": [
+      {"name": "Reception Desk", "coordinates": [22, -11, 23, -10]},
+      {"name": "Lockers", "coordinates": [22, -10, 23, -9]},
+      {"name": "Showers", "coordinates": [22, -9, 23, -8]},
+      {"name": "Exercise Bikes", "coordinates": [23, -11, 24, -10]},
+      {"name": "Stretching Area", "coordinates": [24, -11, 25, -10]},
+      {"name": "Yoga Studio", "coordinates": [23, -10, 25, -8]}
+    ]
+  },
+  "reasoning": "The 'Reception Desk' is placed at the entrance (bottom-left corner) so members can check in right away. Lockers and Showers follow in sequence along the left wall for easy access after entering. The 'Showers' are also near the 'Lockers' for convenience. Since there wasn't enough space for all the items, the 'Cardio Area', 'Free Weights', 'Treadmills', and 'Weight Machines' were not included; we prioritized fitting different types of areas for versatility. 'Exercise Bikes' are placed next to the 'Reception Desk' to create a cardio section. The 'Stretching Area' is placed next to 'Exercise Bikes' to maintain logical workout flow. The 'Yoga Studio' is placed along the top right corner to utilize remaining available space. The coordinates and subsections ensure all items are within the parent boundary and use as much available space as possible while maintaining practical and logical placement according to real-life use."
+}

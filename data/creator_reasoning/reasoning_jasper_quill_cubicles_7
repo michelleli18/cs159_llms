@@ -1,0 +1,29 @@
+{
+ "layout": {
+  "name": "Cubicles 7",
+  "coordinates": [32, 21, 34, 23],
+  "children": [
+   {
+    "name": "Workstations",
+    "coordinates": [32, 21, 33, 22]
+   },
+   {
+    "name": "Meeting Room",
+    "coordinates": [33, 21, 34, 23]
+   },
+   {
+    "name": "Storage Cabinets",
+    "coordinates": [32, 22, 32.75, 22.75]
+   },
+   {
+    "name": "Printers Area",
+    "coordinates": [32.75, 22, 33, 22.33]
+   },
+   {
+    "name": "Break Room",
+    "coordinates": [32, 22.75, 32.6, 23]
+   }
+  ]
+ },
+ "reasoning": "The layout has been designed considering the priorities listed. The coordinates of all subitems are placed within the boundary of the parent item (Cubicles 7) and there is no overlap between any subitems. The Workstations are placed on the bottom left corner (with lower y-values) and extend towards the upper right corner, utilizing the space efficiently. Given their importance and relative size, this allows for easy access to all workstations from multiple desk points. The Meeting Room, being the largest subitem, is placed on the top right corner (larger x and y-values) covering two units of height to facilitate meetings and collaborative work. The smaller subitems such as the Storage Cabinets, Printers Area, and Break Room are strategically placed next to each other. The Storage Cabinets (relatively smaller) are placed adjacent to the Meeting Room on the left side to ensure quick access to stored materials during meetings. The Printers Area is near the Storage Cabinets for ease of accessing printed materials. Finally, the Break Room is placed near the top boundary so as to be easily accessible yet not disrupting work-related activities."
+}

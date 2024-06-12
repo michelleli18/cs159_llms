@@ -1,0 +1,37 @@
+{
+    "layout": {
+        "name": "Gallery Seats",
+        "coordinates": [20, 26, 28, 28],
+        "children": [
+            {
+                "name": "Stage",
+                "coordinates": [20, 26, 22, 28]
+            },
+            {
+                "name": "Rows Of Seats 1",
+                "coordinates": [22, 26, 24, 27]
+            },
+            {
+                "name": "Rows Of Seats 2",
+                "coordinates": [24, 26, 26, 27]
+            },
+            {
+                "name": "Rows Of Seats 3",
+                "coordinates": [26, 26, 28, 27]
+            },
+            {
+                "name": "Balcony",
+                "coordinates": [22, 27, 24, 28]
+            },
+            {
+                "name": "Orchestra Pit",
+                "coordinates": [24, 27, 26, 28]
+            },
+            {
+                "name": "Sound Booth",
+                "coordinates": [26, 27, 28, 28]
+            }
+        ]
+    },
+    "reasoning": "The subitems are placed based on their relative sizes and typical architectural layout for a gallery. The 'Stage' is positioned at the bottom left to cover the width of the space efficiently and being the focal point. 'Rows Of Seats' are divided into three subitems to represent multiple seating sections and are positioned next to the 'Stage' for practical viewing angles. The 'Balcony' is positioned above the 'Rows Of Seats', occupying the top left corner, as balconies are typically elevated. The 'Orchestra Pit' is placed centrally above the 'Rows Of Seats', providing a good sound projection area. Finally, the 'Sound Booth' is positioned in the top right corner allowing the technicians a good view of both the stage and audience. All subitems fit perfectly within the parent coordinates without overlapping and also touch the walls as required, ensuring efficient space use."
+}

@@ -1,0 +1,33 @@
+{
+  "layout": {
+    "name": "Locker Rooms",
+    "coordinates": [32, 29, 36, 30],
+    "children": [
+      {
+        "name": "Showers",
+        "coordinates": [32, 29, 33, 30]
+      },
+      {
+        "name": "Toilets",
+        "coordinates": [33, 29, 34, 30]
+      },
+      {
+        "name": "Sinks",
+        "coordinates": [34, 29, 35, 30]
+      },
+      {
+        "name": "Lockers",
+        "coordinates": [32, 29, 34, 30]
+      },
+      {
+        "name": "Benches",
+        "coordinates": [34, 29, 35, 30]
+      },
+      {
+        "name": "Changing Stalls",
+        "coordinates": [35, 29, 36, 30]
+      }
+    ]
+  },
+  "reasoning": "In this layout, the 'Showers' are placed on the far left, touching the wall, because showers need to be near water supply and drainage points, and to create a clear separation between wet and dry areas. 'Toilets' are placed next to the 'Showers', as it makes plumbing easier and it's logical for users to have both facilities nearby. 'Sinks' are placed next to 'Toilets' for similar reasons, enabling easy handwashing after using the toilet. 'Lockers' are placed on the opposite side of the 'Showers' and 'Toilets' to keep dry items in a dry area, minimizing water splash and damage. 'Benches' are placed adjacent to the 'Lockers' to allow users to sit while changing clothes. Finally, 'Changing Stalls' are positioned next to the 'Benches' to provide privacy for those who need it while changing. Each subitem was sized based on relative size ratings and placed logically to ensure there is no overlap and that all items are efficiently using the available space."
+}

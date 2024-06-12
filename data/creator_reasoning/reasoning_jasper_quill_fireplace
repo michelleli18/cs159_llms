@@ -1,0 +1,25 @@
+{
+	"layout": {
+		"name": "Fireplace",
+		"coordinates": [30, 35, 37, 37],
+		"children": [
+			{
+				"name": "Mantel",
+				"coordinates": [30, 36, 32, 37]
+			},
+			{
+				"name": "Firebox",
+				"coordinates": [32, 35, 35, 36]
+			},
+			{
+				"name": "Hearth",
+				"coordinates": [30, 35, 32, 36]
+			},
+			{
+				"name": "Chimney",
+				"coordinates": [35, 35, 37, 37]
+			}
+		]
+	},
+	"reasoning": "In this layout, the 'Mantel' is placed at the top left corner. The reasoning for this is that mantels are typically positioned above fireboxes in a natural, logical configuration. 'Firebox' is next to the mantel on the right side but lower to align with real-world standards of a firebox placement underneath a mantel, making sure to leave space for the 'Hearth'. The 'Hearth' is located at the bottom center, which makes sense as this is typically where it is found in relation to the firebox and the Mantel. The 'Chimney' is placed on the top right corner, as chimneys usually extend upwards from one side of the firebox. 'Fireplace Tools' was excluded due to insufficient space while ensuring that none of the items overlap or extend outside of the parent 'Fireplace'. Items are logically placed side by side, and all available dimensions are utilized to maintain a beautiful, efficient design."
+}

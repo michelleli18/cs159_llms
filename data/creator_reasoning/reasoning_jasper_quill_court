@@ -1,0 +1,37 @@
+{
+  "layout": {
+    "name": "Court",
+    "coordinates": [20, 26, 32, 30],
+    "children": [
+      {
+        "name": "Judge'S Bench",
+        "coordinates": [20, 28, 24, 30]
+      },
+      {
+        "name": "Jury Box",
+        "coordinates": [24, 26, 28, 30]
+      },
+      {
+        "name": "Plaintiff'S Table",
+        "coordinates": [28, 26, 30, 28]
+      },
+      {
+        "name": "Defendant'S Table",
+        "coordinates": [30, 26, 32, 28]
+      },
+      {
+        "name": "Witness Stand",
+        "coordinates": [26, 28, 28, 30]
+      },
+      {
+        "name": "Clerk'S Desk",
+        "coordinates": [28, 28, 30, 30]
+      },
+      {
+        "name": "Gallery Seats",
+        "coordinates": [20, 26, 28, 28]
+      }
+    ]
+  },
+  "reasoning": "The chosen layout ensures all subitems are within the coordinates of the parent 'Court' with no overlapping. Each item is placed adjacent to another to mimic a typical courtroom setting, making efficient use of space. The 'Judge'S Bench' occupies a prominent position at the top-left of the court where the judge can overlook the entire area, thus it's larger (coordinates [20, 28, 24, 30]). The 'Jury Box' is placed nearby on the right since jurors need a clear view of the proceedings (coordinates [24, 26, 28, 30]). The 'Witness Stand' is on the left but slightly up, close to the bench for ease of addressing the judge (coordinates [26, 28, 28, 30]). The 'Plaintiff'S Table' and 'Defendant'S Table' are near the front-center where they can easily interact with witnesses and the judge (coordinates [28, 26, 30, 28] and [30, 26, 32, 28]). The 'Clerk'S Desk' is positioned near the 'Judge'S Bench' for ease of communication with the judge (coordinates [28, 28, 30, 30]). 'Gallery Seats' take up a larger area at the bottom-left to give the public a good view of the court proceedings (coordinates [20, 26, 28, 28]). This setup ensures that all space is efficiently utilized while maintaining logical proximities and sizes appropriate to each item's function and importance."
+}

@@ -1,0 +1,65 @@
+{
+    "layout": {
+        "name": "Restrooms",
+        "coordinates": [20, 14, 23, 18],
+        "children": [
+            {
+                "name": "Toilet Stalls 1",
+                "coordinates": [20, 14, 21, 16]
+            },
+            {
+                "name": "Toilet Stalls 2",
+                "coordinates": [21, 14, 22, 16]
+            },
+            {
+                "name": "Toilet Stalls 3",
+                "coordinates": [22, 14, 23, 16]
+            },
+            {
+                "name": "Sinks 1",
+                "coordinates": [20, 16, 21, 17]
+            },
+            {
+                "name": "Sinks 2",
+                "coordinates": [21, 16, 22, 17]
+            },
+            {
+                "name": "Sinks 3",
+                "coordinates": [22, 16, 23, 17]
+            },
+            {
+                "name": "Hand Dryers 1",
+                "coordinates": [20, 17, 20.5, 18]
+            },
+            {
+                "name": "Hand Dryers 2",
+                "coordinates": [20.5, 17, 21, 18]
+            },
+            {
+                "name": "Trash Bins 1",
+                "coordinates": [21, 17, 21.5, 18]
+            },
+            {
+                "name": "Trash Bins 2",
+                "coordinates": [21.5, 17, 22, 18]
+            },
+            {
+                "name": "Mirrors 1",
+                "coordinates": [22, 17, 22.5, 18]
+            },
+            {
+                "name": "Mirrors 2",
+                "coordinates": [22.5, 17, 23, 18]
+            },
+            {
+                "name": "Mirrors 3",
+                "coordinates": [20, 16, 20.5, 17]
+            },
+            {
+                "name": "Entrance Door",
+                "coordinates": [22, 16, 23, 18]
+            }
+        ]
+    },
+    "reasoning": "The Restrooms are mapped according to the provided coordinates [20, 14, 23, 18]. The restrooms must include adequate toilet stalls, sinks, hand dryers, trash bins, mirrors, and an entrance door without exceeding the boundaries or overlapping items. The toilet stalls are elongated to provide privacy, hence they are located in rows touching the bottom wall from [20, 14] to [23, 16]. This setup takes advantage of the restroom width and fits three stalls. Sinks are very commonly found clustered together near the toilet stalls to ease hand cleaning after using the stalls, hence, they are positioned above the stalls from [20, 16] to [23, 17]. Hand dryers, trash bins, and mirrors are essential and must be placed near the sinks for logical usage flow; they are therefore placed horizontally from left to right above the sinks and stalls touching the upper and middle wall from [20, 17] covering all the way to [23, 18]. Their smaller size allows for compact placement. The entrance door, also crucial in its placement, is situated above the last row of items providing easy access from the top part (position [22, 16] to [23, 18]). This layout ensures efficient space utilization, functional ease, and complies with all boundary and overlap restrictions."
+}

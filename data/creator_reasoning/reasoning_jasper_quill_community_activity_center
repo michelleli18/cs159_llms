@@ -1,0 +1,41 @@
+{
+    "layout": {
+        "name": "Community Activity Center",
+        "coordinates": [20, 14, 48, 40],
+        "children": [
+            {
+                "name": "Main Hall",
+                "coordinates": [20, 30, 48, 40]
+            },
+            {
+                "name": "Gymnasium",
+                "coordinates": [20, 23, 36, 30]
+            },
+            {
+                "name": "Conference Room",
+                "coordinates": [36, 23, 48, 30]
+            },
+            {
+                "name": "Meeting Room",
+                "coordinates": [20, 18, 30, 23]
+            },
+            {
+                "name": "Office Space",
+                "coordinates": [30, 18, 40, 23]
+            },
+            {
+                "name": "Kitchen Area",
+                "coordinates": [40, 18, 48, 23]
+            },
+            {
+                "name": "Restrooms",
+                "coordinates": [20, 14, 23, 18]
+            },
+            {
+                "name": "Storage Room",
+                "coordinates": [23, 14, 26, 18]
+            }
+        ]
+    },
+    "reasoning": "The Main Hall is placed at the top part of the Community Activity Center since it is the largest subitem and often serves as a central hub. The Gymnasium is placed next to the Main Hall on the left side since they both cater to large gatherings and activities. The Conference Room is placed next to the Gymnasium on the right side, providing easy access from the Main Hall for meetings and conferences. The Meeting Room, Office Space, and Kitchen Area are placed below the Main Hall and the conference areas, respectively, for convenience and efficient use of available space. These spaces are adjacent to ensure ease of movement. Finally, the Restrooms and Storage Room are placed at the bottom left to maximize the use of the lower area while providing convenience for people to access restrooms from any part of the facility. Due to constraints and ensuring no overlap, all subitems fit inside the parent item with no overlap or out-of-bound coordinates."
+}

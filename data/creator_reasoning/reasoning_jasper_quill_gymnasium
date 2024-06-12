@@ -1,0 +1,45 @@
+{
+    "layout": {
+        "name": "Gymnasium",
+        "coordinates": [20, 23, 36, 30],
+        "children": [
+            {
+                "name": "Basketball Court",
+                "coordinates": [20, 26, 36, 30]
+            },
+            {
+                "name": "Weightlifting Area",
+                "coordinates": [20, 24, 27, 26]
+            },
+            {
+                "name": "Gym Mats",
+                "coordinates": [27, 24, 34, 26]
+            },
+            {
+                "name": "Exercise Bikes",
+                "coordinates": [20, 23, 24, 24]
+            },
+            {
+                "name": "Treadmills",
+                "coordinates": [24, 23, 28, 24]
+            },
+            {
+                "name": "Lockers",
+                "coordinates": [28, 23, 30, 24]
+            },
+            {
+                "name": "Changing Rooms",
+                "coordinates": [30, 23, 33, 24]
+            },
+            {
+                "name": "Reception Desk",
+                "coordinates": [33, 23, 35, 24]
+            },
+            {
+                "name": "Water Fountain",
+                "coordinates": [35, 23, 36, 24]
+            }
+        ]
+    },
+    "reasoning": "The Basketball Court is the largest subitem and is placed at the top to utilize the broader space efficiently while also being an essential feature of a gymnasium. The Weightlifting Area and Gym Mats are next in size and are logically placed adjacent to each other in the middle of the gym. This makes it easy for users to transition between weightlifting and mat exercises. The Exercise Bikes and Treadmills are placed at the lower end, side by side, as they are both types of cardio equipment and are related in use. The Lockers, Changing Rooms, Reception Desk, and Water Fountain are positioned at the bottom right of the layout. These are usually located near the entrance for convenience and services. Since the locker area and changing rooms are essential for user preparation before using other facilities, they are placed next to each other. The Water Fountain and Reception Desk are placed to the far right, ensuring logical access as users enter or exit the gym. The storage room was not included as its size allocation could not be accommodated reasonably within the remaining space while fulfilling all constraints."
+}

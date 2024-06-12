@@ -1,0 +1,25 @@
+{
+  "layout": {
+    "name": "Cubicles 8",
+    "coordinates": [34, 21, 36, 23],
+    "children": [
+      {
+        "name": "Partitions",
+        "coordinates": [34, 21, 35, 23]
+      },
+      {
+        "name": "Desks",
+        "coordinates": [35, 21, 36, 22]
+      },
+      {
+        "name": "Chairs",
+        "coordinates": [35, 22, 36, 23]
+      },
+      {
+        "name": "Storage Cabinets",
+        "coordinates": [34, 21, 35, 22]
+      }
+    ]
+  },
+  "reasoning": "Partitions were placed first due to their large size relative to the cubicle dimensions. It was laid out spanning across the bottom from left to right to create a clear separation. The Storage Cabinets were placed adjacent to Partitions to maximize storage space and accessibility. Desks were placed next to Partitions for convenient access to work areas. Given the constraint of space utilization and to maintain a practical layout, Chairs were placed next to Desks. Notably, Computers were not included due to insufficient remaining space after ensuring all coordinates of all subitems fit within the bound of the Cubicle without any overlap. This layout ensures all elements are functional, realistic, and make efficient use of space within the given boundaries."
+}

@@ -1,0 +1,13 @@
+{
+    "experiment": "2",
+    "persona name": "kairos lin",
+    "description": "Kairos Lin is a 32-year-old Chinese-American urban planner. Her pronouns are she/her. She enjoys practicing calligraphy and playing complex strategy board games in her free time. However, she has also thought about expanding her interests into urban farming and ecological conservation because she believes in sustainable living and wants to contribute to greener cities. She does not like loud, crowded places because they make her feel overwhelmed and anxious. She has also been working hard towards her long-term goals and dreams, which include creating a fully sustainable community model and publishing a book on green urban design principles. Personally, she owns several rare bonsai trees at her home. Outside of home, she works at a well-known civil engineering firm. After work, she enjoys planning to go to different places to showcase her calligraphy and participate in strategy game tournaments.",
+    "set number of activities": 3,
+    "activities": [
+        {
+            "description": "{",
+            "should generate a new place": true,
+            "new place": "Library"
+        }
+    ]
+}

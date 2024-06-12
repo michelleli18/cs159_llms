@@ -1,0 +1,49 @@
+{
+    "layout": {
+        "name": "Offices 1",
+        "coordinates": [36, 21, 38, 23],
+        "children": [
+            {
+                "name": "Conference Room",
+                "coordinates": [36, 21, 37, 23]
+            },
+            {
+                "name": "Reception Area",
+                "coordinates": [37, 21, 38, 23]
+            },
+            {
+                "name": "Desks 1",
+                "coordinates": [36, 21, 36, 21]
+            },
+            {
+                "name": "Desks 2",
+                "coordinates": [36, 22, 36, 22]
+            },
+            {
+                "name": "Desks 3",
+                "coordinates": [37, 21, 37, 21]
+            },
+            {
+                "name": "Desks 4",
+                "coordinates": [37, 22, 37, 22]
+            },
+            {
+                "name": "Break Room",
+                "coordinates": [36, 23, 36, 23]
+            },
+            {
+                "name": "Manager'S Office",
+                "coordinates": [37, 22, 37, 22]
+            },
+            {
+                "name": "Server Room",
+                "coordinates": [36, 21, 36, 21]
+            },
+            {
+                "name": "Restrooms",
+                "coordinates": [36, 23, 36, 23]
+            }
+        ]
+    },
+    "reasoning": "The largest subitems, the Conference Room and the Reception Area, are positioned along the longest sides of the office space to make the most efficient use of the space and provide easy accessibility. The desks are distributed in four smaller spaces to minimize overcrowding and allow flexibility for individual work areas. The Break Room is placed centrally, offering convenient access from other areas. The Manager's Office is given its own space near the desk areas for supervision purposes, while the Server Room and Restrooms are placed near the edges. This layout ensures all subitems are within the parent boundaries and make efficient use of the office space with logical placements expected in a modern office environment."
+}

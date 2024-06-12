@@ -51,6 +51,9 @@ class Persona():
     def get_name(self):
         return self.first + " " + self.last
     
+    def get_description(self):
+        return self.persona_desc
+    
     def unique_persona(self, save=True):
         # Generate and write the persona to a text file
         persona_desc = ChatGPT_request(self.generate_persona_prompt)

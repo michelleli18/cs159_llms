@@ -1,0 +1,33 @@
+{
+    "layout": {
+        "name": "Storage Room",
+        "coordinates": [23, 14, 26, 18],
+        "children": [
+            {
+                "name": "Shelving Unit",
+                "coordinates": [23, 14, 24, 16]
+            },
+            {
+                "name": "Workbench",
+                "coordinates": [24, 14, 26, 16]
+            },
+            {
+                "name": "Supply Rack",
+                "coordinates": [23, 16, 24, 18]
+            },
+            {
+                "name": "Cabinet",
+                "coordinates": [24, 16, 25, 18]
+            },
+            {
+                "name": "Freezer Chest",
+                "coordinates": [25, 17, 26, 18]
+            },
+            {
+                "name": "Storage Bin",
+                "coordinates": [25, 16, 26, 17]
+            }
+        ]
+    },
+    "reasoning": "The subitems are placed according to their relative sizes and logical placements in real-life scenarios. The Shelving Unit and Workbench are adjacent to each other on the bottom side of the room, each covering half the width (2 units each) from x=23 to x=26, and one-third the height each (2 units) from y=14 to y=16. These are larger items and are often used frequently, thus placed centrally for easy access. The Supply Rack is placed at the top-left corner, utilizing vertical space effectively and right next to Shelving Unit, as it typically stores similar items. It's from x=23 to x=24 and y=16 to y=18. The Cabinet is adjacent to the Supply Rack and justifies their common usage, located from x=24 to x=25, y=16 to y=18. The Freezer Chest is strategically placed in the top right corner, maintaining a cooler zone. It's sized proportionally from x=25 to x=26, y=17 to y=18. Lastly, the Storage Bin is placed underneath the Freezer Chest, fitting snugly in the available space from x=25 to x=26, y=16 to y=17. All coordinates have been validated to ensure no overlap and that they reside within the defined boundaries."
+}

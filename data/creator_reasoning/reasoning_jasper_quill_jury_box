@@ -1,0 +1,53 @@
+{
+  "layout": {
+    "name": "Jury Box",
+    "coordinates": [24, 26, 28, 30],
+    "children": [
+      {
+        "name": "Jury Seats 1",
+        "coordinates": [24, 26, 25, 27]
+      },
+      {
+        "name": "Jury Seats 2",
+        "coordinates": [25, 26, 26, 27]
+      },
+      {
+        "name": "Jury Seats 3",
+        "coordinates": [26, 26, 27, 27]
+      },
+      {
+        "name": "Jury Seats 4",
+        "coordinates": [27, 26, 28, 27]
+      },
+      {
+        "name": "Judge'S Bench",
+        "coordinates": [24, 27, 26, 28]
+      },
+      {
+        "name": "Witness Stand",
+        "coordinates": [26, 27, 28, 28]
+      },
+      {
+        "name": "Court Clerk'S Desk",
+        "coordinates": [24, 28, 26, 29]
+      },
+      {
+        "name": "Defendant'S Table",
+        "coordinates": [26, 28, 27, 29]
+      },
+      {
+        "name": "Plaintiff'S Table",
+        "coordinates": [27, 28, 28, 29]
+      },
+      {
+        "name": "Court Reporter'S Station",
+        "coordinates": [24, 29, 25, 30]
+      },
+      {
+        "name": "Bailiff'S Station",
+        "coordinates": [25, 29, 26, 30]
+      }
+    ]
+  },
+  "reasoning": "The layout ensures that all subitems are within the coordinates of the parent place, 'Jury Box' at [24, 26, 28, 30], with no overlaps. Each 'Jury Seats' subitem is slightly smaller and occupies the bottom row to signify the seating arrangement. The 'Judge'S Bench' is larger because it symbolizes authority and is placed behind the Jury Seats for visibility. The 'Witness Stand' is adjacent to the Judge’s Bench for ease of questioning. The 'Court Clerk’S Desk' is positioned behind the Judge’s Bench as clerks usually work closely with the judge. The 'Defendant'S Table' and 'Plaintiff’S Table' are placed side by side in front of the Judge and Witness stand for accessibility. The 'Court Reporter’s Station' and 'Bailiff’s Station' are aligned along the top, indicating their oversight roles. All spaces are covered efficiently, touching the walls and leaving minimal empty space while maintaining logical and realistic placement in line with the architectural priorities."
+}

@@ -1,0 +1,29 @@
+{
+  "layout": {
+    "name": "Cubicles 2",
+    "coordinates": [32, 18, 34, 21],
+    "children": [
+      {
+        "name": "Meeting Room",
+        "coordinates": [32, 18, 33, 20]
+      },
+      {
+        "name": "Employee Desk",
+        "coordinates": [33, 18, 34, 19]
+      },
+      {
+        "name": "Office Chair",
+        "coordinates": [33, 19, 34, 20]
+      },
+      {
+        "name": "Partition Wall",
+        "coordinates": [32, 20, 33, 21]
+      },
+      {
+        "name": "Filing Cabinet",
+        "coordinates": [33, 20, 34, 21]
+      }
+    ]
+  },
+  "reasoning": "The 'Meeting Room' is the largest item and is placed at the bottom left corner to utilize space efficiently and allow access from remaining areas. 'Employee Desk' and 'Office Chair' are logically placed beside each other, with the 'Employee Desk' adjacent to the 'Meeting Room' providing easy transition for employees. 'Office Chair' is next to the desk to maximize workspace. 'Partition Wall' is placed at the top left corner, separating the space effectively, creating privacy. The 'Filing Cabinet' is positioned directly adjacent to the 'Partition Wall' and 'Office Chair' for easy accessibility in a logical, space-efficient manner. 'Printer Station' and 'Storage Closet' could not be included due to space constraints."
+}

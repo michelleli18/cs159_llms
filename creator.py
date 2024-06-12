@@ -183,8 +183,7 @@ class Creator():
 
 
     # Determines if new place should be added
-    # Returns False if not, True if so
-    # If True, name of the place is in self.new_place_name after running this
+    # Returns the name of the place (in self.new_place_name) if so, None if not
     # Assumes self.persona_activity_response has already been set
     # Used for Experiment 1 and 2
     def determine_new_place(self):
@@ -198,7 +197,7 @@ class Creator():
         
         # Generates new place name and stores it in self.new_place_name
         self.generate_new_place_name()
-        return True
+        return self.new_place_name
         
 
     # Used in both Experiment 1 and 2
@@ -323,7 +322,7 @@ class Creator():
         def update_coords(original, new):
             x1, y1, x2, y2 = original
             a1, b1, a2, b2 = new
-            return [min(x1, a1 - 1), min(y1, b1 - 1), (x2, a2 + 1), (y2, b2 + 1)]
+            return [min(x1, a1 - 1), min(y1, b1 - 1), max(x2, a2 + 1), max(y2, b2 + 1)]
         
         self.estimate_new_place_size()
 
@@ -421,11 +420,11 @@ class Creator():
                 continue
                         
         # Save response for analyzing behavior/reasoning of map creator
-        if save:
-            with open(f"{reasoning_dir}/reasoning_" + self.file_tag, 'w') as f:
-                f.write(architect_response)
-            with open(f"{attempts_dir}/num_attempts_" + self.file_tag, 'w') as f:
-                f.write(str(num_creation_attempts))
+        #if save:
+            #with open(f"{reasoning_dir}/reasoning_" + self.file_tag, 'w') as f:
+                #f.write(architect_response)
+            #with open(f"{attempts_dir}/num_attempts_" + self.file_tag, 'w') as f:
+                #f.write(str(num_creation_attempts))
 
 
     def assign_dimensions(self, current_map, place):
@@ -484,11 +483,20 @@ class Creator():
         # Function to add a rectangle for a subitem
         def add_rectangle(ax, name, coordinates, color='lightblue', linewidth=1, edgecolor='blue'):
             x1, y1, x2, y2 = coordinates
-            width = x2 - x1
-            height = y2 - y1
-            rect = patches.Rectangle((x1, y1), width, height, linewidth=linewidth, edgecolor=edgecolor, facecolor=color, label=name)
-            ax.add_patch(rect)
-            ax.text(x1 + width / 2, y1 + height / 2, name, ha='center', va='center', fontsize=8, color='darkblue')
+            try:
+                width = x2 - x1
+                height = y2 - y1
+                rect = patches.Rectangle((x1, y1), width, height, linewidth=linewidth, edgecolor=edgecolor, facecolor=color, label=name)
+                ax.add_patch(rect)
+                ax.text(x1 + width / 2, y1 + height / 2, name, ha='center', va='center', fontsize=8, color='darkblue')
+            except Exception as e:
+                print(x1)
+                print(y1)
+                print(x2)
+                print(y2)
+                return
+
+            
 
         # Recursively adds rectangles for all children
         # Exponentially changes colors of children from yellow to green
@@ -510,7 +518,7 @@ class Creator():
                     recursive_draw(ax, subitem, color=color)
 
         # Create the plot
-        fig, ax = plt.subplots(figsize=(12, 8))
+        fig, ax = plt.subplots(figsize=(45, 30))
         
         # Recursively plots all children
         recursive_draw(ax, self.map_json, base=True)

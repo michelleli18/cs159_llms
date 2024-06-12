@@ -1,0 +1,49 @@
+{
+  "layout": {
+    "name": "Conference Room",
+    "coordinates": [36, 23, 48, 30],
+    "children": [
+      {
+        "name": "Conference Table",
+        "coordinates": [36, 25, 42, 28]
+      },
+      {
+        "name": "Chairs 1",
+        "coordinates": [36, 23, 38, 25]
+      },
+      {
+        "name": "Chairs 2",
+        "coordinates": [38, 23, 40, 25]
+      },
+      {
+        "name": "Chairs 3",
+        "coordinates": [40, 23, 42, 25]
+      },
+      {
+        "name": "Chairs 4",
+        "coordinates": [42, 23, 44, 25]
+      },
+      {
+        "name": "Whiteboard",
+        "coordinates": [42, 28, 45, 30]
+      },
+      {
+        "name": "Projector Screen",
+        "coordinates": [45, 28, 48, 30]
+      },
+      {
+        "name": "Television",
+        "coordinates": [42, 26, 44, 28]
+      },
+      {
+        "name": "Cabinets",
+        "coordinates": [44, 24, 48, 26]
+      },
+      {
+        "name": "Windows",
+        "coordinates": [44, 23, 48, 24]
+      }
+    ]
+  },
+  "reasoning": "Each subitem has been placed based on their size and logical use of the room layout while ensuring all items remain within the boundaries and do not overlap. The 'Conference Table' is centrally placed in the room as it is one of the largest items and needs to be accessible from all sides. The 'Chairs' are placed adjacent to the 'Conference Table' to facilitate seating around it. 'Whiteboard' and 'Projector Screen' are placed on opposite ends of one wall to allow for presentations and note-taking, which are common in conference rooms. 'Television' is positioned near the 'Whiteboard' but not too close to avoid distraction while taking notes. 'Cabinets' are placed along the back wall for storage of materials, and below them, the 'Windows' are placed to provide natural light while keeping them accessible for opening and closing. This ensures a logical, realistic, and space-efficient layout that adheres to all specified priorities."
+}

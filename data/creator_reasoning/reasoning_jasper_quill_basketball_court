@@ -1,0 +1,32 @@
+{
+	"layout": {
+		"name": "Basketball Court",
+		"coordinates": [20, 26, 36, 30],
+		"children": [{
+			"name": "Court",
+			"coordinates": [20, 26, 32, 30]
+		}, {
+			"name": "Bleachers",
+			"coordinates": [32, 26, 36, 29]
+		}, {
+			"name": "Locker Rooms",
+			"coordinates": [32, 29, 36, 30]
+		}, {
+			"name": "Team Benches 1",
+			"coordinates": [20, 29, 24, 30]
+		}, {
+			"name": "Team Benches 2",
+			"coordinates": [24, 29, 28, 30]
+		}, {
+			"name": "Benches 1",
+			"coordinates": [28, 29, 29, 30]
+		}, {
+			"name": "Benches 2",
+			"coordinates": [29, 29, 30, 30]
+		}, {
+			"name": "Scoreboard",
+			"coordinates": [30, 29, 32, 30]
+		}]
+	},
+	"reasoning": "The main Court is the largest and most important section, and has been given the largest space (middle of the parent item) to allow for ample play area and standard measurements. Bleachers are positioned next to the Court but on one side to allow for spectator seating that doesn't encroach on the main play area. The size of the bleachers is fairly large so more spectators can be accommodated. Locker Rooms are placed right next to the Bleachers on the same side as it's logical for players to access them there, and they need a significant space as players change there. Team Benches are split into two segments and placed opposite each other to give both teams equal and instant accessibility from the court. Benches are additional seating places usually near the court perimeter and have been placed near Bleachers and Court for spectator overflow. The Scoreboard is best placed to be easily visible to all, including spectators and players alike, hence its narrow but important placement near the Benches and at the perimeter for visibility. This placement covers all the given space efficiently, and all items are placed logically and practically."
+}

@@ -1,0 +1,25 @@
+{
+  "layout": {
+    "name": "Entrance Lobby",
+    "coordinates": [37, 30, 41, 34],
+    "children": [
+      {
+        "name": "Reception Desk",
+        "coordinates": [37, 30, 39, 32]
+      },
+      {
+        "name": "Seating Area",
+        "coordinates": [39, 30, 41, 32]
+      },
+      {
+        "name": "Information Kiosk",
+        "coordinates": [37, 32, 38, 34]
+      },
+      {
+        "name": "Entrance Doors",
+        "coordinates": [38, 32, 39, 34]
+      }
+    ]
+  },
+  "reasoning": "The Reception Desk is placed in the lower-left corner of the Entrance Lobby to be easily accessible as soon as someone enters. It has the largest space as it is the primary point of interaction. The Seating Area is placed next to the Reception Desk on the lower-right to allow visitors to wait comfortably, making efficient use of the space. The Information Kiosk is placed in the upper-left corner, where visitors can obtain information after checking in at the Reception Desk. It is smaller than the Seating Area and Reception Desk but remains accessible. Lastly, the Entrance Doors are situated next to the Information Kiosk in the upper-right corner, providing a clear and direct path for entry and exit. All items are placed adjacent to each other and their coordinates are within the boundaries of the Entrance Lobby, ensuring no overlap and maximum utilization of space according to priority."
+}

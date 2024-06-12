@@ -1,0 +1,73 @@
+{
+  "layout": {
+    "name": "Weightlifting Area",
+    "coordinates": [20, 24, 27, 26],
+    "children": [
+      {
+        "name": "Power Rack 1",
+        "coordinates": [20, 25, 22, 26]
+      },
+      {
+        "name": "Power Rack 2",
+        "coordinates": [22, 25, 24, 26]
+      },
+      {
+        "name": "Weight Bench 1",
+        "coordinates": [24, 25, 25, 26]
+      },
+      {
+        "name": "Weight Bench 2",
+        "coordinates": [25, 25, 26, 26]
+      },
+      {
+        "name": "Dumbbell Rack 1",
+        "coordinates": [26, 25, 27, 26]
+      },
+      {
+        "name": "Dumbbell Rack 2",
+        "coordinates": [20, 24, 21, 25]
+      },
+      {
+        "name": "Barbell Stand 1",
+        "coordinates": [21, 24, 22, 25]
+      },
+      {
+        "name": "Barbell Stand 2",
+        "coordinates": [22, 24, 23, 25]
+      },
+      {
+        "name": "Plate Storage 1",
+        "coordinates": [23, 24, 24, 25]
+      },
+      {
+        "name": "Plate Storage 2",
+        "coordinates": [24, 24, 25, 25]
+      },
+      {
+        "name": "Mirrors 1",
+        "coordinates": [25, 24, 26, 25]
+      },
+      {
+        "name": "Mirrors 2",
+        "coordinates": [26, 24, 27, 25]
+      },
+      {
+        "name": "Floor Mats 1",
+        "coordinates": [20, 24, 23, 25]
+      },
+      {
+        "name": "Floor Mats 2",
+        "coordinates": [23, 24, 25, 25]
+      },
+      {
+        "name": "Medicine Balls 1",
+        "coordinates": [25, 24, 26, 25]
+      },
+      {
+        "name": "Medicine Balls 2",
+        "coordinates": [26, 24, 27, 25]
+      }
+    ]
+  },
+  "reasoning": "The placement of items within the Weightlifting Area was designed to ensure all items are within the boundaries and use as much space as possible without overlap. The larger items, such as the Power Racks and Weight Benches, are placed along the edges to make efficient use of space and avoid overcrowding in central areas. Placing Power Racks next to the Weight Benches makes logical sense as these items are commonly used together in weightlifting routines. The Dumbbell Racks and Barbell Stands are dispersed around to allow easy access from different points. Plate Storages are conveniently placed near the Barbell Stands to easily equip and store weights. The Mirrors, though fewer, are placed to provide maximum visibility for exercisers checking form. Floor Mats are spread to provide ample space for exercises requiring a larger floor area. Medicine Balls are strategically placed in areas with a little more free space for activities that require throwing or dynamic movement. Altogether, the placements reflect practical and efficient usage of the Weightlifting Area's space."
+}

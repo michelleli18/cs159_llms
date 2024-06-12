@@ -1,0 +1,25 @@
+{
+  "layout": {
+    "name": "Wardrobe Area",
+    "coordinates": [35, 38, 37, 40],
+    "children": [
+      {
+        "name": "Closet",
+        "coordinates": [35, 39, 36, 40]
+      },
+      {
+        "name": "Dresser",
+        "coordinates": [36, 39, 37, 40]
+      },
+      {
+        "name": "Full-Length Mirror",
+        "coordinates": [35, 38, 36, 39]
+      },
+      {
+        "name": "Storage Cabinet",
+        "coordinates": [36, 38, 37, 39]
+      }
+    ]
+  },
+  "reasoning": "The layout is designed to ensure all subitems are within the wardrobe area [35, 38, 37, 40] with no overlap, fulfilling the primary requirement. The largest items are placed adjacent to each other and against the boundaries to optimize space usage and provide logical placement. The Closet and Dresser, both relatively large (rated 9 and 7, respectively), are placed next to each other along the top boundary to form a continuous storage section. The Full-Length Mirror is placed on the left side since mirrors are often positioned for easy access when getting dressed. The Storage Cabinet, slightly smaller than the Dresser, is placed next to the Full-Length Mirror along the right side to avoid wasted space. The Laundry Basket, being the smallest item (rated 3), could not be included without causing overlap or failing to use integers for coordinates. This efficient and logical layout maximizes usage of the available area while adhering to the specified constraints."
+}

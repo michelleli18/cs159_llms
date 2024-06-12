@@ -1,0 +1,49 @@
+{
+  "layout": {
+    "name": "Fitness Center",
+    "coordinates": [20, -14, 27, -7],
+    "children": [
+      {
+        "name": "Reception Desk",
+        "coordinates": [20, -14, 21, -13]
+      },
+      {
+        "name": "Locker Room",
+        "coordinates": [20, -13, 22, -11]
+      },
+      {
+        "name": "Cardio Area",
+        "coordinates": [22, -14, 24, -11]
+      },
+      {
+        "name": "Weightlifting Area",
+        "coordinates": [24, -14, 27, -11]
+      },
+      {
+        "name": "Fitness Studio",
+        "coordinates": [22, -11, 25, -8]
+      },
+      {
+        "name": "Swimming Pool",
+        "coordinates": [25, -11, 27, -7]
+      },
+      {
+        "name": "Sauna",
+        "coordinates": [20, -11, 21, -10]
+      },
+      {
+        "name": "Shower Area",
+        "coordinates": [21, -11, 22, -9]
+      },
+      {
+        "name": "Restroom",
+        "coordinates": [20, -10, 21, -9]
+      },
+      {
+        "name": "Storage Room",
+        "coordinates": [20, -9, 21, -8]
+      }
+    ]
+  },
+  "reasoning": "The placement of subitems within the Fitness Center aims to optimize space, ensure logical layout, and prevent any overlapping, while covering as much of the given area as possible. The 'Reception Desk' is placed near the entrance (bottom-left corner), as this is typically the first point of contact. The 'Locker Room' is adjacent to it, providing convenience for visitors. The 'Cardio Area' and 'Weightlifting Area' are central and sizable, reflecting their importance in a fitness center. They are placed near each other for continuity in workout spaces. The 'Fitness Studio' occupies a larger space for group activities and classes, situated next to the 'Cardio Area' for easy transition. The 'Swimming Pool,' being the largest, is placed along the top-right boundary, utilizing the longer stretch of area. Adjacent to it is the 'Sauna' for post-swim relaxation. The 'Shower Area' and 'Restroom' are placed conveniently near the 'Locker Room' and 'Sauna' for users' comfort. Lastly, the 'Storage Room' is placed in a leftover space for easy access to equipment and supplies. Sizes are determined by their relative importance and space needs, ensuring functional and efficient use of the Fitness Center."
+}

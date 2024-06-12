@@ -1,0 +1,41 @@
+{
+    "layout": {
+        "name": "Meeting Room",
+        "coordinates": [20, 18, 30, 23],
+        "children": [
+            {
+                "name": "Conference Table",
+                "coordinates": [20, 19, 27, 22]
+            },
+            {
+                "name": "Chairs 1",
+                "coordinates": [27, 19, 29, 20]
+            },
+            {
+                "name": "Chairs 2",
+                "coordinates": [27, 21, 29, 22]
+            },
+            {
+                "name": "Chairs 3",
+                "coordinates": [27, 20, 29, 21]
+            },
+            {
+                "name": "Whiteboard",
+                "coordinates": [20, 22, 23, 23]
+            },
+            {
+                "name": "Projector Screen",
+                "coordinates": [23, 22, 26, 23]
+            },
+            {
+                "name": "Windows",
+                "coordinates": [26, 22, 29, 23]
+            },
+            {
+                "name": "Door",
+                "coordinates": [20, 18, 22, 19]
+            }
+        ]
+    },
+    "reasoning": "The 'Meeting Room' is the parent item with coordinates [20, 18, 30, 23]. All children are placed within these coordinates. The 'Conference Table', being the largest item, is placed centrally to accommodate all chairs around it. The three 'Chairs' are placed on the right side, not overlapping and keeping them close enough to the table while ensuring an easy pathway. The 'Whiteboard' and 'Projector Screen' are placed adjacent to each other along the top wall for easy visibility from the central table. The 'Windows' are placed along the top right wall to allow natural light into the room. The 'Door' is positioned at the bottom left for easy access. This layout is space efficient, ensures no overlap, and places items in logical positions relative to each other while utilizing most of the room's space."
+}

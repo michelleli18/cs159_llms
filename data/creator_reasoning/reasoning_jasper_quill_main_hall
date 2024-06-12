@@ -1,0 +1,16 @@
+{
+    "layout": {
+        "name": "Main Hall",
+        "coordinates": [20, 30, 48, 40],
+        "children": [
+            {"name": "Stage", "coordinates": [20, 37, 28, 40]},
+            {"name": "Seating Area", "coordinates": [20, 30, 37, 37]},
+            {"name": "Entrance Lobby", "coordinates": [37, 30, 41, 34]},
+            {"name": "Restrooms", "coordinates": [41, 32, 45, 34]},
+            {"name": "Concession Stand", "coordinates": [41, 30, 45, 32]},
+            {"name": "Control Booth", "coordinates": [45, 35, 48, 36]},
+            {"name": "Backstage", "coordinates": [28, 37, 37, 40]}
+        ]
+    },
+    "reasoning": "The 'Main Hall' has a space of [20, 30, 48, 40]. To optimize the spatial layout, several considerations were made: The 'Stage' (rated 8) is placed at [20,37,28,40], front-left, as it provides easy crowd focus. 'Seating Area' (rated 9), directly correlating with the 'Stage', is centrally located at [20,30,37,37] for maximum audience visibility. 'Entrance Lobby' (rated 3) is positioned at [37,30,41,34], ensuring it is adjacent to the primary entry path for accessibility. Next to the 'Entrance Lobby', we have 'Restrooms' and 'Concession Stand' (both rated 2) at [41,32,45,34] and [41,30,45,32] respectively, for ease of access from the lobby. 'Control Booth' (rated 1) is logically placed at [45,35,48,36], granting it an overview of the entire hall layout for optimal control. Lastly, 'Backstage' (rated 5) is placed next to the 'Stage' at [28,37,37,40] for quick transitions by performers. All coordinates fulfil the boundary and non-overlapping conditions."
+}

@@ -1,0 +1,45 @@
+{
+  "layout": {
+    "name": "Swimming Pool",
+    "coordinates": [25, -11, 27, -7],
+    "children": [
+      {
+        "name": "Main Pool",
+        "coordinates": [25, -11, 26, -9]
+      },
+      {
+        "name": "Wading Pool",
+        "coordinates": [26, -11, 27, -10]
+      },
+      {
+        "name": "Diving Board Area",
+        "coordinates": [25, -9, 26, -8]
+      },
+      {
+        "name": "Locker Room",
+        "coordinates": [26, -10, 27, -8]
+      },
+      {
+        "name": "Changing Area",
+        "coordinates": [25, -8, 25, -7]
+      },
+      {
+        "name": "Shower Area",
+        "coordinates": [25, -7, 26, -7]
+      },
+      {
+        "name": "Lifeguard Station",
+        "coordinates": [27, -11, 27, -10]
+      },
+      {
+        "name": "Seating Area",
+        "coordinates": [27, -10, 27, -8]
+      },
+      {
+        "name": "Snack Bar",
+        "coordinates": [27, -8, 27, -7]
+      }
+    ]
+  },
+  "reasoning": "The Main Pool is the largest subitem and represents the bulk of the swimming area; it was placed in the largest section of the available space. The Wading Pool is smaller and for young children, so it was placed adjacent to the Main Pool for ease of supervision. The Diving Board Area needs to be connected to the Main Pool while having enough space around it for safety considerations, so it was placed next to the Main Pool. The Locker Room is placed near the Swimming Pool for ease of access yet distanced to maintain privacy, placed efficiently in the remaining space next to the Wading Pool. The Changing Area and Shower Area were placed close to the Locker Room for convenience and logical flow. The Lifeguard Station needed a central position for optimal visibility of all pool areas and was placed near the pools. The Seating Area was placed to provide adequate space for spectators and rests, located adjacent to the Lifeguard Station. Finally, the Snack Bar was placed conveniently next to the Seating Area, allowing easy access for visitors. All subitems were strategically placed to make efficient use of the space, ensuring no overlap and covering the entire area adequately."
+}
